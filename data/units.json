@@ -1,0 +1,14 @@
+{
+  "units": [
+    { "id": "u1", "label": "Unit 1", "file": "data/unit1.json" },
+    { "id": "u2", "label": "Unit 2", "file": "data/unit2.json" },
+    { "id": "u3", "label": "Unit 3", "file": "data/unit3.json" },
+    { "id": "u4", "label": "Unit 4", "file": "data/unit4.json" },
+    { "id": "u5", "label": "Unit 5", "file": "data/unit5.json" },
+    { "id": "u6", "label": "Unit 6", "file": "data/unit6.json" },
+    { "id": "u7", "label": "Unit 7", "file": "data/unit7.json" },
+    { "id": "u8", "label": "Unit 8", "file": "data/unit8.json" },
+    { "id": "u9", "label": "Unit 9", "file": "data/unit9.json" },
+    { "id": "u10", "label": "Unit 10", "file": "data/unit10.json" }
+  ]
+}

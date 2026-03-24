@@ -1,0 +1,51 @@
+{
+  "unit": "Unit 7",
+  "sections": ["7.1", "7.2"],
+  "questionBank": [
+    {
+      "section": "7.1",
+      "topic": "Sample Topic",
+      "calcType": "No Calculator",
+      "question": "Sample question text for Unit 7.1.",
+      "choices": {
+        "A": "Choice A",
+        "B": "Choice B",
+        "C": "Choice C",
+        "D": "Choice D"
+      },
+      "correct": "A",
+      "explanation": "Explain why A is correct.",
+      "notesSection": "7.1 - Sample Notes Section",
+      "notesSnippet": "Important notes snippet for this question.",
+      "timeTip": "Short timing tip."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "Sample FRQ for Unit 7",
+      "context": "Prompt context for Unit 7 FRQ.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Part (a) prompt.",
+          "finalAnswer": "Part (a) model answer.",
+          "steps": ["Step 1", "Step 2", "Step 3"],
+          "scoring": "1 pt each for setup, work, and answer."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "7.1": {
+      "title": "7-1: Sample Unit 7 Notes",
+      "content": "<div class='notes-block'><h3>Replace with your Unit 7.1 notes</h3><p>Move content from your class packet here.</p></div>"
+    },
+    "7.2": {
+      "title": "7-2: Sample Unit 7 Notes",
+      "content": "<div class='notes-block'><h3>Replace with your Unit 7.2 notes</h3><p>Add key formulas, concepts, and common errors.</p></div>"
+    }
+  }
+}

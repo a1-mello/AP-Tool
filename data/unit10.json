@@ -3,5 +3,52 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "homework",
+      "title": "BC HW 25",
+      "path": "Unit 10/Homework/BC HW 25.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "BC HW 26",
+      "path": "Unit 10/Homework/BC HW 26.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "BC HW 27",
+      "path": "Unit 10/Homework/BC HW 27.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "BC HW 28",
+      "path": "Unit 10/Homework/BC HW 28.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "BC HW 29",
+      "path": "Unit 10/Homework/BC HW 29.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 26 BC Notes",
+      "path": "Unit 10/Notes/Week 26 BC Notes.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 27 BC Notes",
+      "path": "Unit 10/Notes/Week 27 BC Notes.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 28 BC Notes (10.10 & 10.11)",
+      "path": "Unit 10/Notes/Week 28 BC Notes (10.10 & 10.11).pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 28 BC Notes (10.8 & 10.9)",
+      "path": "Unit 10/Notes/Week 28 BC Notes (10.8 & 10.9).pdf"
+    }
+  ]
 }

@@ -3,5 +3,47 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "notes",
+      "title": "4-1 The Derivative In Context COMPLETED CLASS NOTES",
+      "path": "Unit 4/Notes/4-1 The Derivative In Context COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "4-2 Straight-Line Motion COMPLETED CLASS NOTES",
+      "path": "Unit 4/Notes/4-2 Straight-Line Motion COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "4-3 Rates in Context COMPLETED CLASS NOTES",
+      "path": "Unit 4/Notes/4-3 Rates in Context COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "4-4 & 4-5 Related Rates COMPLETED CLASS NOTES",
+      "path": "Unit 4/Notes/4-4 & 4-5 Related Rates COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "4-6 Local Linearity and Linearization COMPLETED CLASS NOTES",
+      "path": "Unit 4/Notes/4-6 Local Linearity and Linearization COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "4-7 L'Hospital's Rule COMPLETED CLASS NOTES",
+      "path": "Unit 4/Notes/4-7 L'Hospital's Rule COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Review of Unit 4",
+      "path": "Unit 4/Review/Review of Unit 4.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Unit 4 FRQ Practice",
+      "path": "Unit 4/Review/Unit 4 FRQ Practice.pdf"
+    }
+  ]
 }

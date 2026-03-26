@@ -1,7 +1,417 @@
 {
   "unit": "Unit 8",
-  "sections": [],
-  "questionBank": [],
+  "sections": [
+    "8.1",
+    "8.11",
+    "8.2",
+    "8.3",
+    "8.4",
+    "8.7",
+    "8.9"
+  ],
+  "questionBank": [
+    {
+      "section": "8.1",
+      "topic": "Average Value of a Function",
+      "calcType": "No Calculator",
+      "question": "What is the average value of f(x) = x² on the interval [0, 3]?",
+      "choices": {
+        "A": "3",
+        "B": "9",
+        "C": "4.5",
+        "D": "27"
+      },
+      "correct": "A",
+      "explanation": "Average value = 1/(3−0)·∫₀³x²dx = (1/3)[x³/3]₀³ = (1/3)(9) = 3.",
+      "notesSection": "8.1 — Average Value Formula",
+      "notesSnippet": "Average value of f on [a,b] = 1/(b−a)·∫ₐᵇf(x)dx. Divide the integral by the length of the interval.",
+      "timeTip": "Don't forget to divide by (b−a)! That's the most common mistake. Average value = integral ÷ interval length."
+    },
+    {
+      "section": "8.1",
+      "topic": "Average Value",
+      "calcType": "No Calculator",
+      "question": "The average value of g(x) = 2x + 1 on [1, 4] is:",
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "9"
+      },
+      "correct": "B",
+      "explanation": "Average = 1/(4−1)·∫₁⁴(2x+1)dx = (1/3)[x²+x]₁⁴ = (1/3)[(16+4)−(1+1)] = (1/3)(18) = 6.",
+      "notesSection": "8.1 — Average Value Formula",
+      "notesSnippet": "Average value = 1/(b−a)·∫ₐᵇf(x)dx. For linear functions, the average value equals f evaluated at the midpoint.",
+      "timeTip": "Quick check for linear functions: average value = f((a+b)/2). Here f(2.5) = 2(2.5)+1 = 6 ✓. Use this to verify your answer."
+    },
+    {
+      "section": "8.1",
+      "topic": "Average Value — Reverse",
+      "calcType": "No Calculator",
+      "question": "If the average value of f on [1, 5] is 8, what is ∫₁⁵ f(x) dx?",
+      "choices": {
+        "A": "8",
+        "B": "2",
+        "C": "32",
+        "D": "40"
+      },
+      "correct": "C",
+      "explanation": "Average value = 1/(5−1)·∫₁⁵f(x)dx = 8. So ∫₁⁵f(x)dx = 8·(5−1) = 32.",
+      "notesSection": "8.1 — Average Value (Reverse)",
+      "notesSnippet": "If average = k, then integral = k·(b−a). Work backwards: integral = average value × interval length.",
+      "timeTip": "Work backwards: integral = average × length. The AP exam tests this direction too. Know both: average = integral/length AND integral = average × length."
+    },
+    {
+      "section": "8.2",
+      "topic": "Particle Motion — Displacement",
+      "calcType": "No Calculator",
+      "question": "A particle moves along the x-axis with velocity v(t) = t² − 4t + 3. What is the displacement from t = 0 to t = 3?",
+      "choices": {
+        "A": "0",
+        "B": "3",
+        "C": "−3",
+        "D": "9"
+      },
+      "correct": "A",
+      "explanation": "Displacement = ∫₀³(t²−4t+3)dt = [t³/3−2t²+3t]₀³ = (9−18+9)−0 = 0.",
+      "notesSection": "8.2 — Displacement vs Distance",
+      "notesSnippet": "Displacement = ∫v(t)dt (signed). The particle ends where it started if displacement = 0, even if it moved around.",
+      "timeTip": "Displacement = signed integral of velocity. The particle here went out and came back, ending at start. Don't confuse with total distance traveled."
+    },
+    {
+      "section": "8.2",
+      "topic": "Particle Motion — Total Distance",
+      "calcType": "No Calculator",
+      "question": "For v(t) = t² − 4t + 3 on [0, 3], the total distance traveled is:",
+      "choices": {
+        "A": "0",
+        "B": "4/3",
+        "C": "8/3",
+        "D": "2"
+      },
+      "correct": "C",
+      "explanation": "v(t)=0 at t=1 and t=3. v>0 on [0,1], v<0 on [1,3]. Distance = ∫₀¹(t²−4t+3)dt + |∫₁³(t²−4t+3)dt| = 4/3 + 4/3 = 8/3.",
+      "notesSection": "8.2 — Total Distance",
+      "notesSnippet": "Total distance = ∫|v(t)|dt. Find where v(t)=0, split integral there, and add absolute values of each piece.",
+      "timeTip": "Total distance ≠ displacement when particle reverses. Find zeros of v(t), integrate each piece, add absolute values. Show this work on the AP FRQ for full credit."
+    },
+    {
+      "section": "8.2",
+      "topic": "Particle Motion — Position",
+      "calcType": "No Calculator",
+      "question": "A particle has x(0) = 5 and v(t) = 2t + 1. Find x(3).",
+      "choices": {
+        "A": "12",
+        "B": "17",
+        "C": "14",
+        "D": "19"
+      },
+      "correct": "B",
+      "explanation": "x(3) = x(0) + ∫₀³v(t)dt = 5 + [t²+t]₀³ = 5 + 12 = 17.",
+      "notesSection": "8.3 — Net Change Theorem",
+      "notesSnippet": "x(b) = x(a) + ∫ₐᵇv(t)dt. Start from the initial position and add the accumulated change from integrating velocity.",
+      "timeTip": "Position = initial + integral of velocity. This is the Net Change Theorem. Always start from the given initial condition, don't forget it!"
+    },
+    {
+      "section": "8.3",
+      "topic": "Net Change Theorem",
+      "calcType": "No Calculator",
+      "question": "Water flows into a tank at r(t) = 4t + 2 gal/min. The tank has 10 gallons at t = 0. How many gallons at t = 3?",
+      "choices": {
+        "A": "28",
+        "B": "36",
+        "C": "34",
+        "D": "24"
+      },
+      "correct": "C",
+      "explanation": "Amount = 10 + ∫₀³(4t+2)dt = 10 + [2t²+2t]₀³ = 10 + (18+6) = 34 gallons.",
+      "notesSection": "8.3 — Applied Net Change",
+      "notesSnippet": "f(b) = f(a) + ∫ₐᵇf'(t)dt. Starting amount + integral of rate = final amount. Check units: gal/min × min = gal.",
+      "timeTip": "Label units every time. Rate × time = amount. Don't forget to add the initial value — a very common AP error."
+    },
+    {
+      "section": "8.3",
+      "topic": "Interpreting the Integral",
+      "calcType": "No Calculator",
+      "question": "Oil leaks at rate L(t) gal/hr. Which gives total oil leaked from t = 2 to t = 6?",
+      "choices": {
+        "A": "L(6) − L(2)",
+        "B": "L'(6) − L'(2)",
+        "C": "∫₂⁶ L(t)dt",
+        "D": "L(6)/L(2)"
+      },
+      "correct": "C",
+      "explanation": "Total amount leaked = integral of the rate over the interval = ∫₂⁶L(t)dt.",
+      "notesSection": "8.3 — Integral as Accumulated Change",
+      "notesSnippet": "∫rate dt = net change in quantity. If L(t) is gal/hr, ∫L(t)dt gives gallons. Rate integrated = accumulated amount.",
+      "timeTip": "Words like \"total,\" \"accumulated,\" or \"how much\" over a time interval → you need an integral of the rate, not just a function value."
+    },
+    {
+      "section": "8.4",
+      "topic": "Area Between Curves",
+      "calcType": "No Calculator",
+      "question": "Find the area between f(x) = x² and g(x) = x on [0, 1].",
+      "choices": {
+        "A": "1/2",
+        "B": "1/3",
+        "C": "1/6",
+        "D": "1/4"
+      },
+      "correct": "C",
+      "explanation": "g(x)=x ≥ f(x)=x² on [0,1]. Area = ∫₀¹(x−x²)dx = [x²/2−x³/3]₀¹ = 1/2−1/3 = 1/6.",
+      "notesSection": "8.4–8.6 — Area Between Curves",
+      "notesSnippet": "Area = ∫ₐᵇ[top−bottom]dx. Always subtract the lower curve from the upper curve. Test a point to confirm which is on top.",
+      "timeTip": "Test x=0.5: g(0.5)=0.5, f(0.5)=0.25 → g is on top. Integrate (g−f) = (x−x²). Don't skip the \"which is on top\" check!"
+    },
+    {
+      "section": "8.4",
+      "topic": "Area Between Curves — Intersections",
+      "calcType": "No Calculator",
+      "question": "Find the area enclosed by y = x² and y = 2x.",
+      "choices": {
+        "A": "2/3",
+        "B": "4/3",
+        "C": "8/3",
+        "D": "1"
+      },
+      "correct": "B",
+      "explanation": "Set equal: x²=2x → x=0,2. On [0,2]: 2x ≥ x². Area = ∫₀²(2x−x²)dx = [x²−x³/3]₀² = 4−8/3 = 4/3.",
+      "notesSection": "8.4–8.6 — Finding Intersections for Bounds",
+      "notesSnippet": "Set curves equal to find limits of integration. x²=2x → x(x−2)=0 → x=0,2. Then integrate (top−bottom) between those bounds.",
+      "timeTip": "Always find intersections first — they give your limits of integration. Set the two functions equal and solve. This is a must-show step on the AP FRQ."
+    },
+    {
+      "section": "8.4",
+      "topic": "Area — Between Horizontal Curves",
+      "calcType": "No Calculator",
+      "question": "The area between f(x) = 4 and g(x) = x² on [−2, 2] is:",
+      "choices": {
+        "A": "32/3",
+        "B": "16/3",
+        "C": "16",
+        "D": "32"
+      },
+      "correct": "A",
+      "explanation": "f=4 ≥ g=x² on [−2,2]. Area = ∫₋₂²(4−x²)dx = [4x−x³/3]₋₂² = (8−8/3)−(−8+8/3) = 16−16/3 = 32/3.",
+      "notesSection": "8.4–8.6 — Setting Up the Integral",
+      "notesSnippet": "Area = ∫(top−bottom)dx. Simplify the difference algebraically first, then integrate. For symmetric regions around y-axis, use 2·∫₀ᵇ.",
+      "timeTip": "Symmetric region: 2·∫₀²(4−x²)dx = 2[4x−x³/3]₀² = 2(8−8/3) = 2(16/3) = 32/3. Symmetry saves time!"
+    },
+    {
+      "section": "8.7",
+      "topic": "Volume — Square Cross Sections",
+      "calcType": "No Calculator",
+      "question": "A solid's base is bounded by y = √x and y = 0 on [0, 4]. Cross sections perpendicular to the x-axis are squares. Find the volume.",
+      "choices": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "2"
+      },
+      "correct": "B",
+      "explanation": "Side = √x − 0 = √x. Area = (√x)² = x. V = ∫₀⁴x dx = [x²/2]₀⁴ = 8.",
+      "notesSection": "8.7–8.8 — Cross Section Volumes",
+      "notesSnippet": "V = ∫A(x)dx. For squares: A = s². Find s from the bounding curves (s = top − bottom), then integrate the area formula.",
+      "timeTip": "Step 1: s = top curve − bottom curve. Step 2: A(x) = s² for squares. Step 3: integrate. Always identify the cross-section shape and its area formula first."
+    },
+    {
+      "section": "8.7",
+      "topic": "Volume — Triangular Cross Sections",
+      "calcType": "No Calculator",
+      "question": "A solid has base bounded by x = 0, x = 4, y = 0, y = 2. Cross sections perpendicular to the x-axis are right isosceles triangles with legs in the base. What is the volume?",
+      "choices": {
+        "A": "16",
+        "B": "8",
+        "C": "4",
+        "D": "32/3"
+      },
+      "correct": "B",
+      "explanation": "The base of each triangle has length 2 (height of the region). For a right isosceles triangle with leg s: A = s²/2. Here s=2, so A=2. V = ∫₀⁴2 dx = 8.",
+      "notesSection": "8.7–8.8 — Cross Section Shape Formulas",
+      "notesSnippet": "Right isosceles triangle (legs = s): A = s²/2. Equilateral triangle (side = s): A = (√3/4)s². Semicircle (diameter = s): A = πs²/8.",
+      "timeTip": "Memorize cross-section area formulas: square s², rectangle s·w, right isosceles s²/2, equilateral (√3/4)s², semicircle πs²/8. These are the only shapes the AP tests."
+    },
+    {
+      "section": "8.9",
+      "topic": "Disc Method",
+      "calcType": "No Calculator",
+      "question": "Find the volume when y = √x on [0, 4] is revolved about the x-axis.",
+      "choices": {
+        "A": "4π",
+        "B": "8π",
+        "C": "16π",
+        "D": "32π/3"
+      },
+      "correct": "B",
+      "explanation": "V = π∫₀⁴(√x)²dx = π∫₀⁴x dx = π[x²/2]₀⁴ = 8π.",
+      "notesSection": "8.9–8.10 — Disc Method",
+      "notesSnippet": "Disc method (around x-axis): V = π∫ₐᵇ[f(x)]²dx. Radius = f(x). Square it first, then integrate, then multiply by π.",
+      "timeTip": "Disc = πr². Radius = function value. V = π∫r²dx. The π goes outside the integral. Square the function BEFORE integrating — a very common error."
+    },
+    {
+      "section": "8.9",
+      "topic": "Disc Method — Setup",
+      "calcType": "No Calculator",
+      "question": "Which integral gives the volume when y = x² on [0, 2] is revolved about the x-axis?",
+      "choices": {
+        "A": "π∫₀²x⁴ dx",
+        "B": "π∫₀²x² dx",
+        "C": "2π∫₀²x³ dx",
+        "D": "π∫₀²2x dx"
+      },
+      "correct": "A",
+      "explanation": "Disc method: V = π∫₀²(x²)²dx = π∫₀²x⁴dx. The radius is x², and we square it to get x⁴.",
+      "notesSection": "8.9–8.10 — Disc Method Setup",
+      "notesSnippet": "V = π∫[f(x)]²dx. Square the entire function. Here (x²)² = x⁴, not x².",
+      "timeTip": "(x²)² = x⁴, not 2x². Squaring a power multiplies the exponents: (xⁿ)² = x²ⁿ. Write out the squaring step explicitly."
+    },
+    {
+      "section": "8.11",
+      "topic": "Washer Method",
+      "calcType": "No Calculator",
+      "question": "The region between y = x and y = x² on [0,1] is revolved about the x-axis. Find the volume.",
+      "choices": {
+        "A": "π/6",
+        "B": "2π/15",
+        "C": "π/15",
+        "D": "π/3"
+      },
+      "correct": "B",
+      "explanation": "R = x (outer), r = x² (inner). V = π∫₀¹[(x)²−(x²)²]dx = π∫₀¹[x²−x⁴]dx = π[x³/3−x⁵/5]₀¹ = π(1/3−1/5) = 2π/15.",
+      "notesSection": "8.11–8.12 — Washer Method",
+      "notesSnippet": "V = π∫[R²−r²]dx. R = outer radius (top curve when rotating around x-axis). r = inner radius (bottom curve). R²−r² ≠ (R−r)²!",
+      "timeTip": "Biggest AP mistake: (R−r)² ≠ R²−r². You MUST square R and r separately, then subtract. Write π∫(R²−r²)dx and fill in R and r explicitly."
+    },
+    {
+      "section": "8.11",
+      "topic": "Washer vs Disc",
+      "calcType": "No Calculator",
+      "question": "When is the washer method needed instead of the disc method?",
+      "choices": {
+        "A": "When rotating around the y-axis instead of x-axis",
+        "B": "When the region does not touch the axis of rotation, creating a hole",
+        "C": "When the function is not continuous",
+        "D": "When rotating about a line y = k"
+      },
+      "correct": "B",
+      "explanation": "The washer method is needed when there is a hole — i.e., the region doesn't touch the axis of rotation. If the region includes the axis, use the disc method.",
+      "notesSection": "8.11–8.12 — Disc vs Washer",
+      "notesSnippet": "Disc: region touches the axis (no hole). Washer: region doesn't touch axis (ring-shaped cross section). The \"hole\" creates the inner radius r.",
+      "timeTip": "Quick check: does the region touch the axis of rotation? Yes → disc. No → washer. Draw a picture to see if there's a hole."
+    }
+  ],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {
+    "8.1": {
+      "title": "8-1: Average Value of a Function",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-4.B.1 · Average Value</div>\n      <h3>Average Value Formula</h3>\n      <p>The average value of a continuous function f on [a, b] is:</p>\n      <div class=\"formula-box\">Ave Value = 1/(b − a) · ∫ₐᵇ f(x) dx</div>\n      <p>Think of it as: divide the integral by the length of the interval. This gives the \"average height\" of the function.</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Don't forget the 1/(b−a) factor! That is the most common mistake on this problem type.</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Mean Value Theorem for Integrals</h3>\n      <p>If f is continuous on [a, b], then there exists at least one c in [a, b] such that f(c) = average value of f on [a, b]. In other words, the function actually reaches its average value somewhere on the interval.</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> If asked to find c where f(c) = average value, solve f(c) = (1/(b−a))∫ₐᵇf(x)dx for c.</div>\n    </div>"
+    },
+    "8.2": {
+      "title": "8-2 & 8-3: Particle Motion and Applied Contexts",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-4.D · Particle Motion</div>\n      <h3>Position, Velocity, Acceleration</h3>\n      <ul>\n        <li><strong style=\"color:var(--text)\">Position:</strong> x(t) — where the particle is</li>\n        <li><strong style=\"color:var(--text)\">Velocity:</strong> v(t) = x'(t) — rate of change of position</li>\n        <li><strong style=\"color:var(--text)\">Acceleration:</strong> a(t) = v'(t) — rate of change of velocity</li>\n      </ul>\n      <div class=\"formula-box\">x(b) = x(a) + ∫ₐᵇ v(t) dt &nbsp; (Net Change Theorem)</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Displacement vs. Total Distance</h3>\n      <div class=\"definition-box\">\n        <div class=\"def-label\">Displacement (signed)</div>\n        <p>= ∫ₐᵇ v(t) dt &nbsp; Can be negative if particle moves backward</p>\n      </div>\n      <div class=\"definition-box\">\n        <div class=\"def-label\">Total Distance (always positive)</div>\n        <p>= ∫ₐᵇ |v(t)| dt &nbsp; Find where v = 0, split integral, add absolute values</p>\n      </div>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Displacement vs. total distance is tested EVERY year. Always find where v(t) = 0 and check sign changes before setting up distance.</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Net Change Theorem in Context</h3>\n      <p>For any quantity Q with rate of change Q'(t):</p>\n      <div class=\"formula-box\">Q(b) = Q(a) + ∫ₐᵇ Q'(t) dt</div>\n      <p>Starting value + accumulated change = final value. Units: rate × time = quantity.</p>\n    </div>"
+    },
+    "8.4": {
+      "title": "8-4 to 8-6: Area Between Curves",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-5.A · Area Between Curves</div>\n      <h3>Area Between Two Curves</h3>\n      <div class=\"formula-box\">Area = ∫ₐᵇ [top − bottom] dx = ∫ₐᵇ [f(x) − g(x)] dx</div>\n      <p>Two things you need: (1) Where do the curves intersect? (set f = g and solve for bounds). (2) Which curve is on top? (test a point in the interval).</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Setting curves equal to find intersection points is almost always Step 1. Show this work explicitly on the AP FRQ.</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>When Functions Switch Position</h3>\n      <p>If the curves cross within the interval, split the integral at the crossing point:</p>\n      <div class=\"formula-box\">Area = ∫ₐᶜ [f−g] dx + ∫ᶜᵇ [g−f] dx &nbsp; (where f and g switch at x = c)</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Area with Respect to y</h3>\n      <p>Sometimes it's easier to integrate with respect to y (horizontal slices):</p>\n      <div class=\"formula-box\">Area = ∫ᶜᵈ [right − left] dy</div>\n    </div>"
+    },
+    "8.7": {
+      "title": "8-7 & 8-8: Volumes with Known Cross Sections",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-5.B · Cross Section Volumes</div>\n      <h3>General Volume Formula</h3>\n      <div class=\"formula-box\">V = ∫ₐᵇ A(x) dx &nbsp; or &nbsp; V = ∫ᶜᵈ A(y) dy</div>\n      <p>A(x) = area of the cross section at position x. The bounded region is the BASE of the solid; cross sections rise up perpendicularly.</p>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Cross Section Area Formulas</h3>\n      <p>Let s = side length = distance between bounding curves at position x.</p>\n      <table style=\"width:100%;border-collapse:collapse;font-size:13px;margin-top:8px\">\n        <tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:6px 0;color:var(--text2)\">Square</td><td style=\"font-family:'Times New Roman',serif;color:var(--text)\">A = s²</td></tr>\n        <tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:6px 0;color:var(--text2)\">Rectangle (height h)</td><td style=\"font-family:'Times New Roman',serif;color:var(--text)\">A = s · h</td></tr>\n        <tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:6px 0;color:var(--text2)\">Right isosceles triangle (leg = s)</td><td style=\"font-family:'Times New Roman',serif;color:var(--text)\">A = s²/2</td></tr>\n        <tr style=\"border-bottom:1px solid var(--border)\"><td style=\"padding:6px 0;color:var(--text2)\">Equilateral triangle (side = s)</td><td style=\"font-family:'Times New Roman',serif;color:var(--text)\">A = (√3/4)s²</td></tr>\n        <tr><td style=\"padding:6px 0;color:var(--text2)\">Semicircle (diameter = s)</td><td style=\"font-family:'Times New Roman',serif;color:var(--text)\">A = π(s/2)²/2 = πs²/8</td></tr>\n      </table>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Memorize these formulas. The AP exam almost always uses squares, right isosceles triangles, or semicircles.</div>\n    </div>"
+    },
+    "8.9": {
+      "title": "8-9 & 8-10: Volume — Disc Method",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-5.C · Disc Method</div>\n      <h3>Disc Method (Rotating Around an Axis)</h3>\n      <p>When a region is rotated around the x-axis, each cross section is a circle (disc). The radius of each disc = the function value.</p>\n      <div class=\"formula-box\">V = π ∫ₐᵇ [f(x)]² dx &nbsp; (rotation around x-axis)</div>\n      <div class=\"formula-box\">V = π ∫ᶜᵈ [g(y)]² dy &nbsp; (rotation around y-axis)</div>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Don't forget to square the function BEFORE integrating. A very common error is integrating f(x) and then squaring.</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Rotation Around Non-Standard Axes</h3>\n      <p>When rotating around y = k (not the x-axis), the radius changes:</p>\n      <div class=\"formula-box\">Radius = |f(x) − k|</div>\n      <p>If the axis is below the region (k < 0), the radius is f(x) − k, which adds to the distance. Draw a picture to identify the radius.</p>\n    </div>"
+    },
+    "8.11": {
+      "title": "8-11 & 8-12: Volume — Washer Method",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-5.C · Washer Method</div>\n      <h3>Washer Method</h3>\n      <p>Use when the region does NOT touch the axis of rotation, creating a \"hole\" (washer shape). R = outer radius, r = inner radius.</p>\n      <div class=\"formula-box\">V = π ∫ₐᵇ [R(x)² − r(x)²] dx</div>\n      <div class=\"definition-box\">\n        <div class=\"def-label\">Critical Warning</div>\n        <p>R² − r² ≠ (R − r)². You MUST square each radius separately, then subtract!</p>\n      </div>\n      <div class=\"ap-note\"><strong>AP Note:</strong> The #1 AP error on washer problems is computing (R−r)² instead of R²−r². Write out R and r clearly before squaring.</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Disc vs. Washer — How to Decide</h3>\n      <ul>\n        <li><strong style=\"color:var(--text)\">Disc:</strong> The region touches the axis of rotation (no hole). One function, V = π∫f²dx.</li>\n        <li><strong style=\"color:var(--text)\">Washer:</strong> The region does NOT touch the axis (has a hole). Two functions, V = π∫(R²−r²)dx.</li>\n      </ul>\n      <p>Quick test: draw the region and the axis. If the axis passes through the region, it's a disc. If there's a gap between axis and region, it's a washer.</p>\n    </div>"
+    }
+  },
+  "materials": [
+    {
+      "type": "homework",
+      "title": "8-1 WK A Average Value #1",
+      "path": "Unit 8/Homework/8-1 WK A Average Value #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-11 & 8-12 WK A Volumes--Washer Method #1",
+      "path": "Unit 8/Homework/8-11 & 8-12 WK A Volumes--Washer Method #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-2 WK A Particle Motion #1",
+      "path": "Unit 8/Homework/8-2 WK A Particle Motion #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-2 WK B Particle Motion #2",
+      "path": "Unit 8/Homework/8-2 WK B Particle Motion #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-3 WK A Definite Integrals in Applied Context #1",
+      "path": "Unit 8/Homework/8-3 WK A Definite Integrals in Applied Context #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-3 WK B Definite Integrals in Applied Context #2",
+      "path": "Unit 8/Homework/8-3 WK B Definite Integrals in Applied Context #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-4 to 8-6 WK A Area Between Curves #1",
+      "path": "Unit 8/Homework/8-4 to 8-6 WK A Area Between Curves #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-4 to 8-6 WK B Area Between Curves #2",
+      "path": "Unit 8/Homework/8-4 to 8-6 WK B Area Between Curves #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1",
+      "path": "Unit 8/Homework/8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-9 & 8-10 WK A Volumes--Disc Method #1",
+      "path": "Unit 8/Homework/8-9 & 8-10 WK A Volumes--Disc Method #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-9 to 8-12 WK A Area and Volume #1",
+      "path": "Unit 8/Homework/8-9 to 8-12 WK A Area and Volume #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "8-9 to 8-12 WK B Volumes Disc & Washer #1",
+      "path": "Unit 8/Homework/8-9 to 8-12 WK B Volumes Disc & Washer #1.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "8-1 Average Value of a Function COMPLETED CLASS NOTES",
+      "path": "Unit 8/Notes/8-1 Average Value of a Function COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "8-11 & 8-12 Volume with Washer Method COMPLETED CLASS NOTES",
+      "path": "Unit 8/Notes/8-11 & 8-12 Volume with Washer Method COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "8-3 Using Accumulation Functions and Definite Integrals in Applied Contexts COMPLETED CLASS NOTES",
+      "path": "Unit 8/Notes/8-3 Using Accumulation Functions and Definite Integrals in Applied Contexts COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "8-4 to 8-6 Area Between Curves COMPLETED CLASS NOTES",
+      "path": "Unit 8/Notes/8-4 to 8-6 Area Between Curves COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "8-7 & 8-8 Volumes of Solids With Cross Sections COMPLETED CLASS NOTES",
+      "path": "Unit 8/Notes/8-7 & 8-8 Volumes of Solids With Cross Sections COMPLETED CLASS NOTES.pdf"
+    }
+  ]
 }

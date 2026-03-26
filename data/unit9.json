@@ -3,5 +3,37 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "homework",
+      "title": "BC HW 23",
+      "path": "Unit 9/Homework/BC HW 23.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "BC HW 24",
+      "path": "Unit 9/Homework/BC HW 24.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 23 BC Notes",
+      "path": "Unit 9/Notes/Week 23 BC Notes.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 24 BC Notes",
+      "path": "Unit 9/Notes/Week 24 BC Notes.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 25 BC Notes (Polar Area)",
+      "path": "Unit 9/Notes/Week 25 BC Notes (Polar Area).pdf"
+    },
+    {
+      "type": "notes",
+      "title": "Week 25 BC Notes",
+      "path": "Unit 9/Notes/Week 25 BC Notes.pdf"
+    }
+  ]
 }

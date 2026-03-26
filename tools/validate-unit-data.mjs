@@ -122,6 +122,28 @@ function validateUnitFile(filePath) {
   if (!Array.isArray(data.questionBank)) issues.push(`"questionBank" must be an array`);
   if (!Array.isArray(data.frqBank)) issues.push(`"frqBank" must be an array`);
 
+  // Optional: materials (PDF links)
+  if ("materials" in data) {
+    if (!Array.isArray(data.materials)) {
+      issues.push(`"materials" must be an array when present`);
+    } else {
+      data.materials.forEach((m, i) => {
+        const where = `materials[${i}]`;
+        if (!isObject(m)) {
+          issues.push(`${where}: must be an object`);
+          return;
+        }
+        if (typeof m.type !== "string" || m.type.trim() === "") issues.push(`${where}: missing/empty "type"`);
+        if (typeof m.title !== "string" || m.title.trim() === "") issues.push(`${where}: missing/empty "title"`);
+        if (typeof m.path !== "string" || m.path.trim() === "") issues.push(`${where}: missing/empty "path"`);
+        if (typeof m.path === "string") {
+          const abs = path.join(ROOT, m.path);
+          if (!fs.existsSync(abs)) issues.push(`${where}: file not found at path "${m.path}"`);
+        }
+      });
+    }
+  }
+
   const seenQuestions = new Set();
   if (Array.isArray(data.questionBank)) {
     data.questionBank.forEach((q, idx) => validateMCQ(q, idx, issues, seenQuestions));

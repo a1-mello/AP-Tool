@@ -3,5 +3,37 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "notes",
+      "title": "3-1 The Chain Rule COMPLETED CLASS NOTES",
+      "path": "Unit 3/Notes/3-1 The Chain Rule COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "3-2 Implicit Differentiation COMPLETED CLASS NOTES",
+      "path": "Unit 3/Notes/3-2 Implicit Differentiation COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "3-3  Differentiating Inverse Functions COMPLETED CLASS NOTES",
+      "path": "Unit 3/Notes/3-3  Differentiating Inverse Functions COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "3-4 Differentiating Inverse Trig Functions COMPLETED CLASS NOTES",
+      "path": "Unit 3/Notes/3-4 Differentiating Inverse Trig Functions COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "3-5 & 3-6 Derivative Procedures and Higher Order Derivatives COMPLETED CLASS NOTES",
+      "path": "Unit 3/Notes/3-5 & 3-6 Derivative Procedures and Higher Order Derivatives COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "review",
+      "title": "3-2 WK Mixed Derivative Practice (thru 3-2)",
+      "path": "Unit 3/Review/3-2 WK Mixed Derivative Practice (thru 3-2).pdf"
+    }
+  ]
 }

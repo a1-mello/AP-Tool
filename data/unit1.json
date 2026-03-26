@@ -3,5 +3,67 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "notes",
+      "title": "1-1 Change at an Instant COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-1 Change at an Instant COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-10 Types of Discontinuities COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-10 Types of Discontinuities COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-11 to 1-13 Continuity COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-11 to 1-13 Continuity COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-14 Infinite Limits and Vertical Asymptotes COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-14 Infinite Limits and Vertical Asymptotes COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-15 Limits at Infinity and Horizontal Asymptotes COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-15 Limits at Infinity and Horizontal Asymptotes COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-16 Intermediate Value Theorem COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-16 Intermediate Value Theorem COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-2 & 1-3 Limit Notation and Graphical Limits COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-2 & 1-3 Limit Notation and Graphical Limits COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-4 Estimating Limit Values from Tables COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-4 Estimating Limit Values from Tables COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-5 Determining Limits Using Algebraic Properties of Limits COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-5 Determining Limits Using Algebraic Properties of Limits COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "1-6 & 1-7 Limits Using Algebraic Manipulation COMPLETED CLASS NOTES",
+      "path": "Unit 1/Notes/1-6 & 1-7 Limits Using Algebraic Manipulation COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "review",
+      "title": "WK A Review of Unit 1",
+      "path": "Unit 1/Review/WK A Review of Unit 1.pdf"
+    },
+    {
+      "type": "review",
+      "title": "WK Review of Unit 1",
+      "path": "Unit 1/Review/WK Review of Unit 1.pdf"
+    }
+  ]
 }

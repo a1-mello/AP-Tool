@@ -3,5 +3,112 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "homework",
+      "title": "5-1 WK A MVT #1",
+      "path": "Unit 5/Homework/5-1 WK A MVT #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-10 & 5-11 WK A Optimization Problems #1",
+      "path": "Unit 5/Homework/5-10 & 5-11 WK A Optimization Problems #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-10 & 5-11 WK B Optimization Problems #2",
+      "path": "Unit 5/Homework/5-10 & 5-11 WK B Optimization Problems #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-3 WK A Intervals of Increase and Decrease #1",
+      "path": "Unit 5/Homework/5-3 WK A Intervals of Increase and Decrease #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-4 WK A Relative Extrema #1",
+      "path": "Unit 5/Homework/5-4 WK A Relative Extrema #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-5 & 5-2 WK A Absolute Extrema #1",
+      "path": "Unit 5/Homework/5-5 & 5-2 WK A Absolute Extrema #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-6 WK A Concavity and Points of Inflection #1",
+      "path": "Unit 5/Homework/5-6 WK A Concavity and Points of Inflection #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-6 WK B Concavity and Points of Inflection (Graphically) #2",
+      "path": "Unit 5/Homework/5-6 WK B Concavity and Points of Inflection (Graphically) #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1",
+      "path": "Unit 5/Homework/5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-9 WK A Connecting Function, 1st and 2nd Derivatives #1",
+      "path": "Unit 5/Homework/5-9 WK A Connecting Function, 1st and 2nd Derivatives #1.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-1 The Mean Value Theorem STU NOTES",
+      "path": "Unit 5/Notes/5-1 The Mean Value Theorem STU NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-10 & 5-11 Optimization Problems COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-10 & 5-11 Optimization Problems COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-3 Intervals of Increase and Decrease COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-3 Intervals of Increase and Decrease COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-4 Relative Extrema & First Derivative Test COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-4 Relative Extrema & First Derivative Test COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-5 & 5-2 Extreme Value Theorem and Absolute Extrema COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-5 & 5-2 Extreme Value Theorem and Absolute Extrema COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-6 Concavity and Points of Inflection COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-6 Concavity and Points of Inflection COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-7 & 5-12 The 2nd Derivative Test and Implicit Relations Revisited COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-7 & 5-12 The 2nd Derivative Test and Implicit Relations Revisited COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "5-8 Sketching Graphs of Functions and Their Derivatives COMPLETED CLASS NOTES",
+      "path": "Unit 5/Notes/5-8 Sketching Graphs of Functions and Their Derivatives COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Review for AP Calculus Fall Final 2025",
+      "path": "Unit 5/Review/Review for AP Calculus Fall Final 2025.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Unit 5 Review problems 2025",
+      "path": "Unit 5/Review/Unit 5 Review problems 2025.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Warm-up Velocity problem-graph",
+      "path": "Unit 5/Review/Warm-up Velocity problem-graph.pdf"
+    }
+  ]
 }

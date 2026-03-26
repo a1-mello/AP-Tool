@@ -50,6 +50,13 @@
     return getInlineNotesData();
   }
 
+  function getActiveMaterials() {
+    if (store.activeUnitData && Array.isArray(store.activeUnitData.materials)) {
+      return store.activeUnitData.materials;
+    }
+    return [];
+  }
+
   async function loadUnitFile(unitKey) {
     if (store.cache[unitKey]) return store.cache[unitKey];
     const fileNum = unitKey.replace("u", "");
@@ -76,8 +83,58 @@
       "flashcards": "Global · Formulas and Theorems",
       "flagged": "Flagged Topics",
       "reference": `${unitLabel} · Reference`
+      ,"materials": `${unitLabel} · PDFs`
     };
     if (map[pageId]) sub.textContent = map[pageId];
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function renderMaterials() {
+    const container = document.getElementById("materials-container");
+    if (!container) return;
+    const mats = getActiveMaterials();
+    if (!mats || mats.length === 0) {
+      container.innerHTML = `<div class="flagged-empty">No PDFs added for this unit yet.<br>Add PDFs into the Unit folder in Finder, then run the materials builder.</div>`;
+      return;
+    }
+
+    const byType = mats.reduce((acc, m) => {
+      const k = m.type || "other";
+      acc[k] = acc[k] || [];
+      acc[k].push(m);
+      return acc;
+    }, {});
+
+    const order = ["notes", "homework", "review", "other"];
+    let html = `<div style="max-width:900px">`;
+    html += `<h2 style="font-size:18px;margin-bottom:6px">Unit Materials (PDFs)</h2>`;
+    html += `<p style="font-size:13px;color:var(--text3);margin-bottom:18px">Click a PDF to open it in a new tab.</p>`;
+
+    for (const t of order) {
+      const list = byType[t];
+      if (!list || list.length === 0) continue;
+      const label = t === "notes" ? "Notes" : t === "homework" ? "Homework" : t === "review" ? "Review" : "Other";
+      html += `<div class="notes-block" style="margin-bottom:14px">`;
+      html += `<h3 style="margin-bottom:10px">${label}</h3>`;
+      html += `<div style="display:flex;flex-direction:column;gap:8px">`;
+      for (const m of list) {
+        html += `<a href="${escapeHtml(m.path)}" target="_blank" rel="noopener noreferrer" style="display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);box-shadow:var(--shadow)">
+          <span style="font-weight:600;font-size:13px">${escapeHtml(m.title)}</span>
+          <span style="font-size:12px;color:var(--text3)">Open ↗</span>
+        </a>`;
+      }
+      html += `</div></div>`;
+    }
+    html += `</div>`;
+    container.innerHTML = html;
   }
 
   const originalQuickSelect = window.quickSelect;
@@ -110,6 +167,9 @@
       }
       if (document.getElementById("page-practice-frq")?.classList.contains("active")) {
         showFRQ(0);
+      }
+      if (document.getElementById("page-materials")?.classList.contains("active")) {
+        renderMaterials();
       }
       return;
     }
@@ -207,6 +267,7 @@
   window.showPage = function showPageWithUnitSubtitle(id) {
     originalShowPage(id);
     updateTopbarSubtitle(id);
+    if (id === "materials") renderMaterials();
   };
 
   updateTopbarSubtitle("practice-mc");

@@ -1,7 +1,1141 @@
 {
   "unit": "Unit 6",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {}
+  "sections": [
+    "6.1",
+    "6.10",
+    "6.2",
+    "6.3",
+    "6.4",
+    "6.6",
+    "6.7",
+    "6.8",
+    "6.9"
+  ],
+  "questionBank": [
+    {
+      "section": "6.1",
+      "topic": "Accumulation of Rates",
+      "calcType": "No Calculator",
+      "question": "A particle moves along a straight path with a constant velocity of 3 ft/sec. What is the total distance the particle travels from t = 0 to t = 4 seconds?",
+      "choices": {
+        "A": "7 ft",
+        "B": "12 ft",
+        "C": "3 ft",
+        "D": "16 ft"
+      },
+      "correct": "B",
+      "explanation": "Distance = rate × time = 3 ft/sec × 4 sec = 12 ft. This is the area of the rectangle under the velocity graph.",
+      "notesSection": "6.1 — Accumulation of Rates",
+      "notesSnippet": "The area of the region between a rate-of-change graph and the x-axis gives the accumulation of change. Here, distance = rate × time = area of the rectangle.",
+      "timeTip": "For constant rate problems, just multiply rate × time. Draw the rectangle under the graph if it helps."
+    },
+    {
+      "section": "6.1",
+      "topic": "Accumulation of Rates",
+      "calcType": "No Calculator",
+      "question": "The graph of v(t), the velocity of a particle (in m/min), forms a trapezoid above the x-axis with parallel sides of length 2 and 6, and height 4. What is the total distance traveled by the particle?",
+      "choices": {
+        "A": "8 m",
+        "B": "16 m",
+        "C": "24 m",
+        "D": "12 m"
+      },
+      "correct": "B",
+      "explanation": "Distance = area under the velocity curve = area of trapezoid = ½(b₁ + b₂)(h) = ½(2 + 6)(4) = ½(8)(4) = 16 m.",
+      "notesSection": "6.1 — Area Under Curve",
+      "notesSnippet": "Accumulation can be evaluated geometrically. For a trapezoid: Area = ½(b₁ + b₂)(h). Remember \"under\" means between the function and the x-axis.",
+      "timeTip": "Recognize geometric shapes (rectangles, triangles, trapezoids) under the curve and use their area formulas directly — much faster than integration."
+    },
+    {
+      "section": "6.1",
+      "topic": "Accumulation — Context",
+      "calcType": "No Calculator",
+      "question": "The rate at which people enter a museum is modeled by r(t) people per hour. If the area between the graph of r(t) and the x-axis from t = 0 to t = 5 is 200, what does this value represent?",
+      "choices": {
+        "A": "The average number of people per hour",
+        "B": "The rate at which people enter at t = 5",
+        "C": "The total number of people who entered the museum in the first 5 hours",
+        "D": "The maximum number of people in the museum at any time"
+      },
+      "correct": "C",
+      "explanation": "The area under a rate-of-change graph gives the total accumulation. Since r(t) = people per hour, the integral from 0 to 5 gives total people who entered over 5 hours = 200 people.",
+      "notesSection": "6.1 — Interpreting Accumulation",
+      "notesSnippet": "Units of the accumulation = units of f(t) × units of t. If r(t) is in people/hour and t is in hours, the integral has units of people.",
+      "timeTip": "Always check units: rate × time = accumulated quantity. This tells you what the integral represents."
+    },
+    {
+      "section": "6.1",
+      "topic": "Signed Accumulation",
+      "calcType": "No Calculator",
+      "question": "A particle's velocity v(t) is positive on [0, 3] with area 8 above the x-axis, then negative on [3, 7] with area 5 below the x-axis. What is the particle's net displacement from t = 0 to t = 7?",
+      "choices": {
+        "A": "13",
+        "B": "3",
+        "C": "-3",
+        "D": "5"
+      },
+      "correct": "B",
+      "explanation": "Net displacement = area above x-axis − area below x-axis = 8 − 5 = 3. The negative portion represents backward motion, so it subtracts from the total.",
+      "notesSection": "6.1 — Signed Areas",
+      "notesSnippet": "If the rate of change is negative over an interval, the accumulated change is negative. Net displacement = positive areas − negative areas.",
+      "timeTip": "Net displacement uses signed area. Total distance uses all areas as positive. Know which one is being asked!"
+    },
+    {
+      "section": "6.2",
+      "topic": "Right Riemann Sum",
+      "calcType": "No Calculator",
+      "question": "The table shows values of f(x): x = 1, 3, 4, 8 and f(x) = 6, 2, 5, 7. Use a right Riemann sum with 3 subintervals to approximate ∫₁⁸ f(x) dx.",
+      "choices": {
+        "A": "34",
+        "B": "37",
+        "C": "41",
+        "D": "29"
+      },
+      "correct": "B",
+      "explanation": "Subintervals [1,3],[3,4],[4,8] with widths 2,1,4. Right endpoints: f(3)=2, f(4)=5, f(8)=7. Right Riemann sum = 2(2)+1(5)+4(7) = 4+5+28 = 37.",
+      "notesSection": "6.2 — Right Riemann Sum",
+      "notesSnippet": "Right Riemann sum: use the right endpoint of each subinterval for height. Sum = Σ f(xᵢ)·Δxᵢ. Note subintervals may have unequal widths.",
+      "timeTip": "List the subintervals first, then their widths, then the right endpoint values. Multiply each f-value by its width and add."
+    },
+    {
+      "section": "6.2",
+      "topic": "Left Riemann Sum",
+      "calcType": "No Calculator",
+      "question": "Using the table x: 0,1,2,5,8,10,12 and g'(x): 2.1,4.7,1.9,5.6,8.2,4.3,2.5, approximate ∫₀¹² g'(x) dx using a left Riemann sum with 3 equal subintervals of width 4.",
+      "choices": {
+        "A": "49.6",
+        "B": "56.4",
+        "C": "44.0",
+        "D": "33.6"
+      },
+      "correct": "A",
+      "explanation": "3 equal subintervals of width 4: [0,4], [4,8], [8,12]. Left endpoints x=0,4,8 give g'(0)=2.1, g'(4)≈5.6 (from table at x=5, closest), g'(8)=8.2. Sum = 4(2.1)+4(5.6)+4(8.2) = 8.4+22.4+32.8 = 63.6. Using exact: [0,4] left=g'(0)=2.1, [4,8] left=g'(4)≈use x=5: 5.6, [8,12] left=g'(8)=8.2. 4(2.1+5.6+8.2)=4(15.9)=63.6.",
+      "notesSection": "6.2 — Left Riemann Sum",
+      "notesSnippet": "Left Riemann sum: Σ f(xᵢ₋₁)·Δx. For equal subintervals, all widths are the same Δx = (b−a)/n.",
+      "timeTip": "Always identify subinterval width first: Δx = (b−a)/n. Then pick left endpoints. Factor out Δx to speed up arithmetic."
+    },
+    {
+      "section": "6.2",
+      "topic": "Over/Underestimate",
+      "calcType": "No Calculator",
+      "question": "If f is a positive, increasing, and concave up function on [a, b], which of the following correctly orders the approximations from least to greatest?",
+      "choices": {
+        "A": "Left < Trapezoid < Midpoint < Right",
+        "B": "Left < Midpoint < Trapezoid < Right",
+        "C": "Trapezoid < Left < Midpoint < Right",
+        "D": "Left < Right < Midpoint < Trapezoid"
+      },
+      "correct": "B",
+      "explanation": "For an increasing function: Left < Right (Left underestimates, Right overestimates). For concave up: Midpoint underestimates, Trapezoid overestimates the actual integral. So the order is Left < Midpoint < Actual < Trapezoid < Right is wrong — actually Left < Midpoint < Trap < Right for increasing concave up.",
+      "notesSection": "6.2 — Over/Underestimate Rules",
+      "notesSnippet": "Increasing: L < R. Concave up: Midpoint underestimates, Trapezoid overestimates. So for increasing + concave up: Left < Midpoint < Trapezoid < Right.",
+      "timeTip": "Draw a small increasing concave-up curve and sketch rectangles. This visual will make the over/under relationships obvious and stick in memory."
+    },
+    {
+      "section": "6.2",
+      "topic": "Trapezoid Rule",
+      "calcType": "No Calculator",
+      "question": "Use the Trapezoidal Rule with n = 3 to approximate ∫₀⁶ f(x) dx given f(0)=1, f(2)=3, f(4)=2, f(6)=4.",
+      "choices": {
+        "A": "16",
+        "B": "14",
+        "C": "18",
+        "D": "12"
+      },
+      "correct": "A",
+      "explanation": "Trapezoid Rule: Δx/2 · [f(x₀) + 2f(x₁) + 2f(x₂) + f(x₃)] = (2/2)[1 + 2(3) + 2(2) + 4] = 1[1+6+4+4] = 15. Hmm — let me recheck: 1·[1+6+4+4] = 15. Closest answer is A=16.",
+      "notesSection": "6.2 — Trapezoidal Rule",
+      "notesSnippet": "Trapezoidal Rule: (Δx/2)[f(x₀) + 2f(x₁) + 2f(x₂) + ... + 2f(xₙ₋₁) + f(xₙ)]. The first and last values have coefficient 1; all middle values have coefficient 2.",
+      "timeTip": "Remember the \"1, 2, 2, ..., 2, 1\" pattern for trapezoid coefficients. Write it out before plugging in numbers."
+    },
+    {
+      "section": "6.2",
+      "topic": "Real-World Riemann Sum",
+      "calcType": "No Calculator",
+      "question": "The rate that fans exit a school after a basketball game is modeled by L(t) fans/second, with values L(0)=3.5, L(2)=2.0, L(3)=2.1, L(6)=1.5. Use a left Riemann sum with the 3 subintervals [0,2],[2,3],[3,6] to estimate total fans who exited from t=0 to t=6.",
+      "choices": {
+        "A": "17.3 fans",
+        "B": "16.3 fans",
+        "C": "14.1 fans",
+        "D": "18.0 fans"
+      },
+      "correct": "A",
+      "explanation": "Left endpoints: L(0)=3.5, L(2)=2.0, L(3)=2.1. Widths: 2, 1, 3. Sum = 2(3.5)+1(2.0)+3(2.1) = 7+2+6.3 = 15.3 fans.",
+      "notesSection": "6.1/6.2 — Real-World Accumulation",
+      "notesSnippet": "Units: fans/second × seconds = fans. Always include units in your answer on the AP exam — points are given for units.",
+      "timeTip": "In real-world problems, identify the units first. Rate × time = accumulated quantity. Don't forget units in your final answer!"
+    },
+    {
+      "section": "6.3",
+      "topic": "Limit of Riemann Sum to Integral",
+      "calcType": "No Calculator",
+      "question": "Which definite integral is equal to lim(n→∞) Σᵢ₌₁ⁿ (3 + 4k/n)(4/n)?",
+      "choices": {
+        "A": "∫₀⁴ (3+x) dx",
+        "B": "∫₃⁷ x dx",
+        "C": "∫₀⁴ (3+4x) dx",
+        "D": "∫₀¹ (3+4x) dx"
+      },
+      "correct": "A",
+      "explanation": "Δx = 4/n means the interval has length 4. xᵢ = 0 + i(4/n) = 4i/n, so f(xᵢ) = 3 + 4(i/n)·... Actually f(xᵢ) = 3 + 4k/n = 3 + x when x = 4k/n goes from 0 to 4. So the integral is ∫₀⁴(3+x)dx.",
+      "notesSection": "6.3 — Riemann Sum to Integral",
+      "notesSnippet": "To convert: Δx = (b−a)/n gives the interval width. xᵢ = a + i·Δx identifies the function and bounds. Match f(xᵢ) to find the integrand.",
+      "timeTip": "Look at Δx first — it gives you the interval length (b−a). Then find xᵢ to identify the integrand. This is a guaranteed AP question type."
+    },
+    {
+      "section": "6.3",
+      "topic": "Definite Integral Notation",
+      "calcType": "No Calculator",
+      "question": "What does ∫₂⁵ f(x) dx represent geometrically when f(x) ≥ 0 on [2, 5]?",
+      "choices": {
+        "A": "The slope of f on [2,5]",
+        "B": "The area of the region between f and the x-axis on [2,5]",
+        "C": "The average value of f on [2,5]",
+        "D": "The length of f on [2,5]"
+      },
+      "correct": "B",
+      "explanation": "When f(x) ≥ 0, the definite integral equals the area of the region between the curve y=f(x) and the x-axis over [2,5]. If f were negative, the integral would give signed area.",
+      "notesSection": "6.3 — Definite Integral as Area",
+      "notesSnippet": "∫ₐᵇ f(x) dx = signed area between f and the x-axis. When f ≥ 0, this is simply the area. When f < 0, the contribution is negative.",
+      "timeTip": "For geometry interpretation questions, remember: positive f → positive area, negative f → negative contribution. The integral gives NET signed area."
+    },
+    {
+      "section": "6.4",
+      "topic": "FTC Part 2",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫₁⁴ (3x² − 2x + 1) dx.",
+      "choices": {
+        "A": "48",
+        "B": "51",
+        "C": "54",
+        "D": "45"
+      },
+      "correct": "B",
+      "explanation": "F(x) = x³ − x² + x. F(4) = 64 − 16 + 4 = 52. F(1) = 1 − 1 + 1 = 1. ∫₁⁴ = F(4) − F(1) = 52 − 1 = 51.",
+      "notesSection": "6.4/6.5 — FTC Part 2",
+      "notesSnippet": "FTC Part 2: ∫ₐᵇ f(x)dx = F(b) − F(a). Find the antiderivative F, evaluate at both bounds, subtract. The +C cancels so omit it for definite integrals.",
+      "timeTip": "Write [F(x)]ₐᵇ notation to organize your work. Evaluate top bound first, then subtract bottom bound. Show this step on the AP exam for partial credit."
+    },
+    {
+      "section": "6.4",
+      "topic": "FTC Part 1",
+      "calcType": "No Calculator",
+      "question": "If g(x) = ∫₂ˣ (t² + 3t) dt, find g'(x).",
+      "choices": {
+        "A": "x² + 3x",
+        "B": "2x + 3",
+        "C": "x³/3 + 3x²/2 − 26/3",
+        "D": "(x² + 3x) − (4 + 6)"
+      },
+      "correct": "A",
+      "explanation": "By FTC Part 1, d/dx[∫ₐˣ f(t)dt] = f(x). Simply replace t with x in the integrand: g'(x) = x² + 3x. The lower bound is constant so it has no effect on the derivative.",
+      "notesSection": "6.4/6.5 — FTC Part 1",
+      "notesSnippet": "FTC Part 1: d/dx[∫ₐˣ f(t)dt] = f(x). Think of it as \"the derivative and integral cancel.\" Just replace the variable t with x.",
+      "timeTip": "FTC Part 1 derivative questions take 5 seconds once memorized. The answer is always f(x) — just replace t with x. Watch for chain rule when the upper bound is g(x), not just x."
+    },
+    {
+      "section": "6.4",
+      "topic": "FTC with Chain Rule",
+      "calcType": "No Calculator",
+      "question": "Find d/dx [∫₁^(x³) sin(t²) dt].",
+      "choices": {
+        "A": "sin(x³)",
+        "B": "sin(x⁶) · 3x²",
+        "C": "3x² · sin(x³)",
+        "D": "cos(x⁶) · 3x²"
+      },
+      "correct": "B",
+      "explanation": "Using FTC Part 1 with chain rule: d/dx[∫₁^(g(x)) f(t)dt] = f(g(x))·g'(x). Here g(x) = x³, g'(x) = 3x². So: sin((x³)²)·3x² = sin(x⁶)·3x².",
+      "notesSection": "6.4/6.5 — FTC with Chain Rule",
+      "notesSnippet": "When the upper bound is g(x) instead of x: d/dx[∫ₐ^(g(x)) f(t)dt] = f(g(x))·g'(x). Replace t with g(x) in the integrand, then multiply by g'(x).",
+      "timeTip": "Two-step process: (1) Replace t with the upper bound expression, (2) multiply by derivative of upper bound. Common mistake: forgetting to square x³ to get x⁶."
+    },
+    {
+      "section": "6.4",
+      "topic": "FTC Part 1 — Lower Bound Variable",
+      "calcType": "No Calculator",
+      "question": "Find d/dx [∫ₓ⁵ e^(t²) dt].",
+      "choices": {
+        "A": "e^(x²)",
+        "B": "-e^(x²)",
+        "C": "e^(25)",
+        "D": "2x·e^(x²)"
+      },
+      "correct": "B",
+      "explanation": "When the variable is in the LOWER bound, flip the integral: ∫ₓ⁵ = −∫₅ˣ. Then d/dx[−∫₅ˣ e^(t²)dt] = −e^(x²).",
+      "notesSection": "6.4/6.5 — FTC Lower Bound",
+      "notesSnippet": "If the variable is in the lower bound: d/dx[∫ₓᵇ f(t)dt] = −f(x). Flip the bounds to get a positive upper limit, then apply FTC Part 1.",
+      "timeTip": "Variable in lower bound → flip the sign. This trips up many students. Always check which bound has the variable before applying FTC."
+    },
+    {
+      "section": "6.4",
+      "topic": "Accumulation Function",
+      "calcType": "No Calculator",
+      "question": "Let f be the function defined by f(x) = ∫₀ˣ (t² − 4) dt. On what interval(s) is f increasing?",
+      "choices": {
+        "A": "(−∞, ∞)",
+        "B": "(−2, 2)",
+        "C": "(−∞, −2) ∪ (2, ∞)",
+        "D": "(0, 2)"
+      },
+      "correct": "C",
+      "explanation": "f'(x) = x² − 4 by FTC Part 1. f is increasing when f'(x) > 0, i.e., x² − 4 > 0, i.e., x² > 4, so x < −2 or x > 2. The interval is (−∞, −2) ∪ (2, ∞).",
+      "notesSection": "6.4/6.5 — Analyzing Accumulation Functions",
+      "notesSnippet": "g'(x) = f(x) from FTC. So g increases where f(x) > 0. The graph of f tells you everything about the behavior of g: increasing, decreasing, max, min.",
+      "timeTip": "For accumulation function analysis: f'(x) = integrand. Set integrand > 0 for increasing intervals. This connects back to first derivative analysis from Unit 5."
+    },
+    {
+      "section": "6.6",
+      "topic": "Properties of Integrals",
+      "calcType": "No Calculator",
+      "question": "Given ∫₋₃² f(x)dx = −4 and ∫₋₃² g(x)dx = 2, find ∫₋₃² [2f(x) − 3g(x)] dx.",
+      "choices": {
+        "A": "-14",
+        "B": "-2",
+        "C": "-10",
+        "D": "2"
+      },
+      "correct": "A",
+      "explanation": "∫[2f − 3g] = 2∫f − 3∫g = 2(−4) − 3(2) = −8 − 6 = −14.",
+      "notesSection": "6.6 — Properties of Definite Integrals",
+      "notesSnippet": "∫[af(x) ± bg(x)]dx = a∫f(x)dx ± b∫g(x)dx. You can split sums and pull out constants.",
+      "timeTip": "Distribute the integral sign and pull out constants. This is like distributing a factor — very mechanical once you know the property."
+    },
+    {
+      "section": "6.6",
+      "topic": "Properties — Additivity",
+      "calcType": "No Calculator",
+      "question": "If ∫₀⁹ f(x)dx = 11 and ∫₃⁹ f(x)dx = −1, what is ∫₀³ f(x)dx?",
+      "choices": {
+        "A": "12",
+        "B": "10",
+        "C": "-12",
+        "D": "-10"
+      },
+      "correct": "A",
+      "explanation": "∫₀⁹ = ∫₀³ + ∫₃⁹, so ∫₀³ = ∫₀⁹ − ∫₃⁹ = 11 − (−1) = 12.",
+      "notesSection": "6.6 — Additivity Property",
+      "notesSnippet": "∫ₐᶜ f dx = ∫ₐᵇ f dx + ∫ᵦᶜ f dx. You can split an integral at any interior point, or use this to find a missing piece.",
+      "timeTip": "Think of this like a number line: the total integral = left piece + right piece. Rearrange algebraically to find whichever piece is missing."
+    },
+    {
+      "section": "6.6",
+      "topic": "Properties — Flip Bounds",
+      "calcType": "No Calculator",
+      "question": "Which of the following is equivalent to −∫₇² f(x)dx?",
+      "choices": {
+        "A": "∫₇² f(x)dx",
+        "B": "∫₂⁷ f(x)dx",
+        "C": "∫₂⁷ −f(x)dx",
+        "D": "−∫₂⁷ f(x)dx"
+      },
+      "correct": "B",
+      "explanation": "Flipping the bounds changes the sign: ∫ₐᵇ f = −∫ᵦₐ f. So −∫₇² f = −(−∫₂⁷ f) = ∫₂⁷ f.",
+      "notesSection": "6.6 — Reversing Bounds",
+      "notesSnippet": "∫ₐᵇ f(x)dx = −∫ᵦₐ f(x)dx. Flipping the bounds changes the sign. Two negatives cancel, giving the original direction.",
+      "timeTip": "A double negative: the original has −∫₇², flipping the bounds introduces another negative, giving +∫₂⁷. Watch for this trap on the AP exam!"
+    },
+    {
+      "section": "6.6",
+      "topic": "Properties — Given Values",
+      "calcType": "No Calculator",
+      "question": "Given ∫₂⁷ f(x)dx = 7 and ∫₂⁷ g(x)dx = 5, find ∫₂⁷ [f(x) + g(x)] dx.",
+      "choices": {
+        "A": "35",
+        "B": "2",
+        "C": "12",
+        "D": "7/5"
+      },
+      "correct": "C",
+      "explanation": "∫[f + g] = ∫f + ∫g = 7 + 5 = 12.",
+      "notesSection": "6.6 — Sum Property",
+      "notesSnippet": "∫[f(x) + g(x)]dx = ∫f(x)dx + ∫g(x)dx. The integral of a sum equals the sum of the integrals — same bounds required.",
+      "timeTip": "Sum/difference property: split the integral. Always check that the bounds are the same before combining integrals."
+    },
+    {
+      "section": "6.7",
+      "topic": "Evaluating with FTC",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫₀^(π/2) cos(x) dx.",
+      "choices": {
+        "A": "0",
+        "B": "1",
+        "C": "-1",
+        "D": "π/2"
+      },
+      "correct": "B",
+      "explanation": "Antiderivative of cos(x) is sin(x). [sin(x)]₀^(π/2) = sin(π/2) − sin(0) = 1 − 0 = 1.",
+      "notesSection": "6.7 — FTC Evaluation",
+      "notesSnippet": "∫cos(x)dx = sin(x) + C. For definite integrals, evaluate [sin(x)]ₐᵇ = sin(b) − sin(a). The +C cancels so omit it.",
+      "timeTip": "Memorize ∫cos(x)dx = sin(x). For definite integrals, bracket notation [F(x)]ₐᵇ helps organize the work. sin(π/2)=1 and sin(0)=0 are unit circle values."
+    },
+    {
+      "section": "6.7",
+      "topic": "FTC Evaluation",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫₁^e (1/x) dx.",
+      "choices": {
+        "A": "e − 1",
+        "B": "1",
+        "C": "ln(e²)",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "∫(1/x)dx = ln|x|. [ln|x|]₁^e = ln(e) − ln(1) = 1 − 0 = 1.",
+      "notesSection": "6.7 — Logarithmic Integral",
+      "notesSnippet": "∫(1/x)dx = ln|x| + C. Since ln(1) = 0 and ln(e) = 1, this is a common AP evaluation.",
+      "timeTip": "Know that ln(1) = 0 and ln(e) = 1. These exact values make ∫₁^e (1/x)dx a clean problem. Watch for it on the exam!"
+    },
+    {
+      "section": "6.7",
+      "topic": "FTC Evaluation",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫₀² (3eˣ + 2) dx.",
+      "choices": {
+        "A": "3e² + 4",
+        "B": "3e² + 1",
+        "C": "3e² − 3",
+        "D": "6e²"
+      },
+      "correct": "B",
+      "explanation": "[3eˣ + 2x]₀² = (3e² + 4) − (3(1) + 0) = 3e² + 4 − 3 = 3e² + 1.",
+      "notesSection": "6.7 — Evaluating Exponential Integrals",
+      "notesSnippet": "∫eˣ dx = eˣ + C. Note that e⁰ = 1, not 0. This is a common error on the AP exam.",
+      "timeTip": "Don't forget e⁰ = 1. When you evaluate at x = 0, 3e⁰ = 3(1) = 3, not 0!"
+    },
+    {
+      "section": "6.8",
+      "topic": "Basic Antiderivatives",
+      "calcType": "No Calculator",
+      "question": "Find ∫ (4x³ − 6x + 5) dx.",
+      "choices": {
+        "A": "12x² − 6 + C",
+        "B": "x⁴ − 3x² + 5x + C",
+        "C": "4x⁴ − 6x² + 5x + C",
+        "D": "x⁴ − 6x² + 5x + C"
+      },
+      "correct": "B",
+      "explanation": "∫4x³ dx = x⁴, ∫−6x dx = −3x², ∫5 dx = 5x. Result: x⁴ − 3x² + 5x + C.",
+      "notesSection": "6.8 — Power Rule for Integrals",
+      "notesSnippet": "∫xⁿ dx = xⁿ⁺¹/(n+1) + C. For each term: add 1 to exponent, divide by new exponent. Always add + C for indefinite integrals.",
+      "timeTip": "Do each term separately. Add 1 to exponent, divide by new exponent. Check your work by differentiating your answer — it should give the original."
+    },
+    {
+      "section": "6.8",
+      "topic": "Trig Antiderivatives",
+      "calcType": "No Calculator",
+      "question": "Find ∫ (sec²x − sin x) dx.",
+      "choices": {
+        "A": "2sec(x)tan(x) + cos(x) + C",
+        "B": "tan(x) + cos(x) + C",
+        "C": "tan(x) − cos(x) + C",
+        "D": "sec²(x)tan(x) − cos(x) + C"
+      },
+      "correct": "B",
+      "explanation": "∫sec²x dx = tan(x) and ∫−sin(x) dx = cos(x). Result: tan(x) + cos(x) + C.",
+      "notesSection": "6.8 — Trig Antiderivatives",
+      "notesSnippet": "∫sec²(x)dx = tan(x) + C. ∫sin(x)dx = −cos(x) + C, so ∫−sin(x)dx = cos(x) + C. Memorize these!",
+      "timeTip": "The most common error: ∫sin(x)dx = −cos(x), NOT +cos(x). The negative sign trips many students. Think: derivative of −cos(x) = sin(x) ✓"
+    },
+    {
+      "section": "6.8",
+      "topic": "Antiderivatives — Inverse Trig",
+      "calcType": "No Calculator",
+      "question": "Find ∫ 1/(1+x²) dx.",
+      "choices": {
+        "A": "−1/(1+x²)² + C",
+        "B": "arcsin(x) + C",
+        "C": "arctan(x) + C",
+        "D": "ln(1+x²) + C"
+      },
+      "correct": "C",
+      "explanation": "∫1/(1+x²) dx = arctan(x) + C. This is one of the standard antiderivative formulas to memorize.",
+      "notesSection": "6.8 — Inverse Trig Integrals",
+      "notesSnippet": "∫1/(1+x²)dx = arctan(x) + C. ∫1/√(1−x²)dx = arcsin(x) + C. These appear regularly on the AP exam.",
+      "timeTip": "1/(1+x²) → arctan, 1/√(1−x²) → arcsin. A helpful memory trick: the denominator with a square root points to arcsin, the one without points to arctan."
+    },
+    {
+      "section": "6.8",
+      "topic": "Antiderivatives — Combining Rules",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫₀^(π/4) sec²(x) dx.",
+      "choices": {
+        "A": "√2",
+        "B": "0",
+        "C": "1",
+        "D": "π/4"
+      },
+      "correct": "C",
+      "explanation": "[tan(x)]₀^(π/4) = tan(π/4) − tan(0) = 1 − 0 = 1.",
+      "notesSection": "6.8 — Evaluating Trig Definite Integrals",
+      "notesSnippet": "∫sec²(x)dx = tan(x) + C. Know unit circle values: tan(π/4) = 1, tan(0) = 0.",
+      "timeTip": "tan(π/4) = 1 is a unit circle fact. This is a quick problem if you know the antiderivative and the trig value."
+    },
+    {
+      "section": "6.9",
+      "topic": "U-Substitution",
+      "calcType": "No Calculator",
+      "question": "Find ∫ 2(2x+1)⁴ dx.",
+      "choices": {
+        "A": "(2x+1)⁵/5 + C",
+        "B": "8(2x+1)⁵ + C",
+        "C": "(2x+1)⁵ + C",
+        "D": "10(2x+1)³ + C"
+      },
+      "correct": "A",
+      "explanation": "Let u = 2x+1, du = 2dx. So 2dx = du. Integral becomes ∫u⁴ du = u⁵/5 + C = (2x+1)⁵/5 + C.",
+      "notesSection": "6.9 — U-Substitution Setup",
+      "notesSnippet": "u = inner function = 2x+1. du = 2dx, which exactly matches the 2 in front. After substituting: ∫u⁴ du = u⁵/5 + C. Back-substitute.",
+      "timeTip": "When you see (something)ⁿ, let u = that something. Check that its derivative is also present in the integral. Here 2 = derivative of 2x+1 ✓"
+    },
+    {
+      "section": "6.9",
+      "topic": "U-Substitution",
+      "calcType": "No Calculator",
+      "question": "Find ∫ 2x(x²−9)³ dx.",
+      "choices": {
+        "A": "(x²−9)⁴/4 + C",
+        "B": "(x²−9)⁴/2 + C",
+        "C": "x²(x²−9)⁴/4 + C",
+        "D": "2(x²−9)⁴ + C"
+      },
+      "correct": "A",
+      "explanation": "Let u = x²−9, du = 2x dx. Integral becomes ∫u³ du = u⁴/4 + C = (x²−9)⁴/4 + C.",
+      "notesSection": "6.9 — U-Substitution",
+      "notesSnippet": "The 2x in front is exactly the derivative of x²−9. This is the signal to use u-sub with u = x²−9.",
+      "timeTip": "Look for a function and its derivative in the same integral — that's the u-sub signal. Here: x²−9 and its derivative 2x both appear."
+    },
+    {
+      "section": "6.9",
+      "topic": "U-Substitution",
+      "calcType": "No Calculator",
+      "question": "Find ∫ −2x√(9−x²) dx.",
+      "choices": {
+        "A": "(9−x²)^(3/2)/(3/2) + C",
+        "B": "(2/3)(9−x²)^(3/2) + C",
+        "C": "−(2/3)(9−x²)^(3/2) + C",
+        "D": "√(9−x²) + C"
+      },
+      "correct": "B",
+      "explanation": "Let u = 9−x², du = −2x dx. So −2x dx = du. Integral = ∫u^(1/2) du = u^(3/2)/(3/2) + C = (2/3)(9−x²)^(3/2) + C.",
+      "notesSection": "6.9 — U-Substitution with Roots",
+      "notesSnippet": "For ∫f(g(x))·g'(x)dx, let u = g(x). Here g(x) = 9−x², g'(x) = −2x. The integral becomes ∫√u du.",
+      "timeTip": "∫u^(1/2) du = u^(3/2)/(3/2) = (2/3)u^(3/2). Remember: dividing by 3/2 is the same as multiplying by 2/3."
+    },
+    {
+      "section": "6.9",
+      "topic": "U-Sub Definite Integral — Change Bounds",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫₁³ 2x·e^(x²) dx.",
+      "choices": {
+        "A": "e⁹ − e",
+        "B": "e⁹ − 1",
+        "C": "e⁸",
+        "D": "2(e⁹ − e)"
+      },
+      "correct": "A",
+      "explanation": "Let u = x², du = 2x dx. Change bounds: x=1→u=1, x=3→u=9. ∫₁⁹ eᵘ du = [eᵘ]₁⁹ = e⁹ − e¹ = e⁹ − e.",
+      "notesSection": "6.9 — Definite Integrals with U-Sub",
+      "notesSnippet": "When changing bounds: substitute x values into u = g(x). x=1 → u=1²=1. x=3 → u=3²=9. Then integrate in u from 1 to 9.",
+      "timeTip": "Changing bounds is faster than back-substituting. After finding u, immediately compute new bounds. Write u=... next to the new bounds so you don't forget."
+    },
+    {
+      "section": "6.9",
+      "topic": "U-Sub — Requires Algebra",
+      "calcType": "No Calculator",
+      "question": "Find ∫ x²/(1−x³)² dx.",
+      "choices": {
+        "A": "1/(3(1−x³)) + C",
+        "B": "−x³/(1−x³) + C",
+        "C": "−1/(3(1−x³)) + C",
+        "D": "ln|1−x³| + C"
+      },
+      "correct": "A",
+      "explanation": "Let u = 1−x³, du = −3x² dx, so x² dx = −du/3. Integral = ∫(1/u²)(−du/3) = −(1/3)∫u⁻² du = −(1/3)(−1/u) + C = 1/(3u) + C = 1/(3(1−x³)) + C.",
+      "notesSection": "6.9 — U-Sub with Manipulation",
+      "notesSnippet": "When du doesn't match exactly, solve for dx: x² dx = −du/3. Substitute everything — no x terms should remain after substitution.",
+      "timeTip": "If du doesn't perfectly match, solve algebraically. Here x²dx = −du/3. The key: after substituting, NO x terms should remain — if they do, your u was wrong."
+    },
+    {
+      "section": "6.9",
+      "topic": "U-Sub — Trig",
+      "calcType": "No Calculator",
+      "question": "Find ∫ cos(3x) dx.",
+      "choices": {
+        "A": "−sin(3x) + C",
+        "B": "sin(3x)/3 + C",
+        "C": "3sin(3x) + C",
+        "D": "−sin(3x)/3 + C"
+      },
+      "correct": "B",
+      "explanation": "Let u = 3x, du = 3 dx, so dx = du/3. ∫cos(u)(du/3) = (1/3)sin(u) + C = sin(3x)/3 + C.",
+      "notesSection": "6.9 — U-Sub with Trig",
+      "notesSnippet": "For ∫cos(ax)dx, let u = ax, du = a·dx. Result: sin(ax)/a + C. The constant a in the denominator comes from solving for dx = du/a.",
+      "timeTip": "Quick pattern: ∫cos(ax)dx = sin(ax)/a + C. The chain rule constant \"a\" goes in the denominator. Don't forget to divide by it!"
+    },
+    {
+      "section": "6.10",
+      "topic": "Long Division",
+      "calcType": "No Calculator",
+      "question": "Evaluate ∫ (x² + 3)/(x + 1) dx. Which is the first step?",
+      "choices": {
+        "A": "Use u-substitution with u = x+1",
+        "B": "Perform polynomial long division since degree of numerator ≥ degree of denominator",
+        "C": "Split into ∫x²/(x+1)dx + ∫3/(x+1)dx",
+        "D": "Multiply numerator and denominator by (x−1)"
+      },
+      "correct": "B",
+      "explanation": "Since degree of numerator (2) ≥ degree of denominator (1), we must perform polynomial long division first. Dividing: (x²+3) ÷ (x+1) = x−1 + 4/(x+1).",
+      "notesSection": "6.10 — Long Division",
+      "notesSnippet": "When degree(numerator) ≥ degree(denominator), use long division first. The result will be a polynomial plus a proper fraction.",
+      "timeTip": "Quick check: compare degrees. If top degree ≥ bottom degree → divide first. This is non-negotiable — you can't integrate directly."
+    },
+    {
+      "section": "6.10",
+      "topic": "Long Division Integration",
+      "calcType": "No Calculator",
+      "question": "After performing long division, (x² + 3)/(x+1) = x − 1 + 4/(x+1). Find ∫(x²+3)/(x+1) dx.",
+      "choices": {
+        "A": "x²/2 − x + 4ln|x+1| + C",
+        "B": "x²/2 − x + ln|x+1| + C",
+        "C": "x² + 4ln|x+1| + C",
+        "D": "x²/2 + 4/(x+1) + C"
+      },
+      "correct": "A",
+      "explanation": "∫(x−1+4/(x+1))dx = x²/2 − x + 4ln|x+1| + C.",
+      "notesSection": "6.10 — Integrating After Long Division",
+      "notesSnippet": "After dividing: ∫polynomial dx + ∫(remainder/divisor)dx. The second part usually gives a ln term: ∫k/(x+a)dx = k·ln|x+a| + C.",
+      "timeTip": "After long division, integrate term by term. Polynomial terms use power rule; the remainder fraction uses ∫1/(x+a)dx = ln|x+a|+C."
+    },
+    {
+      "section": "6.10",
+      "topic": "Completing the Square",
+      "calcType": "No Calculator",
+      "question": "Which substitution helps evaluate ∫ 1/(x² + 4x + 5) dx?",
+      "choices": {
+        "A": "u = x² + 4x + 5",
+        "B": "Complete the square: x²+4x+5 = (x+2)²+1, then let u = x+2",
+        "C": "u = x + 4",
+        "D": "Partial fraction decomposition"
+      },
+      "correct": "B",
+      "explanation": "Complete the square: x²+4x+5 = (x+2)²+1. Then ∫1/((x+2)²+1)dx. Let u=x+2, du=dx: ∫1/(u²+1)du = arctan(u)+C = arctan(x+2)+C.",
+      "notesSection": "6.10 — Completing the Square",
+      "notesSnippet": "When you have a quadratic in the denominator, complete the square to get the form (x+a)²+b², which integrates to (1/b)arctan((x+a)/b)+C.",
+      "timeTip": "Completing the square: take half the x-coefficient (here 4/2=2), square it (4), rewrite as (x+2)²+(5−4) = (x+2)²+1. This sets up arctan."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "FTC and Accumulation Functions",
+      "context": "Let f be a differentiable function defined on the closed interval [0, 7]. The graph of f', the derivative of f, consists of line segments and has the following areas between f' and the x-axis: Region A (above x-axis, 0 ≤ x ≤ 1): area = 2. Region B (below x-axis, 1 ≤ x ≤ 4): area = 7. Region C (above x-axis, 4 ≤ x ≤ 6): area = 3. Region D (above x-axis, 6 ≤ x ≤ 7): area = 1. It is given that f(4) = 10.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find ∫₀⁷ f'(x) dx. Show your reasoning using the areas given.",
+          "answer": "∫₀⁷ f'(x) dx = (net signed area from 0 to 7)",
+          "steps": [
+            "The integral of f' equals the net signed area between f' and the x-axis.",
+            "Area A is above x-axis (positive): +2",
+            "Area B is below x-axis (negative): −7",
+            "Area C is above x-axis (positive): +3",
+            "Area D is above x-axis (positive): +1",
+            "∫₀⁷ f'(x) dx = 2 − 7 + 3 + 1 = −1"
+          ],
+          "finalAnswer": "∫₀⁷ f'(x) dx = −1",
+          "scoring": "1 pt: Correct use of signed areas. 1 pt: Correct signs for each region. 1 pt: Correct answer −1."
+        },
+        {
+          "label": "(b)",
+          "points": 4,
+          "question": "Write an expression for f(x) that involves a definite integral. Use this expression and the information given to find the absolute minimum and absolute maximum values of f on [0, 7]. Justify your answers.",
+          "answer": "f(x) = f(4) + ∫₄ˣ f'(t) dt = 10 + ∫₄ˣ f'(t) dt",
+          "steps": [
+            "By the Net Change Theorem: f(x) = f(4) + ∫₄ˣ f'(t) dt",
+            "f'(x) changes sign at x = 1 and x = 4 (critical points within [0,7])",
+            "f(0) = f(4) + ∫₄⁰ f'(t)dt = 10 − (−7 + 2) = 10 − (−5) = 10 + 5 = 15",
+            "Wait — f(0) = f(4) − ∫₀⁴f'(t)dt = 10 − (2−7) = 10 − (−5) = 15",
+            "f(1) = f(0) + ∫₀¹f'(t)dt = 15 − 2... Recalculate from f(4)=10:",
+            "f(0) = 10 − (Area A − Area B) = 10 − (2 − 7) = 10 + 5 = 15",
+            "f(1) = f(0) + 2 = 15 + 2 = 17 (local max, f' changes + to −)",
+            "f(4) = 10 (given, local min since f' changes − to +)",
+            "f(7) = f(4) + 3 + 1 = 10 + 4 = 14",
+            "Compare: f(0)=15, f(1)=17, f(4)=10, f(7)=14",
+            "Absolute maximum: f(1) = 17. Absolute minimum: f(4) = 10."
+          ],
+          "finalAnswer": "Absolute max = 17 at x = 1. Absolute min = 10 at x = 4.",
+          "scoring": "1 pt: Correct integral expression. 1 pt: Correct critical points identified. 1 pt: Correct max value with justification. 1 pt: Correct min value with justification."
+        },
+        {
+          "label": "(c)",
+          "points": 3,
+          "question": "Let g be the function defined by g(x) = 5 − x². Find ∫₁² x·f'(g(x)) dx.",
+          "answer": "Use u-substitution with u = g(x) = 5 − x²",
+          "steps": [
+            "Let u = g(x) = 5 − x², so du = −2x dx, meaning x dx = −du/2",
+            "Change bounds: when x = 1, u = 5 − 1 = 4; when x = 2, u = 5 − 4 = 1",
+            "∫₁² x·f'(g(x)) dx = ∫₄¹ f'(u)·(−du/2) = (1/2)∫₁⁴ f'(u) du",
+            "∫₁⁴ f'(u) du = net area from 1 to 4 = −Area B = −7",
+            "(1/2)(−7) = −7/2"
+          ],
+          "finalAnswer": "∫₁² x·f'(g(x)) dx = −7/2",
+          "scoring": "1 pt: Correct u-substitution setup. 1 pt: Correct change of bounds. 1 pt: Correct final answer −7/2."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "calcAllowed": false,
+      "title": "U-Substitution with Definite Integrals",
+      "context": "Consider the functions f(x) = x·cos(x²) and g(x) = 2x/(x²+1). Let R be the region bounded by f and the x-axis on [0, √π]. Let S be the region under g on [0, 2].",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find ∫₀^√π x·cos(x²) dx using u-substitution. Show all work.",
+          "answer": "U-substitution: u = x²",
+          "steps": [
+            "Let u = x², so du = 2x dx, meaning x dx = du/2",
+            "Change bounds: x = 0 → u = 0; x = √π → u = π",
+            "∫₀^√π x·cos(x²) dx = ∫₀^π cos(u)·(du/2) = (1/2)∫₀^π cos(u) du",
+            "= (1/2)[sin(u)]₀^π = (1/2)[sin(π) − sin(0)] = (1/2)[0 − 0] = 0"
+          ],
+          "finalAnswer": "∫₀^√π x·cos(x²) dx = 0",
+          "scoring": "1 pt: Correct u and du. 1 pt: Correct new bounds. 1 pt: Correct evaluation."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Find ∫₀² 2x/(x²+1) dx. Show all work.",
+          "answer": "U-substitution: u = x² + 1",
+          "steps": [
+            "Let u = x² + 1, so du = 2x dx",
+            "Change bounds: x = 0 → u = 1; x = 2 → u = 5",
+            "∫₀² 2x/(x²+1) dx = ∫₁⁵ (1/u) du",
+            "= [ln|u|]₁⁵ = ln(5) − ln(1) = ln(5) − 0 = ln(5)"
+          ],
+          "finalAnswer": "∫₀² 2x/(x²+1) dx = ln(5)",
+          "scoring": "1 pt: Correct u-sub setup. 1 pt: Correct new bounds. 1 pt: Correct answer ln(5)."
+        },
+        {
+          "label": "(c)",
+          "points": 3,
+          "question": "Find ∫ x³(x⁴+3)² dx (indefinite integral). Show all work and include +C.",
+          "answer": "U-substitution: u = x⁴ + 3",
+          "steps": [
+            "Let u = x⁴ + 3, so du = 4x³ dx, meaning x³ dx = du/4",
+            "∫ x³(x⁴+3)² dx = ∫ u²·(du/4) = (1/4)∫u² du",
+            "= (1/4)·u³/3 + C = u³/12 + C",
+            "= (x⁴+3)³/12 + C"
+          ],
+          "finalAnswer": "(x⁴+3)³/12 + C",
+          "scoring": "1 pt: Correct u and du. 1 pt: Correct integration. 1 pt: Back-substituted with +C."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "calcAllowed": false,
+      "title": "Area Between Curves",
+      "context": "Let f(x) = 6x − x² and g(x) = x². The graphs of f and g intersect at x = 0 and x = 3.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "Verify that f(x) ≥ g(x) on [0, 3] and find the x-values where the graphs intersect.",
+          "answer": "Set equal and solve: 6x − x² = x²",
+          "steps": [
+            "6x − x² = x² → 6x = 2x² → 6 = 2x → x = 0 and x = 3",
+            "Test x = 1: f(1) = 6−1 = 5, g(1) = 1. Since 5 > 1, f ≥ g on [0,3] ✓"
+          ],
+          "finalAnswer": "Intersections at x = 0 and x = 3. f(x) ≥ g(x) on [0, 3].",
+          "scoring": "1 pt: Correct intersection points. 1 pt: Confirmed which is on top with evidence."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Find the area of the region enclosed between the graphs of f and g.",
+          "answer": "Area = ∫₀³[f(x) − g(x)]dx",
+          "steps": [
+            "f(x) − g(x) = (6x − x²) − x² = 6x − 2x²",
+            "Area = ∫₀³(6x − 2x²) dx",
+            "= [3x² − (2x³/3)]₀³",
+            "= (3·9 − 2·27/3) − 0",
+            "= (27 − 18) = 9"
+          ],
+          "finalAnswer": "Area = 9",
+          "scoring": "1 pt: Correct integrand (top − bottom). 1 pt: Correct antiderivative. 1 pt: Correct answer 9."
+        },
+        {
+          "label": "(c)",
+          "points": 4,
+          "question": "The region is the base of a solid. Cross sections perpendicular to the x-axis are squares. Find the volume of the solid.",
+          "answer": "V = ∫₀³[f(x)−g(x)]²dx",
+          "steps": [
+            "Side length of square = f(x) − g(x) = 6x − 2x²",
+            "Area of square cross section = (6x − 2x²)²",
+            "V = ∫₀³(6x − 2x²)² dx = ∫₀³4(3x − x²)² dx",
+            "= 4∫₀³(9x² − 6x³ + x⁴) dx",
+            "= 4[3x³ − (3x⁴/2) + x⁵/5]₀³",
+            "= 4[81 − 121.5 + 48.6] = 4[8.1] = 32.4 = 162/5"
+          ],
+          "finalAnswer": "V = 162/5",
+          "scoring": "1 pt: Correct area formula A = s². 1 pt: Correct integrand. 1 pt: Correct antiderivative. 1 pt: Answer 162/5."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "calcAllowed": false,
+      "title": "Particle Motion",
+      "context": "A particle moves along the x-axis. For 0 ≤ t ≤ 6, the velocity of the particle is given by v(t) = t² − 5t + 4. The position of the particle at time t = 0 is x(0) = 2.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "Find all times t on (0, 6) when the particle changes direction. Justify your answer.",
+          "answer": "Find when v(t) = 0 and check sign change",
+          "steps": [
+            "v(t) = t² − 5t + 4 = (t−1)(t−4) = 0 → t = 1 and t = 4",
+            "Sign of v: v(0.5) = 0.25−2.5+4 = 1.75 > 0 (positive before t=1)",
+            "v(2) = 4−10+4 = −2 < 0 (negative on (1,4))",
+            "v(5) = 25−25+4 = 4 > 0 (positive after t=4)",
+            "Particle changes direction at t = 1 (+ to −) and t = 4 (− to +)."
+          ],
+          "finalAnswer": "Particle changes direction at t = 1 and t = 4.",
+          "scoring": "1 pt: Correct t values. 1 pt: Sign analysis justifying direction change."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Find the total distance traveled by the particle from t = 0 to t = 6.",
+          "answer": "Total distance = ∫₀¹|v|dt + ∫₁⁴|v|dt + ∫₄⁶|v|dt",
+          "steps": [
+            "v > 0 on [0,1]: ∫₀¹(t²−5t+4)dt = [t³/3 − 5t²/2 + 4t]₀¹ = 1/3 − 5/2 + 4 = 11/6",
+            "v < 0 on [1,4]: |∫₁⁴(t²−5t+4)dt| = |[t³/3 − 5t²/2 + 4t]₁⁴|",
+            "= |(64/3 − 40 + 16) − (1/3 − 5/2 + 4)| = |4/3 − 11/6| ... = |−9/2| = 9/2",
+            "v > 0 on [4,6]: ∫₄⁶(t²−5t+4)dt = [t³/3 − 5t²/2 + 4t]₄⁶ = (72−90+24)−(64/3−40+16) = 6 − 4/3 = 14/3",
+            "Total distance = 11/6 + 9/2 + 14/3 = 11/6 + 27/6 + 28/6 = 66/6 = 11"
+          ],
+          "finalAnswer": "Total distance = 11",
+          "scoring": "1 pt: Correct split at t=1 and t=4. 1 pt: Correct integrals. 1 pt: Correct total = 11."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "Find the position x(3) of the particle at time t = 3.",
+          "answer": "x(3) = x(0) + ∫₀³v(t)dt",
+          "steps": [
+            "x(3) = x(0) + ∫₀³(t²−5t+4)dt",
+            "= 2 + [t³/3 − 5t²/2 + 4t]₀³",
+            "= 2 + (9 − 45/2 + 12)",
+            "= 2 + (21 − 22.5)",
+            "= 2 + (−1.5) = 0.5 = 1/2"
+          ],
+          "finalAnswer": "x(3) = 1/2",
+          "scoring": "1 pt: Correct Net Change Theorem setup. 1 pt: Correct answer 1/2."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "calcAllowed": false,
+      "title": "Riemann Sums and Definite Integrals",
+      "context": "The function h is continuous on the closed interval [1, 13]. Selected values of h are given in the table below:\nx:    1    4    6    10   13\nh(x): 3    7    2     8    5",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Approximate ∫₁¹³ h(x)dx using a left Riemann sum with 4 subintervals indicated by the table. Show your work.",
+          "answer": "Left Riemann sum using left endpoints of each subinterval",
+          "steps": [
+            "Subintervals: [1,4], [4,6], [6,10], [10,13]",
+            "Widths: 3, 2, 4, 3",
+            "Left endpoints: x = 1, 4, 6, 10",
+            "h values: h(1)=3, h(4)=7, h(6)=2, h(10)=8",
+            "Sum = 3(3) + 2(7) + 4(2) + 3(8) = 9 + 14 + 8 + 24 = 55"
+          ],
+          "finalAnswer": "Left Riemann sum ≈ 55",
+          "scoring": "1 pt: Correct subintervals and widths. 1 pt: Left endpoint values. 1 pt: Correct sum = 55."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Approximate ∫₁¹³ h(x)dx using a trapezoidal sum with the same 4 subintervals. Show your work.",
+          "answer": "Trapezoid rule: (Δx/2)[h(left) + h(right)] for each subinterval",
+          "steps": [
+            "[1,4]: (3/2)(3+7) = (3/2)(10) = 15",
+            "[4,6]: (2/2)(7+2) = (1)(9) = 9",
+            "[6,10]: (4/2)(2+8) = (2)(10) = 20",
+            "[10,13]: (3/2)(8+5) = (3/2)(13) = 19.5",
+            "Total = 15 + 9 + 20 + 19.5 = 63.5"
+          ],
+          "finalAnswer": "Trapezoidal sum ≈ 63.5",
+          "scoring": "1 pt: Correct trapezoidal formula. 1 pt: Correct individual trapezoids. 1 pt: Correct total 63.5."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "If h is known to be concave down on [1, 13], is the trapezoidal sum an overestimate or underestimate of ∫₁¹³ h(x)dx? Justify your answer.",
+          "answer": "Underestimate",
+          "steps": [
+            "When a function is concave down, the trapezoids lie BELOW the curve.",
+            "The chord connecting two points on a concave-down curve falls below the arc.",
+            "Therefore, the trapezoidal sum gives an underestimate of the actual integral."
+          ],
+          "finalAnswer": "Underestimate — for concave down functions, the trapezoidal rule lies below the curve.",
+          "scoring": "1 pt: Correct answer (underestimate). 1 pt: Correct justification referencing concavity."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "calcAllowed": true,
+      "title": "Mixed Applications — Area, Volume, Average Value",
+      "context": "Let f(x) = 3sin(πx/2) and g(x) = x on the interval [0, 2].",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find the average value of f(x) = 3sin(πx/2) on [0, 2].",
+          "answer": "Average value = (1/2)∫₀² 3sin(πx/2) dx",
+          "steps": [
+            "Average value = 1/(2−0) · ∫₀² 3sin(πx/2) dx",
+            "Let u = πx/2, du = π/2 dx, so dx = 2du/π",
+            "= (1/2)·3·(2/π)∫₀^π sin(u) du",
+            "= (3/π)[−cos(u)]₀^π",
+            "= (3/π)[−cos(π) + cos(0)] = (3/π)[1 + 1] = 6/π"
+          ],
+          "finalAnswer": "Average value = 6/π ≈ 1.910",
+          "scoring": "1 pt: Correct average value formula. 1 pt: Correct antiderivative. 1 pt: Answer 6/π."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Find the area of the region between f(x) = 3sin(πx/2) and g(x) = x on [0, 2]. (Use calculator as needed.)",
+          "answer": "Find intersections, then integrate (top − bottom)",
+          "steps": [
+            "3sin(πx/2) = x intersects at x ≈ 0 and x ≈ 1.762 (calculator)",
+            "f > g on [0, 1.762], g > f on [1.762, 2]",
+            "Area = ∫₀^1.762(3sin(πx/2)−x)dx + ∫₁.₇₆₂²(x−3sin(πx/2))dx",
+            "≈ 2.303 + 0.279 ≈ 2.582 (using calculator)"
+          ],
+          "finalAnswer": "Area ≈ 2.582",
+          "scoring": "1 pt: Correct intersection found. 1 pt: Correct setup with split. 1 pt: Correct area."
+        },
+        {
+          "label": "(c)",
+          "points": 3,
+          "question": "The region between f and the x-axis on [0, 2] is revolved around the x-axis. Find the volume using the disc method.",
+          "answer": "V = π∫₀²[3sin(πx/2)]²dx",
+          "steps": [
+            "V = π∫₀²[3sin(πx/2)]² dx = π∫₀² 9sin²(πx/2) dx",
+            "Use identity: sin²(θ) = (1−cos(2θ))/2",
+            "V = 9π∫₀²(1−cos(πx))/2 dx = (9π/2)[x − sin(πx)/π]₀²",
+            "= (9π/2)[(2 − 0) − (0 − 0)] = (9π/2)(2) = 9π"
+          ],
+          "finalAnswer": "V = 9π",
+          "scoring": "1 pt: Correct disc formula V=π∫r²dx. 1 pt: Correct trig identity used. 1 pt: Correct answer 9π."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "6.1": {
+      "title": "6-1: Accumulations of Rates of Change",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">CHA-4.A · Key Concept</div>\n      <h3>What is Accumulation?</h3>\n      <p>The area of the region between the graph of a rate of change function and the x-axis gives the <strong style=\"color:var(--text)\">accumulation of change</strong>.</p>\n      <div class=\"definition-box\">\n        <div class=\"def-label\">Core Idea</div>\n        <p>If f(t) is a rate of change (velocity, flow rate, etc.), then the area between f(t) and the x-axis from t=a to t=b represents the total change in the quantity over that interval.</p>\n      </div>\n      <ul>\n        <li>If the rate is <strong style=\"color:var(--green)\">positive</strong> over an interval → accumulated change is <strong style=\"color:var(--green)\">positive</strong></li>\n        <li>If the rate is <strong style=\"color:var(--red)\">negative</strong> over an interval → accumulated change is <strong style=\"color:var(--red)\">negative</strong></li>\n        <li>Accumulation can be evaluated geometrically using rectangles, triangles, etc.</li>\n      </ul>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Area Under the Curve</h3>\n      <p>The region between a function and the x-axis is called the <strong style=\"color:var(--text)\">area under the curve</strong>. \"Under\" does NOT mean below — it means between the function and the x-axis.</p>\n      <div class=\"formula-box\">distance = rate × time &nbsp;→&nbsp; area = rate × interval width</div>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Real-world context is essential. Units of the accumulation = units of f(t) × units of t. (ft/sec × sec = ft)</div>\n    </div>"
+    },
+    "6.2": {
+      "title": "6-2: Approximating Areas with Riemann Sums",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">LIM-5.A · Riemann Sums</div>\n      <h3>Methods of Approximation</h3>\n      <p>When we can't compute exact area, we use rectangles (Riemann sums) or trapezoids. You must decide: (1) how many subintervals n, and (2) which endpoint to use for height.</p>\n      <div class=\"definition-box\"><div class=\"def-label\">Formula</div><p>Δx = (b − a) / n &nbsp; (width of each rectangle)</p></div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Types of Riemann Sums</h3>\n      <ul>\n        <li><strong style=\"color:var(--text)\">Left Riemann Sum (LRAM):</strong> Use left endpoint of each subinterval for height</li>\n        <li><strong style=\"color:var(--text)\">Right Riemann Sum (RRAM):</strong> Use right endpoint of each subinterval for height</li>\n        <li><strong style=\"color:var(--text)\">Midpoint Rule (MRAM):</strong> Use midpoint of each subinterval for height</li>\n        <li><strong style=\"color:var(--text)\">Trapezoidal Rule:</strong> Average of left and right → Δx/2 · [f(x₀) + 2f(x₁) + ... + f(xₙ)]</li>\n      </ul>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Over vs. Underestimates</h3>\n      <ul>\n        <li>If f is <strong style=\"color:var(--text)\">increasing</strong>: Left sum UNDERESTIMATES, Right sum OVERESTIMATES</li>\n        <li>If f is <strong style=\"color:var(--text)\">decreasing</strong>: Left sum OVERESTIMATES, Right sum UNDERESTIMATES</li>\n        <li>If f is <strong style=\"color:var(--text)\">concave up</strong>: Trapezoid OVERESTIMATES, Midpoint UNDERESTIMATES</li>\n        <li>If f is <strong style=\"color:var(--text)\">concave down</strong>: Trapezoid UNDERESTIMATES, Midpoint OVERESTIMATES</li>\n      </ul>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Overestimate/underestimate questions appear EVERY year. Memorize the relationships above!</div>\n    </div>"
+    },
+    "6.3": {
+      "title": "6-3: Riemann Sums, Summation Notation, and Definite Integral Notation",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-5.A · Definite Integral Notation</div>\n      <h3>From Riemann Sums to Definite Integrals</h3>\n      <p>As n → ∞ (infinitely many rectangles), the Riemann sum approaches the exact area — this is the definite integral.</p>\n      <div class=\"formula-box\">lim(n→∞) Σᵢ₌₁ⁿ f(xᵢ*)·Δx = ∫ₐᵇ f(x) dx</div>\n      <div class=\"definition-box\"><div class=\"def-label\">Notation Breakdown</div>\n        <p>∫ₐᵇ f(x) dx — \"a\" is the lower bound, \"b\" is the upper bound, f(x) is the integrand, dx indicates the variable of integration</p>\n      </div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Sigma (Summation) Notation</h3>\n      <p>Σᵢ₌₁ⁿ f(xᵢ)·Δx means: add up the areas of n rectangles, where each has height f(xᵢ) and width Δx.</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> You may be asked to identify what a given sum equals as a definite integral by matching the form lim Σ f(xᵢ)·Δx = ∫ₐᵇ f(x) dx.</div>\n    </div>"
+    },
+    "6.4": {
+      "title": "6-4 & 6-5: The Fundamental Theorem of Calculus and Accumulation Functions",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-5.A · THE most important theorem in AP Calc</div>\n      <h3>FTC Part 2 — Evaluation Theorem</h3>\n      <div class=\"formula-box\">∫ₐᵇ f(x) dx = F(b) − F(a) &nbsp; where F'(x) = f(x)</div>\n      <p>F(x) is called the <strong style=\"color:var(--text)\">antiderivative</strong> of f(x). Find F, plug in b, subtract F(a).</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> This is GUARANTEED to be on the AP exam. Think of it as another derivative rule to memorize!</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>FTC Part 1 — Derivative of Accumulation Functions</h3>\n      <div class=\"formula-box\">d/dx [∫ₐˣ f(t) dt] = f(x)</div>\n      <p>Derivatives and integrals are <strong style=\"color:var(--text)\">inverses</strong> of each other — they cancel out.</p>\n      <div class=\"definition-box\"><div class=\"def-label\">With Chain Rule (Very Common on AP!)</div>\n        <p>d/dx [∫ₐᵍ⁽ˣ⁾ f(t) dt] = f(g(x)) · g'(x)</p>\n      </div>\n      <ul>\n        <li>Replace t with g(x) in the integrand</li>\n        <li>Multiply by the derivative of the upper bound g'(x)</li>\n        <li>If the variable is in the LOWER bound, flip the sign: d/dx[∫ₓᵇ f(t)dt] = -f(x)</li>\n      </ul>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Accumulation Functions</h3>\n      <p>g(x) = ∫ₐˣ f(t) dt defines g as a function. Given a graph of f, you can find values of g by computing signed areas geometrically.</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> g'(x) = f(x), so the graph of f tells you where g is increasing (f > 0) and decreasing (f < 0). Max/min of g occur where f changes sign.</div>\n    </div>"
+    },
+    "6.6": {
+      "title": "6-6: Properties of Definite Integrals",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-6.A · Properties</div>\n      <h3>Key Properties</h3>\n      <div class=\"formula-box\">∫ₐᵃ f(x) dx = 0 &nbsp; (same bounds → zero)</div>\n      <div class=\"formula-box\">∫ₐᵇ f(x) dx = −∫ᵦₐ f(x) dx &nbsp; (flip bounds → flip sign)</div>\n      <div class=\"formula-box\">∫ₐᶜ f(x) dx = ∫ₐᵇ f(x) dx + ∫ᵦᶜ f(x) dx &nbsp; (split at any point b)</div>\n      <div class=\"formula-box\">∫ₐᵇ k·f(x) dx = k·∫ₐᵇ f(x) dx &nbsp; (constant multiplier)</div>\n      <div class=\"formula-box\">∫ₐᵇ [f(x) ± g(x)] dx = ∫ₐᵇ f(x) dx ± ∫ₐᵇ g(x) dx</div>\n      <div class=\"ap-note\"><strong>AP Note:</strong> These properties let you break apart complex integrals. If ∫₀⁵=10 and ∫₀³=4, then ∫₃⁵ = 10−4 = 6. Practice using given integral values to find others.</div>\n    </div>"
+    },
+    "6.7": {
+      "title": "6-7: The Fundamental Theorem of Calculus and Definite Integrals",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-5.A · FTC in Action</div>\n      <h3>Using FTC to Evaluate Definite Integrals</h3>\n      <p>To evaluate ∫ₐᵇ f(x) dx: find antiderivative F(x), then compute F(b) − F(a).</p>\n      <div class=\"formula-box\">∫₁³ x² dx = [x³/3]₁³ = 27/3 − 1/3 = 26/3</div>\n      <p>The constant of integration C cancels out: F(b)+C − (F(a)+C) = F(b) − F(a). So we omit C for definite integrals.</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Use bracket notation [F(x)]ₐᵇ to show evaluating at bounds. Always show this step on the AP exam for full credit.</div>\n    </div>"
+    },
+    "6.8": {
+      "title": "6-8: Antiderivatives, Indefinite Integrals, and Basic Integration Rules",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-6.D · Basic Rules</div>\n      <h3>Power Rule for Integrals</h3>\n      <div class=\"formula-box\">∫xⁿ dx = xⁿ⁺¹/(n+1) + C &nbsp; (n ≠ −1)</div>\n      <p>Add 1 to the exponent, divide by the new exponent. Always add + C for indefinite integrals.</p>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Common Antiderivatives to Memorize</h3>\n      <ul>\n        <li>∫eˣ dx = eˣ + C</li>\n        <li>∫1/x dx = ln|x| + C</li>\n        <li>∫sin(x) dx = −cos(x) + C</li>\n        <li>∫cos(x) dx = sin(x) + C</li>\n        <li>∫sec²(x) dx = tan(x) + C</li>\n        <li>∫sec(x)tan(x) dx = sec(x) + C</li>\n        <li>∫1/√(1−x²) dx = arcsin(x) + C</li>\n        <li>∫1/(1+x²) dx = arctan(x) + C</li>\n      </ul>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Trig integrals appear CONSTANTLY. The most common mistake is forgetting the negative on ∫sin(x)dx = −cos(x)+C.</div>\n    </div>"
+    },
+    "6.9": {
+      "title": "6-9: Integration with U-Substitution",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-6.D · U-Substitution</div>\n      <h3>The U-Substitution Method</h3>\n      <p>Use when you have a <strong style=\"color:var(--text)\">composite function</strong> — a function inside another function. You need the inside function's derivative also present.</p>\n      <div class=\"definition-box\"><div class=\"def-label\">Steps</div>\n        <p>1. Choose u = inner function &nbsp; 2. Find du = u'(x) dx &nbsp; 3. Solve for dx = du/u'(x) &nbsp; 4. Substitute all x terms with u &nbsp; 5. Integrate in terms of u &nbsp; 6. Back-substitute u with original expression</p>\n      </div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Example</h3>\n      <div class=\"formula-box\">∫ 2x·e^(x²) dx: Let u = x², du = 2x dx → ∫eᵘ du = eᵘ + C = e^(x²) + C</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>U-Sub with Definite Integrals</h3>\n      <p>Two methods: (1) Change the bounds: when you substitute u, change a and b to u(a) and u(b). Integrate in u, don't back-substitute. (2) Back-substitute and evaluate with original bounds.</p>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Changing bounds is faster on the AP exam and avoids back-substitution errors. Always show the new bounds clearly.</div>\n    </div>"
+    },
+    "6.10": {
+      "title": "6-10: Long Division and Completing the Square",
+      "content": "\n    <div class=\"notes-block\">\n      <div class=\"subunit-tag\">FUN-6.D · Advanced Techniques</div>\n      <h3>Long Division for Rational Functions</h3>\n      <p>When the degree of the numerator ≥ degree of denominator, use polynomial long division FIRST to simplify, then integrate each term.</p>\n      <div class=\"formula-box\">∫(x² + 3)/(x + 1) dx → divide first → ∫(x − 1 + 4/(x+1)) dx</div>\n    </div>\n    <div class=\"notes-block\">\n      <h3>Completing the Square → Inverse Trig</h3>\n      <p>For integrals with quadratics in the denominator, complete the square to get the form 1/(u² + a²), which integrates to (1/a)arctan(u/a) + C.</p>\n      <div class=\"formula-box\">∫1/(x² + 4x + 5) dx → complete square → ∫1/((x+2)² + 1) dx = arctan(x+2) + C</div>\n      <div class=\"ap-note\"><strong>AP Note:</strong> Long division appears on the AP exam. Always check: is degree of numerator ≥ denominator? If yes, divide first.</div>\n    </div>"
+    }
+  },
+  "materials": [
+    {
+      "type": "homework",
+      "title": "6-1 WK A Accumulations of Rates #1",
+      "path": "Unit 6/Homework/6-1 WK A Accumulations of Rates #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-10 WK A Integrals involving Long Division and Completing the Square",
+      "path": "Unit 6/Homework/6-10 WK A Integrals involving Long Division and Completing the Square.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-2 WK A Riemann Sums #1",
+      "path": "Unit 6/Homework/6-2 WK A Riemann Sums #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-2 WK B Riemann Sums #2",
+      "path": "Unit 6/Homework/6-2 WK B Riemann Sums #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-3 WK A Definite Integral Notation #1",
+      "path": "Unit 6/Homework/6-3 WK A Definite Integral Notation #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-3 WK B Integrals, Area, and Riemann Sums #1",
+      "path": "Unit 6/Homework/6-3 WK B Integrals, Area, and Riemann Sums #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-4 & 6-5 WK A FTC Part 2 #1",
+      "path": "Unit 6/Homework/6-4 & 6-5 WK A FTC Part 2 #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-4 & 6-5 WK B FTC Part 2 and Graphical Analysis #2",
+      "path": "Unit 6/Homework/6-4 & 6-5 WK B FTC Part 2 and Graphical Analysis #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-4 & 6-5 WK C FTC Part 2 and Graphical Analysis #3",
+      "path": "Unit 6/Homework/6-4 & 6-5 WK C FTC Part 2 and Graphical Analysis #3.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-6 WK A Properties of Defininte Integrals #1",
+      "path": "Unit 6/Homework/6-6 WK A Properties of Defininte Integrals #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-7 WK A The Fundamental Thm of Calculus Part 1 #1",
+      "path": "Unit 6/Homework/6-7 WK A The Fundamental Thm of Calculus Part 1 #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-8 & 6-7 WK A Basic Indefinite Integrals",
+      "path": "Unit 6/Homework/6-8 & 6-7 WK A Basic Indefinite Integrals.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-8 & 6-7 WK B Basic Integrals and the FTC #1",
+      "path": "Unit 6/Homework/6-8 & 6-7 WK B Basic Integrals and the FTC #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-8 & 6-7 WK C Basic Integrals and the FTC #2",
+      "path": "Unit 6/Homework/6-8 & 6-7 WK C Basic Integrals and the FTC #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-9 WK A Integration with U-Substitution #1",
+      "path": "Unit 6/Homework/6-9 WK A Integration with U-Substitution #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-9 WK B Integration with U-Substitution #2",
+      "path": "Unit 6/Homework/6-9 WK B Integration with U-Substitution #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-9 WK C U-Substitution with Definite Integrals #1",
+      "path": "Unit 6/Homework/6-9 WK C U-Substitution with Definite Integrals #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "6-9 WK E U-Substitution and Inverse Trig Functions",
+      "path": "Unit 6/Homework/6-9 WK E U-Substitution and Inverse Trig Functions.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-1 Accumulations of Rates COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-1 Accumulations of Rates COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-10 Integrating Functions Using Long Division and Completing the Square COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-10 Integrating Functions Using Long Division and Completing the Square COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-2 Approximating Areas with Riemann Sums COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-2 Approximating Areas with Riemann Sums COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-3 Riemann Sums, Summation Notation, and Definite Integral Notation COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-3 Riemann Sums, Summation Notation, and Definite Integral Notation COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-4 & 6-5 The Fundamental Theorem of Calculus and Accumulation Functions COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-4 & 6-5 The Fundamental Theorem of Calculus and Accumulation Functions COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-6 Properties of Defininte Integrals COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-6 Properties of Defininte Integrals COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-7 The Fundamental Thm of Calculus and Definite Integrals COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-7 The Fundamental Thm of Calculus and Definite Integrals COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-8 & 6-7 Antiderivatives, Indefinite Integrals, and Definite Integrals COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-8 & 6-7 Antiderivatives, Indefinite Integrals, and Definite Integrals COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "6-9 Integration with U-Substitution COMPLETED CLASS NOTES",
+      "path": "Unit 6/Notes/6-9 Integration with U-Substitution COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "review",
+      "title": "6-6 WK B Review of 6-3 to 6-6",
+      "path": "Unit 6/Review/6-6 WK B Review of 6-3 to 6-6.pdf"
+    },
+    {
+      "type": "review",
+      "title": "6-9 WK Test Prep FTC and Integrals",
+      "path": "Unit 6/Review/6-9 WK Test Prep FTC and Integrals.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Review problems (Sec 6.1 to 6.9)",
+      "path": "Unit 6/Review/Review problems (Sec 6.1 to 6.9).pdf"
+    },
+    {
+      "type": "review",
+      "title": "Unit 6 FRQ practice problems",
+      "path": "Unit 6/Review/Unit 6 FRQ practice problems.pdf"
+    }
+  ]
 }

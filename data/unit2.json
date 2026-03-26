@@ -3,5 +3,107 @@
   "sections": [],
   "questionBank": [],
   "frqBank": [],
-  "notesData": {}
+  "notesData": {},
+  "materials": [
+    {
+      "type": "homework",
+      "title": "2-1 WK A Ave and Instantaneous Rates of Change #1",
+      "path": "Unit 2/Homework/2-1 WK A Ave and Instantaneous Rates of Change #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-10 WK A Derivatives of Other Trig Functions #1",
+      "path": "Unit 2/Homework/2-10 WK A Derivatives of Other Trig Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-2 WK A Definition of the Derivative and Derivative Notation #1",
+      "path": "Unit 2/Homework/2-2 WK A Definition of the Derivative and Derivative Notation #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-3 WK A Estimating Derivatives of a Function at a Point #1",
+      "path": "Unit 2/Homework/2-3 WK A Estimating Derivatives of a Function at a Point #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-3 WK B Tangent Lines #1",
+      "path": "Unit 2/Homework/2-3 WK B Tangent Lines #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-4 WK A Differentiability and Continuity #1",
+      "path": "Unit 2/Homework/2-4 WK A Differentiability and Continuity #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-5 & 2-6 WK A Power Rule and Basic Derivative Rules #1",
+      "path": "Unit 2/Homework/2-5 & 2-6 WK A Power Rule and Basic Derivative Rules #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1",
+      "path": "Unit 2/Homework/2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-7 WK A Derivatives of Important Functions #1",
+      "path": "Unit 2/Homework/2-7 WK A Derivatives of Important Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-8 & 2-9 WK A Product and Quotient Rules #1",
+      "path": "Unit 2/Homework/2-8 & 2-9 WK A Product and Quotient Rules #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "2-8 & 2-9 WK B Product and Quotient Rules #2",
+      "path": "Unit 2/Homework/2-8 & 2-9 WK B Product and Quotient Rules #2.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-1 Average and Instantaneous Rates of Change STU NOTES",
+      "path": "Unit 2/Notes/2-1 Average and Instantaneous Rates of Change STU NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-10 Derivatives of Other Trig Functions COMPLETED CLASS NOTES",
+      "path": "Unit 2/Notes/2-10 Derivatives of Other Trig Functions COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-2 Definition of the Derivative and Derivative Notation COMPLETED CLASS NOTES",
+      "path": "Unit 2/Notes/2-2 Definition of the Derivative and Derivative Notation COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-3 Estimating Derivatives of a Function at a Point COMPLETED CLASS NOTES",
+      "path": "Unit 2/Notes/2-3 Estimating Derivatives of a Function at a Point COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-4 Differentiability and Continuity STU NOTES",
+      "path": "Unit 2/Notes/2-4 Differentiability and Continuity STU NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-5 & 2-6 Power Rule and Basic Derivative Rules COMPLETED CLASS NOTES",
+      "path": "Unit 2/Notes/2-5 & 2-6 Power Rule and Basic Derivative Rules COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-7 Derivatives of Important Functions COMPLETED CLASS NOTES",
+      "path": "Unit 2/Notes/2-7 Derivatives of Important Functions COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "notes",
+      "title": "2-8 & 2-9 Product and Quotient Rules COMPLETED CLASS NOTES",
+      "path": "Unit 2/Notes/2-8 & 2-9 Product and Quotient Rules COMPLETED CLASS NOTES.pdf"
+    },
+    {
+      "type": "review",
+      "title": "2-5 to 2-7 WK Test Prep Review",
+      "path": "Unit 2/Review/2-5 to 2-7 WK Test Prep Review.pdf"
+    }
+  ]
 }

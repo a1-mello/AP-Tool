@@ -1,9 +1,135 @@
 {
   "unit": "Unit 3",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {},
+  "sections": [
+    "3.1",
+    "3.2",
+    "3.3",
+    "3.4",
+    "3.5"
+  ],
+  "questionBank": [
+    {
+      "section": "3.1",
+      "topic": "Chain Rule",
+      "calcType": "No Calculator",
+      "question": "If y=(3x^2+1)^5, then y'=",
+      "choices": {
+        "A": "5(3x^2+1)^4",
+        "B": "30x(3x^2+1)^4",
+        "C": "6x(3x^2+1)^5",
+        "D": "15x(3x^2+1)^5"
+      },
+      "correct": "B",
+      "explanation": "Chain rule: outer derivative times inner derivative 6x.",
+      "notesSection": "3.1 - Chain Rule",
+      "notesSnippet": "Differentiate outside, keep inside, multiply by inside derivative.",
+      "timeTip": "Outer-then-inner method prevents mistakes."
+    },
+    {
+      "section": "3.2",
+      "topic": "Implicit Differentiation",
+      "calcType": "No Calculator",
+      "question": "If x^2+y^2=25, then dy/dx=",
+      "choices": {
+        "A": "-x/y",
+        "B": "x/y",
+        "C": "-y/x",
+        "D": "2x+2y"
+      },
+      "correct": "A",
+      "explanation": "Differentiate: 2x+2y y' =0, so y'=-x/y.",
+      "notesSection": "3.2 - Implicit Differentiation",
+      "notesSnippet": "Treat y as y(x), so derivative of y^2 is 2y y'.",
+      "timeTip": "Never forget y' factor."
+    },
+    {
+      "section": "3.3",
+      "topic": "Inverse Functions",
+      "calcType": "No Calculator",
+      "question": "If f and f^{-1} are inverses and f(2)=5, f'(2)=4, then (f^{-1})'(5)=",
+      "choices": {
+        "A": "4",
+        "B": "1/4",
+        "C": "1/5",
+        "D": "5/4"
+      },
+      "correct": "B",
+      "explanation": "Derivative of inverse: (f^{-1})'(b)=1/f'(a) where f(a)=b.",
+      "notesSection": "3.3 - Inverse Function Derivatives",
+      "notesSnippet": "Swap input/output point, then reciprocal slope.",
+      "timeTip": "Match the point carefully before reciprocal."
+    },
+    {
+      "section": "3.4",
+      "topic": "Inverse Trig",
+      "calcType": "No Calculator",
+      "question": "d/dx[arctan x] =",
+      "choices": {
+        "A": "1/(1-x^2)",
+        "B": "1/(1+x^2)",
+        "C": "sec^2 x",
+        "D": "-1/sqrt(1-x^2)"
+      },
+      "correct": "B",
+      "explanation": "Standard derivative formula for arctan x.",
+      "notesSection": "3.4 - Inverse Trig",
+      "notesSnippet": "Memorize inverse trig derivative formulas.",
+      "timeTip": "This is a common AP quick point."
+    },
+    {
+      "section": "3.5",
+      "topic": "Higher Derivatives",
+      "calcType": "No Calculator",
+      "question": "If f(x)=x^3, then f''(x)=",
+      "choices": {
+        "A": "3x^2",
+        "B": "6x",
+        "C": "3x",
+        "D": "6"
+      },
+      "correct": "B",
+      "explanation": "First derivative 3x^2, second derivative 6x.",
+      "notesSection": "3.5 - Higher Order Derivatives",
+      "notesSnippet": "Second derivative is derivative of first derivative.",
+      "timeTip": "Differentiate step-by-step."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "Unit 3 FRQ - Chain and Implicit",
+      "context": "Let y satisfy x^2y + y^3 = 10.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 4,
+          "question": "Find dy/dx in terms of x and y.",
+          "finalAnswer": "dy/dx = -2xy/(x^2+3y^2)",
+          "steps": [
+            "Differentiate both sides: 2xy + x^2y' + 3y^2y' = 0.",
+            "Group y' terms: (x^2+3y^2)y' = -2xy.",
+            "Solve for y'."
+          ],
+          "scoring": "1 pt implicit setup, 1 pt combine, 1 pt isolate, 1 pt final."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "3.1": {
+      "title": "3-1 Chain Rule",
+      "content": "<div class='notes-block'><h3>Chain Rule</h3><div class='formula-box'>(f(g(x)))' = f'(g(x))g'(x)</div></div>"
+    },
+    "3.2": {
+      "title": "3-2 Implicit Differentiation",
+      "content": "<div class='notes-block'><h3>Implicit</h3><p>Differentiate both sides and include y' whenever you differentiate y-terms.</p></div>"
+    },
+    "3.3": {
+      "title": "3-3 to 3-5 Inverse + Higher Derivatives",
+      "content": "<div class='notes-block'><h3>Inverse slope rule</h3><p>(f^{-1})'(b)=1/f'(a), where f(a)=b.</p></div>"
+    }
+  },
   "materials": [
     {
       "type": "notes",

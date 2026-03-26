@@ -1,9 +1,146 @@
 {
   "unit": "Unit 10",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {},
+  "sections": [
+    "10.1",
+    "10.2",
+    "10.3",
+    "10.4",
+    "10.5"
+  ],
+  "questionBank": [
+    {
+      "section": "10.1",
+      "topic": "Series Basics",
+      "calcType": "No Calculator",
+      "question": "The nth partial sum of sum a_n is:",
+      "choices": {
+        "A": "S_n = a_n",
+        "B": "S_n = a_1+...+a_n",
+        "C": "S_n = a_n-a_{n-1}",
+        "D": "S_n = int a_n"
+      },
+      "correct": "B",
+      "explanation": "By definition, partial sum adds first n terms.",
+      "notesSection": "10.1 - Sequences and Series",
+      "notesSnippet": "Partial sums determine convergence behavior.",
+      "timeTip": "Write first few terms to avoid confusion."
+    },
+    {
+      "section": "10.2",
+      "topic": "Geometric Series",
+      "calcType": "No Calculator",
+      "question": "sum_{n=0}^infinity (1/3)^n converges to:",
+      "choices": {
+        "A": "1/2",
+        "B": "3/2",
+        "C": "1",
+        "D": "Diverges"
+      },
+      "correct": "B",
+      "explanation": "Infinite geometric sum is 1/(1-r)=1/(1-1/3)=3/2.",
+      "notesSection": "10.2 - Geometric Series",
+      "notesSnippet": "Use |r|<1 and a/(1-r).",
+      "timeTip": "Identify a and r carefully."
+    },
+    {
+      "section": "10.3",
+      "topic": "p-Series",
+      "calcType": "No Calculator",
+      "question": "sum 1/n^p converges when:",
+      "choices": {
+        "A": "p<=1",
+        "B": "p>1",
+        "C": "p=1 only",
+        "D": "always"
+      },
+      "correct": "B",
+      "explanation": "p-series converges iff p>1.",
+      "notesSection": "10.3 - p-Series",
+      "notesSnippet": "This is a must-memorize test.",
+      "timeTip": "Compare quickly to p=1 benchmark."
+    },
+    {
+      "section": "10.4",
+      "topic": "Alternating Series",
+      "calcType": "No Calculator",
+      "question": "Alternating series test requires:",
+      "choices": {
+        "A": "terms increase",
+        "B": "terms decrease to 0 in magnitude",
+        "C": "all terms positive",
+        "D": "ratio less than 1 always"
+      },
+      "correct": "B",
+      "explanation": "Need decreasing positive b_n and lim b_n=0.",
+      "notesSection": "10.4 - Alternating Series Test",
+      "notesSnippet": "Check monotonic decrease and limit zero.",
+      "timeTip": "Separate sign pattern from magnitude."
+    },
+    {
+      "section": "10.5",
+      "topic": "Ratio Test",
+      "calcType": "No Calculator",
+      "question": "If lim |a_{n+1}/a_n| = L < 1, then series:",
+      "choices": {
+        "A": "diverges",
+        "B": "converges absolutely",
+        "C": "conditionally converges",
+        "D": "inconclusive"
+      },
+      "correct": "B",
+      "explanation": "Ratio test with L<1 gives absolute convergence.",
+      "notesSection": "10.5 - Ratio Test",
+      "notesSnippet": "Use ratio on factorial/exponential patterns.",
+      "timeTip": "Interpret L in three cases: <1, >1, =1."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "Unit 10 FRQ - Series Tests",
+      "context": "Consider sum_{n=1}^infinity ((-1)^{n+1})/n^2.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Determine whether the series converges absolutely, conditionally, or diverges.",
+          "finalAnswer": "Converges absolutely",
+          "steps": [
+            "Check absolute series sum 1/n^2.",
+            "p-series with p=2 converges.",
+            "Therefore original alternating series converges absolutely."
+          ],
+          "scoring": "1 pt absolute series setup, 1 pt test, 1 pt classification."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "Is the alternating series error after n terms at most the first omitted term?",
+          "finalAnswer": "Yes, when terms decrease to 0 in magnitude.",
+          "steps": [
+            "Alternating series error bound applies to decreasing b_n -> 0.",
+            "Then |R_n| <= b_{n+1}."
+          ],
+          "scoring": "1 pt condition, 1 pt bound statement."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "10.1": {
+      "title": "10.1 Sequences and Partial Sums",
+      "content": "<div class='notes-block'><h3>Sequence vs series</h3><p>A sequence is list of terms. A series is sum of terms.</p></div>"
+    },
+    "10.2": {
+      "title": "10.2 Geometric and p-Series",
+      "content": "<div class='notes-block'><h3>Fast tests</h3><p>Geometric needs |r|<1. p-series converges iff p>1.</p></div>"
+    },
+    "10.3": {
+      "title": "10.3-10.5 Alternating + Ratio",
+      "content": "<div class='notes-block'><h3>Common AP convergence tests</h3><p>Alternating test, ratio test, and absolute vs conditional convergence.</p></div>"
+    }
+  },
   "materials": [
     {
       "type": "homework",

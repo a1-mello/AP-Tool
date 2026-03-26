@@ -1,9 +1,146 @@
 {
   "unit": "Unit 9",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {},
+  "sections": [
+    "9.1",
+    "9.2",
+    "9.3",
+    "9.4"
+  ],
+  "questionBank": [
+    {
+      "section": "9.1",
+      "topic": "Parametric Derivatives",
+      "calcType": "No Calculator",
+      "question": "If x=t^2 and y=t^3, then dy/dx=",
+      "choices": {
+        "A": "3t^2",
+        "B": "2t",
+        "C": "(dy/dt)/(dx/dt)=3t/2",
+        "D": "t/2"
+      },
+      "correct": "C",
+      "explanation": "dy/dx = (3t^2)/(2t)=3t/2 for t!=0.",
+      "notesSection": "9.1 - Parametric Equations",
+      "notesSnippet": "For parametric curves, divide derivatives with respect to t.",
+      "timeTip": "Compute dx/dt and dy/dt separately."
+    },
+    {
+      "section": "9.2",
+      "topic": "Second Derivative Parametric",
+      "calcType": "No Calculator",
+      "question": "For parametric x(t),y(t), d^2y/dx^2 equals:",
+      "choices": {
+        "A": "d/dt(dy/dx)",
+        "B": "(d/dt(dy/dx))/(dx/dt)",
+        "C": "(dy/dt)/(d^2x/dt^2)",
+        "D": "d^2y/dt^2"
+      },
+      "correct": "B",
+      "explanation": "Second derivative in parametric form divides by dx/dt again.",
+      "notesSection": "9.2 - Parametric Concavity",
+      "notesSnippet": "Apply chain rule with respect to x via t.",
+      "timeTip": "Write formula before plugging numbers."
+    },
+    {
+      "section": "9.3",
+      "topic": "Polar Area",
+      "calcType": "No Calculator",
+      "question": "Area enclosed by r=f(theta) from a to b is:",
+      "choices": {
+        "A": "int_a^b r dtheta",
+        "B": "(1/2)int_a^b r^2 dtheta",
+        "C": "pi r^2",
+        "D": "int_a^b r^2 dr"
+      },
+      "correct": "B",
+      "explanation": "Polar area formula is one-half integral of r^2.",
+      "notesSection": "9.3 - Polar Area",
+      "notesSnippet": "Use theta bounds and square r.",
+      "timeTip": "Do not forget the 1/2."
+    },
+    {
+      "section": "9.4",
+      "topic": "Polar Slope",
+      "calcType": "No Calculator",
+      "question": "If x=r cos theta and y=r sin theta, then dy/dx=",
+      "choices": {
+        "A": "(dy/dtheta)/(dx/dtheta)",
+        "B": "dy/dr",
+        "C": "dx/dy",
+        "D": "tan(theta)"
+      },
+      "correct": "A",
+      "explanation": "Differentiate x and y with respect to theta then divide.",
+      "notesSection": "9.4 - Polar Derivatives",
+      "notesSnippet": "Polar slope parallels parametric slope idea.",
+      "timeTip": "Treat theta as parameter."
+    },
+    {
+      "section": "9.3",
+      "topic": "Polar Area Quick",
+      "calcType": "No Calculator",
+      "question": "If r=2 on 0<=theta<=pi, area is:",
+      "choices": {
+        "A": "2pi",
+        "B": "pi",
+        "C": "4pi",
+        "D": "8pi"
+      },
+      "correct": "A",
+      "explanation": "A=(1/2)int_0^pi 4 dtheta=(1/2)(4pi)=2pi.",
+      "notesSection": "9.3 - Polar Area",
+      "notesSnippet": "Constant radius still uses polar area formula.",
+      "timeTip": "Integrate over theta interval."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": true,
+      "title": "Unit 9 FRQ - Parametric and Polar",
+      "context": "A curve is given parametrically by x=t^2+1, y=t^3-3t.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find dy/dx at t=2.",
+          "finalAnswer": "9/4",
+          "steps": [
+            "dx/dt=2t, dy/dt=3t^2-3.",
+            "At t=2: dx/dt=4, dy/dt=9.",
+            "dy/dx=9/4."
+          ],
+          "scoring": "1 pt derivatives, 1 pt substitution, 1 pt ratio."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Find equation of tangent line at t=2.",
+          "finalAnswer": "y-2=(9/4)(x-5)",
+          "steps": [
+            "Point at t=2: x=5, y=2.",
+            "Slope from part (a) is 9/4.",
+            "Use point-slope form."
+          ],
+          "scoring": "1 pt point, 1 pt slope, 1 pt equation."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "9.1": {
+      "title": "9.1 Parametric Basics",
+      "content": "<div class='notes-block'><h3>Core formulas</h3><p>dy/dx=(dy/dt)/(dx/dt), and tangent lines use parametric point + slope.</p></div>"
+    },
+    "9.2": {
+      "title": "9.2 Higher Parametric Derivatives",
+      "content": "<div class='notes-block'><h3>Second derivative</h3><div class='formula-box'>d^2y/dx^2 = (d/dt(dy/dx)) / (dx/dt)</div></div>"
+    },
+    "9.3": {
+      "title": "9.3-9.4 Polar Area and Slope",
+      "content": "<div class='notes-block'><h3>Polar AP formulas</h3><p>Area = 1/2 int r^2 dtheta, slope uses x(theta), y(theta) derivatives.</p></div>"
+    }
+  },
   "materials": [
     {
       "type": "homework",

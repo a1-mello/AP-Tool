@@ -1,9 +1,146 @@
 {
   "unit": "Unit 1",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {},
+  "sections": [
+    "1.1",
+    "1.2",
+    "1.3",
+    "1.4",
+    "1.5"
+  ],
+  "questionBank": [
+    {
+      "section": "1.1",
+      "topic": "Graphical Limits",
+      "calcType": "No Calculator",
+      "question": "If f(x) approaches 4 as x approaches 2 from both sides, what is lim_{x->2} f(x)?",
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "Does not exist",
+        "D": "Infinity"
+      },
+      "correct": "B",
+      "explanation": "When both one-sided limits are 4, the two-sided limit is 4.",
+      "notesSection": "1.1 - Graphical Limits",
+      "notesSnippet": "A two-sided limit exists when left and right limits match.",
+      "timeTip": "Check left and right behavior first."
+    },
+    {
+      "section": "1.2",
+      "topic": "Limit Notation",
+      "calcType": "No Calculator",
+      "question": "If lim_{x->3} (2x+5) is evaluated by direct substitution, the value is:",
+      "choices": {
+        "A": "6",
+        "B": "10",
+        "C": "11",
+        "D": "Cannot be found"
+      },
+      "correct": "C",
+      "explanation": "2(3)+5 = 11.",
+      "notesSection": "1.2 - Algebraic Limits",
+      "notesSnippet": "Direct substitution works for polynomials and continuous expressions.",
+      "timeTip": "Substitute directly unless indeterminate."
+    },
+    {
+      "section": "1.3",
+      "topic": "Limits from Tables",
+      "calcType": "No Calculator",
+      "question": "A table shows f(x) values near x=1 approaching 7 from both sides. Best conclusion?",
+      "choices": {
+        "A": "f(1)=7 always",
+        "B": "lim_{x->1}f(x)=7",
+        "C": "No limit exists",
+        "D": "f is linear"
+      },
+      "correct": "B",
+      "explanation": "A two-sided approach to 7 supports lim_{x->1} f(x)=7.",
+      "notesSection": "1.3 - Numerical Limits",
+      "notesSnippet": "Tables estimate limits using nearby values, not necessarily f(1).",
+      "timeTip": "Limit value and function value can differ."
+    },
+    {
+      "section": "1.4",
+      "topic": "Continuity",
+      "calcType": "No Calculator",
+      "question": "Which condition is required for f to be continuous at x=a?",
+      "choices": {
+        "A": "f'(a) exists",
+        "B": "lim_{x->a}f(x)=f(a)",
+        "C": "f''(a)=0",
+        "D": "f(a)=0"
+      },
+      "correct": "B",
+      "explanation": "Continuity at a means the limit exists and equals the function value.",
+      "notesSection": "1.4 - Continuity",
+      "notesSnippet": "Definition: f is continuous at a if lim f(x)=f(a).",
+      "timeTip": "Memorize the exact continuity definition."
+    },
+    {
+      "section": "1.5",
+      "topic": "Infinite Limits",
+      "calcType": "No Calculator",
+      "question": "If lim_{x->2^-} f(x)=+infinity and lim_{x->2^+} f(x)=+infinity, then x=2 is:",
+      "choices": {
+        "A": "Horizontal asymptote",
+        "B": "Inflection point",
+        "C": "Vertical asymptote",
+        "D": "Endpoint"
+      },
+      "correct": "C",
+      "explanation": "Both sides blowing up at x=2 indicates a vertical asymptote x=2.",
+      "notesSection": "1.5 - Asymptotes",
+      "notesSnippet": "Infinite behavior at finite x indicates vertical asymptotes.",
+      "timeTip": "Use asymptote language precisely."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "Unit 1 FRQ - Limits and Continuity",
+      "context": "A function g is defined by g(x)=(x^2-4)/(x-2) for x!=2 and g(2)=k.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find lim_{x->2} g(x).",
+          "finalAnswer": "4",
+          "steps": [
+            "Factor x^2-4=(x-2)(x+2).",
+            "For x!=2, g(x)=x+2.",
+            "lim_{x->2} g(x)=4."
+          ],
+          "scoring": "1 pt factor, 1 pt simplification, 1 pt limit."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "Find k so g is continuous at x=2.",
+          "finalAnswer": "k=4",
+          "steps": [
+            "Continuity requires g(2)=lim_{x->2}g(x).",
+            "Set k=4."
+          ],
+          "scoring": "1 pt continuity condition, 1 pt value."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "1.1": {
+      "title": "1-1 to 1-4: Limits from Graphs and Tables",
+      "content": "<div class='notes-block'><h3>Core idea</h3><p>A limit is the value f(x) approaches as x approaches a number. Check left and right behavior.</p><div class='formula-box'>lim_{x->a} f(x) exists only if left limit = right limit.</div></div>"
+    },
+    "1.2": {
+      "title": "1-5 to 1-7: Algebraic Limit Tools",
+      "content": "<div class='notes-block'><h3>Algebra first</h3><p>Use substitution, factoring, common denominators, and rationalizing to remove 0/0 forms.</p></div>"
+    },
+    "1.3": {
+      "title": "1-10 to 1-16: Continuity and Asymptotes",
+      "content": "<div class='notes-block'><h3>Continuity checklist</h3><ul><li>f(a) exists</li><li>lim_{x->a} f(x) exists</li><li>limit equals f(a)</li></ul></div>"
+    }
+  },
   "materials": [
     {
       "type": "notes",

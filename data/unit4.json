@@ -1,9 +1,146 @@
 {
   "unit": "Unit 4",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {},
+  "sections": [
+    "4.1",
+    "4.2",
+    "4.3",
+    "4.4",
+    "4.5"
+  ],
+  "questionBank": [
+    {
+      "section": "4.1",
+      "topic": "Derivative in Context",
+      "calcType": "No Calculator",
+      "question": "If s(t) is position (meters), what are units of s'(t)?",
+      "choices": {
+        "A": "meters",
+        "B": "meters/second",
+        "C": "seconds/meter",
+        "D": "meters/second^2"
+      },
+      "correct": "B",
+      "explanation": "Derivative of position with respect to time is velocity.",
+      "notesSection": "4.1 - Rates in Context",
+      "notesSnippet": "Units follow output/input: meters per second.",
+      "timeTip": "Always track units for context questions."
+    },
+    {
+      "section": "4.2",
+      "topic": "Motion",
+      "calcType": "No Calculator",
+      "question": "If v(t)=3t^2-6t, then acceleration a(t)=",
+      "choices": {
+        "A": "3t^2-6t",
+        "B": "6t-6",
+        "C": "6t",
+        "D": "3t-6"
+      },
+      "correct": "B",
+      "explanation": "Acceleration is derivative of velocity.",
+      "notesSection": "4.2 - Straight Line Motion",
+      "notesSnippet": "a(t)=v'(t).",
+      "timeTip": "Differentiate once more."
+    },
+    {
+      "section": "4.3",
+      "topic": "Related Rates",
+      "calcType": "No Calculator",
+      "question": "For A=pi r^2, if dr/dt=2 and r=3, then dA/dt=",
+      "choices": {
+        "A": "6pi",
+        "B": "9pi",
+        "C": "12pi",
+        "D": "18pi"
+      },
+      "correct": "C",
+      "explanation": "dA/dt = 2pi r dr/dt = 2pi(3)(2)=12pi.",
+      "notesSection": "4.3 - Related Rates",
+      "notesSnippet": "Differentiate equation with respect to time.",
+      "timeTip": "Substitute values only after differentiating."
+    },
+    {
+      "section": "4.4",
+      "topic": "Linearization",
+      "calcType": "No Calculator",
+      "question": "Linearization of f at x=a is:",
+      "choices": {
+        "A": "f(a)+f'(a)(x-a)",
+        "B": "f'(a)+f(a)(x-a)",
+        "C": "f(a)(x-a)",
+        "D": "f''(a)(x-a)^2"
+      },
+      "correct": "A",
+      "explanation": "The tangent-line approximation formula.",
+      "notesSection": "4.4 - Linearization",
+      "notesSnippet": "Use tangent line to approximate nearby values.",
+      "timeTip": "Know L(x)=f(a)+f'(a)(x-a)."
+    },
+    {
+      "section": "4.5",
+      "topic": "L'Hospital",
+      "calcType": "No Calculator",
+      "question": "L'Hospital's Rule applies directly to which form?",
+      "choices": {
+        "A": "1^infinity",
+        "B": "infinity-infinity",
+        "C": "0/0",
+        "D": "a+b"
+      },
+      "correct": "C",
+      "explanation": "Rule applies to 0/0 or infinity/infinity quotient forms.",
+      "notesSection": "4.5 - L'Hospital",
+      "notesSnippet": "Convert to quotient if needed before using.",
+      "timeTip": "Check indeterminate form first."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "Unit 4 FRQ - Motion and Rates",
+      "context": "A particle moves on a line with position s(t)=t^3-6t^2+9t.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find velocity v(t) and acceleration a(t).",
+          "finalAnswer": "v(t)=3t^2-12t+9, a(t)=6t-12",
+          "steps": [
+            "Differentiate s(t) for v(t).",
+            "Differentiate v(t) for a(t)."
+          ],
+          "scoring": "1 pt velocity, 1 pt acceleration, 1 pt correct simplification."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Find times when particle is at rest.",
+          "finalAnswer": "t=1 and t=3",
+          "steps": [
+            "Set v(t)=0: 3t^2-12t+9=0.",
+            "Divide by 3: t^2-4t+3=(t-1)(t-3)=0.",
+            "So t=1,3."
+          ],
+          "scoring": "1 pt equation, 1 pt factoring, 1 pt roots."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "4.1": {
+      "title": "4-1 to 4-3 Rates in Context",
+      "content": "<div class='notes-block'><h3>Units matter</h3><p>Always state units for derivatives in applied contexts.</p></div>"
+    },
+    "4.2": {
+      "title": "4-4 Related Rates",
+      "content": "<div class='notes-block'><h3>Workflow</h3><p>Write equation, differentiate with respect to time, then substitute known values.</p></div>"
+    },
+    "4.3": {
+      "title": "4-6 and 4-7 Approximation + L'Hospital",
+      "content": "<div class='notes-block'><h3>Approximation tools</h3><p>Use linearization for nearby estimates and L'Hospital for qualifying indeterminate forms.</p></div>"
+    }
+  },
   "materials": [
     {
       "type": "notes",

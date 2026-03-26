@@ -1,9 +1,147 @@
 {
   "unit": "Unit 5",
-  "sections": [],
-  "questionBank": [],
-  "frqBank": [],
-  "notesData": {},
+  "sections": [
+    "5.1",
+    "5.3",
+    "5.4",
+    "5.6",
+    "5.10"
+  ],
+  "questionBank": [
+    {
+      "section": "5.1",
+      "topic": "Mean Value Theorem",
+      "calcType": "No Calculator",
+      "question": "If f is continuous on [a,b] and differentiable on (a,b), MVT guarantees:",
+      "choices": {
+        "A": "f(a)=f(b)",
+        "B": "exists c with f'(c)=(f(b)-f(a))/(b-a)",
+        "C": "f'(x)=0 for all x",
+        "D": "f is linear"
+      },
+      "correct": "B",
+      "explanation": "This is the exact MVT statement.",
+      "notesSection": "5.1 - MVT",
+      "notesSnippet": "MVT links average rate to an instantaneous rate.",
+      "timeTip": "Quote theorem conditions first."
+    },
+    {
+      "section": "5.3",
+      "topic": "Increasing/Decreasing",
+      "calcType": "No Calculator",
+      "question": "If f'(x)>0 on an interval, f is:",
+      "choices": {
+        "A": "decreasing",
+        "B": "constant",
+        "C": "increasing",
+        "D": "undefined"
+      },
+      "correct": "C",
+      "explanation": "Positive derivative means function is increasing.",
+      "notesSection": "5.3 - First Derivative Test",
+      "notesSnippet": "Sign of f' controls monotonicity.",
+      "timeTip": "Make a sign chart."
+    },
+    {
+      "section": "5.4",
+      "topic": "Relative Extrema",
+      "calcType": "No Calculator",
+      "question": "A relative max can occur where:",
+      "choices": {
+        "A": "f' changes + to -",
+        "B": "f' changes - to +",
+        "C": "f'' always positive",
+        "D": "f'=2"
+      },
+      "correct": "A",
+      "explanation": "Max occurs when slope switches from positive to negative.",
+      "notesSection": "5.4 - Relative Extrema",
+      "notesSnippet": "Use first derivative sign changes at critical points.",
+      "timeTip": "Track sign before and after c."
+    },
+    {
+      "section": "5.6",
+      "topic": "Concavity",
+      "calcType": "No Calculator",
+      "question": "If f''(x)<0 on an interval, graph of f is:",
+      "choices": {
+        "A": "concave up",
+        "B": "concave down",
+        "C": "linear",
+        "D": "always decreasing"
+      },
+      "correct": "B",
+      "explanation": "Negative second derivative means concave down.",
+      "notesSection": "5.6 - Concavity",
+      "notesSnippet": "Second derivative sign controls concavity.",
+      "timeTip": "Keep separate from increasing/decreasing."
+    },
+    {
+      "section": "5.10",
+      "topic": "Optimization",
+      "calcType": "No Calculator",
+      "question": "To maximize area with constraints, best AP strategy is:",
+      "choices": {
+        "A": "Guess values",
+        "B": "Set derivative equal to 0 after reducing to one variable",
+        "C": "Set second derivative to 1",
+        "D": "Integrate first"
+      },
+      "correct": "B",
+      "explanation": "Optimization: model objective in one variable, then critical points.",
+      "notesSection": "5.10 - Optimization",
+      "notesSnippet": "Build objective function then analyze derivative.",
+      "timeTip": "Define variables before equations."
+    }
+  ],
+  "frqBank": [
+    {
+      "id": 0,
+      "calcAllowed": false,
+      "title": "Unit 5 FRQ - Graph Analysis and Optimization",
+      "context": "Let f(x)=x^3-6x^2+9x+1.",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 3,
+          "question": "Find critical points of f.",
+          "finalAnswer": "x=1 and x=3",
+          "steps": [
+            "f'(x)=3x^2-12x+9=3(x-1)(x-3).",
+            "Set f'(x)=0.",
+            "Critical points at x=1,3."
+          ],
+          "scoring": "1 pt derivative, 1 pt equation, 1 pt roots."
+        },
+        {
+          "label": "(b)",
+          "points": 3,
+          "question": "Classify each critical point.",
+          "finalAnswer": "x=1 is local max, x=3 is local min",
+          "steps": [
+            "Use sign chart for f'.",
+            "f' changes + to - at x=1 => max.",
+            "f' changes - to + at x=3 => min."
+          ],
+          "scoring": "1 pt sign method, 1 pt x=1 class, 1 pt x=3 class."
+        }
+      ]
+    }
+  ],
+  "notesData": {
+    "5.1": {
+      "title": "5-1 to 5-5 Extrema and MVT",
+      "content": "<div class='notes-block'><h3>Critical-point workflow</h3><p>Find f', solve f'=0/undefined, then classify using sign changes.</p></div>"
+    },
+    "5.2": {
+      "title": "5-6 Concavity + 2nd Derivative Test",
+      "content": "<div class='notes-block'><h3>Concavity</h3><p>f''>0 concave up, f''<0 concave down. Inflection where concavity changes.</p></div>"
+    },
+    "5.3": {
+      "title": "5-10 Optimization",
+      "content": "<div class='notes-block'><h3>Optimization strategy</h3><p>Objective function -> one variable -> derivative -> test candidates.</p></div>"
+    }
+  },
   "materials": [
     {
       "type": "homework",

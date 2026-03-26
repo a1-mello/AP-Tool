@@ -178,6 +178,33 @@
       </div>`;
   }
 
+  function renderNotesTabs() {
+    const bar = document.getElementById("notes-tab-bar");
+    if (!bar) return;
+    const notes = getActiveNotesData();
+    const sections = Object.keys(notes);
+    if (sections.length === 0) {
+      bar.innerHTML = `<div style="font-size:11px;color:var(--text3);padding:2px 6px">No structured notes sections in this unit yet.</div>`;
+      return;
+    }
+    const unitLabel = unitConfig[store.activeUnitKey]?.label || "Unit";
+    bar.innerHTML = `<div style="display:flex;gap:2px;align-items:center;padding:2px 6px;font-size:10px;color:var(--text3);font-weight:600;text-transform:uppercase;letter-spacing:.06em">${unitLabel}</div>` +
+      sections.map((s, i) => `<button class="tab-btn ${i === 0 ? "active" : ""}" onclick="showNotesSection('${s}')">${s}</button>`).join("");
+  }
+
+  function renderFRQTabs() {
+    const bar = document.getElementById("frq-tab-bar");
+    if (!bar) return;
+    const bank = getActiveFrqBank();
+    if (!bank || bank.length === 0) {
+      bar.innerHTML = `<div style="font-size:11px;color:var(--text3);padding:2px 6px">No FRQs in this unit yet.</div>`;
+      return;
+    }
+    bar.innerHTML = bank.map((frq, idx) =>
+      `<button class="mode-tab ${idx === 0 ? "active" : ""}" onclick="showFRQ(${idx})" id="frq-tab-${idx}">${escapeHtml(frq.title || `FRQ ${idx + 1}`)}</button>`
+    ).join("");
+  }
+
   function runChecksOnUnit(unitName, unitJson) {
     const issues = [];
     const warns = [];
@@ -303,11 +330,13 @@
       state.currentQuestion = null;
       loadQuestion();
       if (document.getElementById("page-notes")?.classList.contains("active")) {
+        renderNotesTabs();
         const firstSection = selectedSections[0] || Object.keys(getActiveNotesData())[0];
         if (firstSection) showNotesSection(firstSection);
         else renderNotesFallbackFromMaterials();
       }
       if (document.getElementById("page-practice-frq")?.classList.contains("active")) {
+        renderFRQTabs();
         showFRQ(0);
       }
       if (document.getElementById("page-materials")?.classList.contains("active")) {
@@ -425,9 +454,14 @@
     if (id === "materials") renderMaterials();
     if (id === "accuracy") runAccuracyAudit();
     if (id === "notes") {
+      renderNotesTabs();
       const first = selectedSections[0] || Object.keys(getActiveNotesData())[0];
       if (first) showNotesSection(first);
       else renderNotesFallbackFromMaterials();
+    }
+    if (id === "practice-frq") {
+      renderFRQTabs();
+      showFRQ(0);
     }
   };
 

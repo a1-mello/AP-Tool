@@ -88,6 +88,22 @@
     if (map[pageId]) sub.textContent = map[pageId];
   }
 
+  function updateTopbarTitle(pageId) {
+    const title = document.getElementById("topbar-title");
+    if (!title) return;
+    const map = {
+      "practice-mc": "Multiple Choice Practice",
+      "practice-frq": "Free Response Practice",
+      "notes": "Lesson Notes",
+      "materials": "Materials (PDFs)",
+      "flashcards": "Flashcards",
+      "reference": "Reference Sheet",
+      "flagged": "Flagged Topics",
+      "accuracy": "Accuracy Review Mode"
+    };
+    if (map[pageId]) title.textContent = map[pageId];
+  }
+
   function escapeHtml(s) {
     return String(s)
       .replaceAll("&", "&amp;")
@@ -137,6 +153,127 @@
     container.innerHTML = html;
   }
 
+  function renderNotesFallbackFromMaterials() {
+    const mats = getActiveMaterials().filter(m => m.type === "notes");
+    const container = document.getElementById("notes-container");
+    if (!container) return;
+    if (mats.length === 0) {
+      container.innerHTML = `
+        <div class="notes-section">
+          <h2>No notes loaded for this unit yet</h2>
+          <p>Add notes under <code style="font-family:var(--mono)">notesData</code> in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>, or use the Materials page to open PDFs.</p>
+        </div>`;
+      return;
+    }
+    container.innerHTML = `
+      <div class="notes-section">
+        <h2>${unitConfig[store.activeUnitKey]?.label || "Unit"} Notes PDFs</h2>
+        <p style="margin-bottom:12px;color:var(--text2)">No structured notes JSON yet. Use these source notes PDFs:</p>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          ${mats.map(m => `<a href="${escapeHtml(m.path)}" target="_blank" rel="noopener noreferrer" style="display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);box-shadow:var(--shadow)">
+            <span style="font-weight:600;font-size:13px">${escapeHtml(m.title)}</span>
+            <span style="font-size:12px;color:var(--text3)">Open ↗</span>
+          </a>`).join("")}
+        </div>
+      </div>`;
+  }
+
+  function runChecksOnUnit(unitName, unitJson) {
+    const issues = [];
+    const warns = [];
+    const qb = Array.isArray(unitJson.questionBank) ? unitJson.questionBank : [];
+    const fb = Array.isArray(unitJson.frqBank) ? unitJson.frqBank : [];
+
+    const seenQ = new Set();
+    qb.forEach((q, i) => {
+      const at = `${unitName} questionBank[${i}]`;
+      if (!q || typeof q !== "object") {
+        issues.push(`${at}: not an object`);
+        return;
+      }
+      const required = ["section", "topic", "question", "choices", "correct", "explanation"];
+      required.forEach(k => { if (!(k in q)) issues.push(`${at}: missing ${k}`); });
+      const letters = ["A", "B", "C", "D"];
+      if (!q.choices || typeof q.choices !== "object") issues.push(`${at}: choices missing/object`);
+      letters.forEach(l => {
+        if (!q.choices || typeof q.choices[l] !== "string" || !q.choices[l].trim()) issues.push(`${at}: choices.${l} missing/empty`);
+      });
+      if (!letters.includes(q.correct)) issues.push(`${at}: correct must be A/B/C/D`);
+      const sig = String(q.question || "").trim().toLowerCase();
+      if (sig) {
+        if (seenQ.has(sig)) warns.push(`${at}: duplicate question text`);
+        seenQ.add(sig);
+      }
+      if (q.choices) {
+        const vals = letters.map(l => String(q.choices[l] || "").trim().toLowerCase()).filter(Boolean);
+        const uniq = new Set(vals);
+        if (vals.length !== uniq.size) warns.push(`${at}: duplicate choice text`);
+      }
+      const exp = String(q.explanation || "").toLowerCase();
+      if (/(closest answer|hmm|recheck|let me recheck|wait)/.test(exp)) {
+        warns.push(`${at}: low-confidence wording in explanation`);
+      }
+    });
+
+    fb.forEach((f, i) => {
+      const at = `${unitName} frqBank[${i}]`;
+      if (!f || typeof f !== "object") {
+        issues.push(`${at}: not an object`);
+        return;
+      }
+      ["title", "context", "parts"].forEach(k => { if (!(k in f)) issues.push(`${at}: missing ${k}`); });
+      if (!Array.isArray(f.parts) || f.parts.length === 0) issues.push(`${at}: parts missing/empty`);
+    });
+
+    return { issues, warns, mcqCount: qb.length, frqCount: fb.length };
+  }
+
+  async function loadUnitByNumber(n) {
+    const key = `u${n}`;
+    const data = await loadUnitFile(key);
+    return data || { unit: `Unit ${n}`, questionBank: [], frqBank: [] };
+  }
+
+  window.runAccuracyAudit = async function runAccuracyAudit() {
+    const out = document.getElementById("accuracy-results");
+    if (!out) return;
+    out.innerHTML = `<div class="loading-state" style="background:transparent"><div class="spinner"></div><div class="loading-text">Auditing unit data...</div></div>`;
+
+    const rows = [];
+    let totalIssues = 0;
+    let totalWarns = 0;
+    for (let n = 1; n <= 10; n++) {
+      const data = await loadUnitByNumber(n);
+      const r = runChecksOnUnit(`Unit ${n}`, data);
+      totalIssues += r.issues.length;
+      totalWarns += r.warns.length;
+      rows.push({ n, ...r });
+    }
+
+    let html = `<div class="notes-block" style="margin-bottom:12px">
+      <h3>Audit Summary</h3>
+      <p style="color:var(--text2)">Units checked: 10 | Hard issues: <strong>${totalIssues}</strong> | Warnings: <strong>${totalWarns}</strong></p>
+    </div>`;
+    rows.forEach(r => {
+      html += `<div class="notes-block" style="margin-bottom:10px">
+        <h3>Unit ${r.n} — MCQ: ${r.mcqCount}, FRQ: ${r.frqCount}</h3>`;
+      if (r.issues.length === 0 && r.warns.length === 0) {
+        html += `<p style="color:var(--green)">No issues found.</p>`;
+      } else {
+        if (r.issues.length > 0) {
+          html += `<div style="margin-bottom:6px;font-size:12px;color:var(--red);font-weight:600">Hard issues</div>`;
+          html += `<ul style="padding-left:18px;color:var(--text2);font-size:12px">${r.issues.slice(0, 20).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`;
+        }
+        if (r.warns.length > 0) {
+          html += `<div style="margin:8px 0 6px;font-size:12px;color:var(--amber);font-weight:600">Warnings</div>`;
+          html += `<ul style="padding-left:18px;color:var(--text2);font-size:12px">${r.warns.slice(0, 20).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`;
+        }
+      }
+      html += `</div>`;
+    });
+    out.innerHTML = html;
+  };
+
   const originalQuickSelect = window.quickSelect;
   window.quickSelect = async function quickSelectWithData(type) {
     if (type === "all") {
@@ -168,6 +305,7 @@
       if (document.getElementById("page-notes")?.classList.contains("active")) {
         const firstSection = selectedSections[0] || Object.keys(getActiveNotesData())[0];
         if (firstSection) showNotesSection(firstSection);
+        else renderNotesFallbackFromMaterials();
       }
       if (document.getElementById("page-practice-frq")?.classList.contains("active")) {
         showFRQ(0);
@@ -221,11 +359,7 @@
     const currentNotes = getActiveNotesData();
     const data = currentNotes[section];
     if (!data) {
-      document.getElementById("notes-container").innerHTML = `
-        <div class="notes-section">
-          <h2>No notes for this section yet</h2>
-          <p>Add notes under <code style="font-family:var(--mono)">notesData</code> in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>.</p>
-        </div>`;
+      renderNotesFallbackFromMaterials();
       return;
     }
     document.getElementById("notes-container").innerHTML = `
@@ -286,8 +420,15 @@
   const originalShowPage = window.showPage;
   window.showPage = function showPageWithUnitSubtitle(id) {
     originalShowPage(id);
+    updateTopbarTitle(id);
     updateTopbarSubtitle(id);
     if (id === "materials") renderMaterials();
+    if (id === "accuracy") runAccuracyAudit();
+    if (id === "notes") {
+      const first = selectedSections[0] || Object.keys(getActiveNotesData())[0];
+      if (first) showNotesSection(first);
+      else renderNotesFallbackFromMaterials();
+    }
   };
 
   updateTopbarSubtitle("practice-mc");

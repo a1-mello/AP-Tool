@@ -30,21 +30,21 @@
   }
 
   function getActiveQuestionBank() {
-    if (store.activeUnitData && Array.isArray(store.activeUnitData.questionBank) && store.activeUnitData.questionBank.length > 0) {
+    if (store.activeUnitData && Array.isArray(store.activeUnitData.questionBank)) {
       return store.activeUnitData.questionBank;
     }
     return getInlineQuestionBank();
   }
 
   function getActiveFrqBank() {
-    if (store.activeUnitData && Array.isArray(store.activeUnitData.frqBank) && store.activeUnitData.frqBank.length > 0) {
+    if (store.activeUnitData && Array.isArray(store.activeUnitData.frqBank)) {
       return store.activeUnitData.frqBank;
     }
     return getInlineFrqBank();
   }
 
   function getActiveNotesData() {
-    if (store.activeUnitData && store.activeUnitData.notesData && Object.keys(store.activeUnitData.notesData).length > 0) {
+    if (store.activeUnitData && store.activeUnitData.notesData && typeof store.activeUnitData.notesData === "object") {
       return store.activeUnitData.notesData;
     }
     return getInlineNotesData();
@@ -159,6 +159,10 @@
       }
 
       if (typeof originalQuickSelect === "function") originalQuickSelect(type);
+      // Original quickSelect only marks active button for all/u6/u8.
+      document.querySelectorAll(".unit-quick-btn").forEach(b => b.classList.remove("active"));
+      const activeBtn = document.getElementById(`qb-${type}`);
+      if (activeBtn) activeBtn.classList.add("active");
       state.currentQuestion = null;
       loadQuestion();
       if (document.getElementById("page-notes")?.classList.contains("active")) {
@@ -191,7 +195,16 @@
     const allSections = [...new Set(qb.map(q => q.section).filter(Boolean))];
     const pool = (selectedSections[0] === "all" || selectedSections.length === 0) ? allSections : selectedSections;
     const filtered = qb.filter(q => pool.includes(q.section));
-    if (filtered.length === 0) return;
+    if (filtered.length === 0) {
+      const loading = document.getElementById("loading-q");
+      const content = document.getElementById("question-content");
+      if (loading && content) {
+        loading.style.display = "block";
+        content.style.display = "none";
+        loading.innerHTML = `<div class="loading-text">No MCQ question bank found for ${unitConfig[store.activeUnitKey]?.label || "this unit"} yet.<br>Add questions to <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>.</div>`;
+      }
+      return;
+    }
 
     if (queuedQuestions.length === 0) {
       queuedQuestions = [...filtered].sort(() => Math.random() - 0.5);
@@ -207,7 +220,14 @@
 
     const currentNotes = getActiveNotesData();
     const data = currentNotes[section];
-    if (!data) return;
+    if (!data) {
+      document.getElementById("notes-container").innerHTML = `
+        <div class="notes-section">
+          <h2>No notes for this section yet</h2>
+          <p>Add notes under <code style="font-family:var(--mono)">notesData</code> in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>.</p>
+        </div>`;
+      return;
+    }
     document.getElementById("notes-container").innerHTML = `
       <div class="notes-section">
         <div class="subunit-tag">${unitConfig[store.activeUnitKey]?.label || "Unit"} · Section ${section}</div>

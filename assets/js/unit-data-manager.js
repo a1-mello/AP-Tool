@@ -421,8 +421,26 @@
         <h2>${data.title}</h2>
         ${rewriteLocalMaterialHrefs(data.content)}
       </div>`;
+    const secEl = document.querySelector("#notes-container .notes-section");
+    if (secEl && typeof window.formatMathInElement === "function") window.formatMathInElement(secEl);
     if (window.MathJax) MathJax.typesetPromise();
   };
+
+  /** Directory of the current HTML file (trailing slash), for resolving relative PDF paths. */
+  function documentBaseHref() {
+    try {
+      let base = String(window.location.href);
+      const cut = Math.min(
+        base.indexOf("?") >= 0 ? base.indexOf("?") : Infinity,
+        base.indexOf("#") >= 0 ? base.indexOf("#") : Infinity
+      );
+      if (cut !== Infinity) base = base.slice(0, cut);
+      const slash = base.lastIndexOf("/");
+      return slash >= 0 ? base.slice(0, slash + 1) : base + "/";
+    } catch {
+      return "/";
+    }
+  }
 
   /** Worksheet / answer PDFs live under <site>/materials/… (mirror your Unit folders there). */
   function frqPdfUrl(relPath) {
@@ -441,11 +459,114 @@
         return encodeURIComponent(seg);
       }
     });
+    const joined = segments.join("/");
     try {
-      return new URL(segments.join("/"), window.location.href).href;
+      return new URL(joined, documentBaseHref()).href;
     } catch {
-      return encodeURI(p.replace(/#/g, "%23"));
+      return encodeURI(joined.replace(/#/g, "%23"));
     }
+  }
+
+  const PDFJS_VER = "4.4.168";
+  const PDFJS_BASE = `https://cdn.jsdelivr.net/npm/pdfjs-dist@${PDFJS_VER}/build/`;
+
+  let pdfJsImportPromise = null;
+  function loadPdfJsLib() {
+    if (!pdfJsImportPromise) {
+      pdfJsImportPromise = import(/* webpackIgnore: true */ PDFJS_BASE + "pdf.min.mjs").then(mod => {
+        const lib = mod.default && typeof mod.getDocument !== "function" ? mod.default : mod;
+        if (lib.GlobalWorkerOptions) lib.GlobalWorkerOptions.workerSrc = PDFJS_BASE + "pdf.worker.min.mjs";
+        return lib;
+      });
+    }
+    return pdfJsImportPromise;
+  }
+
+  async function renderPdfIntoHost(hostEl, url, pdfjsLib) {
+    if (!hostEl || !url) return;
+    hostEl.innerHTML = '<div class="frq-pdf-loading">Loading PDF…</div>';
+    const fail = (msg, useIframe) => {
+      const esc = escapeHtml(url);
+      hostEl.innerHTML = `<div class="frq-pdf-error"><p>${escapeHtml(msg)}</p>${
+        useIframe ? `<iframe class="frq-pdf-frame frq-pdf-fallback-iframe" title="PDF" src="${esc}"></iframe>` : ""
+      }</div>`;
+    };
+    try {
+      const loadingTask = pdfjsLib.getDocument({ url, withCredentials: false });
+      const pdf = await loadingTask.promise;
+      hostEl.innerHTML = "";
+      const pagesWrap = document.createElement("div");
+      pagesWrap.className = "frq-pdf-pages";
+      hostEl.appendChild(pagesWrap);
+
+      await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+      await new Promise(r => setTimeout(r, 60));
+      const split = hostEl.closest(".frq-split-layout");
+      const splitW = split ? split.getBoundingClientRect().width : 640;
+      const isKeyPane = String(hostEl.id || "").includes("-key");
+      const guessW = isKeyPane ? splitW * 0.36 : splitW * 0.58;
+      let hostW = hostEl.getBoundingClientRect().width;
+      if (hostW < 48) hostW = guessW;
+      hostW = Math.max(280, hostW - 12);
+
+      for (let pi = 1; pi <= pdf.numPages; pi++) {
+        const page = await pdf.getPage(pi);
+        const baseVp = page.getViewport({ scale: 1 });
+        const scale = Math.min(2, hostW / baseVp.width);
+        const viewport = page.getViewport({ scale });
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d", { alpha: false });
+        canvas.width = viewport.width;
+        canvas.height = viewport.height;
+        canvas.className = "frq-pdf-page-canvas";
+        await page.render({ canvasContext: ctx, viewport }).promise;
+        pagesWrap.appendChild(canvas);
+      }
+    } catch (e) {
+      console.warn("PDF.js:", e);
+      fail(
+        "Could not show this PDF here. Put the file under materials/, open the site with a local server (not file://), and check the path.",
+        true
+      );
+    }
+  }
+
+  async function renderFrqPdfHosts(frqIdx, worksheetUrl, answerKeyUrl) {
+    let pdfjsLib = null;
+    try {
+      pdfjsLib = await loadPdfJsLib();
+    } catch (e) {
+      console.warn("pdf.js load failed", e);
+    }
+
+    const renderOne = async (hostId, pdfUrl) => {
+      const el = document.getElementById(hostId);
+      if (!el || !pdfUrl) return;
+      if (pdfjsLib && typeof pdfjsLib.getDocument === "function") {
+        await renderPdfIntoHost(el, pdfUrl, pdfjsLib);
+      } else {
+        el.innerHTML = `<iframe class="frq-pdf-frame" style="width:100%;min-height:480px;border:0;flex:1" title="PDF" src="${escapeHtml(
+          pdfUrl
+        )}"></iframe>`;
+      }
+    };
+
+    await Promise.all([
+      renderOne(`frq-pdf-host-${frqIdx}-worksheet`, worksheetUrl),
+      renderOne(`frq-pdf-host-${frqIdx}-key`, answerKeyUrl)
+    ]);
+  }
+
+  function frqPdfPaneMarkup(url, paneLabel, hostId) {
+    if (!url) return "";
+    const lab = escapeHtml(paneLabel || "PDF");
+    const id = escapeHtml(hostId);
+    return `<div class="frq-pdf-pane">
+      <div class="frq-pdf-label">${lab}</div>
+      <div class="frq-pdf-js-host" id="${id}">
+        <div class="frq-pdf-loading">Loading PDF…</div>
+      </div>
+    </div>`;
   }
 
   function rewriteLocalMaterialHrefs(html) {
@@ -475,7 +596,7 @@
     const fa = String(part.finalAnswer || "");
     if (/Use the answer key PDF in Materials|open the matching ANSWERS/i.test(fa)) {
       return hasKeyPdf
-        ? "<p style=\"margin:0\">Use the <strong>Answer key</strong> panel on the right (same page) — no new tab.</p>"
+        ? "<p style=\"margin:0\">Use the <strong>Answer key</strong> panel on the right on this page.</p>"
         : "<p style=\"margin:0\">Check the embedded answer materials for this worksheet when available.</p>";
     }
     if (/See answer key PDF linked from Materials/i.test(fa)) {
@@ -553,21 +674,20 @@
     if (frq.worksheetPdf) {
       const ws = frqPdfUrl(frq.worksheetPdf);
       const ak = frq.answerKeyPdf ? frqPdfUrl(frq.answerKeyPdf) : "";
+      const wsTitleRaw = frq.title || "Worksheet";
+      const wsTitleHtml = escapeHtml(wsTitleRaw);
       const keyBlock = ak
-        ? `<div class="frq-pdf-label">Answer key</div><iframe class="frq-pdf-frame frq-key-iframe" title="Answer key PDF" src="${ak.replace(/"/g, "%22")}"></iframe>`
+        ? frqPdfPaneMarkup(ak, "Answer key", `frq-pdf-host-${idx}-key`)
         : `<div class="frq-key-fallback-notes"><p style="font-size:12px;color:var(--text3);margin-bottom:10px">No separate answer PDF linked — expand each part below for model solutions.</p>${partsHtml}</div>`;
 
       const html = `<div class="frq-card frq-card-embed">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
         <span class="badge ${frq.calcAllowed ? "badge-calc-c" : "badge-calc-nc"}">${frq.calcAllowed ? "Calculator Active" : "No Calculator"}</span>
-        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${escapeHtml(frq.title || "Worksheet")}</span>
+        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${wsTitleHtml}</span>
       </div>
       <div class="frq-prompt">${frq.context || ""}</div>
       <div class="frq-split-layout">
-        <div class="frq-pdf-pane">
-          <div class="frq-pdf-label">Worksheet</div>
-          <iframe class="frq-pdf-frame" title="Worksheet PDF" src="${ws.replace(/"/g, "%22")}"></iframe>
-        </div>
+        ${frqPdfPaneMarkup(ws, "Worksheet", `frq-pdf-host-${idx}-worksheet`)}
         <aside class="frq-key-panel" id="frq-key-aside-${idx}">
           <button type="button" class="frq-key-tabbtn" onclick="toggleFrqKeyPanel(${idx})">Hide answer key</button>
           <div class="frq-key-panel-inner" id="frq-key-inner-${idx}">
@@ -580,6 +700,7 @@
 
       document.getElementById("frq-display").innerHTML = html;
       if (window.MathJax) MathJax.typesetPromise();
+      renderFrqPdfHosts(idx, ws, ak).catch(err => console.warn("FRQ PDF render:", err));
       return;
     }
 

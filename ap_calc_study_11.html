@@ -485,6 +485,69 @@
     border: none;
     background: #fff;
   }
+  /* In-page PDF (PDF.js canvas); scrolls inside pane */
+  .frq-pdf-js-host {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+    background: #dfe3e6;
+    -webkit-overflow-scrolling: touch;
+  }
+  .frq-pdf-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    padding: 12px 10px 20px;
+  }
+  .frq-pdf-page-canvas {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.18);
+    background: #fff;
+  }
+  .frq-pdf-loading {
+    padding: 28px 16px;
+    text-align: center;
+    color: #94a3b8;
+    font-size: 13px;
+    font-family: var(--font);
+  }
+  .frq-pdf-error {
+    padding: 14px 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #fecaca;
+    font-family: var(--font);
+  }
+  .frq-pdf-error .frq-pdf-fallback-iframe {
+    margin-top: 12px;
+    width: 100%;
+    min-height: 420px;
+    border: none;
+    background: #fff;
+    border-radius: 4px;
+  }
+
+  /* Stacked fractions in MCQ / inline math (formatApCalcMath) */
+  .mq-frac {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.12;
+    margin: 0 0.15em;
+    font-variant-numeric: tabular-nums;
+  }
+  .mq-num { display: block; padding: 0 4px; }
+  .mq-bar {
+    display: block;
+    border-top: 1.5px solid currentColor;
+    margin: 1px 0;
+    min-width: 0.5em;
+  }
+  .mq-den { display: block; padding: 0 4px; }
   .frq-key-panel {
     width: min(38%, 420px);
     flex-shrink: 0;
@@ -522,6 +585,11 @@
     display: flex;
     flex-direction: column;
     overflow: auto;
+  }
+  .frq-split-layout > .frq-pdf-pane,
+  .frq-key-panel-inner > .frq-pdf-pane {
+    flex: 1;
+    min-height: 0;
   }
   .frq-key-iframe { min-height: 520px; flex: 1; }
   .frq-key-fallback-notes { padding: 12px; overflow-y: auto; max-height: 70vh; }
@@ -1554,15 +1622,76 @@ const questionBank = [];
 let queuedQuestions = [];
 let currentQIndex = 0;
 
-function prettifyMcqMath(s) {
+function mqFrac(num, den) {
+  return (
+    '<span class="mq-frac" role="presentation"><span class="mq-num">' +
+    num +
+    '</span><span class="mq-bar"></span><span class="mq-den">' +
+    den +
+    '</span></span>'
+  );
+}
+
+/** Plain-text MCQ math: limits use →, fractions stack, θ π, superscripts, lim subscripts. */
+function formatApCalcMath(s) {
   if (!s || typeof s !== 'string') return s;
+  if (/[\uAC00-\uD7AF]/.test(s)) return s;
+
   let t = s;
-  if (!/[\uAC00-\uD7AF]/.test(t)) {
-    t = t.replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>').replace(/\^(\d+)/g, '<sup>$1</sup>');
-    t = t.replace(/lim_\{([^}]+)\}/gi, 'lim<sub>$1</sub>');
-  }
+  t = t.replace(/-\s*&gt;/g, '→');
+  t = t.replace(/-\s*&#62;/g, '→');
+  t = t.replace(/->/g, '→');
+  t = t.replace(/\btheta\b/gi, 'θ');
+  t = t.replace(/\bpi\b/gi, 'π');
+
+  t = t.replace(/lim_\{([^}]+)\}/gi, (_, inner) => {
+    const fixed = String(inner).replace(/->/g, '→');
+    return 'lim<sub>' + fixed + '</sub>';
+  });
+
+  let prev;
+  let guard = 0;
+  do {
+    prev = t;
+    t = t.replace(/\(([^()]*)\)\s*\/\s*\(([^()]*)\)/g, (_, a, b) =>
+      mqFrac('(' + a + ')', '(' + b + ')')
+    );
+    t = t.replace(/\b0\s*\/\s*0\b/g, () => mqFrac('0', '0'));
+    t = t.replace(
+      /([−\-]?\d+(?:\.\d+)?)\s*\/\s*([−\-]?\d+(?:\.\d+)?)(?![\d.])/g,
+      (_, a, b) => mqFrac(a, b)
+    );
+    guard++;
+  } while (t !== prev && guard < 30);
+
+  t = t.replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>').replace(/\^(\d+)/g, '<sup>$1</sup>');
+
   return t;
 }
+
+const prettifyMcqMath = formatApCalcMath;
+window.formatApCalcMath = formatApCalcMath;
+
+function formatMathInElement(root) {
+  if (!root || !root.querySelectorAll) return;
+  const skip = new Set(['SCRIPT', 'STYLE', 'CODE', 'PRE']);
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, null);
+  const nodes = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode);
+  for (const n of nodes) {
+    const p = n.parentElement;
+    if (!p || skip.has(p.tagName)) continue;
+    const raw = n.nodeValue;
+    if (!raw || !raw.trim()) continue;
+    if (!/[\/^]|->|lim_|theta|→|θ|π|\bpi\b/i.test(raw)) continue;
+    const formatted = formatApCalcMath(raw);
+    if (formatted === raw) continue;
+    const span = document.createElement('span');
+    span.innerHTML = formatted;
+    n.parentNode.replaceChild(span, n);
+  }
+}
+window.formatMathInElement = formatMathInElement;
 
 function renderQuestion(q) {
   document.getElementById('loading-q').style.display = 'none';
@@ -1576,7 +1705,9 @@ function renderQuestion(q) {
 
   // Question
   document.getElementById('q-text').innerHTML = prettifyMcqMath(q.question);
-  document.getElementById('time-tip').innerHTML = q.timeTip || 'Work methodically through each answer choice.';
+  document.getElementById('time-tip').innerHTML = prettifyMcqMath(
+    q.timeTip || 'Work methodically through each answer choice.'
+  );
 
   // Choices — Bluebook style
   const choicesEl = document.getElementById('choices');
@@ -1645,9 +1776,17 @@ function selectAnswer(chosen, correct, explanation, notesSection, notesSnippet) 
   document.getElementById('result-label').textContent = isCorrect ? 'Correct!' : 'Incorrect';
   document.getElementById('result-label').className = 'bb-exp-label ' + (isCorrect ? 'c' : 'w');
   document.getElementById('correct-answer-label').textContent = isCorrect ? '' : `Correct answer: ${correct}`;
-  document.getElementById('explanation-text').innerHTML = explanation;
+  const expBox = document.getElementById('explanation-text');
+  expBox.innerHTML = explanation || '';
+  formatMathInElement(expBox);
   document.getElementById('notes-section-title').textContent = notesSection;
-  document.getElementById('notes-snippet').innerHTML = `<div class="bb-highlighted-note">${notesSnippet}</div>`;
+  const ns = document.getElementById('notes-snippet');
+  ns.innerHTML = '';
+  const noteWrap = document.createElement('div');
+  noteWrap.className = 'bb-highlighted-note';
+  noteWrap.innerHTML = notesSnippet || '';
+  ns.appendChild(noteWrap);
+  formatMathInElement(noteWrap);
   document.getElementById('notes-btn-text').textContent = 'Show lesson notes';
   document.getElementById('inline-notes').className = 'bb-inline-notes';
 

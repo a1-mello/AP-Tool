@@ -92,6 +92,57 @@
       "notesSection": "4.5 - L'Hospital",
       "notesSnippet": "Convert to quotient if needed before using.",
       "timeTip": "Check indeterminate form first."
+    },
+    {
+      "section": "4.2",
+      "topic": "Straight-line motion — WK 4-2 solutions (avg velocity)",
+      "calcType": "No Calculator",
+      "question": "A particle moves on a line with position s(t). On [a,b], its average velocity is",
+      "choices": {
+        "A": "(s(b)−s(a))/(b−a)",
+        "B": "s′((a+b)/2)",
+        "C": "(s(b)+s(a))/(b−a)",
+        "D": "s(b)−s(a)"
+      },
+      "correct": "A",
+      "explanation": "Average velocity = displacement divided by elapsed time (matches motion worksheets and MVT setup).",
+      "notesSection": "4.2 - Motion Along a Line",
+      "notesSnippet": "Instantaneous velocity is s′(t); average is Δs/Δt.",
+      "timeTip": "Units: position over time gives velocity."
+    },
+    {
+      "section": "4.3",
+      "topic": "Related rates — conceptual setup",
+      "calcType": "No Calculator",
+      "question": "In a related rates problem, after you differentiate an equation with respect to t, you should",
+      "choices": {
+        "A": "Substitute known values only after differentiating (unless a variable is constant)",
+        "B": "Always substitute numbers before differentiating",
+        "C": "Integrate both sides to eliminate dt",
+        "D": "Solve for t first, then differentiate"
+      },
+      "correct": "A",
+      "explanation": "Standard method: differentiate implicitly with respect to t, then plug in rates and values at the instant of interest (4-3 Rates in Context / related rates packets).",
+      "notesSection": "4.3 - Related Rates",
+      "notesSnippet": "Chain rule: every variable depending on t gets a d/dt factor.",
+      "timeTip": "Draw a diagram and label what is changing."
+    },
+    {
+      "section": "4.5",
+      "topic": "Linearization — local linear approx",
+      "calcType": "No Calculator",
+      "question": "The local linear approximation of f near x=a is L(x) =",
+      "choices": {
+        "A": "f(a) + f′(a)(x−a)",
+        "B": "f(a) + f(x)(x−a)",
+        "C": "f′(a)(x−a)",
+        "D": "f(a) + f″(a)(x−a)^2/2"
+      },
+      "correct": "A",
+      "explanation": "Tangent line at a: L(x)=f(a)+f′(a)(x−a) (linearization worksheet 4-6).",
+      "notesSection": "4.5 - Linear Approximation",
+      "notesSnippet": "Same as first-order Taylor polynomial at a.",
+      "timeTip": "Use when x is close to a."
     }
   ],
   "frqBank": [

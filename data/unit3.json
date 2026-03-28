@@ -92,6 +92,57 @@
       "notesSection": "3.5 - Higher Order Derivatives",
       "notesSnippet": "Second derivative is derivative of first derivative.",
       "timeTip": "Differentiate step-by-step."
+    },
+    {
+      "section": "3.2",
+      "topic": "Implicit differentiation — mixed #21",
+      "calcType": "No Calculator",
+      "question": "If 3x^2−2y+4xy=6, then dy/dx =",
+      "choices": {
+        "A": "(6x+4y)/(2−4x)",
+        "B": "(3x+2y)/(2−4x)",
+        "C": "(6x+4y)/(4x−2)",
+        "D": "(−6x−4y)/(2+4x)"
+      },
+      "correct": "A",
+      "explanation": "Implicit differentiation gives 6x − 2y′ + 4y + 4xy′ = 0, so y′(4x−2) = −6x−4y and y′ = (−6x−4y)/(4x−2) = (6x+4y)/(2−4x), equivalent to (3x+2y)/(1−2x) (mixed practice #21).",
+      "notesSection": "3.2 - Implicit Differentiation",
+      "notesSnippet": "Differentiate y terms with dy/dx; collect y′ terms.",
+      "timeTip": "After differentiating, factor y′ on one side."
+    },
+    {
+      "section": "3.1",
+      "topic": "Chain rule — (x^2+1)^3 (packet style)",
+      "calcType": "No Calculator",
+      "question": "If F(x)=(x^2+1)^3, then F′(1) =",
+      "choices": {
+        "A": "12",
+        "B": "24",
+        "C": "18",
+        "D": "6(x^2+1)^2"
+      },
+      "correct": "B",
+      "explanation": "F′(x)=3(x^2+1)^2·2x; F′(1)=3(2)^2·2=24 (chain rule drill matching mixed derivative packet style).",
+      "notesSection": "3.1 - Chain Rule",
+      "notesSnippet": "Outer′(inner)·inner′.",
+      "timeTip": "Evaluate the inner function first, then multiply by its derivative."
+    },
+    {
+      "section": "3.3",
+      "topic": "Inverse trig derivative — conceptual",
+      "calcType": "No Calculator",
+      "question": "Which identity is used when differentiating y = arcsin(x)?",
+      "choices": {
+        "A": "dy/dx = 1/√(1−x^2) for −1 < x < 1",
+        "B": "dy/dx = −1/√(1−x^2)",
+        "C": "dy/dx = 1/(1+x^2)",
+        "D": "dy/dx = sec^2(x)"
+      },
+      "correct": "A",
+      "explanation": "d/dx arcsin(x)=1/√(1−x^2) on (−1,1) (standard inverse trig rule from derivative packets).",
+      "notesSection": "3.3 - Inverse Functions",
+      "notesSnippet": "arcsin vs arctan: different denominators.",
+      "timeTip": "Memorize arcsin, arctan, and arccos derivatives."
     }
   ],
   "frqBank": [

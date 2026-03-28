@@ -92,6 +92,142 @@
       "notesSection": "1.5 - Asymptotes",
       "notesSnippet": "Infinite behavior at finite x indicates vertical asymptotes.",
       "timeTip": "Use asymptote language precisely."
+    },
+    {
+      "section": "1.4",
+      "topic": "IVT — Review packet #52 style",
+      "calcType": "No Calculator",
+      "question": "A particle’s acceleration a(t) is continuous on [1, 12]. Selected values include a(7) = 5 and a(12) = −5. Which statement is justified by the Intermediate Value Theorem?",
+      "choices": {
+        "A": "There is at least one c in (7, 12) with a(c) = −4, because −4 lies between 5 and −5.",
+        "B": "There is at least one c in (1, 12) with a(c) = −4, because a is linear between the table points.",
+        "C": "a(10) must equal 0 because the average of 5 and −5 is 0.",
+        "D": "The IVT does not apply because acceleration need not be differentiable."
+      },
+      "correct": "A",
+      "explanation": "On [7, 12], a is continuous and −4 is between a(7)=5 and a(12)=−5, so IVT gives c in (7,12)⊂(1,12) with a(c)=−4 (same reasoning as WK Review of Unit 1 #52 in the answer key).",
+      "notesSection": "1.4 - Continuity",
+      "notesSnippet": "IVT: continuous f on [a,b] hits every value between f(a) and f(b).",
+      "timeTip": "Name the closed interval where the endpoints bracket the target value."
+    },
+    {
+      "section": "1.2",
+      "topic": "Algebraic limits — mixed practice #20",
+      "calcType": "No Calculator",
+      "question": "Find lim_{x→−3} (x^2−9)/(x^2−4x−21).",
+      "choices": {
+        "A": "3/5",
+        "B": "0",
+        "C": "Does not exist",
+        "D": "−3/10"
+      },
+      "correct": "A",
+      "explanation": "Factor: (x−3)(x+3)/((x−7)(x+3)); cancel x+3 (x≠−3); substitute x=−3: (−6)/(−10)=3/5 (Unit 3 mixed practice includes this limit structure; same algebra as standard rational limit).",
+      "notesSection": "1.2 - Algebraic Limits",
+      "notesSnippet": "Factor, cancel common factors, then substitute.",
+      "timeTip": "Always factor before plugging in removable discontinuities."
+    },
+    {
+      "section": "1.5",
+      "topic": "Limits at infinity — Review #32–33 style",
+      "calcType": "No Calculator",
+      "question": "lim_{x→∞} (4x−2)/(5−8x) equals",
+      "choices": {
+        "A": "−1/2",
+        "B": "1/2",
+        "C": "0",
+        "D": "4/5"
+      },
+      "correct": "A",
+      "explanation": "Divide numerator and denominator by x: (4−2/x)/(5/x−8) → 4/(−8) = −1/2 (rational function with same degree top and bottom).",
+      "notesSection": "1.5 - Asymptotes",
+      "notesSnippet": "∞ limits of rational functions: compare leading coefficients when degrees match.",
+      "timeTip": "Divide by the largest power of x in the denominator."
+    },
+    {
+      "section": "1.5",
+      "topic": "Limits at infinity — Review #32–33 style",
+      "calcType": "No Calculator",
+      "question": "lim_{x→−∞} (4x−2)/(5−8x) equals",
+      "choices": {
+        "A": "−1/2",
+        "B": "1/2",
+        "C": "∞",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "Same leading-term ratio as x→∞: (4x)/(−8x) → −1/2.",
+      "notesSection": "1.5 - Asymptotes",
+      "notesSnippet": "For rational functions, −∞ often matches +∞ when degrees are equal.",
+      "timeTip": "Watch signs of leading terms as x→−∞."
+    },
+    {
+      "section": "1.4",
+      "topic": "Continuity — piecewise k (Review #29 style)",
+      "calcType": "No Calculator",
+      "question": "Let g(x) = x^2−2 for x < 3 and g(x) = kx + 4 for x ≥ 3. Find k so that g is continuous at x = 3.",
+      "choices": {
+        "A": "k = 1",
+        "B": "k = 7/3",
+        "C": "k = 2",
+        "D": "No such k exists"
+      },
+      "correct": "A",
+      "explanation": "Left limit: 9−2 = 7. Right limit at 3: 3k+4. Set 3k+4=7 → k=1 (classic piecewise continuity setup from review packets).",
+      "notesSection": "1.4 - Continuity",
+      "notesSnippet": "Match left and right limits with the defined value at the break.",
+      "timeTip": "Compute limits from each piece separately."
+    },
+    {
+      "section": "1.1",
+      "topic": "Average rate of change — WK 1-1 candle table",
+      "calcType": "Calculator Active",
+      "question": "The height H(t) of a candle (cm) at times t (minutes) satisfies H(0)=12.0 and H(11)=10.2. The average rate of change of H from t=0 to t=11 is",
+      "choices": {
+        "A": "−1.8/11 cm per minute",
+        "B": "(12.0−10.2)/11 cm per minute only if time runs backward",
+        "C": "12.0/11 cm per minute",
+        "D": "−10.2/11 cm per minute"
+      },
+      "correct": "A",
+      "explanation": "(H(11)−H(0))/(11−0) = (10.2−12)/11 = −1.8/11 cm/min (1-1 Change at an Instant table).",
+      "notesSection": "1.1 - Graphical Limits",
+      "notesSnippet": "Average rate = (change in output)/(change in input); include units.",
+      "timeTip": "Final minus initial, over final time minus initial time."
+    },
+    {
+      "section": "1.3",
+      "topic": "IVT — acceleration table (concept)",
+      "calcType": "No Calculator",
+      "question": "If a(t) is continuous on [1,12], a(7)=5, and a(12)=−5, can we conclude there is c in (1,12) with a(c)=−4?",
+      "choices": {
+        "A": "Yes — apply IVT on [7,12] since −4 is between 5 and −5.",
+        "B": "No — −4 is not in the table.",
+        "C": "Yes — by the Mean Value Theorem on velocity.",
+        "D": "No — we need a differentiable velocity to apply IVT."
+      },
+      "correct": "A",
+      "explanation": "IVT only needs continuity on a closed interval where the target lies between endpoint values; here [7,12] works (answer key reasoning for review #52).",
+      "notesSection": "1.3 - Numerical Limits",
+      "notesSnippet": "IVT vs MVT: IVT is about hitting a function value; MVT is about average rate of change of the same function.",
+      "timeTip": "Pick the smallest interval whose endpoints bracket the number you want."
+    },
+    {
+      "section": "1.2",
+      "topic": "Removable discontinuity — Unit 1 FRQ style",
+      "calcType": "No Calculator",
+      "question": "For g(x)=(x^2−4)/(x−2) when x≠2, what value must g(2) take so g is continuous at x=2?",
+      "choices": {
+        "A": "4",
+        "B": "0",
+        "C": "2",
+        "D": "Does not exist — no k works"
+      },
+      "correct": "A",
+      "explanation": "For x≠2, g(x)=x+2, so lim_{x→2}g(x)=4; continuity requires g(2)=4 (matches your Unit 1 FRQ bank).",
+      "notesSection": "1.2 - Algebraic Limits",
+      "notesSnippet": "Cancel the factor that causes 0/0, then substitute.",
+      "timeTip": "Factor difference of squares first."
     }
   ],
   "frqBank": [

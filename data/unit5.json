@@ -92,6 +92,125 @@
       "notesSection": "5.10 - Optimization",
       "notesSnippet": "Build objective function then analyze derivative.",
       "timeTip": "Define variables before equations."
+    },
+    {
+      "section": "5.1",
+      "topic": "IVT — 2012 #77 style (HW 5-1 solutions)",
+      "calcType": "No Calculator",
+      "question": "Let f be continuous on [2,4] with f(2)=10 and f(4)=20. Which conclusion is guaranteed by the Intermediate Value Theorem?",
+      "choices": {
+        "A": "The equation f(x)=13 has at least one solution in the open interval (2,4).",
+        "B": "f(3)=15",
+        "C": "f attains a maximum value on the open interval (2,4).",
+        "D": "f′(x)=5 has at least one solution in (2,4)."
+      },
+      "correct": "A",
+      "explanation": "13 lies between f(2)=10 and f(4)=20, so IVT gives c in (2,4) with f(c)=13 (2012 AB #77 reasoning in 5-1 MVT packet solutions).",
+      "notesSection": "5.1 - MVT",
+      "notesSnippet": "IVT needs continuity on a closed interval; it does not locate maxima or derivatives.",
+      "timeTip": "Check that the target number is between the endpoint values."
+    },
+    {
+      "section": "5.1",
+      "topic": "MVT / IVT combined — 1998 #91 style (HW 5-1)",
+      "calcType": "No Calculator",
+      "question": "Let f be differentiable on (1,10). Suppose f(2)=−5, f(5)=5, and f(9)=−5. Which statement must be true?",
+      "choices": {
+        "A": "None of the listed conclusions are forced",
+        "B": "f has at least two zeros in (1,10)",
+        "C": "f has at least two zeros and the graph has at least one horizontal tangent in (1,10)",
+        "D": "f has at least two zeros, at least one horizontal tangent, and f(c)=3 for some c in (2,5)"
+      },
+      "correct": "D",
+      "explanation": "IVT gives zeros in (2,5) and (5,9); MVT on [2,9] gives f′(c)=0 somewhere; IVT on [2,5] hits every value between −5 and 5, including 3 (1998 #91 solution in 5-1 packet — condensed to four options).",
+      "notesSection": "5.1 - MVT",
+      "notesSnippet": "Combine IVT for intermediate values and MVT for average slope.",
+      "timeTip": "List what each theorem needs (continuity vs differentiability)."
+    },
+    {
+      "section": "5.1",
+      "topic": "MVT — f(x)=x^3−3x^2 on [0,3] (1985 #13 style)",
+      "calcType": "No Calculator",
+      "question": "For f(x)=x^3−3x^2 on [0,3], which value(s) of c in the open interval (0,3) satisfy the conclusion of the Mean Value Theorem?",
+      "choices": {
+        "A": "c=2 only",
+        "B": "c=0 and c=2",
+        "C": "c=3 only",
+        "D": "c=0 only"
+      },
+      "correct": "A",
+      "explanation": "f(0)=f(3)=0 so average rate is 0; f′(x)=3x^2−6x=3x(x−2)=0 gives x=0 or x=2; only c=2 lies in (0,3) (1985 BC #13 in 5-1 solutions).",
+      "notesSection": "5.1 - MVT",
+      "notesSnippet": "MVT gives f′(c)=(f(b)−f(a))/(b−a); exclude endpoints unless the interval is closed only for f.",
+      "timeTip": "Solve f′(c)=average rate, then restrict to the open interval."
+    },
+    {
+      "section": "5.1",
+      "topic": "Skater Sully — IVT on position (HW 5-1)",
+      "calcType": "No Calculator",
+      "question": "S(t) is twice differentiable. S(0)=0 m, S(20)=−5 m (north positive). For 0≤t≤20, must there be a time when S(t)=−2 m (2 m south)?",
+      "choices": {
+        "A": "Yes — S is continuous and −2 is between S(0) and S(20).",
+        "B": "No — the table never shows −2.",
+        "C": "Yes — by the Mean Value Theorem on [0,20].",
+        "D": "No — we need S to be linear between sample times."
+      },
+      "correct": "A",
+      "explanation": "Twice differentiable ⇒ continuous; IVT on [0,20] applies because −2 is between 0 and −5 (5-1 worksheet #1a solution).",
+      "notesSection": "5.1 - MVT",
+      "notesSnippet": "Differentiable ⇒ continuous ⇒ IVT applies.",
+      "timeTip": "State the interval where endpoint values bracket the target."
+    },
+    {
+      "section": "5.1",
+      "topic": "Skater Sully — MVT on velocity (HW 5-1)",
+      "calcType": "No Calculator",
+      "question": "With S(30)=7 and S(60)=40 (meters north), S twice differentiable, which average velocity equals (S(60)−S(30))/(60−30)?",
+      "choices": {
+        "A": "33/30 = 1.1 m/s",
+        "B": "40/60 m/s",
+        "C": "(40−7)/60 m/s",
+        "D": "7/30 m/s"
+      },
+      "correct": "A",
+      "explanation": "(40−7)/30 = 33/30 = 1.1; MVT guarantees v(t)=S′(t) equals this average at some t in (30,60) (5-1 #1b solution).",
+      "notesSection": "5.1 - MVT",
+      "notesSnippet": "MVT: (f(b)−f(a))/(b−a)=f′(c) for some c in (a,b).",
+      "timeTip": "Use the same units in numerator and denominator."
+    },
+    {
+      "section": "5.4",
+      "topic": "First derivative test — sign of f′",
+      "calcType": "No Calculator",
+      "question": "If f′(x) changes from positive to negative at x=c (and f is continuous at c), then f has",
+      "choices": {
+        "A": "A local maximum at c",
+        "B": "A local minimum at c",
+        "C": "An inflection point at c",
+        "D": "A vertical asymptote at x=c"
+      },
+      "correct": "A",
+      "explanation": "First derivative test: + to − ⇒ local max (relative extrema packet 5-4).",
+      "notesSection": "5.4 - First Derivative Test",
+      "notesSnippet": "− to + gives local min.",
+      "timeTip": "Sketch a number line for f′ signs."
+    },
+    {
+      "section": "5.6",
+      "topic": "Concavity — second derivative",
+      "calcType": "No Calculator",
+      "question": "If f″(x) > 0 on an interval I, then on I the graph of f is",
+      "choices": {
+        "A": "Concave up",
+        "B": "Concave down",
+        "C": "Decreasing",
+        "D": "Linear"
+      },
+      "correct": "A",
+      "explanation": "f″>0 ⇒ concave up (concavity / inflection worksheets 5-6).",
+      "notesSection": "5.6 - Concavity",
+      "notesSnippet": "f″<0 ⇒ concave down.",
+      "timeTip": "Link f″ sign to bending direction."
     }
   ],
   "frqBank": [

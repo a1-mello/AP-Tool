@@ -143,6 +143,1086 @@
       "notesSection": "3.3 - Inverse Functions",
       "notesSnippet": "arcsin vs arctan: different denominators.",
       "timeTip": "Memorize arcsin, arctan, and arccos derivatives."
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK A The Chain Rule #1 · #1",
+      "calcType": "No Calculator",
+      "question": "Created by B Passwater Worksheet 3-1 A The Chain Rule #1 AP Calculus Name______________________________ Directions: For 1 – 16, find the derivative of the following functions. 1. 푓 ( 푥 ) = ඥ 푥 ଷ −4 య 2. 푔 ( 휃 ) =sin (휃 ଶ ) 3. ℎ ( 푥 ) =cos ଶ (푥) 4. 푓 ( 푥 ) =ln | 푥 ଶ +5 | 5. 푦= 1 푥 ଶ −3푥+1 6. 푘 ( 푡 ) =푒 ସ௧ 7. 푓 ( 푥 ) = ( 푥 ଷ −2푥+5 ) ସ 8. 푓 ( 푥 ) = ඥ tan (푥) 9. 푘 ( 푥 ) = 1 푒 ଷ௫ 10. 푓 ( 푥 ) =푒 ୱ୧୬ ( ௫ ) 11. 푓 ( 푥 ) =sin ଶ (푥) 12. 푓 ( 푥 ) =ln | 2푥 ଷ −4푥+7 | Created by B Passwater 13. 푦=cos ( ln | 푥 | ) 14. 푦=ln | tan (3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK A The Chain Rule #1 · #1(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #1",
+      "calcType": "No Calculator",
+      "question": "Let 푓 ( 푥 ) =푔 ൫ ℎ ( 푥 ) ൯ . Write an equation of the line tangent to 푓 at 푥=−3.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #1(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #2",
+      "calcType": "No Calculator",
+      "question": "Let 푘 ( 푥 ) =푔 ( 푥 ଷ ) . Find 푘 ᇱ ( 2 ) . 3. Let 푚 ( 푥 ) = ℎ ( 푥 ) 5푥 . Find 푚 ᇱ ( 7 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #2(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #4",
+      "calcType": "No Calculator",
+      "question": "Let 푝 ( 푥 ) =ℎ ൫ 푔 ( 푥 ) ൯ . Find 푝 ᇱ ( 8 ) . 5. Let 푟 ( 푥 ) =ln | 푔 ( 푥 ) | . Find 푟 ᇱ ( −3 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #4(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #6",
+      "calcType": "No Calculator",
+      "question": "Let 퐿 ( 푥 ) =푒 ௛ ( ௫ ) . Find 퐿 ᇱ ( 8 ) . 7. Let 퐴 ( 푥 ) =ℎ ( 1+푥−푥 ଷ ) . Find 퐴 ᇱ ( −2 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #6(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #8",
+      "calcType": "No Calculator",
+      "question": "Let 푛 ( 푥 ) =sin ൫ 푔 ( 푥 ) ൯ . Find 푛′ ( 2 ) . 9. Let 퐷 ( 푥 ) = 1 ℎ ( 푥 ) . Find 퐷 ᇱ ( 7 ) . 풙 −ퟑ ퟐ ퟕ ퟖ 품(풙) 4 3 9 2 풉 ( 풙 ) 7 −2 5 0 품 ᇱ ( 풙 ) −1 5 2 8 풉′(풙) −1 7 −3 −5 Created by B Passwater The graphs of 푓 ( 푥 ) and 푔 ( 푥 ) are shown in the figure above and consist of line segments. Use the graphs to answer the following.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #8(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #10",
+      "calcType": "No Calculator",
+      "question": "Let ℎ ( 푥 ) =푓 ൫ 푔 ( 푥 ) ൯ . Find ℎ′ ( 5 ) . 11. Let 푘 ( 푥 ) =푓(푥 ଶ ). Find 푘 ᇱ ( −2 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #10(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #12",
+      "calcType": "No Calculator",
+      "question": "Let 푝 ( 푥 ) =ln ൫ 푔 ( 푥 ) ൯ . Find 푝 ᇱ ( −4 ) . 13. Let 푚 ( 푥 ) = ඥ 푓 ( 푥 ) . Find 푚′ ( −3 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #12(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #14",
+      "calcType": "No Calculator",
+      "question": "Let 퐴 ( 푥 ) =푔 ൫ 푓 ( 푥 ) ൯ . Find 퐴 ᇱ ( 2 ) . 15. Let 퐶 ( 푥 ) = 3 푔 ( 푥 ) . Find 퐶 ᇱ ( −4 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #14(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The limit does not exist.",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #16",
+      "calcType": "No Calculator",
+      "question": "Let 푆 ( 푥 ) =푒 ௙ ( ௫ ) . Find 푆′ ( 11 ) . 17. Let 푄 ( 푥 ) =cos ൫ 푔 ( 푥 ) ൯ . Find 푄 ᇱ ( 3 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #16(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK B The Chain Rule #2 · #18",
+      "calcType": "No Calculator",
+      "question": "Let 퐷 ( 푥 ) =푔(2푥−푥 ଶ ). Find 퐷′ ( −1 ) . 19. Let 푛 ( 푥 ) =ln | 푓 ( 푥 ) −3푥 | . Find 푛 ᇱ ( −4 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK B The Chain Rule #2 · #18(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.1",
+      "topic": "[Packet] 3-1 WK C The Chain Rule #3 · #21",
+      "calcType": "No Calculator",
+      "question": "Find an equation of the tangent line to the curve 푦= √ 1+푥 ଷ at (2,3).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-1 WK C The Chain Rule #3 · #21(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK A Implicit Differentiation #1 · #7",
+      "calcType": "No Calculator",
+      "question": "sin ( 3푥 ) +2cos ( 푦 ) =1 8. 푒 ௫௬ +푥 ଶ −푦 ଶ =10\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK A Implicit Differentiation #1 · #7(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "The limit does not exist.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK A Implicit Differentiation #1 · #9",
+      "calcType": "No Calculator",
+      "question": "Write an equation of the tangent line to the curve 9푥 ଶ +4푦 ଶ =72 at the point (2, 3).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK A Implicit Differentiation #1 · #9(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK A Implicit Differentiation #1 · #10",
+      "calcType": "No Calculator",
+      "question": "Write an equation of the tangent line and normal line to the curve 2푥 ଷ +2푦 ଷ =9푥푦 at the point (1, 2).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK A Implicit Differentiation #1 · #10(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK A Implicit Differentiation #1 · #11",
+      "calcType": "No Calculator",
+      "question": "Write an equation of the tangent line and normal line to the curve 푥=cos푦 at the point ቀ ଵ ଶ , గ ସ ቁ.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK A Implicit Differentiation #1 · #11(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "The limit does not exist.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #4",
+      "calcType": "No Calculator",
+      "question": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #4(a)</span>",
+      "choices": {
+        "A": "The table above gives selected values for the differentiable function 푓 and its derivative 푓 ᇱ . Let 푘 be the function deβined by 푘 ( 푥 ) = 푓(3푥) 4푥 . What is the value of 푘 ᇱ ( −2 ) ?",
+        "B": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "C": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "D": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #5",
+      "calcType": "No Calculator",
+      "question": "What is the equation of the line tangent to the graph of 푦 =ln ( 푥 ଶ ) when 푥 =3?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #5(a)</span>",
+      "choices": {
+        "A": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "B": "The graph of 푓 ( 푥 ) is below. Order 푓 ᇱ ( −3 ) ,푓 ᇱ ( −1 ) ,and 푓 ᇱ ( 1 ) from least to greatest.",
+        "C": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "D": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) ="
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #6",
+      "calcType": "No Calculator",
+      "question": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #6(a)</span>",
+      "choices": {
+        "A": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "B": "If 푓 is the function given by 푓 ( 푥 ) =4−푥 ଷ ,for which value of 푥 is the instantaneous rate of change equal to the average rate of change of 푓 ( 푥 ) on the interval [ −1,3 ] ? 푥 −6 −2 6 푓(푥) 3 −4 5 푓′(푥) 2 1 −3 Created …",
+        "C": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "D": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 ."
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #7",
+      "calcType": "No Calculator",
+      "question": "The table above gives selected values for the differentiable function 푓 and its derivative 푓 ᇱ . Let 푘 be the function deβined by 푘 ( 푥 ) = 푓(3푥) 4푥 . What is the value of 푘 ᇱ ( −2 ) ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #7(a)</span>",
+      "choices": {
+        "A": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "B": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "C": "lim ௫→ିஶ 9푥−2 √ 4푥 ଶ −2푥+1 = 11. 푓 ( 푥 ) = ( 3푥 ଶ −5푥+1 ) ଺ . Find 푓′(푥) 12. 푔 ( 푥 ) =sin ଶ ( 3푥−1 ) . Find 푔 ᇱ ( 푥 ) . 13. 푔 ( 푥 ) = 5−2푥 3푥+7 ,βind 푔′(푥)",
+        "D": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #8",
+      "calcType": "No Calculator",
+      "question": "The graph of 푓 ( 푥 ) is below. Order 푓 ᇱ ( −3 ) ,푓 ᇱ ( −1 ) ,and 푓 ᇱ ( 1 ) from least to greatest. 푥 −6 −2 6 푓(푥) 3 −4 5 푓′(푥) 2 1 −3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #8(a)</span>",
+      "choices": {
+        "A": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "B": "The graph of 푓 ( 푥 ) below along with the line tangent to 푓 at 푥 =2. Let 푔 ( 푥 ) = 푓 ( 푥 ) 푒 ௫ . Find 푔 ᇱ ( 2 ) .",
+        "C": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "D": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #9",
+      "calcType": "No Calculator",
+      "question": "If 푓 is the function given by 푓 ( 푥 ) =4−푥 ଷ ,for which value of 푥 is the instantaneous rate of change equal to the average rate of change of 푓 ( 푥 ) on the interval [ −1,3 ] ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #9(a)</span>",
+      "choices": {
+        "A": "The βigure below shows the graphs of 푓 and 푔. If 푘 ( 푥 ) =푓 ( 푥 ) 푔 ( 푥 ) ,βind 푘′(2). y = f (x) (6, 0) (2, –3) y = f (x) y = g(x) Created by B Passswater 푔 ( 푥 ) =൜ 푎푥 ଶ +3,푥≤2 16푥−23,푥>2",
+        "B": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "C": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "D": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 ."
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #10",
+      "calcType": "No Calculator",
+      "question": "lim ௫→ିஶ 9푥−2 √ 4푥 ଶ −2푥+1 = 11. 푓 ( 푥 ) = ( 3푥 ଶ −5푥+1 ) ଺ . Find 푓′(푥) 12. 푔 ( 푥 ) =sin ଶ ( 3푥−1 ) . Find 푔 ᇱ ( 푥 ) . 13. 푔 ( 푥 ) = 5−2푥 3푥+7 ,βind 푔′(푥) Created by B Passswater\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #10(a)</span>",
+      "choices": {
+        "A": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "B": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "C": "The function 푔 is deβined above. Find the value of 푎 that makes 푔 continuous at 푥=2",
+        "D": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #14",
+      "calcType": "No Calculator",
+      "question": "The graph of 푓 ( 푥 ) below along with the line tangent to 푓 at 푥 =2. Let 푔 ( 푥 ) = 푓 ( 푥 ) 푒 ௫ . Find 푔 ᇱ ( 2 ) . 푔 ( 푥 ) =൜ 푎푥 ଶ +3, 푥 ≤2 16푥−23, 푥 &gt;2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #14(a)</span>",
+      "choices": {
+        "A": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "B": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "C": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "D": "lim ௫→ିଷ 푥 ଶ −9 푥 ଶ −4푥−21 ="
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #16",
+      "calcType": "No Calculator",
+      "question": "The function 푔 is deβined above. Find the value of 푎 that makes 푔 continuous at 푥 =2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #16(a)</span>",
+      "choices": {
+        "A": "Write an equation of the line tangent to the curve 푥 ଶ −3푥푦+4푦=8 through the point ( 2,−2 ) .",
+        "B": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "C": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "D": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #17",
+      "calcType": "No Calculator",
+      "question": "If 푓 is the function given by 푓 ( 푥 ) =sinቀ 푥 6 ቁ,write the equation of the line tangent to the graph of 푓 at the point ൬ 휋, 1 2 ൰ .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #17(a)</span>",
+      "choices": {
+        "A": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "B": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "C": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "D": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 ."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #18",
+      "calcType": "No Calculator",
+      "question": "If 푓 ( 푥 ) = ඥ 푥 ଶ −4 and 푔 ( 푥 ) =3푥−2,βind the derivative of 푔൫푓 ( 푥 ) ൯ at 푥=6. 푥 1 2 5 7 푓(푥) 2 8 2 −3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #18(a)</span>",
+      "choices": {
+        "A": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "B": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "C": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "D": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 ."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #19",
+      "calcType": "No Calculator",
+      "question": "Let 푓 be a continuous function with selected values given in the table above. Is there a time 푐, where 1&lt;푐 &lt;7,such that 푓 ( 푐 ) =0? Justify your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #19(a)</span>",
+      "choices": {
+        "A": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 .",
+        "B": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "C": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "D": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 ."
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #20",
+      "calcType": "No Calculator",
+      "question": "lim ௫→ିଷ 푥 ଶ −9 푥 ଶ −4푥−21 =\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #20(a)</span>",
+      "choices": {
+        "A": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 .",
+        "B": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "C": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "D": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 ."
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #21",
+      "calcType": "No Calculator",
+      "question": "Let 3푥 ଶ −2푦+4푥푦 =6. Find 푑푦 푑푥 .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #21(a)</span>",
+      "choices": {
+        "A": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "B": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "C": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 .",
+        "D": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) ="
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #22",
+      "calcType": "No Calculator",
+      "question": "Write an equation of the line tangent to the curve 푥 ଶ −3푥푦+4푦 =8 through the point ( 2,−2 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #22(a)</span>",
+      "choices": {
+        "A": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "B": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 .",
+        "C": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "D": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 ."
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #23",
+      "calcType": "No Calculator",
+      "question": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 . y = f (x) (6, 0) (2, –3) y = f (x) y = g(x)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #23(a)</span>",
+      "choices": {
+        "A": "Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 .",
+        "B": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "C": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "D": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) ="
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.2",
+      "topic": "[Packet] 3-2 WK Mixed Derivative Practice (thru 3-2) · #15",
+      "calcType": "No Calculator",
+      "question": "The βigure below shows the graphs of 푓 and 푔. If 푘 ( 푥 ) =푓 ( 푥 ) 푔 ( 푥 ) ,βind 푘′(2).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-2 WK Mixed Derivative Practice (thru 3-2) · #15(a)</span>",
+      "choices": {
+        "A": "If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =",
+        "B": "What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater",
+        "C": "The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .",
+        "D": "Let 3푥 ଶ −2푦+4푥푦=6. Find 푑푦 푑푥 ."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "3.2",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #1",
+      "calcType": "No Calculator",
+      "question": "Given 푓 ( 푥 ) =3푥 ହ +2푥+3 and 푔 ( 푥 ) =푓 ିଵ (푥), find 푔′(푥).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #1(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #2",
+      "calcType": "No Calculator",
+      "question": "Given 푔 ( 푥 ) =푓 ିଵ (푥), 푓 ( 7 ) =−2,푓 ( −5 ) =1,푓 ᇱ ( 7 ) =−1,and 푓′ ( −5 ) =8, find 푔′(−2).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #2(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The limit does not exist.",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #3",
+      "calcType": "No Calculator",
+      "question": "Given 푔 ( 푥 ) =푓 ିଵ (푥), 푓 ( 6 ) =−8,푓 ( −5 ) =1,푓 ᇱ ( 6 ) =3,and 푓′ ( −5 ) =6, find 푔′(1). The table below gives values of the differentiable functions 푔 and 푔′ at selected values of 푥. Let ℎ ( 푥 ) =푔 ିଵ (푥)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #3(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #4",
+      "calcType": "No Calculator",
+      "question": "Find equation of the tangent line to ℎ(푥) at 푥=2.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #4(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #5",
+      "calcType": "No Calculator",
+      "question": "Find equation of the tangent line to ℎ(푥) at 푥=7.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #5(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #6",
+      "calcType": "No Calculator",
+      "question": "Given 푔 ିଵ ( 푥 ) =푓(푥) and 푔 ( 푥 ) = ଵ ହି௫ , find 푓 ᇱ ቀ ଵ ଷ ቁ. 푥 푔(푥) 푔′(푥) 2 5 3 4 7 –2 5 10 11 7 2 –7 10 4 6 Created by FM and K Bakowski 푓 and 푔 are differentiable functions. Use the table to answer the problems below. 푓 and 푔 are NOT inverses!\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #6(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #7",
+      "calcType": "No Calculator",
+      "question": "Find 푔 ିଵ (−1) 8.) Find 푓 ିଵ (−5)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #7(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #9",
+      "calcType": "No Calculator",
+      "question": "Find ௗ ௗ௫ [ 푔 ିଵ ( 푥 )] ௫ୀିଶ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #9(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #10",
+      "calcType": "No Calculator",
+      "question": "Find ௗ ௗ௫ [ 푓 ିଵ ( 푥 )] ௫ୀିଷ TEST PREP\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #10(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.3",
+      "topic": "[Packet] 3-3 WK A Derivatives of Inverse Functions #1 · #11",
+      "calcType": "No Calculator",
+      "question": "The functions 푓 and 푔 are differentiable for all real numbers and 푔 is strictly increasing. The table below gives values of the functions and their first derivatives at selected values of 푥. The function ℎ is given by ℎ ( 푥 ) =푓൫푔 ( 푥 ) ൯−6. (a) Explain why there must be a value 푟 for 1&lt;푟&lt;3 such that ℎ ( 푟 ) =−5. (b) If 푔 ିଵ is the inverse function of 푔, write an equation for the line tangent to the graph of 푦=푔 ିଵ (푥) at 푥=2. 푥 푓(푥) 푓′(푥) 푔(푥) 푔′(푥) –1 –2 5 –5 –4 –2 –3 6 –6 –3 –3 –6 –4 –5 –2 –4 –1 –9 –3 –1 –5 –4 –\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-3 WK A Derivatives of Inverse Functions #1 · #11(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #1",
+      "calcType": "No Calculator",
+      "question": "y=cos ିଵ (−5푥 ଷ ) 2.) 푦=arcsin(−2푥 ଶ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #1(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #3",
+      "calcType": "No Calculator",
+      "question": "푦=arctan(2푥 ସ ) 4.) 푦=csc ିଵ (4푥 ଶ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #3(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #5",
+      "calcType": "No Calculator",
+      "question": "푦= ( arcsin ( 5푥 ଶ )) ଷ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #5(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #6",
+      "calcType": "No Calculator",
+      "question": "푦=cos ିଵ ( −2푥 ଷ −3 ) ଷ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #6(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #8",
+      "calcType": "No Calculator",
+      "question": "푦= ( tan ିଵ ( 5푥 )) ଶ Directions: Find the equation of the tangent line to the curve at the given point.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #8(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "The limit does not exist.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #9",
+      "calcType": "No Calculator",
+      "question": "푦=arcsin(2푥) at the point where 푥= ଵ ସ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #9(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #10",
+      "calcType": "No Calculator",
+      "question": "푓 ( 푥 ) =arccos(3푥) at the point where 푥=− √ ଷ ଺\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #10(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.4",
+      "topic": "[Packet] 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #11",
+      "calcType": "No Calculator",
+      "question": "푦=arctan൫ √ 푥൯ at the point where 푥=3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-4 WK A Differentiating Inverse Trigonometric Functions #1 · #11(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #1",
+      "calcType": "No Calculator",
+      "question": "Let 푑푦 푑푥 =푔൫푓 ( 푥 ) ൯. Find 푑 ଶ 푦 푑푥 ଶ at 푥=5.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #1(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #3",
+      "calcType": "No Calculator",
+      "question": "Let 푐 ( 푥 ) = 푔 ( 푥 ) ℎ ( 푥 ) . Find 푐 ᇱ ( 9 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #3(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #4",
+      "calcType": "No Calculator",
+      "question": "Let 푑 ( 푥 ) = 1 √ 푥 +3ℎ ( 푥 ) . Find 푑 ᇱ ( 4 ) . Created by B Passwater and FM You need to do these on notebook paper.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #4(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #5",
+      "calcType": "No Calculator",
+      "question": "Given cos푦=2푥 ଶ , find ௗ మ ௬ ௗ௫ మ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #5(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #6",
+      "calcType": "No Calculator",
+      "question": "If ௗ௬ ௗ௫ =푒 ௬ +푥 ଷ/ଶ , find ௗ మ ௬ ௗ௫ మ at ( 4,0 )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #6(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #7",
+      "calcType": "No Calculator",
+      "question": "If 푥 ଶ −2푥푦+3푦 ଶ =8, then ௗ௬ ௗ௫ = (A) ଼ାଶ௬ିଶ௫ ଺௬ିଶ௫ (B) ଷ௬ି௫ ௬ି௫ (C) ଶ௫ିଶ௬ ଺௬ିଶ௫ (D) ଵ ଷ (E) ௬ି௫ ଷ௬ି௫\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #7(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #8",
+      "calcType": "No Calculator",
+      "question": "If 푓 ( 푥 ) =cos ( 푒 ି௫ ) , then 푓 ᇱ ( 푥 ) is (A) −sin(푒 ି௫ ) (B) sin(푒 ି௫ ) (C) sin(푒 ି௫ )−푒 ି௫ (D) e ି௫ sin(푒 ି௫ ) (E) −e ି௫ sin(푒 ି௫ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #8(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #9",
+      "calcType": "No Calculator",
+      "question": "A curve given by the equation 푥 ଷ +푥푦=8 has slope given by ௗ௬ ௗ௫ = ିଷ௫ మ ି௬ ௫ . The value of ௗ మ ௬ ௗ௫ మ at the point where 푥=2 is (A) –6 (B) –3 (C) 0 (D) 4 (E) undefined\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #9(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "3.5",
+      "topic": "[Packet] 3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #10",
+      "calcType": "No Calculator",
+      "question": "Let 푓 be the function defined by 푓 ( 푥 ) =2푥 ସ −푥 ଷ +푥. Let 푔 ( 푥 ) =푓 ିଵ (푥), where 푔 ( 2 ) =1. What is the value of 푔 ᇱ ( 2 ) ? (A) ଵ ହଷ (B) ଵ ଶ଺ (C) ଵ ଺ (D) ଵ ଶ (E) 53\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 · #10(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "3.5",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
     }
   ],
   "frqBank": [

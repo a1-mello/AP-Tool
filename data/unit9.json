@@ -91,6 +91,942 @@
       "notesSection": "9.3 - Polar Area",
       "notesSnippet": "Constant radius still uses polar area formula.",
       "timeTip": "Integrate over theta interval."
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #4",
+      "calcType": "Calculator Active",
+      "question": "2 2 dy dx 22 1,xtytt=+=+, tt xeyte - == 2ln,2lnxttytt=-=+sin,2cos02xtyttp==££ 2 Skill Builder 9.3 – Finding Arc Lengths of Curves Defined by Parametric Equations Find the arc length of the given curve on the indicated interval. Calculators are permitted only for 3 and 4.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #4(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #6",
+      "calcType": "Calculator Active",
+      "question": "33 sinand cos0, 2 xtyt p éù == êú ëû () [] 3 3 2 2 2and 180,4xtyt==+- [] 23 and 421,1xttyt=-=+- [] 2sinand 3cos0,2xttytp== [] 2sinand 2cos0, tt xetyetp -- == [] 5 3 1 and 1,3 106 t xyt t =+= 3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #6(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #7",
+      "calcType": "Calculator Active",
+      "question": "The path of a soccer ball is modeled by the equations where x and y are measured in feet. Graph the path of the ball and find the difference between the horizontal distance the ball travels and the arc length of the path of the ball. Be sure to label your axes.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #7(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #8",
+      "calcType": "Calculator Active",
+      "question": "Given the parametric equations sketch it on your calculator. a) Other than at , the graph has one horizontal tangent and a vertical tangent. Determine the difference in the t values at these points. b) Approximate the arc length of the closed loop. 2 80cos30 and 80sin3016xtytt==-  2 33 33 and ,0, 11 tt xyt tt ==³ ++ 0t= 4 Skill Builder 9.4: Defining and Differentiating Vector-Valued Functions For each of the following, write the vector in component form and sketch it in its component form.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #8(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #1",
+      "calcType": "Calculator Active",
+      "question": "initial point: terminal point:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #1(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #2",
+      "calcType": "Calculator Active",
+      "question": "initial point: terminal point:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #2(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #3",
+      "calcType": "Calculator Active",
+      "question": "initial point: terminal point: For each of the following, find the vector v where u = and w = . Write in component form. 4. 5.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #3(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #6",
+      "calcType": "Calculator Active",
+      "question": "For each of the following, find a and b such that where u = and w = . 7. 8.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #6(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #9",
+      "calcType": "Calculator Active",
+      "question": "(1,3) (5,6) (4,3)- (2,4)-- 31 , 22 æö - ç÷ èø 14 4, 3 æö - ç÷ èø 5,3-1,4 3 4 =vu 2=-vwu () 1 53 2 =--vuw ab=+vuw 1,21,1- 2,1=v0,3=v1,7=-v 5 Given that u = and v = , find each of the following. 10. 11. 12. 13. 14. 15. 16.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #9(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #17",
+      "calcType": "Calculator Active",
+      "question": "The angle between and For each of the following, find a unit vector (a) parallel and (b) orthogonal to the graph of at the given point. 18.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #17(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #19",
+      "calcType": "Calculator Active",
+      "question": "For each of the following, determine whether u and v are orthogonal, parallel or neither. 20. 21. 22. 2,3-4,4 uv+uv u u v v + + uv uv ×uvuv ()fx 3 ()(1,1)fxx= 2 ()25(3,4)fxx=- 46,23=-=-+uijvij 31 2,18,, 26 ==-uv tan,1,cos,sinqqq=-=uv 6 For each of the following, evaluate the limit. 26. 27.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #19(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #28",
+      "calcType": "Calculator Active",
+      "question": "For each of the following, determine the intervals where the vector-valued function is continuous. 29. 30.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #28(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #31",
+      "calcType": "Calculator Active",
+      "question": "Skill Builder 9.5: Integrating Vector-Valued Functions For each of the following, evaluate the integral. 1. 2. 3. 2 3 19 lim 3 t t tt ® æö - + ç÷ - èø ij 3 2 1 ln lim 1 t t t t ® æö + ç÷ - èø ij 2 2 5 lim4 1 t t e t - ®¥ æö + ç÷ - èø ij ()2ttt=+-vij ()sin()cos()ttt=-vij 1 ()sin() t tet -- =+vij 3 (31)4ttdt éù -- ëû ò ij 2 2 1 sec() 1 tdt t éù - êú - ëû ó ô õ ij ()() 2 0 cos2sin3i+jttdt p éù ëû ò 7 For each of the following, find using the given conditions. 4.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #31(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #5",
+      "calcType": "Calculator Active",
+      "question": "Find the vector valued function f (t) that satisfies the given initial condition(s). 6.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #5(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #7",
+      "calcType": "Calculator Active",
+      "question": "()rt ()() 2 ()43(0)2rij,ri tt tee ¢ =+= ()4cos()6, (0)3,(0)2 rij rjri tt ¢¢ =-- ¢ == 2 1 (0),1,(), 2 tt ttee -- ¢ =-=-ff (0)3,0,(0)0,3,()5cos,2sinttt ¢¢¢ ===-fff 8\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #7(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The limit does not exist.",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #8",
+      "calcType": "Calculator Active",
+      "question": "Skill Builder 9.6: Solving Motion Problems Using Parametric &amp; Vector-Valued Functions For each of the following problems, describes the path of an object in the xy plane. Generate the velocity and acceleration vectors and the speed at the given point. Sketch the path, velocity and acceleration vectors at that point using two different colors. 1. 2. 32 (0)0,2,(0)3,0,()4,3ttt ¢¢¢ ===fff r ()(5)(1)at 2tttt=-+-=rij 2 ()(8)(33)at 0tttt=-+-=rij 9 You may use your graphing calculator to sketch the motion path for Problems\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #8(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #5",
+      "calcType": "Calculator Active",
+      "question": "Use the acceleration function to find the velocity and position function of an object at rest whose initial position is at . ()(sin)(1cos)at tttttp=-+-=rij ()() ()at 0rij tt teet - =+= ()sin() t tet - =+aij (0,0) tp= 10 6. “The Jumble,” an amusement park ride, has people riding through the air as shown in the graph to the right. The path described with the vector-valued function .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #5(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #5",
+      "calcType": "Calculator Active",
+      "question": "Find both the velocity and acceleration vectors at\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #5(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #5",
+      "calcType": "Calculator Active",
+      "question": "and ii.) . Sketch the velocity vectors.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #5(i)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 23 · #5",
+      "calcType": "Calculator Active",
+      "question": "Find and sketch the speed of a rider on “The Jumble” on the time interval . Find the values of t where the speed has relative extrema and absolute extrema and place their locations on the path diagram below. Explain why these locations make sense. ()() ()40sin230cos3rijttt=+ 3 4 t p = 7 3 t p = 02tp££ 11 Enrichment: Unit 9 – Parametric and Vector-Valued Functions (Circuit) Begin in the first cell marked #1 and find the solution of the given problem. To advance in the circuit, search for your answer and mark that ce\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 23 · #5(b)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #1",
+      "calcType": "Calculator Active",
+      "question": "For each of the following polar coordinates, find the corresponding rectangular coordinates.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #1(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #2",
+      "calcType": "Calculator Active",
+      "question": "For each of the following rectangular coordinates, find the corresponding polar coordinates, one with a positive radius and the other with a negative radius.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #2(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #3",
+      "calcType": "Calculator Active",
+      "question": "For each of the following rectangular equations, change it to polar form and confirm using your calculator.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #3(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #3",
+      "calcType": "Calculator Active",
+      "question": "6, 2 p æö ç÷ èø 7 1, 4 p æö ç÷ èø 7 1, 4 p- æö - ç÷ èø 4, 3 p- æö ç÷ èø () 3,3- 13 , 22 æö - ç÷ ç÷ èø () 0,4- () 33,3-- 57xy-=16xy= 22 (1)1xy-+= ()() 22 2222 1xyxy+=-+ 2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #3(d)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #4",
+      "calcType": "Calculator Active",
+      "question": "For each of the following polar equations, change it to rectangular form and confirm using your calculator. Solve for y for each answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #4(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #5",
+      "calcType": "Calculator Active",
+      "question": "For , find and the slope of the tangent line at the following polar points. Work for :\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #5(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #5",
+      "calcType": "Calculator Active",
+      "question": "4r= 2 tan9q= 4sinrq= 1 1cos r q = - 23sinrq=+ dy dx dy dx 5 5, 2 p æö ç÷ èø () 2,p 3 1, 2 p æö - ç÷ èø 7 , 26 p æö ç÷ èø 3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #5(d)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #6",
+      "calcType": "Calculator Active",
+      "question": "For each of the following, find the points of horizontal and vertical tangency (if any).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #6(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #6",
+      "calcType": "Calculator Active",
+      "question": "() 41cosrq=+ 2 sincos,0rqqqp=££ 4 Skill Builder 9.8: Finding the Area of a Region Bounded by a Single Polar Curve In the following, graph on your calculator and find the area of the region. Set up and use your TI-Nspire.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #6(b)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #1",
+      "calcType": "Calculator Active",
+      "question": "One petal of 2.) One petal of\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #1(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #3",
+      "calcType": "Calculator Active",
+      "question": "One petal of 4.) Interior of (above the polar axis)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #3(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #5",
+      "calcType": "Calculator Active",
+      "question": "Inner loop of 6.) Between the loops of 6cos3rq=2cos2rq= sin5rq=2sinrq=- 12cosrq=-12cosrq=+ 5 Find the points of intersection of the graphs of the following. Show work and only use the calculator to verify.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #5(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "0"
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #10",
+      "calcType": "Calculator Active",
+      "question": "2cos and 2cosrrqq=+=-1cos and 1sinrrqq=+=- 1cos and 3cosrrqq=+=4sin2 and 2rrq== 6 Skill Builder 9.9: Finding the Area of a Region Bounded by Two Polar Curves Use your calculators to both graph the polar equations and find the area of the indicated region.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #10(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #1",
+      "calcType": "Calculator Active",
+      "question": "Common interior of and\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #1(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #3",
+      "calcType": "Calculator Active",
+      "question": "Inside the lemniscate of and outside\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #3(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #4",
+      "calcType": "Calculator Active",
+      "question": "The sonar signal from a submarine is modeled by . Find the area of the region between the two curves for and 4(1sin)rq=+ 4(1sin)rq=- 1sinrq=+ 2r= 2 8cos2rq= 2r= 2 cosraq= 5a= 10a= 7 MCQ Enrichment – Unit 9B Polar Equations and Calculus For each of the following problems, do not use your calculator unless you see the calculator icon. Credit will only be given for correct answers with adequate supporting work.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #4(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #1",
+      "calcType": "Calculator Active",
+      "question": "Convert the rectangular equation to polar form. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #1(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #2",
+      "calcType": "Calculator Active",
+      "question": "Convert the polar equation to rectangular form. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #2(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #3",
+      "calcType": "Calculator Active",
+      "question": "For the polar curve , find at (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #3(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #4",
+      "calcType": "Calculator Active",
+      "question": "Find the equation of the line tangent to at (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #4(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #5",
+      "calcType": "Calculator Active",
+      "question": "The graph of the four-leaf rose is shown in the figure to the right. Which of the following gives the correct area of the figure? I. II. III. (A) I and II only (B) I and III only (C) II and III only (D) I, II and III 2 9yx= 2 3csccosrqq= 3cos sin r q q = 2 9csccosrqq= 2 9sincosrqq= seccscrqq=+ 1 y x =- 1 y x = 1 x y x = -1 x y x = + 34sinrq=- dy dx 0.q= 3 4 - 3 4 4 3 - 4 3 23sinrq=+.qp= () 2 2 3 yx=- () 2 2 3 yx=-+ () 3 2 2 yx=-+ () 3 2 2 yx=- 2sin2rq= 2 2 0 2sin2d p qq ò 2 0 4sin2d p qq ò /2 2 0 8sin2d p qq ò 8\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #5(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #6",
+      "calcType": "Calculator Active",
+      "question": "The graph of the limaçon is shown in the figure to the right. Which of the following gives the area of the shaded inner loop? I. II. III. IV. (A) I and II only (B) II only (C) II and III only (D) II and IV only (E) I, II, and III only (F) III only (G) I, II, III and IV (H) none correctly express the area of the inner loop\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #6(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #7",
+      "calcType": "Calculator Active",
+      "question": "Find the area common to both the circle of radius 1 and the cardioid as shown in the figure to the right. Write the integral expression. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #7(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #8",
+      "calcType": "Calculator Active",
+      "question": "A particle moving along the polar curve has position at time t with corresponding to . The particle moves along the curve such that . Describe the motion of the particle at . I. Getting closer to the x-axis II. Getting closer to the y-axis III. Getting closer to the origin (A) I only (B) II only (C) I and II only (D) II and III only\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #8(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #9",
+      "calcType": "Calculator Active",
+      "question": "For how many values of does the curve have horizontal tangents on ? (A) One (B) Two (C) Three (D) Four 24sinrq=- () /6 2 0 24sind p qq- ò () /2 2 /6 24sind p p qq- ò () 2 2 3/2 24sind p p qq- ò ()() /2/6 22 00 24sin24sindd pp qqqq--- òò 1cosrq=+ 0.3561.215 1.5711.927 sin re q = () (),()xtyt 0q= 0t= drd dtdt q = 5 4 t p = q 4(1sin)rq=+ 02qp££ 9\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #9(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #10",
+      "calcType": "Calculator Active",
+      "question": "The graph of the lemniscate where k is a constant is shown in the figure to the right. Find the area bounded by the curve. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #10(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The limit does not exist.",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #11",
+      "calcType": "Calculator Active",
+      "question": "Find the area enclosed by between and as shown in the figure to the right. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #11(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #12",
+      "calcType": "Calculator Active",
+      "question": "To find the shaded area enclosed by the rose curve a and the circle as shown by the figure to the right, we find the first quadrant area and double it. The resulting calculation is the sum of two integrals, one from row M and the other from row N. What are they? (A) (B) (C) (D) 1 2 3 M N cos2rkq= 2 4 k 2 2 k 2 k 2 2k tan1rq=-0q= 4 p q= 1 ln2 2 + 1 2ln2 2 + 1ln2 2 -ln2 1 2 - 2sincosrqq= cosrq= M1,N1M1,N2M2,N1M3,N3 () 6 22 0 4sincosd p qqq ò () 22 /6 4sincosd p p qqq ò () /2 22 /6 4sincosd p p qqq ò 2 /6 cosd p p qq \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #12(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #13",
+      "calcType": "Calculator Active",
+      "question": "A child’s amusement park ride has a car that follows the track of as shown in the figure to the right, where x and y are measured in feet. The angle changes at . How fast is the car moving along the track in ft/sec at the time it is at the point on the track where it makes a angle to the horizontal? (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #13(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #14",
+      "calcType": "Calculator Active",
+      "question": "The graph of the logarithmic spiral is shown in the figure below to the left. The spiral from to is solid while from to is dashed. Find the area of the grey shaded region in the figure below to the right. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #14(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #15",
+      "calcType": "Calculator Active",
+      "question": "A 12-inch diameter pizza is shown in the figure to the right. Bernie D. Rolz and his wife share the pizza with the wife getting the shaded region. Polar equations are used to find the area between the polar curves and (which graphs a horizontal line). Find the area of the shaded region. (A) (B) (C) (D)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #15(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "9.1",
+      "topic": "[Packet] BC HW 24 · #16",
+      "calcType": "Calculator Active",
+      "question": "A particle travels along the polar curve for . What is the greatest distance of the particle from the origin? Show your work. (A) (B) (C) (D) 2 20sinrq= 10 sec  45  50 3 p 55 9 p 1005 10 9 p /4 re q = 0q=2qp=2qp=-0q= 2ee pp- +-ee pp- +ee pp- -2ee pp- -- 6r= 3cscrq= 24183p- 1233p- 1293p-36543p- 24cosrqq=-02qp££ 5.7608.055 8.56610.794\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: BC HW 24 · #16(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "9.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
     }
   ],
   "frqBank": [
@@ -123,6 +1059,353 @@
             "Use point-slope form."
           ],
           "scoring": "1 pt point, 1 pt slope, 1 pt equation."
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "packetAuto": true,
+      "packetSection": "9.1",
+      "calcAllowed": true,
+      "title": "BC HW 23 (FRQ)",
+      "context": "<p><strong>BC HW 23</strong> — <a href=\"Unit%209/Homework/BC%20HW%2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "parts": [
+        {
+          "label": "(4a)",
+          "points": 2,
+          "question": "<p>2 2 dy dx 22 1,xtytt=+=+, tt xeyte - == 2ln,2lnxttytt=-=+sin,2cos02xtyttp==££ 2 Skill Builder 9.3 – Finding Arc Lengths of Curves Defined by Parametric Equations Find the arc length of the given curve on the indicated interval. Calculators are permitted only for 3 and 4.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(6a)",
+          "points": 2,
+          "question": "<p>33 sinand cos0, 2 xtyt p éù == êú ëû () [] 3 3 2 2 2and 180,4xtyt==+- [] 23 and 421,1xttyt=-=+- [] 2sinand 3cos0,2xttytp== [] 2sinand 2cos0, tt xetyetp -- == [] 5 3 1 and 1,3 106 t xyt t =+= 3</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(7a)",
+          "points": 2,
+          "question": "<p>The path of a soccer ball is modeled by the equations where x and y are measured in feet. Graph the path of the ball and find the difference between the horizontal distance the ball travels and the arc length of the path of the ball. Be sure to label your axes.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(8a)",
+          "points": 2,
+          "question": "<p>Given the parametric equations sketch it on your calculator. a) Other than at , the graph has one horizontal tangent and a vertical tangent. Determine the difference in the t values at these points. b) Approximate the arc length of the closed loop. 2 80cos30 and 80sin3016xtytt==-  2 33 33 and ,0, 11 tt xyt tt ==³ ++ 0t= 4 Skill Builder 9.4: Defining and Differentiating Vector-Valued Functions For each of the following, write the vector in component form and sketch it in its component form.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(1a)",
+          "points": 2,
+          "question": "<p>initial point: terminal point:</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(2a)",
+          "points": 2,
+          "question": "<p>initial point: terminal point:</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(3a)",
+          "points": 2,
+          "question": "<p>initial point: terminal point: For each of the following, find the vector v where u = and w = . Write in component form. 4. 5.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(6a)",
+          "points": 2,
+          "question": "<p>For each of the following, find a and b such that where u = and w = . 7. 8.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(9a)",
+          "points": 2,
+          "question": "<p>(1,3) (5,6) (4,3)- (2,4)-- 31 , 22 æö - ç÷ èø 14 4, 3 æö - ç÷ èø 5,3-1,4 3 4 =vu 2=-vwu () 1 53 2 =--vuw ab=+vuw 1,21,1- 2,1=v0,3=v1,7=-v 5 Given that u = and v = , find each of the following. 10. 11. 12. 13. 14. 15. 16.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(17a)",
+          "points": 2,
+          "question": "<p>The angle between and For each of the following, find a unit vector (a) parallel and (b) orthogonal to the graph of at the given point. 18.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(19a)",
+          "points": 2,
+          "question": "<p>For each of the following, determine whether u and v are orthogonal, parallel or neither. 20. 21. 22. 2,3-4,4 uv+uv u u v v + + uv uv ×uvuv ()fx 3 ()(1,1)fxx= 2 ()25(3,4)fxx=- 46,23=-=-+uijvij 31 2,18,, 26 ==-uv tan,1,cos,sinqqq=-=uv 6 For each of the following, evaluate the limit. 26. 27.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(28a)",
+          "points": 2,
+          "question": "<p>For each of the following, determine the intervals where the vector-valued function is continuous. 29. 30.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "packetAuto": true,
+      "packetSection": "9.1",
+      "calcAllowed": true,
+      "title": "BC HW 24 (FRQ)",
+      "context": "<p><strong>BC HW 24</strong> — <a href=\"Unit%209/Homework/BC%20HW%2024.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "parts": [
+        {
+          "label": "(1a)",
+          "points": 2,
+          "question": "<p>For each of the following polar coordinates, find the corresponding rectangular coordinates.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(2a)",
+          "points": 2,
+          "question": "<p>For each of the following rectangular coordinates, find the corresponding polar coordinates, one with a positive radius and the other with a negative radius.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(3a)",
+          "points": 2,
+          "question": "<p>For each of the following rectangular equations, change it to polar form and confirm using your calculator.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(3d)",
+          "points": 2,
+          "question": "<p>6, 2 p æö ç÷ èø 7 1, 4 p æö ç÷ èø 7 1, 4 p- æö - ç÷ èø 4, 3 p- æö ç÷ èø () 3,3- 13 , 22 æö - ç÷ ç÷ èø () 0,4- () 33,3-- 57xy-=16xy= 22 (1)1xy-+= ()() 22 2222 1xyxy+=-+ 2</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(4a)",
+          "points": 2,
+          "question": "<p>For each of the following polar equations, change it to rectangular form and confirm using your calculator. Solve for y for each answer.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(5a)",
+          "points": 2,
+          "question": "<p>For , find and the slope of the tangent line at the following polar points. Work for :</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(5d)",
+          "points": 2,
+          "question": "<p>4r= 2 tan9q= 4sinrq= 1 1cos r q = - 23sinrq=+ dy dx dy dx 5 5, 2 p æö ç÷ èø () 2,p 3 1, 2 p æö - ç÷ èø 7 , 26 p æö ç÷ èø 3</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(6a)",
+          "points": 2,
+          "question": "<p>For each of the following, find the points of horizontal and vertical tangency (if any).</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(6b)",
+          "points": 2,
+          "question": "<p>() 41cosrq=+ 2 sincos,0rqqqp=££ 4 Skill Builder 9.8: Finding the Area of a Region Bounded by a Single Polar Curve In the following, graph on your calculator and find the area of the region. Set up and use your TI-Nspire.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(1a)",
+          "points": 2,
+          "question": "<p>One petal of 2.) One petal of</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(3a)",
+          "points": 2,
+          "question": "<p>One petal of 4.) Interior of (above the polar axis)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        },
+        {
+          "label": "(5a)",
+          "points": 2,
+          "question": "<p>Inner loop of 6.) Between the loops of 6cos3rq=2cos2rq= sin5rq=2sinrq=- 12cosrq=-12cosrq=+ 5 Find the points of intersection of the graphs of the following. Show work and only use the calculator to verify.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
+          "steps": [
+            "Show all steps on paper.",
+            "Confirm with the answer key PDF."
+          ],
+          "scoring": "Reasoning + correct result."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "packetAuto": true,
+      "packetSection": "9.2",
+      "calcAllowed": true,
+      "title": "Section 9.2 — packet FRQ (placeholder)",
+      "context": "<p>No worksheet was auto-mapped to <strong>9.2</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 4,
+          "question": "<p>Open any homework or review packet for section 9.2 from Materials and complete a representative problem your teacher marked for this topic.</p>",
+          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
+          "steps": [
+            "Select a problem from your packet for this lesson.",
+            "Compare your work to the course answer key."
+          ],
+          "scoring": "Graded on method and correctness."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "packetAuto": true,
+      "packetSection": "9.3",
+      "calcAllowed": true,
+      "title": "Section 9.3 — packet FRQ (placeholder)",
+      "context": "<p>No worksheet was auto-mapped to <strong>9.3</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 4,
+          "question": "<p>Open any homework or review packet for section 9.3 from Materials and complete a representative problem your teacher marked for this topic.</p>",
+          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
+          "steps": [
+            "Select a problem from your packet for this lesson.",
+            "Compare your work to the course answer key."
+          ],
+          "scoring": "Graded on method and correctness."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "packetAuto": true,
+      "packetSection": "9.4",
+      "calcAllowed": true,
+      "title": "Section 9.4 — packet FRQ (placeholder)",
+      "context": "<p>No worksheet was auto-mapped to <strong>9.4</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 4,
+          "question": "<p>Open any homework or review packet for section 9.4 from Materials and complete a representative problem your teacher marked for this topic.</p>",
+          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
+          "steps": [
+            "Select a problem from your packet for this lesson.",
+            "Compare your work to the course answer key."
+          ],
+          "scoring": "Graded on method and correctness."
         }
       ]
     }

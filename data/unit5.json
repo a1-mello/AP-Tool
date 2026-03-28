@@ -211,6 +211,2004 @@
       "notesSection": "5.6 - Concavity",
       "notesSnippet": "f″<0 ⇒ concave down.",
       "timeTip": "Link f″ sign to bending direction."
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #1",
+      "calcType": "No Calculator",
+      "question": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #1(a)</span>",
+      "choices": {
+        "A": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "B": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting …",
+        "C": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "D": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #1",
+      "calcType": "No Calculator",
+      "question": "For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #1(a)</span>",
+      "choices": {
+        "A": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "B": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting …",
+        "C": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "D": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #1",
+      "calcType": "No Calculator",
+      "question": "For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #1(b)</span>",
+      "choices": {
+        "A": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "B": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "C": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting …",
+        "D": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #2",
+      "calcType": "No Calculator",
+      "question": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #2(a)</span>",
+      "choices": {
+        "A": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "B": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor",
+        "C": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "D": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #2",
+      "calcType": "No Calculator",
+      "question": "For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #2(a)</span>",
+      "choices": {
+        "A": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "B": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w…",
+        "C": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "D": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #2",
+      "calcType": "No Calculator",
+      "question": "For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. Directions: Select the best answer for each question. Be sure to show your work! 2009 Practice Exam #86 (AB)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #2(b)</span>",
+      "choices": {
+        "A": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w…",
+        "B": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor",
+        "C": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "D": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #3",
+      "calcType": "No Calculator",
+      "question": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3, 7] is 12. II. There exists 푐, for 3 &lt; c &lt; 7, such that 푓 ᇱ ( 푐 ) =0. III. 푓 ᇱ ( 푥 ) &gt;0 for 5&lt;푥&lt;7 (A) I only (B) II only (C) III only (D) I and III only (E) I, II, and III 1998 #91 (AB)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #3(a)</span>",
+      "choices": {
+        "A": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "B": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor",
+        "C": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,…",
+        "D": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting "
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #4",
+      "calcType": "No Calculator",
+      "question": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one horizontal tangent III. For some 푐, 2&lt;푐&lt;5, 푓 ( 푐 ) =3 (A) None (B) I only (C) I and II only (D) I and III only (E) I, II, and III 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 Created by FM and College Board 1998 #26 (AB)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #4(a)</span>",
+      "choices": {
+        "A": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "B": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "C": "Let 푓 be a function that is differentiable on the open interval (1,10). If 푓 ( 2 ) =−5, 푓 ( 5 ) =5, and 푓 ( 9 ) =−5, which of the following must be true? I. 푓 has at least 2 zeros. II. The graph of 푓 has at least one hor…",
+        "D": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #5",
+      "calcType": "No Calculator",
+      "question": "The function 푓 is continuous on the closed interval [0, 2] and has values that are given in the table above. The equation 푓 ( 푥 ) = ଵ ଶ must have at least two solutions in the interval [0. 2] if 푘= (A) 0 (B) ଵ ଶ (C) 1 (D) 2 (E) 3 2012 #77 (AB)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #5(a)</span>",
+      "choices": {
+        "A": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "B": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "C": "The function 푓 is continuous on the closed interval [0, 2] and has values that are given in the table above. The equation 푓 ( 푥 ) = ଵ ଶ must have at least two solutions in the interval [0. 2] if 푘= (A) 0 (B) ଵ ଶ (C) 1 (D…",
+        "D": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #6",
+      "calcType": "No Calculator",
+      "question": "Let 푓 be a function that is continuous on the closed interval [2, 4] with 푓 ( 2 ) =10 and 푓 ( 4 ) =20. Which of the following is guaranteed by the Intermediate Value Theorem? (A) 푓 ( 푥 ) =13 has at least one solution in the open interval (2,4). (B) 푓 ( 3 ) =15 (C) 푓 attains a maximum on the open interval (2,4). (D) 푓 ᇱ ( 푥 ) =5 has at least one solution in the open interval (2,4). (E) 푓 ᇱ ( 푥 ) &gt;0 for all 푥 in the open interval (2,4). 2013 #85 (BC)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #6(a)</span>",
+      "choices": {
+        "A": "Let 푓 be a function that is continuous on the closed interval [2, 4] with 푓 ( 2 ) =10 and 푓 ( 4 ) =20. Which of the following is guaranteed by the Intermediate Value Theorem? (A) 푓 ( 푥 ) =13 has at least one solution in …",
+        "B": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "C": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "D": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #7",
+      "calcType": "No Calculator",
+      "question": "A portion of the graph of a differentiable function 푓 is shown at the right. If the value 푐 =3 satisβies the conclusion of the Mean Value Theorem applied to 푓 on the open interval −2&lt;푥 &lt;8, what is the slope of the line tangent to the graph of 푓 at 푥 =3? (A) − ଻ ହ (B) − ହ ସ (C) − ସ ହ (D) − ହ ଻ (E) − ଵ ହ 1985 #13 (BC)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #7(a)</span>",
+      "choices": {
+        "A": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w",
+        "B": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "C": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "D": "A portion of the graph of a differentiable function 푓 is shown at the right. If the value 푐 =3 satisβies the conclusion of the Mean Value Theorem applied to 푓 on the open interval −2<푥 <8, what is the slope of the line t…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] 5-1 WK A MVT #1 · #7",
+      "calcType": "No Calculator",
+      "question": "Let 푓 be the function given by 푓 ( 푥 ) =푥 ଷ −3푥 ଶ . What are all values of 푐 that satisfy the conclusion of the Mean Value Theorem of differential calculus on the closed interval [0,3]? (A) 0 only (B) 2 only (C) 3 only (D) 0 and 3 (E) 2 and 3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-1 WK A MVT #1 · #7(a)</span>",
+      "choices": {
+        "A": "A portion of the graph of a differentiable function 푓 is shown at the right. If the value 푐 =3 satisβies the conclusion of the Mean Value Theorem applied to 푓 on the open interval −2<푥 <8, what is the slope of the line t…",
+        "B": "Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting ",
+        "C": "The function 푓 is continuous and differentiable on the closed interval [3, 7]. The table above gives selected values of 푓 on this interval. Which of the following statements must be true? I. The minimum value of 푓 on [3,",
+        "D": "A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 w"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK A Optimization Problems #1 · #1",
+      "calcType": "No Calculator",
+      "question": "A manufacturing company has determined that the total cost of producing an item can be determined from the equation 퐶=8푥 ଶ −176푥+180, where 푥 is the number of units that the company makes. How many units should the company manufacture in order to minimize the cost (to the nearest whole number)?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK A Optimization Problems #1 · #1(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK A Optimization Problems #1 · #2",
+      "calcType": "No Calculator",
+      "question": "Determine the maximum area of a rectangular dog pen that can be enclosed with 200 meters of fence.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK A Optimization Problems #1 · #2(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK A Optimization Problems #1 · #3",
+      "calcType": "No Calculator",
+      "question": "Two numbers add up to 40. Find the numbers that maximize their product.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK A Optimization Problems #1 · #3(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "0",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK A Optimization Problems #1 · #4",
+      "calcType": "No Calculator",
+      "question": "A rectangle has a perimeter of 71 feet. What length and width should it have so that its area is a maximum? What is its maximum area?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK A Optimization Problems #1 · #4(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK A Optimization Problems #1 · #5",
+      "calcType": "No Calculator",
+      "question": "Find two positive numbers that minimize the sum of twice the first number plus the second if the product of the two numbers is 288.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK A Optimization Problems #1 · #5(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK A Optimization Problems #1 · #6",
+      "calcType": "No Calculator",
+      "question": "The number of flies around a dropped piece of bread is modeled by the formula 푃 ( 푡 ) = ଵ଴଴଴௧ ଵ଴ା௧ మ where 푡 is measured in hours. How long will it take for the number of flies to be at a maximum? What is the maximum size of the population of flies (to the nearest fly)?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK A Optimization Problems #1 · #6(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #1",
+      "calcType": "No Calculator",
+      "question": "Find the point on the line y = 2x + 3 that is closest to the origin.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #1(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #2",
+      "calcType": "No Calculator",
+      "question": "Find the point on the curve y = x that is closest to the point (3, 0).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #2(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #3",
+      "calcType": "No Calculator",
+      "question": "Find two numbers whose difference is 100 and whose product is a minimum.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #3(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #4",
+      "calcType": "No Calculator",
+      "question": "The sum of two positive numbers is 16. What is the smallest possible value of the sum of their squares?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #4(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "0",
+        "C": "The limit does not exist.",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #5",
+      "calcType": "No Calculator",
+      "question": "Find the dimensions of a rectangle with an area of 1000 m 2 whose perimeter is as small as possible.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #5(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "D": "The limit does not exist."
+      },
+      "correct": "C",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #6",
+      "calcType": "No Calculator",
+      "question": "A farmer wants to fence in an area of 1.5 million square feet in a rectangular field and then divide it in half with a fence parallel to one of the sides of the rectangle. How can he do this so as to minimize the cost of the fence?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #6(a)</span>",
+      "choices": {
+        "A": "The expression is undefined at that point.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The limit does not exist.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #7",
+      "calcType": "No Calculator",
+      "question": "An open box is to be made from a piece of metal 16 by 30 inches by cutting out squares of equal size from the corners and bending up the sides. What size square should be cut out to create a box with greatest volume? What is the maximum volume?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #7(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "0",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #8",
+      "calcType": "No Calculator",
+      "question": "A box with a square base and open top must have a volume of 32,000 cm 3 . Find the dimensions of the box that minimize the amount of material used.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #8(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #9",
+      "calcType": "No Calculator",
+      "question": "The top and bottom margins of a poster are each 6 cm and the side margins are each 4 cm. If the area of printed material on the poster is fixed at 384 cm 2 , find the dimensions of the poster with the smallest area. Answers:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #9(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #1",
+      "calcType": "No Calculator",
+      "question": "(−1.2,0.6) 2.) ቆ ହ ଶ , ට ହ ଶ ቇ 3.) –50 and 50 4.) 128\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #1(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The expression is undefined at that point.",
+        "C": "The limit does not exist.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #5",
+      "calcType": "No Calculator",
+      "question": "ଵ଴଴଴ √ ଵ଴଴଴ m x 1000 m or 31.623 m x 31.623 m\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #5(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #6",
+      "calcType": "No Calculator",
+      "question": "1000 ft by 1500 ft with the fence parallel to the short side.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #6(a)</span>",
+      "choices": {
+        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #7",
+      "calcType": "No Calculator",
+      "question": "the square should be ଵ଴ ଷ in x ଵ଴ ଷ in; the volume is ଵଽ଺଴଴ ଶ଻ in 3 or 725.926 in 3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #7(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-10 & 5-11 WK B Optimization Problems #2 · #8",
+      "calcType": "No Calculator",
+      "question": "40 cm x 40 cm x 20 cm\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-10 &amp; 5-11 WK B Optimization Problems #2 · #8(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The limit does not exist.",
+        "C": "The expression is undefined at that point.",
+        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
+      },
+      "correct": "D",
+      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.3",
+      "topic": "[Packet] 5-3 WK A Intervals of Increase and Decrease #1 · #4",
+      "calcType": "No Calculator",
+      "question": "The graph of 푘 ( 푥 ) is given at the right. Find any 푥 values in the open interval ( 0,16 ) where 푘 ( 푥 ) has a critical value. Directions: Given the following, find the intervals where the function 푔(푥) is increasing or decreasing. 5. 푔 ( 푥 ) = √푥 ଶ −4 య 6. 푔′ ( 푥 ) = ( 푥−3 ) 푒 ௫ାଶ 7. 푔 ( 푥 ) = ௫ାଷ ௫ିସ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-3 WK A Intervals of Increase and Decrease #1 · #4(a)</span>",
+      "choices": {
+        "A": "Created by B Passwater Worksheet 5-3 A Intervals of Increase and Decrease #1 AP Calculus Name______________________________ 1. 2. 3. 4. 5. 6. 7. 8. 9.",
+        "B": "The expression is undefined at that point.",
+        "C": "0",
+        "D": "The limit does not exist."
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.3",
+      "topic": "[Packet] 5-3 WK A Intervals of Increase and Decrease #1 · #8",
+      "calcType": "No Calculator",
+      "question": "The graph of 푚 ᇱ ( 푥 ) is given at the right. On what intervals is the graph of 푚 ᇱ ( 푥 ) increasing? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-3 WK A Intervals of Increase and Decrease #1 · #8(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "Created by B Passwater Worksheet 5-3 A Intervals of Increase and Decrease #1 AP Calculus Name______________________________ 1. 2. 3. 4. 5. 6. 7. 8. 9.",
+        "C": "The limit does not exist.",
+        "D": "The expression is undefined at that point."
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.3",
+      "topic": "[Packet] 5-3 WK A Intervals of Increase and Decrease #1 · #9",
+      "calcType": "No Calculator",
+      "question": "Let 푔 be a differentiable function such that 푔 ᇱ ( 푥 ) &lt;0 for all values of 푥 and let ℎ ( 푥 ) =푔 ( 푥 ଶ −2푥−8 ) . Find the intervals where ℎ ( 푥 ) is increasing and where ℎ ( 푥 ) is decreasing. Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-3 WK A Intervals of Increase and Decrease #1 · #9(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "Created by B Passwater Worksheet 5-3 A Intervals of Increase and Decrease #1 AP Calculus Name______________________________ 1. 2. 3. 4. 5. 6. 7. 8. 9.",
+        "C": "The expression is undefined at that point.",
+        "D": "0"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.3",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-4 WK A Relative Extrema #1 · #1",
+      "calcType": "No Calculator",
+      "question": "The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 ) . B) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥 =7? Give a reason for your answer. C) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥=−1? Give a reason for your answer. D) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥=9? Give \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-4 WK A Relative Extrema #1 · #1(a)</span>",
+      "choices": {
+        "A": "The function ℎ is twice differentiable on the interval [ −4,4 ] . The graph of ℎ ᇱ ( 푥 ) is given at the right and has horizontal tangents at 푥 =−2,푥 =1,and 푥 =3. It is known that ℎ ( −1 ) =5. A) On which interval ( s ) ",
+        "B": "The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6. A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your ans",
+        "C": "The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following. A) Find all critical values of 푔 ( 푥 ) in the open ",
+        "D": "The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 )…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-4 WK A Relative Extrema #1 · #2",
+      "calcType": "No Calculator",
+      "question": "The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following. A) Find all critical values of 푔 ( 푥 ) in the open interval ( −2,11 ) . B) At which value(s) of 푥 does 푔 ( 푥 ) have a local minimum? Explain your reasoning. C) On what interval ( s ) in [ −2,11 ] is 푔 ( 푥 ) increasing? Give a reason for your answer D) Does 푔 ( 푥 ) have a local minimum,local maximum,or neither at 푥 =4? Give a reason for your answer. \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-4 WK A Relative Extrema #1 · #2(a)</span>",
+      "choices": {
+        "A": "The function ℎ is twice differentiable on the interval [ −4,4 ] . The graph of ℎ ᇱ ( 푥 ) is given at the right and has horizontal tangents at 푥 =−2,푥 =1,and 푥 =3. It is known that ℎ ( −1 ) =5. A) On which interval ( s ) ",
+        "B": "The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6. A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your ans",
+        "C": "The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following. A) Find all critical values of 푔 ( 푥 ) in the open …",
+        "D": "The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 )"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-4 WK A Relative Extrema #1 · #3",
+      "calcType": "No Calculator",
+      "question": "The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6. A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your answer. B) At which value(s) of 푥 does 푘 ( 푥 ) have a relative minimum? Explain your reasoning. C) At which value(s) of 푥 does 푘 ( 푥 ) have a local maximum? Explain your reasoning. D) Let 푚 ( 푥 ) =푘 ( 푥 ) −sin ( 푥−2 ) . Find 푚 ᇱ ( 2 ) . Does 푚 ( 푥 ) have a local minimum,local maximum,or neither at 푥=4?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-4 WK A Relative Extrema #1 · #3(a)</span>",
+      "choices": {
+        "A": "The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following. A) Find all critical values of 푔 ( 푥 ) in the open ",
+        "B": "The function ℎ is twice differentiable on the interval [ −4,4 ] . The graph of ℎ ᇱ ( 푥 ) is given at the right and has horizontal tangents at 푥 =−2,푥 =1,and 푥 =3. It is known that ℎ ( −1 ) =5. A) On which interval ( s ) ",
+        "C": "The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 )",
+        "D": "The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6. A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your ans…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-4 WK A Relative Extrema #1 · #10",
+      "calcType": "No Calculator",
+      "question": "The function ℎ is twice differentiable on the interval [ −4,4 ] . The graph of ℎ ᇱ ( 푥 ) is given at the right and has horizontal tangents at 푥 =−2,푥 =1,and 푥 =3. It is known that ℎ ( −1 ) =5. A) On which interval ( s ) is ℎ ( 푥 ) decreasing? Give a reason for your answer. B) Find all critical values for the function ℎ ( 푥 ) . Classify each critical value as a local minimum,local maximum,or neither. Explain your reasoning. C) Let 푘 ( 푥 ) =ℎ ( 푥 ) −3푥. At which 푥 value ( s ) does 푘 ( 푥 ) have a relative maximum? Exp\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-4 WK A Relative Extrema #1 · #10(a)</span>",
+      "choices": {
+        "A": "The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6. A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your ans",
+        "B": "The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following. A) Find all critical values of 푔 ( 푥 ) in the open ",
+        "C": "The function 푓 is continuous on the interval [ −4,∞ ) . The table above gives selected information about 푓 and its derivative 푓 ᇱ . It is known that 푓 ( 푥 ) <3 for all values of 푥 in its domain. A) On what interval ( s )…",
+        "D": "The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 )"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-4 WK A Relative Extrema #1 · #11",
+      "calcType": "No Calculator",
+      "question": "The function 푓 is continuous on the interval [ −4,∞ ) . The table above gives selected information about 푓 and its derivative 푓 ᇱ . It is known that 푓 ( 푥 ) &lt;3 for all values of 푥 in its domain. A) On what interval ( s ) is the function 푓 ( 푥 ) increasing? Give a reason for your answer. B) Find any critical values for the function 푓 ( 푥 ) . For each critical value,determine if it is the location of a relative minimum,a relative maximum,or neither for 푓 ( 푥 ) . Justify your answers. C) Let 퐶 ᇱ ( 푥 ) = ( 4−푥 ) 푓 ᇱ ( \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-4 WK A Relative Extrema #1 · #11(a)</span>",
+      "choices": {
+        "A": "The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6. A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your ans",
+        "B": "The function 푓 is continuous on the interval [ −4,∞ ) . The table above gives selected information about 푓 and its derivative 푓 ᇱ . It is known that 푓 ( 푥 ) <3 for all values of 푥 in its domain. A) On what interval ( s )…",
+        "C": "The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following. A) Find all critical values of 푔 ( 푥 ) in the open ",
+        "D": "The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 )"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-5 & 5-2 WK A Absolute Extrema #1 · #9",
+      "calcType": "No Calculator",
+      "question": "A particle moves along the 푦-axis so that its velocity at time 푡, 0≤푡≤6, is given by 푣 ( 푡 ) =2(푡−2)(푡−5). Find the minimum velocity of the particle.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-5 &amp; 5-2 WK A Absolute Extrema #1 · #9(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Created by B Passwater & FM Worksheet 5-5 & 5-2 Absolute Extrema #1 AP Calculus Name______________________________ 1. 2. 3. 4. 5. 6. 7. 9. 10."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.4",
+      "topic": "[Packet] 5-5 & 5-2 WK A Absolute Extrema #1 · #10",
+      "calcType": "No Calculator",
+      "question": "Find the maximum acceleration attained on the interval 0≤푡≤3 by the particle whose velocity is given by 푣 ( 푡 ) = ଶ ଷ 푡 ଷ −4푡 ଶ +8푡−2.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-5 &amp; 5-2 WK A Absolute Extrema #1 · #10(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "Created by B Passwater & FM Worksheet 5-5 & 5-2 Absolute Extrema #1 AP Calculus Name______________________________ 1. 2. 3. 4. 5. 6. 7. 9. 10.",
+        "C": "The expression is undefined at that point.",
+        "D": "The limit does not exist."
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.4",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK A Concavity and Points of Inflection #1 · #7",
+      "calcType": "No Calculator",
+      "question": "The function 푘 is continuous and differentiable on the interval [ −4,7 ] . The graph of 푘′, the derivative of 푘, consists of three line segments and a semicircle as shown in the βigure above. A) On what open interval(s) is 푘 ( 푥 ) concave down? Give a reason for your answer. B) For which value(s) of 푥 does 푘 ( 푥 ) have a point of inβlection? Give a reason for your answer. Created by B Passwater\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK A Concavity and Points of Inflection #1 · #7(a)</span>",
+      "choices": {
+        "A": "The function ℎ is continuous and twice differentiable on the interval [ −2,14 ] . The graph of ℎ ᇱ , the derivative of ℎ,is given above and has horizontal tangents at 푥=1, 4, 7, 11, and 13. A) For which value ( s ) of 푥 …",
+        "B": "The function 푓 is continuous and twice differentiable on the interval [ 0,15 ] . The graph of 푓 ᇱ , the derivative of 푓,is given above and has horizontal tangents at 푥=2, 5, 9, and 13. A) On what interval ( s ) is 푓 ( 푥 ",
+        "C": "0",
+        "D": "The function 푘 is continuous and differentiable on the interval [ −4,7 ] . The graph of 푘′, the derivative of 푘, consists of three line segments and a semicircle as shown in the βigure above. A) On what open interval(s) "
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK A Concavity and Points of Inflection #1 · #8",
+      "calcType": "No Calculator",
+      "question": "The function 푓 is continuous and twice differentiable on the interval [ 0,15 ] . The graph of 푓 ᇱ , the derivative of 푓,is given above and has horizontal tangents at 푥=2, 5, 9, and 13. A) On what interval ( s ) is 푓 ( 푥 ) concave down? Explain your reasoning. B) For which value ( s ) of 푥 does 푓 ( 푥 ) have a point of inβlection? Give a reason for your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK A Concavity and Points of Inflection #1 · #8(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The function 푓 is continuous and twice differentiable on the interval [ 0,15 ] . The graph of 푓 ᇱ , the derivative of 푓,is given above and has horizontal tangents at 푥=2, 5, 9, and 13. A) On what interval ( s ) is 푓 ( 푥 ",
+        "C": "The function 푘 is continuous and differentiable on the interval [ −4,7 ] . The graph of 푘′, the derivative of 푘, consists of three line segments and a semicircle as shown in the βigure above. A) On what open interval(s) ",
+        "D": "The function ℎ is continuous and twice differentiable on the interval [ −2,14 ] . The graph of ℎ ᇱ , the derivative of ℎ,is given above and has horizontal tangents at 푥=1, 4, 7, 11, and 13. A) For which value ( s ) of 푥 …"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK A Concavity and Points of Inflection #1 · #9",
+      "calcType": "No Calculator",
+      "question": "The function ℎ is continuous and twice differentiable on the interval [ −2,14 ] . The graph of ℎ ᇱ , the derivative of ℎ,is given above and has horizontal tangents at 푥=1, 4, 7, 11, and 13. A) For which value ( s ) of 푥 does ℎ ( 푥 ) have a relative minimum? Give a reason for your answer. B) For which value ( s ) of 푥 does ℎ ( 푥 ) have a point of inβlection? Give a reason for your answer. C) On what interval ( s ) is the graph of ℎ ( 푥 ) both decreasing and concave down? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK A Concavity and Points of Inflection #1 · #9(a)</span>",
+      "choices": {
+        "A": "0",
+        "B": "The function ℎ is continuous and twice differentiable on the interval [ −2,14 ] . The graph of ℎ ᇱ , the derivative of ℎ,is given above and has horizontal tangents at 푥=1, 4, 7, 11, and 13. A) For which value ( s ) of 푥 …",
+        "C": "The function 푘 is continuous and differentiable on the interval [ −4,7 ] . The graph of 푘′, the derivative of 푘, consists of three line segments and a semicircle as shown in the βigure above. A) On what open interval(s) ",
+        "D": "The function 푓 is continuous and twice differentiable on the interval [ 0,15 ] . The graph of 푓 ᇱ , the derivative of 푓,is given above and has horizontal tangents at 푥=2, 5, 9, and 13. A) On what interval ( s ) is 푓 ( 푥 "
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #1",
+      "calcType": "No Calculator",
+      "question": "The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3. (A) On what interval ( s ) is 푔 ( 푥 ) decreasing? Give a reason for your answer. (B) At which value ( s ) of 푥 does 푔 ( 푥 ) have a relative maximum? Explain your reasoning. (C) On what interval ( s ) is 푔 ( 푥 ) concave up? Give a reason for your answer. (D) On what interval ( s ) is 푔 ( 푥 ) concave down? Explain your reasoning. (E) At which value ( \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #1(a)</span>",
+      "choices": {
+        "A": "The graph above represents the velocity v, in feet per second, of a particle moving along the x-axis over the time interval for 0 ≤ t ≤ 9 seconds. (A) At t = 4 seconds, is the particle moving to the right or left? Justif",
+        "B": "The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3. (A) On what interval ( s ) is 푔 ( 푥 ) decreasing? G…",
+        "C": "The graph of ℎ ᇱ ( 푥 ) ,the derivative of ℎ,consists of four line segments and is given above. (A) On what interval ( s ) is ℎ ( 푥 ) increasing? Give a reason for your answer. (B) On what interval ( s ) is ℎ ( 푥 ) decrea",
+        "D": "The graph of 푘 ᇱ ( 푥 ) ,shown above,consists of three line segments and a semi circle. (A) At which value ( s ) of 푥 does 푘 ( 푥 ) have a point of inβlection? Explain your reasoning. ( B ) Order the following values from "
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #2",
+      "calcType": "No Calculator",
+      "question": "The graph of ℎ ᇱ ( 푥 ) ,the derivative of ℎ,consists of four line segments and is given above. (A) On what interval ( s ) is ℎ ( 푥 ) increasing? Give a reason for your answer. (B) On what interval ( s ) is ℎ ( 푥 ) decreasing? Give a reason for your answer. (C) At which value ( s ) of 푥 does ℎ ( 푥 ) have a relative minimum? Explain your reasoning. (D) At which value ( s ) of 푥 does ℎ ( 푥 ) have a relative maximum? Explain your reasoning. (E) On what interval ( s ) is ℎ ( 푥 ) concave up? Give a reason for your answer\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #2(a)</span>",
+      "choices": {
+        "A": "The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3. (A) On what interval ( s ) is 푔 ( 푥 ) decreasing? G",
+        "B": "The graph above represents the velocity v, in feet per second, of a particle moving along the x-axis over the time interval for 0 ≤ t ≤ 9 seconds. (A) At t = 4 seconds, is the particle moving to the right or left? Justif",
+        "C": "The graph of 푘 ᇱ ( 푥 ) ,shown above,consists of three line segments and a semi circle. (A) At which value ( s ) of 푥 does 푘 ( 푥 ) have a point of inβlection? Explain your reasoning. ( B ) Order the following values from ",
+        "D": "The graph of ℎ ᇱ ( 푥 ) ,the derivative of ℎ,consists of four line segments and is given above. (A) On what interval ( s ) is ℎ ( 푥 ) increasing? Give a reason for your answer. (B) On what interval ( s ) is ℎ ( 푥 ) decrea…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #3",
+      "calcType": "No Calculator",
+      "question": "The graph of 푘 ᇱ ( 푥 ) ,shown above,consists of three line segments and a semi circle. (A) At which value ( s ) of 푥 does 푘 ( 푥 ) have a point of inβlection? Explain your reasoning. ( B ) Order the following values from least to greatest: 푘 ᇱᇱ ( 3 ) , 푘 ᇱᇱ ( 4 ) , 푘 ᇱᇱ ( 6 ) . ( C ) Order the following values from least to greatest: 푘 ᇱᇱ ( −2 ) , 푘 ᇱᇱ ( 6 ) , 푘 ᇱᇱ ( 9 ) . ( D ) Order the following values from least to greatest: 푘 ᇱ ( −2 ) , 푘 ᇱ ( −1 ) , 푘 ᇱ ( 3 ) . ( E ) Order the following values from least to gre\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #3(a)</span>",
+      "choices": {
+        "A": "The graph above represents the velocity v, in feet per second, of a particle moving along the x-axis over the time interval for 0 ≤ t ≤ 9 seconds. (A) At t = 4 seconds, is the particle moving to the right or left? Justif",
+        "B": "The graph of 푘 ᇱ ( 푥 ) ,shown above,consists of three line segments and a semi circle. (A) At which value ( s ) of 푥 does 푘 ( 푥 ) have a point of inβlection? Explain your reasoning. ( B ) Order the following values from …",
+        "C": "The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3. (A) On what interval ( s ) is 푔 ( 푥 ) decreasing? G",
+        "D": "The graph of ℎ ᇱ ( 푥 ) ,the derivative of ℎ,consists of four line segments and is given above. (A) On what interval ( s ) is ℎ ( 푥 ) increasing? Give a reason for your answer. (B) On what interval ( s ) is ℎ ( 푥 ) decrea"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #4",
+      "calcType": "No Calculator",
+      "question": "The graph above represents the velocity v, in feet per second, of a particle moving along the x-axis over the time interval for 0 ≤ t ≤ 9 seconds. (A) At t = 4 seconds, is the particle moving to the right or left? Justify. (B) At what time(s) is the particle at rest? Justify. (C) At what time(s) does the particle change direction? Justify. (D) On what open intervals 0 &lt; t &lt; 9 is the particle moving left? Justify. (E) What is the acceleration of the particle at t = 4 seconds? Show the work that leads to your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-6 WK B Concavity and Points of Inflection (Graphically) #2 · #4(a)</span>",
+      "choices": {
+        "A": "The graph of 푘 ᇱ ( 푥 ) ,shown above,consists of three line segments and a semi circle. (A) At which value ( s ) of 푥 does 푘 ( 푥 ) have a point of inβlection? Explain your reasoning. ( B ) Order the following values from ",
+        "B": "The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3. (A) On what interval ( s ) is 푔 ( 푥 ) decreasing? G",
+        "C": "The graph of ℎ ᇱ ( 푥 ) ,the derivative of ℎ,consists of four line segments and is given above. (A) On what interval ( s ) is ℎ ( 푥 ) increasing? Give a reason for your answer. (B) On what interval ( s ) is ℎ ( 푥 ) decrea",
+        "D": "The graph above represents the velocity v, in feet per second, of a particle moving along the x-axis over the time interval for 0 ≤ t ≤ 9 seconds. (A) At t = 4 seconds, is the particle moving to the right or left? Justif…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #1",
+      "calcType": "Calculator Active",
+      "question": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #1(a)</span>",
+      "choices": {
+        "A": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "B": "The function 푦=푘 ( 푥 ) is continuous for all real values of 푥 and has the differential equation ௗ௬ ௗ௫ = ଶ௫ାଷ ଷ ( ௬ାଵ ) మ . It is known that 푘 ( 2 ) =−1. A) At which value ( s ) of 푥 does the graph of 푘 have a vertical ta",
+        "C": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "D": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #2",
+      "calcType": "Calculator Active",
+      "question": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning. 푥 0 1 4 6 9 푓 ( 푥 ) 7 12 9 2 5 푓 ᇱ ( 푥 ) 2 0 −3 0 1 푓 ᇱᇱ ( 푥 ) 3 1 0 −2 0 Created by B Passwater and FM\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #2(a)</span>",
+      "choices": {
+        "A": "The function 푦=푘 ( 푥 ) is continuous for all real values of 푥 and has the differential equation ௗ௬ ௗ௫ = ଶ௫ାଷ ଷ ( ௬ାଵ ) మ . It is known that 푘 ( 2 ) =−1. A) At which value ( s ) of 푥 does the graph of 푘 have a vertical ta",
+        "B": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "C": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning…",
+        "D": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer."
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #3",
+      "calcType": "Calculator Active",
+      "question": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the following values of 푥, determine if the graph of 푓 ( 푥 ) has a local minimum, local maximum, or neither. If it is not possible to determine if 푓 ( 푥 ) has a local extremum, write “cannot be determined”. Give a reason for your answers. A) 푥 =−1 B) 푥 =0 C) 푥 =3 D) 푥 =7 푥 −1 0 2 3 7 ℎ ( 푥 ) −4 3 0 −2 0 ℎ ᇱ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #3(a)</span>",
+      "choices": {
+        "A": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "B": "The function 푦=푘 ( 푥 ) is continuous for all real values of 푥 and has the differential equation ௗ௬ ௗ௫ = ଶ௫ାଷ ଷ ( ௬ାଵ ) మ . It is known that 푘 ( 2 ) =−1. A) At which value ( s ) of 푥 does the graph of 푘 have a vertical ta",
+        "C": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll…",
+        "D": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #4",
+      "calcType": "Calculator Active",
+      "question": "The function 푦=푘 ( 푥 ) is continuous for all real values of 푥 and has the differential equation ௗ௬ ௗ௫ = ଶ௫ାଷ ଷ ( ௬ାଵ ) మ . It is known that 푘 ( 2 ) =−1. A) At which value ( s ) of 푥 does the graph of 푘 have a vertical tangent line?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #4(a)</span>",
+      "choices": {
+        "A": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "B": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "C": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "D": "The function 푦=푘 ( 푥 ) is continuous for all real values of 푥 and has the differential equation ௗ௬ ௗ௫ = ଶ௫ାଷ ଷ ( ௬ାଵ ) మ . It is known that 푘 ( 2 ) =−1. A) At which value ( s ) of 푥 does the graph of 푘 have a vertical ta…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #5",
+      "calcType": "Calculator Active",
+      "question": "For 푥&gt;0, the function 푦=푓 ( 푥 ) is continuous with 푑푦 푑푥 = 푦 푥 +1. It is known that 푓 ( 1 ) =−1. A) Write an equation of the line tangent to the graph of 푓 at 푥=1. B) Find an expression for 푑 ଶ 푦 푑푥 ଶ in terms of 푥 and 푦. C) What is the value of ௗ మ ௬ ௗ௫ మ when 푥=1? Does 푓 have a local minimum, local maximum, or neither at 푥=1? Give a reason for your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #5(a)</span>",
+      "choices": {
+        "A": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "B": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "C": "For 푥>0, the function 푦=푓 ( 푥 ) is continuous with 푑푦 푑푥 = 푦 푥 +1. It is known that 푓 ( 1 ) =−1. A) Write an equation of the line tangent to the graph of 푓 at 푥=1. B) Find an expression for 푑 ଶ 푦 푑푥 ଶ in terms of 푥 and 푦…",
+        "D": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #6",
+      "calcType": "Calculator Active",
+      "question": "Consider the curve deβined by ௗ௬ ௗ௫ =푦sin푥 where 푓 ( 2휋 ) =1. Does 푓 have a local minimum, local maximum, or neither at the given point? Give a reason for your answer. Created by B Passwater and FM\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #6(a)</span>",
+      "choices": {
+        "A": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "B": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "C": "Consider the curve deβined by ௗ௬ ௗ௫ =푦sin푥 where 푓 ( 2휋 ) =1. Does 푓 have a local minimum, local maximum, or neither at the given point? Give a reason for your answer. Created by B Passwater and FM",
+        "D": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer."
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #7",
+      "calcType": "Calculator Active",
+      "question": "Consider the curve deβined by 3푥 ଶ −푥푦+2푦=−36 with 푑푦 푑푥 = 푦−6푥 2−푥 . A) Show that there are no points where the line tangent to the curve is vertical. B) Find the two points where the curve has a horizontal tangent line. C) Write an equation of the line tangent to the curve when 푥=0. Created by B Passwater and FM The function 푔 ( 푥 ) is continuous on the interval [ −6,7 ] and consists of three line segments as shown in the βigure above. The function ℎ ( 푥 ) is twice differentiable with ℎ ( 푥 ) &lt;0 for all real valu\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #7(a)</span>",
+      "choices": {
+        "A": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "B": "Consider the curve deβined by 3푥 ଶ −푥푦+2푦=−36 with 푑푦 푑푥 = 푦−6푥 2−푥 . A) Show that there are no points where the line tangent to the curve is vertical. B) Find the two points where the curve has a horizontal tangent line…",
+        "C": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "D": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer."
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #8",
+      "calcType": "Calculator Active",
+      "question": "Let 푓 ( 푥 ) be a function where 푓 ᇱ ( 푥 ) =푔 ( 1−2푥 ) . Does 푓 have a local minimum, local maximum, or neither at 푥 =2? Give a reason for your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #8(a)</span>",
+      "choices": {
+        "A": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "B": "Let 푓 ( 푥 ) be a function where 푓 ᇱ ( 푥 ) =푔 ( 1−2푥 ) . Does 푓 have a local minimum, local maximum, or neither at 푥 =2? Give a reason for your answer.",
+        "C": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "D": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #9",
+      "calcType": "Calculator Active",
+      "question": "Let 푝 ( 푥 ) be a function where 푝 ᇱ ( 푥 ) =푔 ( 푥 ଶ +푥 ) . Does 푝 have a local minimum,local maximum, or neither at 푥 =−1? Give a reason for your answer.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #9(a)</span>",
+      "choices": {
+        "A": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "B": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "C": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "D": "Let 푝 ( 푥 ) be a function where 푝 ᇱ ( 푥 ) =푔 ( 푥 ଶ +푥 ) . Does 푝 have a local minimum,local maximum, or neither at 푥 =−1? Give a reason for your answer."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #10",
+      "calcType": "Calculator Active",
+      "question": "Does the function ℎ have a relative minimum,relative maximum,or neither at 푥=5? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #10(a)</span>",
+      "choices": {
+        "A": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "B": "Does the function ℎ have a relative minimum,relative maximum,or neither at 푥=5? Explain your reasoning.",
+        "C": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "D": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.6",
+      "topic": "[Packet] 5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #11",
+      "calcType": "Calculator Active",
+      "question": "Does the function ℎ have a relative minimum,relative maximum,or neither at 푥=3? Explain your reasoning. 푥 0 1 2 3 5 ℎ′(푥) 0 −6 0 2 0 ℎ′′(푥) 4 −5 −3 0 −1\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 · #11(a)</span>",
+      "choices": {
+        "A": "Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning",
+        "B": "Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the foll",
+        "C": "Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.",
+        "D": "Does the function ℎ have a relative minimum,relative maximum,or neither at 푥=3? Explain your reasoning. 푥 0 1 2 3 5 ℎ′(푥) 0 −6 0 2 0 ℎ′′(푥) 4 −5 −3 0 −1"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.6",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #1",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #1(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #2",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #2(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #3",
+      "calcType": "No Calculator",
+      "question": "On what interval ( s ) is 푓 ( 푥 ) increasing?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #3(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #4",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #4(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #5",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #5(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #6",
+      "calcType": "No Calculator",
+      "question": "On what interval ( s ) is 푓 ( 푥 ) concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #6(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) concave down?"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #7",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? Explain your reasoning. Created by B Passwater and FM 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푔′ ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #7(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "B": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "C": "At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ …",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #8",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) is 푔 ( 푥 ) =0? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #8(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푔 ( 푥 ) =0? Explain your reasoning.",
+        "B": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) increasing?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #9",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) is 푔′ ( 푥 ) =0?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #9(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) is 푔′ ( 푥 ) =0?"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #10",
+      "calcType": "No Calculator",
+      "question": "On what interval ( s ) is 푔 ( 푥 ) increasing? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #10(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "B": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "On what interval ( s ) is 푔 ( 푥 ) increasing? Explain your reasoning."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #11",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does 푔 ( 푥 ) have a relative minimum? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #11(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) does 푔 ( 푥 ) have a relative minimum? Explain your reasoning."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #12",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does 푔 ᇱᇱ ( 푥 ) =0? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #12(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) does 푔 ᇱᇱ ( 푥 ) =0? Explain your reasoning.",
+        "B": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) increasing?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #13",
+      "calcType": "No Calculator",
+      "question": "On what interval ( s ) is 푔 ( 푥 ) concave down? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #13(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푔 ( 푥 ) concave down? Explain your reasoning.",
+        "B": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #14",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does 푔 ( 푥 ) have a point of inβlection? Explain your reasoning. Created by B Passwater and FM 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of ℎ′′ ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #14(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) does 푔 ( 푥 ) have a point of inβlection? Explain your reasoning. We cannot determine the x-values where 푔 ( 푥 ) =0 because this is the graph of 푔′(푥). 푔′ ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푔 ( 푥 ) is …",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #15",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) is ℎ ( 푥 ) =0? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #15(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is ℎ ( 푥 ) =0? Explain your reasoning."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #16",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) is ℎ′ ( 푥 ) =0? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #16(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is ℎ′ ( 푥 ) =0? Explain your reasoning."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #17",
+      "calcType": "No Calculator",
+      "question": "On what interval ( s ) is ℎ ( 푥 ) increasing? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #17(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "On what interval ( s ) is ℎ ( 푥 ) increasing? Explain your reasoning."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #18",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does ℎ ( 푥 ) have a relative minimum? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #18(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) does ℎ ( 푥 ) have a relative minimum? Explain your reasoning."
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #19",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does ℎ ᇱᇱ ( 푥 ) =0? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #19(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) does ℎ ᇱᇱ ( 푥 ) =0? Explain your reasoning.",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #20",
+      "calcType": "No Calculator",
+      "question": "On what interval ( s ) is ℎ ( 푥 ) concave down? Explain your reasoning.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #20(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "On what interval ( s ) is ℎ ( 푥 ) concave down? Explain your reasoning.",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #21",
+      "calcType": "No Calculator",
+      "question": "At which 푥 value ( s ) does ℎ ( 푥 ) have a point of inβlection? Explain your reasoning. Created by B Passwater and FM For each table, selected values of 푥 and 푓(푥) are given. Assume that 푓 ᇱ ( 푥 ) and 푓′′(푥) do not change signs. Answer the questions for each table.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #21(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) does ℎ ( 푥 ) have a point of inβlection? Explain your reasoning. We cannot determine the x-values where ℎ ( 푥 ) =0 because this is the graph of ℎ′′(푥), not ℎ(푥). We cannot determine the x-values wh…",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) increasing?"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #22",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) increasing or decreasing?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #22(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #22",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) concave up or concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #22(b)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "C": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down?",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) increasing?"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #23",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) increasing or decreasing?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #23(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #23",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) concave up or concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #23(b)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "B": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down?",
+        "C": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) increasing?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #24",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) increasing or decreasing?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #24(a)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "B": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "C": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down?",
+        "D": "On what interval ( s ) is 푓 ( 푥 ) increasing?"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #24",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) concave up or concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #24(b)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "B": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down?",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #25",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) increasing or decreasing?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #25(a)</span>",
+      "choices": {
+        "A": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "B": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?",
+        "C": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "D": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down? 푓(푥) is decreasing 푓(푥) is concave down 푓(푥) is increasing 푓(푥) is concave down 푓(푥) is decreasing 푓(푥) is concave up 푓(푥) is increasing 푓(푥) …"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #25",
+      "calcType": "No Calculator",
+      "question": "is 푓(푥) concave up or concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 · #25(b)</span>",
+      "choices": {
+        "A": "At which 푥 value ( s ) is 푓′ ( 푥 ) =0?",
+        "B": "a.) is 푓(푥) increasing or decreasing? b.) is 푓(푥) concave up or concave down? 푓(푥) is decreasing 푓(푥) is concave down 푓(푥) is increasing 푓(푥) is concave down 푓(푥) is decreasing 푓(푥) is concave up 푓(푥) is increasing 푓(푥) …",
+        "C": "On what interval ( s ) is 푓 ( 푥 ) increasing?",
+        "D": "At which 푥 value ( s ) is 푓 ( 푥 ) =0?"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #1",
+      "calcType": "Calculator Active",
+      "question": "Find the limit: h x3)hx(3 lim 22 0h  \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #1(a)</span>",
+      "choices": {
+        "A": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "B": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "C": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "D": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #2",
+      "calcType": "Calculator Active",
+      "question": "The graph at the right is the graph of the derivative, f (x), of a function. For what values of x would an accurate graph of f(x) be increasing? decreasing? Use inequality notation.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #2(a)</span>",
+      "choices": {
+        "A": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "B": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "C": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "D": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #3",
+      "calcType": "Calculator Active",
+      "question": "For what values of x is f(x) = –5x 2 – 11x + 9 concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #3(a)</span>",
+      "choices": {
+        "A": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "B": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "C": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "D": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #4",
+      "calcType": "Calculator Active",
+      "question": "For what values of x is f(x) = 3x 3 + 5x 2 – 8x + 10 concave up?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #4(a)</span>",
+      "choices": {
+        "A": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "B": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "C": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "D": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #5",
+      "calcType": "Calculator Active",
+      "question": "Let           3x7 3x 3x 9x )x(f 2 ,\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #5(a)</span>",
+      "choices": {
+        "A": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "B": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "C": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "D": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #5",
+      "calcType": "Calculator Active",
+      "question": "What is )x(flim 3x ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #5(a)</span>",
+      "choices": {
+        "A": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "B": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "C": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "D": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #5",
+      "calcType": "Calculator Active",
+      "question": "Is f(x) is continuous at x = 3?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #5(c)</span>",
+      "choices": {
+        "A": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "B": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "C": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "D": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #6",
+      "calcType": "Calculator Active",
+      "question": "Find g(2) if g(x) = x x25 . 4 y = f (x) For exercises 7 – 10, use the information provided about differentiable functions f and g. f(x) g(x) f (x) g (x) x = 1 4 2 5 1/2 x = 3 1 -4 3/2 -1\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #6(a)</span>",
+      "choices": {
+        "A": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "B": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "C": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "D": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #7",
+      "calcType": "Calculator Active",
+      "question": "Find (f  g) (3) 8.) Find ቀ ௙ ௚ ቁ′(1) 9.) If J(x) = g(f(x)), find J (3)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #7(a)</span>",
+      "choices": {
+        "A": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "B": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "C": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "D": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #10",
+      "calcType": "Calculator Active",
+      "question": "Find     1 4f  \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #10(a)</span>",
+      "choices": {
+        "A": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "B": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "C": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "D": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #11",
+      "calcType": "Calculator Active",
+      "question": "What is the slope of the tangent line to the graph of x 2 – 3xy 2 + 3y 2 = 1 at (–3, 1)?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #11(a)</span>",
+      "choices": {
+        "A": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers",
+        "B": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "C": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "D": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #12",
+      "calcType": "Calculator Active",
+      "question": "A function has derivative f (x) = 7x(x + 5)(x – 3). For what values of x is the function increasing? For what values of x is the function decreasing?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #12(a)</span>",
+      "choices": {
+        "A": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "B": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "C": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "D": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers"
+      },
+      "correct": "B",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Review for AP Calculus Fall Final 2025 · #13",
+      "calcType": "Calculator Active",
+      "question": "Given the graph below, what is true about the limits and continuity at the following points: x = 2, x = 4, x = 6, x = 8 MULTIPLE CHOICE PROBLEMS The questions in this packet will help you review for the final exam. Your final exam is cumulative and may include questions not included in this review packet. I cannot stop you from using your graphing calculator but use it sparingly. Try to do each problem without the calculator. Unless the problem instructions tell you to use a graphing calculator, all these problems \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Review for AP Calculus Fall Final 2025 · #13(a)</span>",
+      "choices": {
+        "A": "inc: [–5, 0] [3, ) dec: (–, –5] [0, 3]",
+        "B": "(-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3)",
+        "C": "x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A:",
+        "D": "6x 2.) inc: x > 4; dec: x < 4 3.) all real numbers"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #1",
+      "calcType": "No Calculator",
+      "question": "푓′(4) for 푓 ( 푥 ) = ( 푔(푥) ) ଶ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #1(a)</span>",
+      "choices": {
+        "A": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "B": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "C": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "D": "moving right: (0, 3) because 푣 ( 푡 ) >0 on this interval moving left: (3, 6) because 푣 ( 푡 ) <0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) "
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #2",
+      "calcType": "No Calculator",
+      "question": "푝′(4) for 푝 ( 푥 ) = ඥ ℎ(푥)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #2(a)</span>",
+      "choices": {
+        "A": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "B": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "C": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "D": "moving right: (0, 3) because 푣 ( 푡 ) >0 on this interval moving left: (3, 6) because 푣 ( 푡 ) <0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) "
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #3",
+      "calcType": "No Calculator",
+      "question": "(a) 푟′(4) for 푟 ( 푥 ) =ℎ ( 푔(푥) ) (b) the equation of the tangent line to 푟(푥) at 푥 =4\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #3(a)</span>",
+      "choices": {
+        "A": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "B": "moving right: (0, 3) because 푣 ( 푡 ) >0 on this interval moving left: (3, 6) because 푣 ( 푡 ) <0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) ",
+        "C": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "D": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:…"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #4",
+      "calcType": "No Calculator",
+      "question": "The graph of ℎ ᇱᇱ ( 푥 ) is at the right. No justification is needed for this problem. (a) Find all 푥 values of the points of inflection of ℎ ( 푥 ) . (b) On what intervals is ℎ ( 푥 ) concave up? Concave down?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #4(a)</span>",
+      "choices": {
+        "A": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "B": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "C": "moving right: (0, 3) because 푣 ( 푡 ) >0 on this interval moving left: (3, 6) because 푣 ( 푡 ) <0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) …",
+        "D": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)"
+      },
+      "correct": "C",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #5",
+      "calcType": "No Calculator",
+      "question": "Given ℎ ᇱ ( 푥 ) =2푥 ଶ (푥+5)(푥−7), find the following: (a) the critical values of ℎ(푥) (b) the x-values of any relative extrema ℎ′′(푥)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #5(a)</span>",
+      "choices": {
+        "A": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "B": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "C": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "D": "푥 A B C D E F G H I J 푓(푥) − + + 0 + + + − − 0 푓′(푥) + + − 0 + 0 − 0 + + 푓′′(푥) − − 0 + 0 − − + + +"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #6",
+      "calcType": "No Calculator",
+      "question": "The graph below is the graph of the derivative, f (x), of a function whose domain is (–∞, ∞) and has horizontal tangent lines at x = –3, x = –1, and x = 2. For what values of x is the function f(x) increasing? Decreasing? Concave up? Concave down? x-values of the points of inflection? JUSTIFY YOUR ANSWERS!\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #6(a)</span>",
+      "choices": {
+        "A": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "B": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "C": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "D": "푥 A B C D E F G H I J 푓(푥) − + + 0 + + + − − 0 푓′(푥) + + − 0 + 0 − 0 + + 푓′′(푥) − − 0 + 0 − − + + +"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #7",
+      "calcType": "No Calculator",
+      "question": "The graph of the velocity, v(t), of a particle on [0, 6] is given below. The velocity function has horizontal tangents at x = 2 and x = 5. When is the particle moving to the right? to the left? When is the acceleration positive? negative? When is the particle speeding up? slowing down? JUSTIFY YOUR ANSWERS (USING THE VELOCITY FUNCTION)!\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #7(a)</span>",
+      "choices": {
+        "A": "푥 A B C D E F G H I J 푓(푥) − + + 0 + + + − − 0 푓′(푥) + + − 0 + 0 − 0 + + 푓′′(푥) − − 0 + 0 − − + + +",
+        "B": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "C": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "D": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum"
+      },
+      "correct": "A",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.10",
+      "topic": "[Packet] Unit 5 Review problems 2025 · #8",
+      "calcType": "No Calculator",
+      "question": "Using the figure at the right, complete the chart by indicating whether each value is positive (+), negative (–), or zero (0) at the indicated points. For these problems, if the point appears to be a max or min, assume it is. If it appears to be a point of inflection, assume it is. 푥 A B C D E F G H I J 푓(푥) 푓′(푥) 푓′′(푥)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Unit 5 Review problems 2025 · #8(a)</span>",
+      "choices": {
+        "A": "increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down:",
+        "B": "(a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum",
+        "C": "(a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1)",
+        "D": "푥 A B C D E F G H I J 푓(푥) − + + 0 + + + − − 0 푓′(푥) + + − 0 + 0 − 0 + + 푓′′(푥) − − 0 + 0 − − + + +"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.10",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
+    },
+    {
+      "section": "5.1",
+      "topic": "[Packet] Warm-up Velocity problem-graph · #1",
+      "calcType": "No Calculator",
+      "question": "Warm-up Problem—Velocity AP Calculus Name______________________________ The graph of the velocity, v(t), of a particle on [–7, 7] is given below. The graph has horizontal tangent lines at x = –3, x = 2, and x = 5, and a vertical tangent line at x = 3. (a) When is the particle moving to the right? to the left? JUSTIFY YOUR ANSWERS (b) When is the acceleration positive? negative? JUSTIFY YOUR ANSWERS (c) When is the particle speeding up? slowing down? JUSTIFY YOUR ANSWERS t v(t)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: Warm-up Velocity problem-graph · #1(a)</span>",
+      "choices": {
+        "A": "The limit does not exist.",
+        "B": "0",
+        "C": "The expression is undefined at that point.",
+        "D": "Warm-up Problem—Velocity AP Calculus Name______________________________ The graph of the velocity, v(t), of a particle on [–7, 7] is given below. The graph has horizontal tangent lines at x = –3, x = 2, and x = 5, and a …"
+      },
+      "correct": "D",
+      "explanation": "Correct choice is aligned to the same-number block in the extracted solution PDF when text is available; otherwise verify with the scanned key.",
+      "notesSection": "5.1",
+      "notesSnippet": "Generated from your course packets.",
+      "timeTip": "If unsure, open the worksheet PDF from Materials.",
+      "packetAuto": true
     }
   ],
   "frqBank": [

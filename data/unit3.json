@@ -114,6 +114,400 @@
           "scoring": "1 pt implicit setup, 1 pt combine, 1 pt isolate, 1 pt final."
         }
       ]
+    },
+    {
+      "title": "3-1 WK A The Chain Rule #1",
+      "calcAllowed": true,
+      "context": "<p><strong>3-1 WK A The Chain Rule #1</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-1%20WK%20A%20The%20Chain%20Rule%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-1%20WK%20A%20The%20Chain%20Rule%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 3-1 A The Chain Rule #1 AP Calculus Name______________________________</p><p>Directions: For 1 – 16, find the derivative of the following functions. 1. 푓 ( 푥 ) = ඥ 푥 ଷ −4 య 2. 푔 ( 휃 ) =sin (휃 ଶ )</p><p>3. ℎ ( 푥 ) =cos ଶ (푥) 4. 푓 ( 푥 ) =ln | 푥 ଶ +5 |</p><p>5. 푦= 1 푥 ଶ −3푥+1 6. 푘 ( 푡 ) =푒 ସ௧</p><p>7. 푓 ( 푥 ) = ( 푥 ଷ −2푥+5 ) ସ 8. 푓 ( 푥 ) = ඥ tan (푥)</p><p>9. 푘 ( 푥 ) = 1 푒 ଷ௫ 10. 푓 ( 푥 ) =푒 ୱ୧୬ ( ௫ )</p><p>11. 푓 ( 푥 ) =sin ଶ (푥) 12. 푓 ( 푥 ) =ln | 2푥 ଷ −4푥+7 |</p><p>Created by B Passwater 13. 푦=cos ( ln | 푥 | ) 14. 푦=ln | tan (3푥) |</p><p>15. 푓 ( 푥 ) = −3 푥 ଶ −3푥+6 16. 푔 ( 푥 ) =푓 ( 2푥 ) 푒 ିସ௫</p><p>Directions: For 17 – 19, find the equation of the tangent line at the given x-value. 17. 푓 ( 푥 ) = ( 1+tan푥 ) ଷ/ଶ at 푥=0</p><p>18. 푔 ( 푥 ) = 1 ( 3−2푥 ) ଶ at 푥=1</p><p>19. 푓 ( 푥 ) =푒 ଷ௫ ర at 푥=0</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "3-1 WK B The Chain Rule #2",
+      "calcAllowed": true,
+      "context": "<p><strong>3-1 WK B The Chain Rule #2</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-1%20WK%20B%20The%20Chain%20Rule%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-1%20WK%20B%20The%20Chain%20Rule%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 3-1 B The Chain Rule #2 AP Calculus Name______________________________</p><p>Selected values of the differentiable functions 푔 and ℎ along with their derivatives 푔 ᇱ and ℎ′ are given in the table above. Use this information to find the following values.</p><p>1. Let 푓 ( 푥 ) =푔 ൫ ℎ ( 푥 ) ൯ . Write an equation of the line tangent to 푓 at 푥=−3.</p><p>2. Let 푘 ( 푥 ) =푔 ( 푥 ଷ ) . Find 푘 ᇱ ( 2 ) . 3. Let 푚 ( 푥 ) = ℎ ( 푥 ) 5푥 . Find 푚 ᇱ ( 7 ) .</p><p>4. Let 푝 ( 푥 ) =ℎ ൫ 푔 ( 푥 ) ൯ . Find 푝 ᇱ ( 8 ) . 5. Let 푟 ( 푥 ) =ln | 푔 ( 푥 ) | . Find 푟 ᇱ ( −3 ) .</p><p>6. Let 퐿 ( 푥 ) =푒 ௛ ( ௫ ) . Find 퐿 ᇱ ( 8 ) . 7. Let 퐴 ( 푥 ) =ℎ ( 1+푥−푥 ଷ ) . Find 퐴 ᇱ ( −2 ) .</p><p>8. Let 푛 ( 푥 ) =sin ൫ 푔 ( 푥 ) ൯ . Find 푛′ ( 2 ) . 9. Let 퐷 ( 푥 ) = 1 ℎ ( 푥 ) . Find 퐷 ᇱ ( 7 ) .</p><p>풙 −ퟑ ퟐ ퟕ ퟖ 품(풙) 4 3 9 2 풉 ( 풙 ) 7 −2 5 0 품 ᇱ ( 풙 ) −1 5 2 8 풉′(풙) −1 7 −3 −5</p><p>Created by B Passwater</p><p>The graphs of 푓 ( 푥 ) and 푔 ( 푥 ) are shown in the figure above and consist of line segments. Use the graphs to answer the following.</p><p>10. Let ℎ ( 푥 ) =푓 ൫ 푔 ( 푥 ) ൯ . Find ℎ′ ( 5 ) . 11. Let 푘 ( 푥 ) =푓(푥 ଶ ). Find 푘 ᇱ ( −2 ) .</p><p>12. Let 푝 ( 푥 ) =ln ൫ 푔 ( 푥 ) ൯ . Find 푝 ᇱ ( −4 ) . 13. Let 푚 ( 푥 ) = ඥ 푓 ( 푥 ) . Find 푚′ ( −3 ) .</p><p>14. Let 퐴 ( 푥 ) =푔 ൫ 푓 ( 푥 ) ൯ . Find 퐴 ᇱ ( 2 ) . 15. Let 퐶 ( 푥 ) = 3 푔 ( 푥 ) . Find 퐶 ᇱ ( −4 ) .</p><p>16. Let 푆 ( 푥 ) =푒 ௙ ( ௫ ) . Find 푆′ ( 11 ) . 17. Let 푄 ( 푥 ) =cos ൫ 푔 ( 푥 ) ൯ . Find 푄 ᇱ ( 3 ) .</p><p>18. Let 퐷 ( 푥 ) =푔(2푥−푥 ଶ ). Find 퐷′ ( −1 ) . 19. Let 푛 ( 푥 ) =ln | 푓 ( 푥 ) −3푥 | . Find 푛 ᇱ ( −4 ) .</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "3-1 WK C The Chain Rule #3",
+      "calcAllowed": true,
+      "context": "<p><strong>3-1 WK C The Chain Rule #3</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-1%20WK%20C%20The%20Chain%20Rule%20#3.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-1%20WK%20C%20The%20Chain%20Rule%20#3%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater, FM, and K Bakowski Worksheet 3-1 C The Chain Rule #3 AP Calculus Name______________________________</p><p>Directions: Find the derivative of the following functions. Simplify your answers!</p><p>1. 푓 ( 푥 ) =−2푒 ௫ మ ିଷ௫ 2. 푔 ( 푥 ) =4푒 ଶିହ௫</p><p>3. ℎ ( 푤 ) =푤푒 ସ௪ 4. 푓 ( 푥 ) = 푒 ଶ௫ 5푥</p><p>5. 푦=푒 ି௫ 6. 푦=sin (푒 ଷ௫ )</p><p>7. 푓 ( 푥 ) =ln | 4푥−1 | 8. 푔 ( 푥 ) =ln | 푥 ଶ |</p><p>9. ℎ ( 푥 ) =ln | sin (푥) | 10. 푘 ( 푥 ) =ln | 푒 ௫ |</p><p>11. 푔 ( 푥 ) =ln | 3푥 ଶ −4푥+2 | 12. 푚 ( 푥 ) =ln | 4−푥 |</p><p>Created by B Passwater, FM, and K Bakowski 13. 푓 ( 푥 ) =푒 ୡ୭ୱ ( ଷ௫ ) 14. ℎ ( 푥 ) =푒 ௘ మೣ</p><p>15. 푔 ( 푥 ) =푒 ୪୬ | ௫ | 16. 푦=sin ( ln | 3푥+2 | )</p><p>17.푓 ( 푟 ) =ቀ 푟 푟−1 ቁ ଷ 18. ℎ ( 푡 ) = 1 2 푡−2sin ଷ (2푡)</p><p>19.푓 ( 푥 ) = 1 √푥 ଶ −1 య 20.퐹 ( 푡 ) = ඨ 푡 푡+1</p><p>21. Find an equation of the tangent line to the curve 푦= √ 1+푥 ଷ at (2,3).</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "3-2 WK A Implicit Differentiation #1",
+      "calcAllowed": true,
+      "context": "<p><strong>3-2 WK A Implicit Differentiation #1</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-2%20WK%20A%20Implicit%20Differentiation%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-2%20WK%20A%20Implicit%20Differentiation%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater and K Bakowski Worksheet 3-2 A Implicit Differentiation #1 AP Calculus Name______________________________</p><p>You must show all work for each problem.</p><p>Directions for 1 – 8: Find ௗ௬ ௗ௫ for the following equations.</p><p>1. 2푥 ଷ +3푦 ଷ =64 2. 푥 ଷ +3푥푦+푦 ଶ =0</p><p>3. 푥 ଶ −2푥푦+푦 ଷ =1 4. 2푥 ଷ +푦 ସ −2푥 ଶ +4푥=3</p><p>5. 푥 ଵ ଶ +푦 ଵ ଶ =16 6. 푒 ௬ −sin ( 3푦 ) −3푥 ଶ +5푥=0</p><p>7. sin ( 3푥 ) +2cos ( 푦 ) =1 8. 푒 ௫௬ +푥 ଶ −푦 ଶ =10</p><p>9. Write an equation of the tangent line to the curve 9푥 ଶ +4푦 ଶ =72 at the point (2, 3).</p><p>10. Write an equation of the tangent line and normal line to the curve 2푥 ଷ +2푦 ଷ =9푥푦 at the point (1, 2).</p><p>11. Write an equation of the tangent line and normal line to the curve 푥=cos푦 at the point ቀ ଵ ଶ , గ ସ ቁ.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "3-2 WK Mixed Derivative Practice (thru 3-2)",
+      "calcAllowed": true,
+      "context": "<p><strong>3-2 WK Mixed Derivative Practice (thru 3-2)</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-2%20WK%20Mixed%20Derivative%20Practice%20(thru%203-2).pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-2%20WK%20Mixed%20Derivative%20Practice%20(thru%203-2)%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passswater Worksheet 3-2 Mixed Derivative Practice (thru 3-2) AP Calculus Name______________________________</p><p>Directions: Answer the problems below. Be sure to show all work ON NOTEBOOK PAPER.</p><p>1. 푓 ( 푥 ) =4−5푥−ln ( 푥+2 ) ,then 푓 ᇱ ( −1 ) =</p><p>2. 푔 ( 푥 ) = ( 푥 ଶ −sin ( 푥 )) ସ ,then 푔 ᇱ ( 푥 ) =</p><p>3. ℎ ( 푥 ) =2푥 ଷ −푥 ଶ + 1 푥 −3,then ℎ ᇱ ( 3 ) =</p><p>4. The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 .</p><p>5. What is the equation of the line tangent to the graph of 푦 =ln ( 푥 ଶ ) when 푥 =3?</p><p>6. If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) =</p><p>7. The table above gives selected values for the differentiable function 푓 and its derivative 푓 ᇱ . Let 푘 be the function deβined by 푘 ( 푥 ) = 푓(3푥) 4푥 . What is the value of 푘 ᇱ ( −2 ) ?</p><p>8. The graph of 푓 ( 푥 ) is below. Order 푓 ᇱ ( −3 ) ,푓 ᇱ ( −1 ) ,and 푓 ᇱ ( 1 ) from least to greatest.</p><p>푥 −6 −2 6 푓(푥) 3 −4 5 푓′(푥) 2 1 −3 9. If 푓 is the function given by 푓 ( 푥 ) =4−푥 ଷ ,for which value of 푥 is the instantaneous rate of change equal to the average rate of change of 푓 ( 푥 ) on the interval [ −1,3 ] ?</p><p>10. lim ௫→ିஶ 9푥−2 √ 4푥 ଶ −2푥+1 =</p><p>11. 푓 ( 푥 ) = ( 3푥 ଶ −5푥+1 ) ଺ . Find 푓′(푥)</p><p>12. 푔 ( 푥 ) =sin ଶ ( 3푥−1 ) . Find 푔 ᇱ ( 푥 ) .</p><p>13. 푔 ( 푥 ) = 5−2푥 3푥+7 ,βind 푔′(푥)</p><p>Created by B Passswater 14. The graph of 푓 ( 푥 ) below along with the line tangent to 푓 at 푥 =2. Let 푔 ( 푥 ) = 푓 ( 푥 ) 푒 ௫ . Find 푔 ᇱ ( 2 ) .</p><p>푔 ( 푥 ) =൜ 푎푥 ଶ +3, 푥 ≤2 16푥−23, 푥 &gt;2</p><p>16. The function 푔 is deβined above. Find the value of 푎 that makes 푔 continuous at 푥 =2</p><p>17. If 푓 is the function given by 푓 ( 푥 ) =sinቀ 푥 6 ቁ,write the equation of the line tangent to the graph of 푓 at the point ൬ 휋, 1 2 ൰ .</p><p>18. If 푓 ( 푥 ) = ඥ 푥 ଶ −4 and 푔 ( 푥 ) =3푥−2,βind the derivative of 푔൫푓 ( 푥 ) ൯ at 푥=6.</p><p>푥 1 2 5 7 푓(푥) 2 8 2 −3</p><p>19. Let 푓 be a continuous function with selected values given in the table above. Is there a time 푐, where 1&lt;푐 &lt;7,such that 푓 ( 푐 ) =0? Justify your answer.</p><p>20. lim ௫→ିଷ 푥 ଶ −9 푥 ଶ −4푥−21 =</p><p>21. Let 3푥 ଶ −2푦+4푥푦 =6. Find 푑푦 푑푥 .</p><p>22. Write an equation of the line tangent to the curve 푥 ଶ −3푥푦+4푦 =8 through the point</p><p>( 2,−2 ) .</p><p>23. Letsin ( 2푥−3푦 ) =푥 ଶ +4푦 ଷ . Find 푑푦 푑푥 . y = f (x) (6, 0) (2, –3) y = f (x) y = g(x) 15. The βigure below shows the graphs of 푓 and 푔. If 푘 ( 푥 ) =푓 ( 푥 ) 푔 ( 푥 ) ,βind 푘′(2).</p>",
+          "finalAnswer": "Created by B Passswater Worksheet 3-2 Mixed Derivative Practice (thru 3-2) AP Calculus Name______________________________ Directions: Answer the problems below. Be sure to show all work ON NOTEBOOK PAPER. 1. 푓 ( 푥 ) =4−5푥−ln ( 푥+2 ) ,then 푓 ᇱ ( −1 ) = 2. 푔 ( 푥 ) = ( 푥 ଶ −sin ( 푥 )) ସ ,then 푔 ᇱ ( 푥 ) = 3. ℎ ( 푥 ) =2푥 ଷ −푥 ଶ + 1 푥 −3,then ℎ ᇱ ( 3 ) = 4. The function 푓 is deβined by 푓 ( 푥 ) = 푥−1 푥+2 . Find all points ( 푥,푦 ) where the line tangent to the graph of 푓 has slope 1 3 . 5. What is the equation of the line tangent to the graph of 푦=ln ( 푥 ଶ ) when 푥=3? Created by B Passswater 6. If 푓 ( 푥 ) =4푥 ିଵ − 푥 3 −2,then 푓 ᇱ ( −3 ) = 7. The table above gives selected values for the differentiable function 푓 and its derivative 푓 ᇱ . Let 푘 be the function deβined by 푘 ( 푥 ) = 푓(3푥) 4푥 . What is the value of 푘 ᇱ ( −2 ) ? 8. The graph of 푓 ( 푥 ) is below. Order 푓 ᇱ ( −3 ) ,푓 ᇱ ( −1 ) ,and 푓 ᇱ ( 1 ) from least to greatest. 9. If 푓 is the function given by 푓 ( 푥 ) =4−푥 ଷ ,for which value of 푥 is the instantaneous rate of change equal to the average rate of change of 푓 ( 푥 ) on the interval [ −1,3 ] ? 푥 −6 −2 6 푓(푥) 3 −4 5 푓′(푥) 2 1 −3 Created by B Passswater 10. lim ௫→ିஶ 9푥−2 √ 4푥 ଶ −2푥+1 =…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "3-3 WK A Derivatives of Inverse Functions #1",
+      "calcAllowed": true,
+      "context": "<p><strong>3-3 WK A Derivatives of Inverse Functions #1</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-3%20WK%20A%20Derivatives%20of%20Inverse%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-3%20WK%20A%20Derivatives%20of%20Inverse%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Given 푓 ( 푥 ) =3푥 ହ +2푥+3 and 푔 ( 푥 ) =푓 ିଵ (푥), find 푔′(푥).</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>Given 푔 ( 푥 ) =푓 ିଵ (푥), 푓 ( 7 ) =−2,푓 ( −5 ) =1,푓 ᇱ ( 7 ) =−1,and 푓′ ( −5 ) =8, find 푔′(−2).</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>Given 푔 ( 푥 ) =푓 ିଵ (푥), 푓 ( 6 ) =−8,푓 ( −5 ) =1,푓 ᇱ ( 6 ) =3,and 푓′ ( −5 ) =6, find 푔′(1).</p><p>The table below gives values of the differentiable functions 푔 and 푔′ at selected values of 푥. Let ℎ ( 푥 ) =푔 ିଵ (푥)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>Find equation of the tangent line to ℎ(푥) at 푥=2.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>Find equation of the tangent line to ℎ(푥) at 푥=7.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>Given 푔 ିଵ ( 푥 ) =푓(푥) and 푔 ( 푥 ) = ଵ ହି௫ , find 푓 ᇱ ቀ ଵ ଷ ቁ.</p><p>푥 푔(푥) 푔′(푥) 2 5 3 4 7 –2 5 10 11 7 2 –7 10 4 6</p><p>Created by FM and K Bakowski 푓 and 푔 are differentiable functions. Use the table to answer the problems below. 푓 and 푔 are NOT inverses!</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>Find 푔 ିଵ (−1) 8.) Find 푓 ିଵ (−5)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>Find ௗ ௗ௫ [ 푔 ିଵ ( 푥 )] ௫ୀିଶ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>Find ௗ ௗ௫ [ 푓 ିଵ ( 푥 )] ௫ୀିଷ</p><p>TEST PREP</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(11)",
+          "points": 2,
+          "question": "<p>The functions 푓 and 푔 are differentiable for all real numbers and 푔 is strictly increasing. The table below gives values of the functions and their first derivatives at selected values of 푥. The function ℎ is given by ℎ ( 푥 ) =푓൫푔 ( 푥 ) ൯−6.</p><p>(a) Explain why there must be a value 푟 for 1&lt;푟&lt;3 such that ℎ ( 푟 ) =−5.</p><p>(b) If 푔 ିଵ is the inverse function of 푔, write an equation for the line tangent to the graph of 푦=푔 ିଵ (푥) at 푥=2.</p><p>푥 푓(푥) 푓′(푥) 푔(푥) 푔′(푥) –1 –2 5 –5 –4 –2 –3 6 –6 –3 –3 –6 –4 –5 –2 –4 –1 –9 –3 –1 –5 –4 –1 –2 –6 –6 –5 –2 –1 –5</p><p>푥 푓(푥) 푓′(푥) 푔(푥) 푔′(푥) 1 6 4 2 5 2 9 2 3 1 3 10 –4 4 2 4 –1 3 6 7</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "3-4 WK A Differentiating Inverse Trigonometric Functions #1",
+      "calcAllowed": true,
+      "context": "<p><strong>3-4 WK A Differentiating Inverse Trigonometric Functions #1</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-4%20WK%20A%20Differentiating%20Inverse%20Trigonometric%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-4%20WK%20A%20Differentiating%20Inverse%20Trigonometric%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>y=cos ିଵ (−5푥 ଷ ) 2.) 푦=arcsin(−2푥 ଶ )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>푦=arctan(2푥 ସ ) 4.) 푦=csc ିଵ (4푥 ଶ )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>푦= ( arcsin ( 5푥 ଶ )) ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>푦=cos ିଵ ( −2푥 ଷ −3 ) ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>푦=sec ିଵ ( 3ln푥 )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>푦= ( tan ିଵ ( 5푥 )) ଶ</p><p>Directions: Find the equation of the tangent line to the curve at the given point.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>푦=arcsin(2푥) at the point where 푥= ଵ ସ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>푓 ( 푥 ) =arccos(3푥) at the point where 푥=− √ ଷ ଺</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(11)",
+          "points": 2,
+          "question": "<p>푦=arctan൫ √ 푥൯ at the point where 푥=3</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": "3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2",
+      "calcAllowed": true,
+      "context": "<p><strong>3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2</strong> — Open the original worksheet: <a href=\"Unit%203/Homework%20/3-5%20&amp;%203-6%20WK%20AB%20Derivative%20Procedures%20and%20Higher%20Order%20Derivatives%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%203/Homework%20/3-5%20&amp;%203-6%20WK%20AB%20Derivative%20Procedures%20and%20Higher%20Order%20Derivatives%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>Given cos푦=2푥 ଶ , find ௗ మ ௬ ௗ௫ మ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>If ௗ௬ ௗ௫ =푒 ௬ +푥 ଷ/ଶ , find ௗ మ ௬ ௗ௫ మ at ( 4,0 )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>If 푥 ଶ −2푥푦+3푦 ଶ =8, then ௗ௬ ௗ௫ = (A) ଼ାଶ௬ିଶ௫ ଺௬ିଶ௫ (B) ଷ௬ି௫ ௬ି௫ (C) ଶ௫ିଶ௬ ଺௬ିଶ௫ (D) ଵ ଷ (E) ௬ି௫ ଷ௬ି௫</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>If 푓 ( 푥 ) =cos ( 푒 ି௫ ) , then 푓 ᇱ ( 푥 ) is (A) −sin(푒 ି௫ ) (B) sin(푒 ି௫ ) (C) sin(푒 ି௫ )−푒 ି௫</p><p>(D) e ି௫ sin(푒 ି௫ ) (E) −e ି௫ sin(푒 ି௫ )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>A curve given by the equation 푥 ଷ +푥푦=8 has slope given by ௗ௬ ௗ௫ = ିଷ௫ మ ି௬ ௫ . The value of ௗ మ ௬ ௗ௫ మ at the point where 푥=2 is (A) –6 (B) –3 (C) 0 (D) 4 (E) undefined</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>Let 푓 be the function defined by 푓 ( 푥 ) =2푥 ସ −푥 ଷ +푥. Let 푔 ( 푥 ) =푓 ିଵ (푥), where 푔 ( 2 ) =1. What is the value of 푔 ᇱ ( 2 ) ? (A) ଵ ହଷ (B) ଵ ଶ଺ (C) ଵ ଺ (D) ଵ ଶ (E) 53</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 8
     }
   ],
   "notesData": {
@@ -128,9 +522,93 @@
     "3.3": {
       "title": "3-3 to 3-5 Inverse + Higher Derivatives",
       "content": "<div class='notes-block'><h3>Inverse slope rule</h3><p>(f^{-1})'(b)=1/f'(a), where f(a)=b.</p></div>"
+    },
+    "packet-pdfs": {
+      "title": "Packet PDFs (class notes & homework)",
+      "content": "<div class=\"notes-block\"><p style=\"color:var(--text2);margin-bottom:10px\">These match your physical binders. Use them alongside the MCQ/FRQ banks.</p><h3 style=\"margin-top:14px\">Notes packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%203/Notes/3-1%20The%20Chain%20Rule%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 The Chain Rule COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Notes/3-2%20Implicit%20Differentiation%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-2 Implicit Differentiation COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Notes/3-3%20%20Differentiating%20Inverse%20Functions%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-3  Differentiating Inverse Functions COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Notes/3-4%20Differentiating%20Inverse%20Trig%20Functions%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-4 Differentiating Inverse Trig Functions COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Notes/3-5%20&amp;%203-6%20Derivative%20Procedures%20and%20Higher%20Order%20Derivatives%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-5 &amp; 3-6 Derivative Procedures and Higher Order Derivatives COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div><h3 style=\"margin-top:14px\">Homework packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%203/Homework%20/3-1%20WK%20A%20The%20Chain%20Rule%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 WK A The Chain Rule #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-1%20WK%20A%20The%20Chain%20Rule%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 WK A The Chain Rule #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-1%20WK%20B%20The%20Chain%20Rule%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 WK B The Chain Rule #2 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-1%20WK%20B%20The%20Chain%20Rule%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 WK B The Chain Rule #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-1%20WK%20C%20The%20Chain%20Rule%20#3%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 WK C The Chain Rule #3 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-1%20WK%20C%20The%20Chain%20Rule%20#3.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-1 WK C The Chain Rule #3</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-2%20WK%20A%20Implicit%20Differentiation%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-2 WK A Implicit Differentiation #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-2%20WK%20A%20Implicit%20Differentiation%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-2 WK A Implicit Differentiation #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-2%20WK%20Mixed%20Derivative%20Practice%20(thru%203-2)%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-2 WK Mixed Derivative Practice (thru 3-2) SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-2%20WK%20Mixed%20Derivative%20Practice%20(thru%203-2).pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-2 WK Mixed Derivative Practice (thru 3-2)</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-3%20WK%20A%20Derivatives%20of%20Inverse%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-3 WK A Derivatives of Inverse Functions #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-3%20WK%20A%20Derivatives%20of%20Inverse%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-3 WK A Derivatives of Inverse Functions #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-4%20WK%20A%20Differentiating%20Inverse%20Trigonometric%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-4 WK A Differentiating Inverse Trigonometric Functions #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-4%20WK%20A%20Differentiating%20Inverse%20Trigonometric%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-4 WK A Differentiating Inverse Trigonometric Functions #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-5%20&amp;%203-6%20WK%20AB%20Derivative%20Procedures%20and%20Higher%20Order%20Derivatives%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%203/Homework%20/3-5%20&amp;%203-6%20WK%20AB%20Derivative%20Procedures%20and%20Higher%20Order%20Derivatives%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">3-5 &amp; 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div></div>"
     }
   },
   "materials": [
+    {
+      "type": "homework",
+      "title": "3-1 WK A The Chain Rule #1 ANSWERS",
+      "path": "Unit 3/Homework /3-1 WK A The Chain Rule #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-1 WK A The Chain Rule #1",
+      "path": "Unit 3/Homework /3-1 WK A The Chain Rule #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-1 WK B The Chain Rule #2 ANSWERS",
+      "path": "Unit 3/Homework /3-1 WK B The Chain Rule #2 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-1 WK B The Chain Rule #2",
+      "path": "Unit 3/Homework /3-1 WK B The Chain Rule #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-1 WK C The Chain Rule #3 ANSWERS",
+      "path": "Unit 3/Homework /3-1 WK C The Chain Rule #3 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-1 WK C The Chain Rule #3",
+      "path": "Unit 3/Homework /3-1 WK C The Chain Rule #3.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-2 WK A Implicit Differentiation #1 ANSWERS",
+      "path": "Unit 3/Homework /3-2 WK A Implicit Differentiation #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-2 WK A Implicit Differentiation #1",
+      "path": "Unit 3/Homework /3-2 WK A Implicit Differentiation #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-2 WK Mixed Derivative Practice (thru 3-2) SOLUTIONS",
+      "path": "Unit 3/Homework /3-2 WK Mixed Derivative Practice (thru 3-2) SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-2 WK Mixed Derivative Practice (thru 3-2)",
+      "path": "Unit 3/Homework /3-2 WK Mixed Derivative Practice (thru 3-2).pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-3 WK A Derivatives of Inverse Functions #1 ANSWERS",
+      "path": "Unit 3/Homework /3-3 WK A Derivatives of Inverse Functions #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-3 WK A Derivatives of Inverse Functions #1",
+      "path": "Unit 3/Homework /3-3 WK A Derivatives of Inverse Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-4 WK A Differentiating Inverse Trigonometric Functions #1 ANSWERS",
+      "path": "Unit 3/Homework /3-4 WK A Differentiating Inverse Trigonometric Functions #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-4 WK A Differentiating Inverse Trigonometric Functions #1",
+      "path": "Unit 3/Homework /3-4 WK A Differentiating Inverse Trigonometric Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 ANSWERS",
+      "path": "Unit 3/Homework /3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2",
+      "path": "Unit 3/Homework /3-5 & 3-6 WK AB Derivative Procedures and Higher Order Derivatives #2.pdf"
+    },
     {
       "type": "notes",
       "title": "3-1 The Chain Rule COMPLETED CLASS NOTES",
@@ -160,6 +638,50 @@
       "type": "review",
       "title": "3-2 WK Mixed Derivative Practice (thru 3-2)",
       "path": "Unit 3/Review/3-2 WK Mixed Derivative Practice (thru 3-2).pdf"
+    }
+  ],
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 3</strong> — Materials on this site include <strong>5</strong> notes PDFs, <strong>16</strong> homework PDFs, and <strong>1</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "Chain rule (Leibniz)",
+      "back": "dy/dx = dy/du · du/dx",
+      "tag": "derivatives"
+    },
+    {
+      "front": "d/dx e^x and d/dx ln x",
+      "back": "e^x and 1/x (x>0 for ln).",
+      "tag": "derivatives"
+    },
+    {
+      "front": "Product rule",
+      "back": "(fg)′ = f′g + fg′",
+      "tag": "derivatives"
+    },
+    {
+      "front": "Study focus — section 3.1",
+      "back": "Filter MCQs to 3.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 3.2",
+      "back": "Filter MCQs to 3.2 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 3.3",
+      "back": "Filter MCQs to 3.3 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 3.4",
+      "back": "Filter MCQs to 3.4 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 3.5",
+      "back": "Filter MCQs to 3.5 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
     }
   ]
 }

@@ -125,6 +125,904 @@
           "scoring": "1 pt continuity condition, 1 pt value."
         }
       ]
+    },
+    {
+      "title": "1-1 WK A Change At An Instant #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-1 WK A Change At An Instant #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-1%20WK%20A%20Change%20At%20An%20Instant%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>A candle is burning in a quiet room. The height of the candle, 퐻(푡), in centimeters, is measured at various times t, where t is the number of minutes since it was lit. The table below shows the recorded height at selected times.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(e)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Find the average rate of change in the height of the candle between 푡=0 and 푡=11. Include units in your answer.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(g)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(h)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(i)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>Estimate the instantaneous rate of change in the candle’s height at 푡=5 minutes. Show your reasoning and include units in your answer.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>The number of customers at a coffee shop t hours after it opens can be modeled by 퐶 ( 푡 ) = −2 ( 푡−5 ) ଶ +50 where 0≤푡≤10.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Find the average rate of change in the number of customers between 푡=1 and 푡=8.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "1-10 WK A Types of Discontinuities #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-10 WK A Types of Discontinuities #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-10%20WK%20A%20Types%20of%20Discontinuities%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-10%20WK%20A%20Types%20of%20Discontinuities%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-10 A Types of Discontinuities #1 AP Calculus Name______________________________ SHOW ALL WORK Directions: Find and classify any 푥 value(s) where the functions below have a discontinuity. 1. 푓 ( 푥 ) = 푥 ଶ −4 푥 ଶ −5푥+6 2. 푔 ( 푥 ) = 푥 ଷ −2푥 ଶ −3푥 푥 ଶ −3푥−4</p><p>3. Let 푘 be the function deβined by 푘 ( 푥 ) = 푥 ସ −4푥 ଶ 푥 ଶ −4푥 . Which of the following statements is true? A) 푘 has a discontinuity due to a vertical asymptote at 푥=0 and at 푥=4. B) 푘 has a removable discontinuity at 푥=0 and a jump discontinuity at 푥=4. C) 푘 has a removable discontinuity at 푥=0 and a discontinuity due to a vertical asymptote at 푥=4. D) 푘 is continuous at 푥=0 and has a discontinuity due to a vertical asymptote at at 푥=4.</p><p>4. Let 푔 be the function deβined by 푔 ( 푥 ) = ௫ య ିଽ௫ ௫ మ ି௫ି଺ . Which of the following statements about 푔 at 푥=−2 and 푥=3 is true? A) 푔 has a jump discontinuity at 푥=−2, and 푔 is continuous at 푥=3. B) 푔 has a jump discontinuity at 푥=−2 and a removable discontinuity at 푥=3. C) 푔 has a discontinuity due to a vertical asymptote at 푥=−2, and 푔 is continuous at 푥=3. D) 푔 has a discontinuity due to a vertical asymptote at 푥=−2, and 푔 has a removable discontinuity at 푥=3</p><p>5. The graph of 푓 ( 푥 ) is shown below. What are all the values of 푥 for which f has a removable discontinuity? A) 1 only B) 5 only C) 1 and 7 only D) 1,5,and 7</p><p>6. The graph of 푔 ( 푥 ) is shown at the right. For which value(s) of 푥 does g have a removable discontinuity? A) 0 only B) 2 only C) 0 and 4 only D) 0,2,and 4</p><p>Created by B Passwater 7. The graph of 푘 ( 푥 ) is shown at the right. Let h be the function deβined by ℎ ( 푥 ) = 푥 ଶ −6푥+5 푥 ଶ −4푥+3</p><p>For which value(s) of 푥 do the functions h and k both have a nonremovable discontinuity?</p><p>푓 ( 푥 ) =൝ 푥 ଶ +2,푥&lt;1 sinቀ 휋푥 2 ቁ+2푥 ଶ ,푥≥1</p><p>8. Let f be the piecewise deβined function shown above. Find and classify any 푥 values where 푓 ( 푥 )</p><p>is discontinuous.</p><p>푔 ( 푥 ) =൜ 5−4푥,푥&lt;2 −푥 ଶ −1,푥≥2</p><p>9. Let g be the piecewise deβined function shown above. Find and classify any 푥 values where 푔 ( 푥 ) is discontinuous.</p><p>ℎ ( 푥 ) =൜ 3푥−1,푥&lt;0 ln(푥+1)−푒 ௫ ,푥&gt;0</p><p>10. Let h be the piecewise deβined function shown above. Find and classify any 푥 values where ℎ ( 푥 ) is discontinuous.</p><p>푘 ( 푥 ) =ቐ 푥 ଶ −1 푥 ଶ −3푥−4 ,푥&lt;3 5−2푥,푥≥3</p><p>11. Let k be the piecewise deβined function shown above. Find and classify any 푥 values where 푘 ( 푥 ) is discontinuous.</p><p>푓 ( 푥 ) =൜ 푐 ଶ −푥,푥&lt;3 푐푥+7,푥&gt;3</p><p>12. Let f be the piecewise deβined function shown above and let c be a positive constant. Find the value of c such that 푓 ( 푥 ) has a hole at 푥=3.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "1-11 to 1-13 WK A Continuity #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-11 to 1-13 WK A Continuity #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-11%20to%201-13%20WK%20A%20Continuity%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-11%20to%201-13%20WK%20A%20Continuity%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-11 to 1-13 A Continuity #1 AP Calculus Name______________________________</p><p>1. The function 푓(푥) is above. Is 푓(푥) continuous 2. The function 푔(푥) is above. Is 푔(푥) continuous at 푥=1? Explain your reasoning. at 푥=1? Explain your reasoning.</p><p>3. The function ℎ(푥) is above. Is ℎ(푥) continuous at 푥=5? Explain your reasoning.</p><p>4. Is ℎ(푥) continuous at 푥=1? Explain your reasoning.</p><p>Created by B Passwater</p><p>Directions: For 5-8, the function 푘(푥) is above. Use the graph of 푘(푥) to answer the following questions.</p><p>5. For 푐=8,which of the following statement(s) are 퐅퐀퐋퐒퐄: I. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 )</p><p>II. 푘 ( 푐 ) exists III. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 ) =푘(푐)</p><p>A) I only B) II only C) III only D) I and II only E) I,II and III</p><p>6. For 푐=1,which of the following statement(s) are 퐓퐑퐔퐄: I. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 )</p><p>II. 푘 ( 푐 ) exists III. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 ) =푘(푐)</p><p>A) I only B) II only C) III only D) I and II only E) I,II and III</p><p>7. For 푐=5,which of the following statement(s) are 퐓퐑퐔퐄: I. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 )</p><p>II. 푘 ( 푐 ) exists III. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 ) =푘(푐)</p><p>A) I only B) II only C) III only D) I and II only E) I,II and III</p><p>8. For 푐=3,which of the following statement(s) are 퐓퐑퐔퐄: I. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 )</p><p>II. 푘 ( 푐 ) exists III. lim ௫→௖ ష 푘 ( 푥 ) = lim ௫→௖ శ 푘 ( 푥 ) =푘(푐)</p><p>A) I only B) II only C) III only D) I and II only E) I,II and III</p><p>Created by B Passwater</p><p>9. The graph of 푔(푥) is above. Use this graph to answer the following. A) At what 푥 value(s) is 푔 ( 푥 ) NOT continuous? Classify each discontinuity and state which requirement for continuity was broken for each 푥 value.</p><p>B) What is the domain of 푔(푥)?</p><p>C) Is 푔(푥) continuous at 푥=−2? Explain using the deβinition of continuity at a point.</p><p>푓 ( 푥 ) = ቄ 푥−3,푥&lt;0 2푥+1,푥≥0</p><p>10. The piecewise function, 푓(푥), is given above. Is 푓 continuous at 푥=0? Explain your reasoning.</p><p>ℎ ( 푥 ) = ൜ 3푥−1,푥&lt;2 푥 ଶ +1,푥&gt;2</p><p>11. The piecewise function, ℎ(푥), is given above. Is ℎ continuous at 푥=2? Explain your reasoning.</p><p>Created by B Passwater 푘 ( 푥 ) = ቐ 3푥−1,푥≤−1 푥 ଶ −2푥−3 푥+1 ,푥&gt;−1</p><p>12. The piecewise function, 푘(푥), is given above. Is 푘 continuous at 푥=−1? Explain your reasoning.</p><p>푔 ( 푥 ) = ൜ 2푥−3,푥≤1 푥 ଶ +푐,푥&gt;1</p><p>13. The piecewise function, 푔(푥), is given above. Find the value of c such that 푔(푥) is continuous.</p><p>푘 ( 푥 ) = ൜ 2푐−3푥,푥&lt;−1 푐 ଶ ,푥≥−1</p><p>14. The piecewise function, 푘(푥), is given above. Find any value(s) of c such that 푘(푥) is continuous.</p><p>푓 ( 푥 ) = ൝ 3,푥&lt;0 푐푥+푑, 0≤푥≤4 2푥−13,푥&gt;4</p><p>15. The piecewise function, 푓(푥), is given above. Find the values of c and d that make 푓(푥) is continuous.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "1-14 WK A Infinite Limits and Vertical Asymptotes #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-14 WK A Infinite Limits and Vertical Asymptotes #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-14%20WK%20A%20Infinite%20Limits%20and%20Vertical%20Asymptotes%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-14%20WK%20A%20Infinite%20Limits%20and%20Vertical%20Asymptotes%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-14 A Infinite Limits and Vertical Asymptotes #1 AP Calculus Name______________________________</p><p>Directions: Evaluate the following limits or explain why the limit does not exist. 1. lim ௫→ସ శ 1 ( 푥−4 ) ଶ 2. lim ௫→ସ ష 1 ( 푥−4 ) ଶ 3. lim ௫→ଶ ష 푥+3 푥−2</p><p>4. lim ௫→଴ శ 푥 ଶ +1 2푥 5. lim ௫→ିଶ 4−3푥 푥+2 6. lim ௫→଴ 3푥+2 푥 ଶ</p><p>7. lim ௫→ଶ 푥 ଶ −7푥+10 푥 ଶ +2푥−8 8. lim ௫→ସ ష 푥−4 3 | 푥−4 | 9. lim ௫→ିହ 푥 ଶ +4푥−5 푥 ଶ +10푥+25</p><p>10. Write a function that has a vertical asymptote at 푥=3 and at 푥=−1.</p><p>11. Write a function that has a vertical asymptote at 푥=−2 and a hole at 푥=7.</p><p>12. The function ℎ ( 푥 ) decreases without bound as 푥 approaches 8. Write a limit statement to model this behavior.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "1-15 WK A Limits at Infinity and Horizontal Asymptotes #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-15 WK A Limits at Infinity and Horizontal Asymptotes #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-15%20WK%20A%20Limits%20at%20Infinity%20and%20Horizontal%20Asymptotes%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-15%20WK%20A%20Limits%20at%20Infinity%20and%20Horizontal%20Asymptotes%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-15 A Limits at Infinity and Horizontal Asymptotes #1 AP Calculus Name______________________________</p><p>Directions: Find the following limits, if possible. 1. lim ௫→ஶ 푥 ଶ −2푥+4 3푥 ଶ −1 2. lim ௫→ஶ 4푥−5푥 ଷ +1 2푥 ଷ −5푥 ଶ +7 3. lim ௫→ஶ 6푥 ଶ −1 2푥 ଷ −4푥+1</p><p>4. lim ௫→ஶ (3−4푥)(2푥 ଶ +1) 2푥 ଷ +4푥 ଶ −3 5. lim ௫→ஶ 4푥 ଶ −2푥+5 8푥+11 6. lim ௫→ିஶ 푥 ଶ −16 5푥 ଶ −2푥</p><p>7. lim ௫→ஶ √ 9푥 ଶ +4푥−2 6푥+4 8. lim ௫→ஶ 5푥−12 √3푥 ଶ −1 9. lim ௫→ିஶ √ 16푥 ଶ +2푥−3 8푥+4</p><p>10. lim ௫→ஶ 푥 ଶ +3 ௫ 3푥 ଶ −1 11. lim ௫→ஶ 푒 ௫ −1 4−3푒 ௫ 12. lim ௫→ିஶ 4−2 ௫ 2 ௫ +3</p><p>13. lim ௫→ஶ 8−4푥−6푥 ଶ ( 푥−3 )( 4−2푥 ) 14. lim ௫→ିஶ ( 3+2푥 ଶ ) (8+4푥 ଷ ) 3푥 ହ +4푥 ଷ −2푥 15. lim ௫→ିஶ 4 ௫ −7 8+4 ௫</p><p>Created by B Passwater 16. lim ௫→ஶ 5푥 ଷ +3푥+2 7푥 ସ +5 17. lim ௫→ିஶ √ 5푥 ଶ +6 8+4푥 18. lim ௫→ஶ 3 ( 2 ௫ ) +4 5−2 ௫</p><p>19. lim ௫→ஶ 푥 ଵ଴଴ 3 ௫ 20. lim ௫→ஶ 2푥 ଶ +4 √ 25푥 ସ +푥+3 21. lim ௫→ିஶ 푒 ௫ +3 5−2푒 ௫</p><p>Directions: Find any horizontal asymptotes for the following functions. 22. 푓 ( 푥 ) = 푥 ଶ −2푥+5 3푥 ଶ +1 23. 푔 ( 푥 ) = 3푥 ଶ +4푥 푥 ଷ −4푥 ଶ −2</p><p>24. ℎ ( 푥 ) = √ 4푥 ଶ +5 3푥−1 25. 푘 ( 푥 ) = 3 ௫ −4 2+3 ௫</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "1-16 WK A Intermediate Value Theorem #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-16 WK A Intermediate Value Theorem #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-16%20WK%20A%20Intermediate%20Value%20Theorem%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-16%20WK%20A%20Intermediate%20Value%20Theorem%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-16 A Intermediate Value Theorem #1 AP Calculus Name______________________________</p><p>Directions: Answer the following problems. Show all work and use proper mathematics when using theorems.</p><p>1. Let 푓 ( 푥 ) be a continuous function with selected values shown in the table above. Must there be a value c for 1&lt;푐&lt;8 such that 푓 ( 푐 ) =8? Give a reason for your answer.</p><p>2. A particle is moving along a horizontal axis. Let 푣 ( 푡 ) be a continuous function for the velocity of the particle, in meters per second, at time t seconds. Is there a time 푟, 0&lt;푟&lt;10 such that 푣 ( 푟 ) =0? Justify your answer.</p><p>3. After a tree is planted, the height of the tree, in feet, is measured at different times over the course of the year. For 0≤푡≤12 months, the height of the tree can be modeled by the continuous function 퐻 ( 푡 ) , measured in feet. For 1&lt;푡&lt;12, must there be a time when 퐻 ( 푡 ) =10? Give a reason for your answer.</p><p>푥 1 3 4 7 8 푓(푥) 3 −1 5 2 9</p><p>푡 0 1 5 8 10 푣(푡) 24.3 18.1 11.7 3.1 −4.2 푡 ( months )</p><p>1 2 5 9 12 퐻 ( 푡 )</p><p>( feet )</p><p>5 5.7 7.1 11.8 14.5</p><p>Created by B Passwater</p><p>4. Let 푔 ( 푥 ) be the continuous function with selected values shown in the table above. Show that there must be a value 푘 for−3&lt;푘&lt;9 such that 푔 ( 푘 ) =15.</p><p>5. The functions f and g are continuous for all real numbers, and g is strictly increasing. The table above gives values of the functions at selected values of 푥. The function h is given by ℎ ( 푥 ) =푔 ൫ 푓 ( 푥 ) ൯ .</p><p>Explain why there must be a value r for 1&lt;푟&lt;3 such that ℎ ( 푟 ) =8.</p><p>6. The table above shows selected values of a continuous function f. For 0≤푥≤13, what is the fewest possible number of times that 푓 ( 푥 ) =4?</p><p>(A) One (B) Two (C) Three (D) Four</p><p>푥 −3 0 1 5 9 푔(푥) 2 13 19 11 12 푥 푓 ( 푥 ) 푔 ( 푥 )</p><p>1 6 2 2 9 3 3 10 4 6 1</p><p>6 10 3 11</p><p>푥 0 4 6 8 13 푓 ( 푥 ) 3 4.5 3 2.5 4.4</p><p>Created by B Passwater</p><p>7. The table above gives selected values for the continuous function, 푓 ( 푥 ) . What is the minimum number of zeros guaranteed on 푓 ( 푥 ) ? Explain your reasoning.</p><p>8. The table above gives selected values for the continuous function,ℎ ( 푥 ) .</p><p>a) If ℎ ( 푥 ) has exactly 2 zeros,what is the value of 푘 that guarantees ℎ(푥) has two zeros?</p><p>b) If ℎ(푥) only has 1 zero,what is one possible value of 푘?</p><p>c) What is one possible value of 푘 that guarantees ℎ(푥) will have at least 3 zeros?</p><p>9. Let 푔 be a function such that 푔 ( −1 ) =0 and 푔 ( 2 ) =5. Which of the following conditions guarantees that there is an 푥, −1&lt;푥&lt;2, 푔 ( 푥 ) =3?</p><p>( A ) 푔 is deβined for all 푥 in (−1,2) ( B ) 푔 is continuous for all 푥 in [−1,2] ( C ) 푔 is increasing on [−1, 2] ( D ) there exists an 푥 in ( −1,2 ) such that 푔 ( 푥 ) =6</p><p>푥 −1 3 5 6 10 푓(푥) 2 0 1 −1 5 푥 −1 2 3 6 ℎ ( 푥 ) 1 푘 2 −5</p><p>Created by B Passwater 10. Let 푓 be a function that is continuous on the closed interval [ 2,4 ] with 푓 ( 2 ) =10 and 푓 ( 4 ) =20. Which of the following is guaranteed by the Intermediate Value Theorem?</p><p>( A ) 푓 ( 푥 ) =13 has at least one solution in the open interval (2,4) ( B ) 푓 ( 3 ) =15 (C) 푓 attains a maximum on the open interval (2,4) ( D ) 푓 ( 푥 ) =10 at some other value ( s ) of 푥 other than 푥=2</p><p>11. Let 푓 be a function that is continuous on the closed interval [ 1,3 ] with 푓 ( 1 ) =10 and 푓 ( 3 ) =18. Which of the following statements must be true?</p><p>(A) 10≤푓 ( 푥 ) ≤18 ( B ) 푓 is increasing on the interval [1,3] ( C ) 푓 ( 푥 ) =17 has at least one solution in the i</p>",
+          "finalAnswer": "Created by B Passwater Worksheet 1-16 A Intermediate Value Theorem #1 AP Calculus Name______________________________ Directions: Answer the following problems. Show all work and use proper mathematics when using theorems. 1. Let 푓 ( 푥 ) be a continuous function with selected values shown in the table above. Must there be a value c for 1&lt;푐&lt;8 such that 푓 ( 푐 ) =8? Give a reason for your answer. 2. A particle is moving along a horizontal axis. Let 푣 ( 푡 ) be a continuous function for the velocity of the particle, in meters per second, at time t seconds. Is there a time 푟, 0&lt;푟&lt;10 such that 푣 ( 푟 ) =0? Justify your answer. 3. After a tree is planted, the height of the tree, in feet, is measured at different times over the course of the year. For 0≤푡≤12 months, the height of the tree can be modeled by the continuous function 퐻 ( 푡 ) , measured in feet. For 1&lt;푡&lt;12, must there be a time when 퐻 ( 푡 ) =10? Give a reason for your answer. 푥 1 3 4 7 8 푓(푥) 3 −1 5 2 9 푡 0 1 5 8 10 푣(푡) 24.3 18.1 11.7 3.1 −4.2 푡 ( months ) 1 2 5 9 12 퐻 ( 푡 ) ( feet ) 5 5.7 7.1 11.8 14.5 Yes, since 푣(푡) is continuous on the closed interval [ 0,10 ] , where 푣 ( 0 ) ≠푣 ( 10 ) and 0 is a number between 푣 ( 0 ) =24.3 …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "1-2 & 1-3 WK A Limit Notation and Graphical Limits #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-2 &amp; 1-3 WK A Limit Notation and Graphical Limits #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-2%20&amp;%201-3%20WK%20A%20Limit%20Notation%20and%20Graphical%20Limits%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-2 &amp; 1-3 A: Limit Notation and Graphical Limits #1 AP Calculus Name ______________________________</p><p>1. Translate the following into words:</p><p>lim ௫→ିଷ 푔 ( 푥 ) =6 Translation: _____________________________________________________</p><p>2. Use the graph of 푓(푥) above to answer the following.</p><p>a. lim ௫→ଶ 푓 ( 푥 ) = b. lim ௫→଴ ష 푓 ( 푥 ) = c. 푓 ( 0 ) =</p><p>d. lim ௫→଴ 푓 ( 푥 ) = e. 푓 ( 2 ) = f. lim ௫→ଵ 푓 ( 푥 ) =</p><p>3. Describe the difference between the following two statements:</p><p>Statement I: lim ௫→௔ ℎ ( 푥 ) =푐 Statement II: ℎ ( 푎 ) =푐</p><p>4. Sketch a graph with the following properties:</p><p>lim ௫→ଵ 푓 ( 푥 ) =4</p><p>푓 ( 1 ) is undefined</p><p>lim ௫→ିଶ ష 푓 ( 푥 ) =3</p><p>lim ௫→ିଶ శ 푓 ( 푥 ) =1, 푓 ( −2 ) =0</p><p>Created by B Passwater Directions: Use the graph below to answer questions 5 – 13.</p><p>푓(푥)</p><p>5. 푓 ( 2 ) = 6. lim ௫→ଶ 푓 ( 푥 ) = 7. lim ௫→ସ 푓 ( 푥 ) = 8. 푓 ( 4 ) =</p><p>9. lim ௫→ଶ శ 푓 ( 푥 ) = 10. lim ௫→ଶ ష 푓 ( 푥 ) = 11. lim ௫→଺ ష 푓 ( 푥 ) = 12. lim ௫→଺ 푓 ( 푥 ) =</p><p>13. 푓 ( 6 ) =</p><p>Directions: Use the graph below to answer questions 14 – 22.</p><p>푔(푥)</p><p>14. lim ௫→଻ 푔 ( 푥 ) = 15. lim ௫→ଵ 푔 ( 푥 ) = 16. 푔 ( 1 ) = 17. 푔 ( 3 ) =</p><p>18. lim ௫→ଵ଴ 푔 ( 푥 ) = 19. lim ௫→ଷ 푔 ( 푥 ) = 20. lim ௫→ହ శ 푔 ( 푥 ) = 21. lim ௫→ହ 푔 ( 푥 ) =</p><p>22. lim ௫→ଽ 푔 ( 푥 ) =</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": "1-2 & 1-3 WK B Limit Notation and Graphical Limits #2",
+      "calcAllowed": true,
+      "context": "<p><strong>1-2 &amp; 1-3 WK B Limit Notation and Graphical Limits #2</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-2%20&amp;%201-3%20WK%20B%20Limit%20Notation%20and%20Graphical%20Limits%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-2 &amp; 1-3 B: Limit Notation and Graphical Limits #2 AP Calculus Name ______________________________</p><p>The graph of the function 푓 ( 푥 ) is shown above and has a vertical asymptote at 푥 =6 and horizontal asymptotes of 푦 =0 and 푦=2.</p><p>1. lim ௫→ଷ 푓(푥) 2. lim ௫→ଵ ష 푓(푥) 3. lim ௫→ଶ శ 푓(푥) 4. lim ௫→ିଶ 푓(푥)    </p><p>5. lim ௫→ଵ 푓(푥) 6. 푓(1) 7. lim ௫→ହ 푓 ( 푥 ) 8. 푓(3)</p><p>9. lim ௫→ଶ 푓(푥) 10. lim ௫→ଵ శ 푓(푥) 11. 푓(2) 12. lim ௫→ଷ శ 푓(푥)  </p><p>For 13 – 16: We have not covered all of the concepts below, but they will be covered in more detail later in Unit 1. Use your current understanding of limits to see if you can find the following limit values!</p><p>13. lim ୶→଺ f(x) 4. lim ୶→ஶ f(x) 15. lim ୶→ିஶ f(x)</p><p>16. Find all values of c where lim ୶→ୡ f(x)=4.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "1-4 WK A Limits From Tables #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-4 WK A Limits From Tables #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-4%20WK%20A%20Limits%20From%20Tables%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>lim ௫→ଽ 푓(푥) = ____________ 2.) lim ௫→ି଻ 푔(푥) = ____________</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>lim ௫→ିଶ ℎ(푥) = ____________ 4.) lim ௫→ଵଵ 푚(푥) = ____________</p><p>Evaluate each limit by creating a table of values. Remember to always round (or truncate) answers to three decimal places.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>lim ௫→ିହ ௫ మ ିଶ௫ିଷହ ௫ାହ = ____________ 6.) lim ௫→ିଶ ௫ మ ାହ௫ା଺ ௫ାଶ = ____________</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>lim ௫→ଶ ௫ మ ାସ௫ିଵଶ ௫ିଶ = ____________ 8.) lim ௫→ଵ ହ௫ య ାଶ௫ మ ିଵଷ௫ା଺ ௫ିଵ = ____________</p><p>Use the information given for each problem to evaluate the limit. Remember to always round (or truncate) answers to three decimal places.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>The function 푓 is continuous and decreasing 10.) The function 푓 is continuous and increasing for 푥≥−5. The table gives values of 푓 at for 푥≥−7. The table gives values of 푓 at selected values of 푥. selected values of 푥.</p><p>Approximate the value of: Approximate the value of:</p><p>lim ௫→ିଷ ln ( −푓(푥) ) = ____________ lim ௫→ିହ ඥ 푓(푥) ఱ = ____________</p><p>x 8.7 8.999 9.001 9.8 푓 ( 푥 ) –5.8 –5.001 –4.999 –4</p><p>x –7.5 –7.001 –6.999 –6.5 푔 ( 푥 ) 3.8 3.501 3.499 3.2</p><p>x –2.1 –2.001 –1.999 –1.9 ℎ ( 푥 ) –8.7 –8.999 9.001 9.4</p><p>x 10.7 10.99 11.01 11.3 푔 ( 푥 ) 10.3 10.001 9.999 9.6</p><p>x 푓 ( 푥 )</p><p>x 푓 ( 푥 )</p><p>x 푓 ( 푥 )</p><p>x 푓 ( 푥 )</p><p>x –3.1 –3.01 –2.99 –2.8 푓 ( 푥 ) –3.4 –3.499 –3.501 –3.8</p><p>x –5.1 –5.001 –4.999 –4.8 푓 ( 푥 ) 3.7 3.999 4.001 4.2</p><p>Created by FM &amp; K. Bakowski</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Give the value of each statement</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>lim ௫→ଶ 푓(푥) = _____ b.) 푓(−3) = _____ c.) lim ௫→ିଷ ష 푓(푥) = _____</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>lim ௫→ଶ శ 푓(푥) = _____ e.) 푓(2) = _____ f.) lim ௫→ଶ ష 푓(푥) = _____</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(f)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(g)",
+          "points": 2,
+          "question": "<p>lim ௫→ିଷ శ 푓(푥)= _____ h.) 푓(4) = _____ i.) lim ௫→ିଷ 푓(푥) = _____</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Give the value of each statement</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 9
+    },
+    {
+      "title": "1-5 WK A Limit Properties & Piecewise Functions #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-5 WK A Limit Properties &amp; Piecewise Functions #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-5%20WK%20A%20Limit%20Properties%20&amp;%20Piecewise%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-5%20WK%20A%20Limit%20Properties%20&amp;%20Piecewise%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>lim 푥→3 [ 2푓 ( 푥 ) +푔(푥) ] = 2.) lim 푥→3 ቂ 푓 ( 푥 ) 푔 ( 푥 ) +2푥 2 ቃ =</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>lim 푥→1 ൣ 4 ඥ 푓 ( 푥 ) ൧ = 4.) lim 푥→2 ቂ 푓 ( 2푥 ) +푓ቀ 푥 2 ቁ ቃ =</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Use the table to find the given limits</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(e)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(f)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(g)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(h)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>lim 푥→−2 [ ℎ(푥)(2푓 ( 푥 ) ) ] +ℎ(−2) b.) 푓(−2) lim 푥→−2 [ 푔 ( 푥 ) −ℎ(푥) ]</p><p>푓 ( 푥 ) = ⎩ ⎪ ⎨ ⎪ ⎧ 푥 ଶ 0≤푥≤2 −2 3 ( 푥−2 ) +2 2&lt;푥&lt;5 3 2 ( 푥−5 ) 5≤푥≤7</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>The function 푓 ( 푥 ) is defined above. Evaluate the following limits or explain why the limit does not exist.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>lim ௫→ଶ ష 푓 ( 푥 )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>lim ௫→ଶ శ 푓 ( 푥 )</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 10
+    },
+    {
+      "title": "1-5 WK B Limits of Piecewise and Composite Functions #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-5 WK B Limits of Piecewise and Composite Functions #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-5%20WK%20B%20Limits%20of%20Piecewise%20and%20Composite%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-5%20WK%20B%20Limits%20of%20Piecewise%20and%20Composite%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>2.)</p><p>Using the graphs of f (x) and g (x) provided at the right, determine each of the following limits or state that they do not exist. Circle your final answers</p><p>3. 1 lim ( ) x f x   4. 1 lim ( ) x f x  </p><p>5. 1 lim ( ) x f x </p><p>6. 1 lim ( ) x g x   7. 1 lim ( ) x g x  </p><p>8. 1 lim ( ) x g x </p><p>9. ( 1)g 10. 0 ( ) lim ( ) x f x g x </p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(e)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(f)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(g)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(h)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>lim ௫→ଷ 푓(푓(푥))</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(j)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(k)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>lim ௫→ଵ 푓(푓(푥))</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>lim ௫→ିଶ 푓(푓(푥))</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(n)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 11
+    },
+    {
+      "title": "1-6 & 1-7 WK A Algebraic Limits #1",
+      "calcAllowed": true,
+      "context": "<p><strong>1-6 &amp; 1-7 WK A Algebraic Limits #1</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20A%20Algebraic%20Limits%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20A%20Algebraic%20Limits%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 1-6 &amp; 1-7 A Algebraic Limits #1 AP Calculus Name______________________________ Directions: Evaluate the following limits, if possible. Show all work and use proper notation.</p><p>1. lim ௫→ଷ 푥 ଶ +4푥−21 푥−3 2. lim ௫→ଶ 푥 ଶ +3푥−10 푥−2</p><p>3. lim ௫→ଶ 푒 ଻ିଶ௫ 푥 ଷ +1 4. lim ௫→ଵ 푥 ଶ −5푥+4 푥 ଶ +5푥−6</p><p>5. lim ௫→଴ 푥 ଶ 푥 ଷ −3푥 ଶ 6. lim ௫→ గ ଷ sin ( 푥 ) 푥 ଶ</p><p>7. lim ௬→ିଶ (2푦−3) 8. lim ௫→ି଺ 푥 ଶ +2푥−24 푥 ଶ +푥−30</p><p>9. lim ௫→଴ 푥 ଷ −푥 ଶ −12푥 푥 ଶ −5푥 10. lim ௖→ଷ 5</p><p>Created by B Passwater 11. lim ௫→ହ 푥 ଶ −10푥+25 푥 ଶ +푥−30 12. lim ௫→ଵ 3푥 ଶ −푥−2 2푥 ଶ +푥−3</p><p>13. lim ௫→ଶ 푥 ଶ +4푥+7 푥 ଶ −3푥+1 14. lim ௫→଴ √ 푥+7− √ 7 푥</p><p>15. lim ௫→଴ √ 2+푥− √ 2 푥 16. lim ௫→ସ √ 푥+5−3 푥−4</p><p>17. lim ௫→ଷ √ 푥+1−2 푥−3 18. lim ௫→ିହ √푥 ଶ −16−3 푥+5</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 12
+    },
+    {
+      "title": "1-6 & 1-7 WK B Algebraic Limits #2",
+      "calcAllowed": true,
+      "context": "<p><strong>1-6 &amp; 1-7 WK B Algebraic Limits #2</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20B%20Algebraic%20Limits%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20B%20Algebraic%20Limits%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater &amp; FM Worksheet 1-6 &amp; 1-7 B Algebraic Limits #2 AP Calculus Name______________________________ Directions: Evaluate the following limits, if possible. Show all work and use proper notation.</p><p>1. lim ௫→ଷ 푥 ଶ +4푥−21 푥+3 2. lim ௫→ିଶ 푥 ଶ +5푥+6 푥 ଶ −4</p><p>3. lim ௫→଴ 3푥 ହ −7푥 ସ 4푥 ସ +3푥 ଼ 4. lim ௫→ହ 푥 ଶ −2푥−15 푥 ଶ −10푥+25</p><p>5. lim ௫→଴ 푥 ଷ +푥 ଶ +3푥 푥 ହ +7푥 6. lim ௫→గ 푥 ଶ +4 3푥</p><p>7. lim ௫→ଷ ln(2푥−5) 4−2푥 8. lim ௫→ିସ 16−푥 ଶ 푥 ଶ −3푥−28</p><p>9. lim ௫→ଶ 4푥−8 푥 ଶ −9푥+14 10. lim ௫→଴ 5푒 ଶ</p><p>11. lim ௫→గ 푥−휋 3푥−3휋 12. lim ௫→ గ ଷ ൗ cos(3푥) 푥</p><p>Created by B Passwater &amp; FM 13. lim ௫→଴ 1 푥+3 − 1 3 푥 14. lim ௫→଻ √ 푥+9−4 푥−7</p><p>15. lim ௫→଴ 푥 2 푥+5 − 2 5 16. lim ௫→ଵ 1 3 − 1 3푥 푥−1</p><p>17. lim ௫→଴ √ 2푥+11− √ 11 푥 18. lim ௫→଴ 1 ( 푥+2 ) ଶ − 1 4 푥</p><p>19. lim ௫→ଵ 4 푥 ଶ +푥−2 20. lim ௫→ହ 푥 ( 푥−5 ) ଶ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 13
+    },
+    {
+      "title": "1-6 & 1-7 WK C Algebraic Limits #3",
+      "calcAllowed": true,
+      "context": "<p><strong>1-6 &amp; 1-7 WK C Algebraic Limits #3</strong> — Open the original worksheet: <a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20C%20Algebraic%20Limits%20#3.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20C%20Algebraic%20Limits%20#3%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Created by FM Worksheet 1-6 &amp; 1-7 C Algebraic Limits #3 AP Calculus Name______________________________ Directions: Evaluate the following limits, if possible. Show all work and use proper notation. 1. lim ௫→ଵ 푥−1 √ 푥−1 2. lim ௫→ଷ √ 2푥+4</p><p>3. lim ௫→଴ 푥 1 푥+3 − 1 3 4. lim ௫→ଵ √ 푥+8−3 푥−1</p><p>5. lim ௫→ିଵ 푥+1 푥 ଶ +2푥+2 6. lim ௫→଴ 1 푥+2 − 1 2 푥</p><p>7. lim ௫→ିଵ 푥+1 푥 ଶ −2푥−3 8. lim ௫→ଷ 푥 ଶ −5푥+6 푥−3</p><p>Created by FM 9. lim ௫→଴ 1 푥−6 + 1 6 푥 10. lim ௫→ଵଷ √ 푥+12−5 푥−13</p><p>11. lim ௫→ିଽ శ 푥+9 | 푥+9 | 12. lim ௫→ଶ ష | 푥−2 | 3(푥−2)</p><p>13. Let f be a function where lim ௫→ହ 푓(푥)= ଵ ସ . Which of the following could represent the function f ?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>b.) The two “pieces” are linear c.) 푓 ( 푥 ) =ቊ ௫ିହ ௫ మ ି଺௫ାହ 푥 ≠5 4 푥 =5</p><p>14. Let g be a function where lim ௫→ଷ 푔(푥)=6. Which of the following could represent the function g ?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>b.) The two “pieces” are linear c.) 푔 ( 푥 ) =ቊ ௫ మ ି௫ି଺ ௫ିଷ 푥 ≠3 6 푥 =3</p><p>15. If 푓 ( 푥 ) =ቊ ( ௫ିଷ ) మ (௫ మ ାଵ) | ௫ିଷ | for 푥 ≠3 4 for 푥 =3 , then lim ௫→ଷ 푓(푥)=</p><p>(A) 0 (B) 2 (C) 10 (D) Nonexistent</p><p>x 4.8 4.9 4.999 5 5.001 5.1 5.2 푓 ( 푥 ) 0 0.2 0.249 4 0.251 0.3 0.5</p><p>x 2.8 2.9 2.999 3 3.001 3.1 3.2 푓 ( 푥 ) 6.2 6.01 6.001 6 4.999 4.9 4.8</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 14
+    },
+    {
+      "title": "WK A Review of Unit 1",
+      "calcAllowed": true,
+      "context": "<p><strong>WK A Review of Unit 1</strong> — Open the original worksheet: <a href=\"Unit%201/Review/WK%20A%20Review%20of%20Unit%201.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet A Review of Unit 1 AP Calculus Name______________________________</p><p>퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: For 1–9,use the graph of 푓(푥) above to answer the following problems. 1. lim ௫→ଷ 푓(푥) 2. lim ௫→଺ 푓(푥) 3. lim ௫→ଶ 푓(푥)</p><p>4. lim ௫→ଵ ష 푓 ( 푥 ) 5. 푓 ( 3 ) 6. lim ௫→ିஶ 푓 ( 푥 )</p><p>7. Which of the following statements are true? I. lim ௫→ଵ ష 푓(푥)= lim ௫→ଵ శ 푓(푥) II. lim ௫→ଷ 푓(푥)= lim ௫→ଵ శ 푓(푥) III. lim ௫→ஶ 푓(푥)= lim ௫→ଶ 푓(푥)</p><p>A) I only B) II only C) III only D) I and II only E) I and III only F) II and III only G) I,II,and III</p><p>8. For which value ( s ) of 푎 does lim ௫→௔ 푓(푥)=1?</p><p>9. For which value ( s ) of 푥 does 푓 ( 푥 ) has a removable discontinuity?</p><p>퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: Find the following limits if possible. Be sure to show all work and proper notation. 10. lim ௫→ିଶ 푥 ଶ −5푥−14 푥 ଶ +6푥+8 11. lim ௫→ஶ ( 2푥−3 ) ଶ (5−3푥) 4푥 ଷ −3푥+5</p><p>Created by B Passwater 12. lim ௫→଴ 2푥 ଶ −5푥 ଷ 6푥 ହ −푥 ଶ 13. lim ௫→ଷ 푥 ଶ −9 푥 ଶ −6푥+9</p><p>14. lim ௫→ஶ 4−7푥 √ 9푥 ଶ +2푥−7 15. lim ௫→ିହ 푥 ଶ +8푥+15 4푥+20</p><p>16. lim ௫→ଶ | 푥−2 | 3(푥−2) 17. lim ௫→ିஶ √ 4푥 ଶ +7 5푥−1</p><p>18. lim ௫→ିଵ ష 2푥+2 | 푥+1 | 19. lim ௫→଴ 4푥 ଷ +7푥 3푥 ଶ +2푥</p><p>Created by B Passwater 20. lim ௫→ିஶ 3+4 ௫ 3 ௫ −2 21. lim ௫→ஶ 푥 ଽଽ 3 ௫</p><p>푓 ( 푥 ) =൜ 3푥 ଶ −푎,푥&lt;1 2푥+5푎,푥≥1</p><p>22. Find the value of 푎 that makes 푓 ( 푥 ) continuous.</p><p>푔 ( 푥 ) =ቐ 푥 ଶ +2푥−15 푥 ଶ −10푥+21 ,푥≠3 푘,푥=3</p><p>23. Find the value of 푘 that makes 푔 ( 푥 ) continuous.</p><p>24. Find any horizontal asymptotes for the following functions. a. 푘 ( 푥 ) = 푥 ଶ −3푥+5 4푥 ଶ −6 b. 푚 ( 푥 ) = 4 ௫ −5 10+4 ௫</p><p>Created by B Passwater c. 푝 ( 푥 ) = √ 4푥 ଶ +7 6−8푥</p><p>푓 ( 푥 ) =൜ 3푥−11,푥&lt;4 푥 ଶ −5푥+5,푥≥4</p><p>25. Is 푓 ( 푥 ) continuous at 푥=4? Give a reason for your answer.</p><p>26. The function 푔 ( 푥 ) is continuous for all real values with selected values included in the table above. Is there a time c, 1&lt;푐&lt;7, such that 푔 ( 푥 ) =1? Give a reason for your answer. 푥 1 3 4 7 푔 ( 푥 ) 4 7 2 0</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 15
+    },
+    {
+      "title": "WK Review of Unit 1",
+      "calcAllowed": true,
+      "context": "<p><strong>WK Review of Unit 1</strong> — Open the original worksheet: <a href=\"Unit%201/Review/WK%20Review%20of%20Unit%201.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%201/Review/WK%20Review%20of%20Unit%201%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet Review of Unit 1 AP Calculus Name________________________________________</p><p>Directions: Use the graphs to βind each limit, if it exists.</p><p>Graph of 푓 Graph of 푔</p><p>1. lim ௫→ଶ ష 푓 ( 푥 ) 2. lim ௫→ଶ శ 푓 ( 푥 ) 3. lim ௫→ଵ ష 푔 ( 푥 ) 4. lim ௫→ଵ శ 푔 ( 푥 )</p><p>5. lim ௫→ଶ 푓 ( 푥 ) 6. 푓 ( 2 ) 7. lim ௫→ିଶ 푔 ( 푥 ) 8. 푔 ( −2 )</p><p>9. lim ௫→ିସ 푓 ( 푥 ) 10. 푓 ( −4 ) 11. lim ௫→ିଷ 푔 ( 푥 ) 12. lim ௫→∞ 푔 ( 푥 )</p><p>13. Find and classify any discontinuities for the graph of 푓.</p><p>14. For which value(s) of 푥 does the graph of 푔 have a nonremovable discontinuity?</p><p>15. For which value(s) of 푐 does lim ௫→௖ 푓 ( 푥 ) =2?</p><p>Directions: Find and classify any discontinuities for the following functions. 16. 푘 ( 푥 ) = ௫ మ ା଼௫ାଵହ ௫ మ ିଷ௫ିଵ 17. 푤 ( 푥 ) =൜ 8푥+3, if 푥 ≤−1 푥 ଶ −4, if 푥 &gt;−1</p><p>Created by B Passwater The graph of h is shown. Use the graph to answer the following true or false questions.</p><p>18. lim ௫→ଶ ℎ(푥)=−1 _______ 19. lim ௫→ଵ శ ℎ(푥)=1 _______</p><p>20. lim ௫→ିଶ శ ℎ(푥)=1 _______ 21. lim ௫→ଶ ℎ(푥) exists _______</p><p>22. lim ௫→ଷ ℎ(푥)=1 _______ 23. lim ௫→ଵ ℎ(푥) DNE _______</p><p>24. lim ௫→ଷ ష ℎ(푥)=2 _______ 25. lim ௫→଴ ష ℎ(푥)= lim ௫→଴ శ ℎ(푥) _______ 26. lim ௫→଴ ℎ(푥) exists _______</p><p>27. For which value(s) of 푥 does the graph of h have a jump discontinuity?</p><p>Directions: For the following piecewise functions, βind the value of 푘 that makes the function continuous, or state that no such value exists. 28. 푓 ( 푥 ) =ቐ ଽ௫ మ ିସ ଷ௫ାଶ , if 푥 ≠− ଶ ଷ 푘, if 푥 = ଶ ଷ 29. 푔 ( 푥 ) =൜ 푥 ଶ −2, if 푥 &lt;3 푘푥+4, if 푥 ≥3</p><p>30. 푚 ( 푥 ) =൜ 3푥−1, if 푥 &lt;2 ln ( 푘 ) , if 푥 ≥2 31. 푝 ( 푥 ) =൝ ௫ మ ି௫ି଺ ௫ మ ିସ , if 푥 ≤−2 푘푥 ଶ , if 푥 &gt;−2</p><p>Directions: Find the following limits or state that the limit does not exist. 32. lim ௫→∞ ସ௫ିଶ ହି଼௫ 33. lim ௫→ି∞ ସ௫ିଶ ହି଼௫ 34. lim ௫→ିସ శ ௫ାଵ ௫ାସ</p><p>Graph of h</p><p>Created by B Passwater Directions: Find the following limits or state that the limit does not exist. 35. lim ௫→ି଺ ௫ି଺ ௫ మ ାଷ଺ 36. lim ௫→଺ ௫ି଺ ௫ మ ିସ௫ିଵଶ 37. lim ௫→ହ ଶ௫ మ ିହ௫ିଶହ ௫ିହ</p><p>38. lim ௫→∞ ( ସ௫ିଵ )( ହିଷ௫ ) ( ଷ௫ାଶ ) మ 39. lim ௫→∞ ଶ ೣ ାଷ௫ ௫ వవ ିଶ ೣ 40. lim ௫→ି∞ ସ ೣ ିହ ଶି௘ ೣ</p><p>41. lim ௫→଼ √ ௫ାଵିଷ ௫ି଼ 42. lim ௫→ଷ ష | ௫ିଷ | ௫ିଷ 43. lim ௫→ஶ ସି଻௫ √ ଽ௫ మ ାଶ௫ି଻</p><p>44. lim ௫→ିଵ ସ | ௫ାଵ | ௫ାଵ 45. lim ௫→ହ ష ଶ௫ିଵ଴ ଼ | ௫ିହ | 46. lim ௫→ିஶ √ ସ௫ మ ା଻ ହ௫ିଵ</p><p>47. lim ௫→଴ ଷ௫ మ ିହ௫ ర ଶ௫ మ ାସ௫ ల 48. lim ௫→∞ ୪୬ ( ௫ ) ௘ ೣ 49. lim ௫→ିଷ ௫ మ ି଺௫ିଶ଻ ௫ାଷ</p><p>Created by B Passwater 푓 ( 푥 ) =൜ 3푥−푥 ଶ , if 푥&lt;4 2푥−12, if 푥≥4</p><p>50. The piecewise deβined function 푓 is given above. Show that 푓 is continuous at 푥=4. Justify your answer.</p><p>푔 ( 푥 ) =൜ ln ( 푥 ଶ +1 ) , if 푥&lt;0 cos ( 휋푥 ) , if 푥≥0</p><p>51. The piecewise deβined function 푔 is given above. Is 푔 continuous at 푥=0? Give a reason for your answer.</p><p>푡 1 4 5 7 12 푎 ( 푡 ) −2 0 −3 5 −5</p><p>52. For 1≤푡≤12, a particle accelerates back and forth along a horizontal axis. The acceleration of the particle is modeled by the continuous function 푎 ( 푡 ) . Selected values for 푎 ( 푡 ) are shown in the βigure above. Must there be a time 푐, 1&lt;푐&lt;12, such that 푎 ( 푐 ) =−4? Justify your answer.</p>",
+          "finalAnswer": "Created by B Passwater Worksheet B Review of Unit 1 AP Calculus Name________________________________________ Directions: Use the graphs to βind each limit, if it exists. Graph of 푓 Graph of 푔 1. lim ௫→ଶ ష 푓 ( 푥 ) 2. lim ௫→ଶ శ 푓 ( 푥 ) 3. lim ௫→ଵ ష 푔 ( 푥 ) 4. lim ௫→ଵ శ 푔 ( 푥 ) 5. lim ௫→ଶ 푓 ( 푥 ) 6. 푓 ( 2 ) 7. lim ௫→ିଶ 푔 ( 푥 ) 8. 푔 ( −2 ) 9. lim ௫→ିସ 푓 ( 푥 ) 10. 푓 ( −4 ) 11. lim ௫→ିଷ 푔 ( 푥 ) 12. lim ௫→∞ 푔 ( 푥 ) 13. Find and classify any discontinuities for the graph of 푓. 14. For which value(s) of 푥 does the graph of 푔 have a nonremovable discontinuity? 15. For which value(s) of 푐 does lim ௫→௖ 푓 ( 푥 ) =2? Directions: Find and classify any discontinuities for the following functions. 16. 푘 ( 푥 ) = ௫ మ ା଼௫ାଵ ௫ మ ିଷ௫ିଵ 17. 푤 ( 푥 ) =൜ 8푥+3, if 푥 ≤−1 푥 ଶ −4, if 푥 &gt;−1 Created by B Passwater The graph of h is shown. Use the graph to answer the following true or false questions. 18. lim ௫→ଶ ℎ(푥)=−1 _______ 19. lim ௫→ଵ శ ℎ(푥)=1 _______ 20. lim ௫→ିଶ శ ℎ(푥)=1 _______ 21. lim ௫→ଶ ℎ(푥) exists _______ 22. lim ௫→ଷ ℎ(푥)=1 _______ 23. lim ௫→ଵ ℎ(푥) DNE _______ 24. lim ௫→ଷ ష ℎ(푥)=2 _______ 25. lim ௫→଴ ష ℎ(푥)= lim ௫→଴ శ ℎ(푥) _______ 26. lim ௫→଴ ℎ(푥) exists _______ 27. For which value(s) of 푥 does the gra…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 16
     }
   ],
   "notesData": {
@@ -139,9 +1037,133 @@
     "1.3": {
       "title": "1-10 to 1-16: Continuity and Asymptotes",
       "content": "<div class='notes-block'><h3>Continuity checklist</h3><ul><li>f(a) exists</li><li>lim_{x->a} f(x) exists</li><li>limit equals f(a)</li></ul></div>"
+    },
+    "packet-pdfs": {
+      "title": "Packet PDFs (class notes & homework)",
+      "content": "<div class=\"notes-block\"><p style=\"color:var(--text2);margin-bottom:10px\">These match your physical binders. Use them alongside the MCQ/FRQ banks.</p><h3 style=\"margin-top:14px\">Notes packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%201/Notes/1-1%20Change%20at%20an%20Instant%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-1 Change at an Instant COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-10%20Types%20of%20Discontinuities%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-10 Types of Discontinuities COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-11%20to%201-13%20Continuity%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-11 to 1-13 Continuity COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-14%20Infinite%20Limits%20and%20Vertical%20Asymptotes%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-14 Infinite Limits and Vertical Asymptotes COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-15%20Limits%20at%20Infinity%20and%20Horizontal%20Asymptotes%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-15 Limits at Infinity and Horizontal Asymptotes COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-16%20Intermediate%20Value%20Theorem%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-16 Intermediate Value Theorem COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-2%20&amp;%201-3%20Limit%20Notation%20and%20Graphical%20Limits%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-2 &amp; 1-3 Limit Notation and Graphical Limits COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-4%20Estimating%20Limit%20Values%20from%20Tables%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-4 Estimating Limit Values from Tables COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-5%20Determining%20Limits%20Using%20Algebraic%20Properties%20of%20Limits%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-5 Determining Limits Using Algebraic Properties of Limits COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Notes/1-6%20&amp;%201-7%20Limits%20Using%20Algebraic%20Manipulation%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 Limits Using Algebraic Manipulation COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div><h3 style=\"margin-top:14px\">Homework packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%201/Homework%20/1-1%20WK%20A%20Change%20At%20An%20Instant%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-1 WK A Change At An Instant #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-10%20WK%20A%20Types%20of%20Discontinuities%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-10 WK A Types of Discontinuities #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-10%20WK%20A%20Types%20of%20Discontinuities%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-10 WK A Types of Discontinuities #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-11%20to%201-13%20WK%20A%20Continuity%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-11 to 1-13 WK A Continuity #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-11%20to%201-13%20WK%20A%20Continuity%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-11 to 1-13 WK A Continuity #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-14%20WK%20A%20Infinite%20Limits%20and%20Vertical%20Asymptotes%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-14 WK A Infinite Limits and Vertical Asymptotes #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-14%20WK%20A%20Infinite%20Limits%20and%20Vertical%20Asymptotes%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-14 WK A Infinite Limits and Vertical Asymptotes #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-15%20WK%20A%20Limits%20at%20Infinity%20and%20Horizontal%20Asymptotes%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-15 WK A Limits at Infinity and Horizontal Asymptotes #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-15%20WK%20A%20Limits%20at%20Infinity%20and%20Horizontal%20Asymptotes%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-15 WK A Limits at Infinity and Horizontal Asymptotes #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-16%20WK%20A%20Intermediate%20Value%20Theorem%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-16 WK A Intermediate Value Theorem #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-16%20WK%20A%20Intermediate%20Value%20Theorem%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-16 WK A Intermediate Value Theorem #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-2%20&amp;%201-3%20WK%20A%20Limit%20Notation%20and%20Graphical%20Limits%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-2 &amp; 1-3 WK A Limit Notation and Graphical Limits #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-2%20&amp;%201-3%20WK%20B%20Limit%20Notation%20and%20Graphical%20Limits%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-2 &amp; 1-3 WK B Limit Notation and Graphical Limits #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-4%20WK%20A%20Limits%20From%20Tables%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-4 WK A Limits From Tables #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-5%20WK%20A%20Limit%20Properties%20&amp;%20Piecewise%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-5 WK A Limit Properties &amp; Piecewise Functions #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-5%20WK%20A%20Limit%20Properties%20&amp;%20Piecewise%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-5 WK A Limit Properties &amp; Piecewise Functions #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-5%20WK%20B%20Limits%20of%20Piecewise%20and%20Composite%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-5 WK B Limits of Piecewise and Composite Functions #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-5%20WK%20B%20Limits%20of%20Piecewise%20and%20Composite%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-5 WK B Limits of Piecewise and Composite Functions #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20A%20Algebraic%20Limits%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 WK A Algebraic Limits #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20A%20Algebraic%20Limits%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 WK A Algebraic Limits #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20B%20Algebraic%20Limits%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 WK B Algebraic Limits #2 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20B%20Algebraic%20Limits%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 WK B Algebraic Limits #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20C%20Algebraic%20Limits%20#3%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 WK C Algebraic Limits #3 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%201/Homework%20/1-6%20&amp;%201-7%20WK%20C%20Algebraic%20Limits%20#3.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">1-6 &amp; 1-7 WK C Algebraic Limits #3</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div></div>"
     }
   },
   "materials": [
+    {
+      "type": "homework",
+      "title": "1-1 WK A Change At An Instant #1",
+      "path": "Unit 1/Homework /1-1 WK A Change At An Instant #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-10 WK A Types of Discontinuities #1 ANSWERS",
+      "path": "Unit 1/Homework /1-10 WK A Types of Discontinuities #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-10 WK A Types of Discontinuities #1",
+      "path": "Unit 1/Homework /1-10 WK A Types of Discontinuities #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-11 to 1-13 WK A Continuity #1 ANSWERS",
+      "path": "Unit 1/Homework /1-11 to 1-13 WK A Continuity #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-11 to 1-13 WK A Continuity #1",
+      "path": "Unit 1/Homework /1-11 to 1-13 WK A Continuity #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-14 WK A Infinite Limits and Vertical Asymptotes #1 ANSWERS",
+      "path": "Unit 1/Homework /1-14 WK A Infinite Limits and Vertical Asymptotes #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-14 WK A Infinite Limits and Vertical Asymptotes #1",
+      "path": "Unit 1/Homework /1-14 WK A Infinite Limits and Vertical Asymptotes #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-15 WK A Limits at Infinity and Horizontal Asymptotes #1 ANSWERS",
+      "path": "Unit 1/Homework /1-15 WK A Limits at Infinity and Horizontal Asymptotes #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-15 WK A Limits at Infinity and Horizontal Asymptotes #1",
+      "path": "Unit 1/Homework /1-15 WK A Limits at Infinity and Horizontal Asymptotes #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-16 WK A Intermediate Value Theorem #1 SOLUTIONS",
+      "path": "Unit 1/Homework /1-16 WK A Intermediate Value Theorem #1 SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-16 WK A Intermediate Value Theorem #1",
+      "path": "Unit 1/Homework /1-16 WK A Intermediate Value Theorem #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-2 & 1-3 WK A Limit Notation and Graphical Limits #1",
+      "path": "Unit 1/Homework /1-2 & 1-3 WK A Limit Notation and Graphical Limits #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-2 & 1-3 WK B Limit Notation and Graphical Limits #2",
+      "path": "Unit 1/Homework /1-2 & 1-3 WK B Limit Notation and Graphical Limits #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-4 WK A Limits From Tables #1",
+      "path": "Unit 1/Homework /1-4 WK A Limits From Tables #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-5 WK A Limit Properties & Piecewise Functions #1 ANSWERS",
+      "path": "Unit 1/Homework /1-5 WK A Limit Properties & Piecewise Functions #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-5 WK A Limit Properties & Piecewise Functions #1",
+      "path": "Unit 1/Homework /1-5 WK A Limit Properties & Piecewise Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-5 WK B Limits of Piecewise and Composite Functions #1 ANSWERS",
+      "path": "Unit 1/Homework /1-5 WK B Limits of Piecewise and Composite Functions #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-5 WK B Limits of Piecewise and Composite Functions #1",
+      "path": "Unit 1/Homework /1-5 WK B Limits of Piecewise and Composite Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-6 & 1-7 WK A Algebraic Limits #1 ANSWERS",
+      "path": "Unit 1/Homework /1-6 & 1-7 WK A Algebraic Limits #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-6 & 1-7 WK A Algebraic Limits #1",
+      "path": "Unit 1/Homework /1-6 & 1-7 WK A Algebraic Limits #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-6 & 1-7 WK B Algebraic Limits #2 ANSWERS",
+      "path": "Unit 1/Homework /1-6 & 1-7 WK B Algebraic Limits #2 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-6 & 1-7 WK B Algebraic Limits #2",
+      "path": "Unit 1/Homework /1-6 & 1-7 WK B Algebraic Limits #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-6 & 1-7 WK C Algebraic Limits #3 ANSWERS",
+      "path": "Unit 1/Homework /1-6 & 1-7 WK C Algebraic Limits #3 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "1-6 & 1-7 WK C Algebraic Limits #3",
+      "path": "Unit 1/Homework /1-6 & 1-7 WK C Algebraic Limits #3.pdf"
+    },
     {
       "type": "notes",
       "title": "1-1 Change at an Instant COMPLETED CLASS NOTES",
@@ -199,8 +1221,57 @@
     },
     {
       "type": "review",
+      "title": "WK Review of Unit 1 ANSWERS",
+      "path": "Unit 1/Review/WK Review of Unit 1 ANSWERS.pdf"
+    },
+    {
+      "type": "review",
       "title": "WK Review of Unit 1",
       "path": "Unit 1/Review/WK Review of Unit 1.pdf"
+    }
+  ],
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 1</strong> — Materials on this site include <strong>10</strong> notes PDFs, <strong>24</strong> homework PDFs, and <strong>3</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "Definition: f is continuous at x = a",
+      "back": "f(a) exists, lim(x→a) f(x) exists, and they are equal.",
+      "tag": "theorems"
+    },
+    {
+      "front": "When does lim(x→a) f(x) exist?",
+      "back": "When the left-hand and right-hand limits exist and agree.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Vertical asymptote vs hole",
+      "back": "Hole: removable discontinuity after simplifying. VA: unbounded behavior (often denominator → 0).",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 1.1",
+      "back": "Filter MCQs to 1.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 1.2",
+      "back": "Filter MCQs to 1.2 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 1.3",
+      "back": "Filter MCQs to 1.3 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 1.4",
+      "back": "Filter MCQs to 1.4 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 1.5",
+      "back": "Filter MCQs to 1.5 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
     }
   ]
 }

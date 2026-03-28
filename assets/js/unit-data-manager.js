@@ -57,17 +57,29 @@
     return [];
   }
 
-  async function loadUnitFile(unitKey) {
-    if (store.cache[unitKey]) return store.cache[unitKey];
+  function resolveUnitJsonUrl(unitKey) {
     const fileNum = unitKey.replace("u", "");
-    const path = `data/unit${fileNum}.json`;
+    const rel = `data/unit${fileNum}.json`;
     try {
-      const res = await fetch(path, { cache: "no-cache" });
+      return new URL(rel, window.location.href).href;
+    } catch {
+      return rel;
+    }
+  }
+
+  async function loadUnitFile(unitKey) {
+    if (Object.prototype.hasOwnProperty.call(store.cache, unitKey)) {
+      return store.cache[unitKey];
+    }
+    const url = resolveUnitJsonUrl(unitKey);
+    try {
+      const res = await fetch(url, { cache: "no-cache" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       store.cache[unitKey] = data;
       return data;
     } catch (err) {
+      store.cache[unitKey] = null;
       return null;
     }
   }
@@ -80,10 +92,14 @@
       "practice-mc": `${unitLabel} · Multiple Choice`,
       "practice-frq": `${unitLabel} · Free Response`,
       "notes": `${unitLabel} · Notes`,
-      "flashcards": "Global · Formulas and Theorems",
+      flashcards: (() => {
+        const u = unitConfig[store.activeUnitKey]?.label || "Unit";
+        const hasUnit = store.activeUnitData && Array.isArray(store.activeUnitData.flashcards) && store.activeUnitData.flashcards.length > 0;
+        return hasUnit ? `${u} · Flashcards` : "Global · Formulas and Theorems";
+      })(),
       "flagged": "Flagged Topics",
-      "reference": `${unitLabel} · Reference`
-      ,"materials": `${unitLabel} · PDFs`
+      reference: `${unitLabel} · Reference`,
+      materials: `${unitLabel} · PDFs`
     };
     if (map[pageId]) sub.textContent = map[pageId];
   }
@@ -306,21 +322,36 @@
     if (type === "all") {
       store.activeUnitKey = "u6";
       store.activeUnitData = null;
+      if (typeof queuedQuestions !== "undefined" && Array.isArray(queuedQuestions)) {
+        queuedQuestions.length = 0;
+      }
       if (typeof originalQuickSelect === "function") originalQuickSelect(type);
       return;
     }
 
     if (unitConfig[type]) {
       store.activeUnitKey = type;
-      const loaded = await loadUnitFile(type);
-      store.activeUnitData = loaded;
-
       const cfg = unitConfig[type];
-      if (cfg.sections.length > 0) {
-        selectedSections = [...cfg.sections];
-      } else if (loaded && Array.isArray(loaded.sections) && loaded.sections.length > 0) {
-        selectedSections = [...loaded.sections];
+      const loaded = await loadUnitFile(type);
+      store.activeUnitData =
+        loaded ||
+        {
+          unit: cfg.label,
+          sections: [],
+          questionBank: [],
+          frqBank: [],
+          notesData: {}
+        };
+
+      let nextSections = [];
+      if (store.activeUnitData.sections && Array.isArray(store.activeUnitData.sections) && store.activeUnitData.sections.length > 0) {
+        nextSections = [...store.activeUnitData.sections];
+      } else if (cfg.sections.length > 0) {
+        nextSections = [...cfg.sections];
+      } else if (Array.isArray(store.activeUnitData.questionBank) && store.activeUnitData.questionBank.length > 0) {
+        nextSections = [...new Set(store.activeUnitData.questionBank.map(q => q.section).filter(Boolean))].sort();
       }
+      selectedSections = nextSections.length > 0 ? nextSections : ["all"];
 
       if (typeof originalQuickSelect === "function") originalQuickSelect(type);
       // Original quickSelect only marks active button for all/u6/u8.
@@ -328,6 +359,9 @@
       const activeBtn = document.getElementById(`qb-${type}`);
       if (activeBtn) activeBtn.classList.add("active");
       state.currentQuestion = null;
+      if (typeof queuedQuestions !== "undefined" && Array.isArray(queuedQuestions)) {
+        queuedQuestions.length = 0;
+      }
       loadQuestion();
       if (document.getElementById("page-notes")?.classList.contains("active")) {
         renderNotesTabs();
@@ -342,11 +376,41 @@
       if (document.getElementById("page-materials")?.classList.contains("active")) {
         renderMaterials();
       }
+      if (document.getElementById("page-reference")?.classList.contains("active")) {
+        renderReferencePage();
+      }
+      if (document.getElementById("page-flashcards")?.classList.contains("active")) {
+        if (typeof buildDeck === "function") buildDeck();
+      }
       return;
     }
 
     if (typeof originalQuickSelect === "function") originalQuickSelect(type);
   };
+
+  function renderReferencePage() {
+    const inner = document.getElementById("reference-sheet-inner");
+    const heading = document.getElementById("reference-page-heading");
+    const blurb = document.getElementById("reference-page-blurb");
+    if (!inner) return;
+    if (!store._defaultReferenceInnerHtml) {
+      store._defaultReferenceInnerHtml = inner.innerHTML;
+    }
+    const unitLabel = unitConfig[store.activeUnitKey]?.label || "AP Calc AB";
+    if (heading) {
+      heading.textContent = store.activeUnitData?.referenceTitle || "AP Calc AB — Reference Sheet";
+    }
+    if (blurb) {
+      blurb.textContent = store.activeUnitData?.referenceBlurb || "Everything you need to memorize for the exam, plus unit-specific links below.";
+    }
+    const extra = store.activeUnitData && typeof store.activeUnitData.referenceHtml === "string" && store.activeUnitData.referenceHtml.trim();
+    if (extra) {
+      inner.innerHTML = `<div class="notes-block" style="margin-bottom:20px;grid-column:1 / -1">${store.activeUnitData.referenceHtml}</div>${store._defaultReferenceInnerHtml}`;
+    } else {
+      inner.innerHTML = store._defaultReferenceInnerHtml;
+    }
+    if (window.MathJax) MathJax.typesetPromise();
+  }
 
   window.loadQuestion = function loadQuestionUsingActiveUnit() {
     clearInterval(state.timerInterval);
@@ -455,7 +519,11 @@
     if (id === "accuracy") runAccuracyAudit();
     if (id === "notes") {
       renderNotesTabs();
-      const first = selectedSections[0] || Object.keys(getActiveNotesData())[0];
+      const notesKeys = Object.keys(getActiveNotesData());
+      const first =
+        (selectedSections[0] && selectedSections[0] !== "all" && notesKeys.includes(selectedSections[0])
+          ? selectedSections[0]
+          : null) || notesKeys[0];
       if (first) showNotesSection(first);
       else renderNotesFallbackFromMaterials();
     }
@@ -463,7 +531,34 @@
       renderFRQTabs();
       showFRQ(0);
     }
+    if (id === "reference") renderReferencePage();
+    if (id === "flashcards" && typeof buildDeck === "function") buildDeck();
   };
+
+  const _buildDeck = window.buildDeck;
+  if (typeof _buildDeck === "function") {
+    window.buildDeck = function buildDeckWithUnitFlashcards() {
+      const unitCards =
+        store.activeUnitData && Array.isArray(store.activeUnitData.flashcards) && store.activeUnitData.flashcards.length > 0
+          ? store.activeUnitData.flashcards
+          : null;
+      const base = unitCards || (typeof flashcards !== "undefined" ? flashcards : []);
+      fcFiltered = fcCurrentFilter === "all" ? [...base] : base.filter(f => f.tag === fcCurrentFilter);
+      if (fcFiltered.length === 0 && fcCurrentFilter !== "all") {
+        fcFiltered = [...base];
+        fcCurrentFilter = "all";
+        document.querySelectorAll('[id^="fc-chip-"]').forEach(c => c.classList.remove("active"));
+        document.getElementById("fc-chip-all")?.classList.add("active");
+      }
+      fcDeck = [...fcFiltered];
+      fcIndex = 0;
+      fcKnown = new Set();
+      fcFlipped = false;
+      document.getElementById("fc-deck-view").style.display = "block";
+      document.getElementById("fc-complete").style.display = "none";
+      if (typeof renderFCCard === "function") renderFCCard();
+    };
+  }
 
   updateTopbarSubtitle("practice-mc");
 })();

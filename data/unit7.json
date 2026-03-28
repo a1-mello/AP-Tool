@@ -1,6 +1,9 @@
 {
   "unit": "Unit 7",
-  "sections": ["7.1", "7.2"],
+  "sections": [
+    "7.1",
+    "7.2"
+  ],
   "questionBank": [
     {
       "section": "7.1",
@@ -32,7 +35,11 @@
           "points": 3,
           "question": "Part (a) prompt.",
           "finalAnswer": "Part (a) model answer.",
-          "steps": ["Step 1", "Step 2", "Step 3"],
+          "steps": [
+            "Step 1",
+            "Step 2",
+            "Step 3"
+          ],
           "scoring": "1 pt each for setup, work, and answer."
         }
       ]
@@ -47,5 +54,29 @@
       "title": "7-2: Sample Unit 7 Notes",
       "content": "<div class='notes-block'><h3>Replace with your Unit 7.2 notes</h3><p>Add key formulas, concepts, and common errors.</p></div>"
     }
-  }
+  },
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 7</strong> — Materials on this site include <strong>0</strong> notes PDFs, <strong>0</strong> homework PDFs, and <strong>0</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "Differential equation: what is a solution?",
+      "back": "A function (or family) that satisfies the DE on an interval.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Separation of variables (concept)",
+      "back": "Algebraically isolate each variable on opposite sides, then integrate.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 7.1",
+      "back": "Filter MCQs to 7.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 7.2",
+      "back": "Filter MCQs to 7.2 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    }
+  ]
 }

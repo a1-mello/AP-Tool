@@ -139,6 +139,10 @@
     "10.3": {
       "title": "10.3-10.5 Alternating + Ratio",
       "content": "<div class='notes-block'><h3>Common AP convergence tests</h3><p>Alternating test, ratio test, and absolute vs conditional convergence.</p></div>"
+    },
+    "packet-pdfs": {
+      "title": "Packet PDFs (class notes & homework)",
+      "content": "<div class=\"notes-block\"><p style=\"color:var(--text2);margin-bottom:10px\">These match your physical binders. Use them alongside the MCQ/FRQ banks.</p><h3 style=\"margin-top:14px\">Notes packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%2010/Notes/Week%2026%20BC%20Notes.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 26 BC Notes</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Notes/Week%2027%20BC%20Notes.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 27 BC Notes</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Notes/Week%2028%20BC%20Notes%20(10.10%20&amp;%2010.11).pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 28 BC Notes (10.10 &amp; 10.11)</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Notes/Week%2028%20BC%20Notes%20(10.8%20&amp;%2010.9).pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 28 BC Notes (10.8 &amp; 10.9)</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div><h3 style=\"margin-top:14px\">Homework packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%2010/Homework/BC%20HW%2025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 25</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Homework/BC%20HW%2026.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 26</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Homework/BC%20HW%2027.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 27</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Homework/BC%20HW%2028.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 28</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%2010/Homework/BC%20HW%2029.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 29</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div></div>"
     }
   },
   "materials": [
@@ -186,6 +190,45 @@
       "type": "notes",
       "title": "Week 28 BC Notes (10.8 & 10.9)",
       "path": "Unit 10/Notes/Week 28 BC Notes (10.8 & 10.9).pdf"
+    }
+  ],
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 10</strong> — Materials on this site include <strong>4</strong> notes PDFs, <strong>5</strong> homework PDFs, and <strong>0</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "Taylor polynomial idea",
+      "back": "Match derivatives at a center up to order n.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Lagrange error bound (concept)",
+      "back": "Uses max |f^(n+1)| on the interval to bound remainder.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 10.1",
+      "back": "Filter MCQs to 10.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 10.2",
+      "back": "Filter MCQs to 10.2 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 10.3",
+      "back": "Filter MCQs to 10.3 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 10.4",
+      "back": "Filter MCQs to 10.4 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 10.5",
+      "back": "Filter MCQs to 10.5 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
     }
   ]
 }

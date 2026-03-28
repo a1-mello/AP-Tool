@@ -39,17 +39,21 @@ function niceTitle(fileName) {
 
 function gatherUnitMaterials(unitFolderName) {
   const unitPath = path.join(ROOT, unitFolderName);
-  const sections = ["Homework", "Notes", "Review"];
+  const subdirs = listDirs(unitPath);
+  const typeByNorm = { homework: "homework", notes: "notes", review: "review" };
   const out = [];
 
-  for (const sec of sections) {
-    const secPath = path.join(unitPath, sec);
+  for (const d of subdirs) {
+    const norm = d.trim().toLowerCase();
+    const type = typeByNorm[norm];
+    if (!type) continue;
+    const secPath = path.join(unitPath, d);
     const pdfs = listFiles(secPath).filter(f => /\.pdf$/i.test(f));
     for (const f of pdfs) {
       out.push({
-        type: sec.toLowerCase(),
+        type,
         title: niceTitle(f),
-        path: `${unitFolderName}/${sec}/${f}`
+        path: `${unitFolderName}/${d}/${f}`
       });
     }
   }

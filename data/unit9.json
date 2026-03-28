@@ -139,6 +139,10 @@
     "9.3": {
       "title": "9.3-9.4 Polar Area and Slope",
       "content": "<div class='notes-block'><h3>Polar AP formulas</h3><p>Area = 1/2 int r^2 dtheta, slope uses x(theta), y(theta) derivatives.</p></div>"
+    },
+    "packet-pdfs": {
+      "title": "Packet PDFs (class notes & homework)",
+      "content": "<div class=\"notes-block\"><p style=\"color:var(--text2);margin-bottom:10px\">These match your physical binders. Use them alongside the MCQ/FRQ banks.</p><h3 style=\"margin-top:14px\">Notes packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%209/Notes/Week%2023%20BC%20Notes.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 23 BC Notes</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%209/Notes/Week%2024%20BC%20Notes.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 24 BC Notes</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%209/Notes/Week%2025%20BC%20Notes%20(Polar%20Area).pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 25 BC Notes (Polar Area)</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%209/Notes/Week%2025%20BC%20Notes.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">Week 25 BC Notes</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div><h3 style=\"margin-top:14px\">Homework packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%209/Homework/BC%20HW%2023.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 23</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%209/Homework/BC%20HW%2024.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">BC HW 24</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div></div>"
     }
   },
   "materials": [
@@ -171,6 +175,40 @@
       "type": "notes",
       "title": "Week 25 BC Notes",
       "path": "Unit 9/Notes/Week 25 BC Notes.pdf"
+    }
+  ],
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 9</strong> — Materials on this site include <strong>4</strong> notes PDFs, <strong>2</strong> homework PDFs, and <strong>0</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "Geometric series sum (|r|<1)",
+      "back": "a/(1−r) for a + ar + ar² + …",
+      "tag": "theorems"
+    },
+    {
+      "front": "nth-term test for divergence",
+      "back": "If lim a_n ≠ 0, then Σ a_n diverges.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 9.1",
+      "back": "Filter MCQs to 9.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 9.2",
+      "back": "Filter MCQs to 9.2 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 9.3",
+      "back": "Filter MCQs to 9.3 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 9.4",
+      "back": "Filter MCQs to 9.4 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
     }
   ]
 }

@@ -125,6 +125,710 @@
           "scoring": "1 pt equation, 1 pt factoring, 1 pt roots."
         }
       ]
+    },
+    {
+      "title": "4-1 WK A Derivatives in Context #1",
+      "calcAllowed": true,
+      "context": "<p><strong>4-1 WK A Derivatives in Context #1</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-1%20WK%20A%20Derivatives%20in%20Context%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%204/Homework%20%20/4-1%20WK%20A%20Derivatives%20in%20Context%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>College Board Worksheet 4-1 A Derivatives in Context #1 AP Calculus Name______________________________ 1. From the 2018 AP Exam:</p><p>2. From the 2016 AP Exam (Calculator Active):</p><p>3. From the 2014 AP Exam (Calculator Active):</p><p>College Board 4. From the 2017 AP Exam (Calculator Active):</p><p>5. From the 2013 AP Exam (Calculator Active):</p><p>6. From the 2012 AP Exam (Calculator Active):</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "4-2 WK A Straight-Lline Motion #1",
+      "calcAllowed": true,
+      "context": "<p><strong>4-2 WK A Straight-Lline Motion #1</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-2%20WK%20A%20Straight-Lline%20Motion%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%204/Homework%20%20/4-2%20WK%20A%20Straight-Lline%20Motion%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater and FM Worksheet 4-2 A Straight-Line Motion #1 AP Calculus Name______________________________</p><p>Directions: The following problems involve straight line motion. Unless otherwise stated, the functions modeling the position, velocity, and acceleration are continuous and differentiable.</p><p>1. For 푡≥0,a particle moves along the 푥 axis with velocity 푣 ( 푡 ) =푡 ଶ −8푡+12. It is known that 푥 ( 0 ) =−5 ( a ) Find the acceleration of the particle when 푡=10.</p><p>( b ) Find all times when the particle is at rest.</p><p>( c ) For what times is the particle moving to the right?</p><p>( d ) Find 푎 ( 3 ) . Is the particle speeding up or slowing down at 푡=3? Give a reason for your answer.</p><p>( e ) Is the particle moving towards or away from the origin at 푡=0? Give a reason for your answer.</p><p>( f ) What is the velocity of the particle when its acceleration is 0?</p><p>( g ) What is the acceleration of the particle when 푡=0?</p><p>( h ) At what time ( s ) is the velocity of the particle equal to 60?</p><p>Created by B Passwater and FM</p><p>2. For 0≤푡≤16 seconds,a bug is walking along a straight path. The velocity of the bug can be modeled by 푣 ( 푡 ) as shown in the βigure above,where 푣 ( 푡 ) is measured in centimeters per second.</p><p>( a ) At what time 푡 did the bug turn around? Give a reason for your answer.</p><p>( b ) Find 푎 ( 14 ) . Include units of measure.</p><p>( c ) On what intervals does the bug have a positive acceleration? Give a reason for your answer.</p><p>( d ) Is the bug speeding up or slowing down when 푡 =7? Give a reason for your answer.</p><p>( e ) Is the bug speeding up or slowing down when 푡 =11? Give a reason for your answer.</p><p>( f ) At what time ( s ) is the speed of the bug equal to 2?</p><p>( g ) What is the velocity of the bug when 푎 ( 푡 ) =0?</p><p>( h ) A second bug is also walking along the path. The position of the second bug is given by 퐵 ଶ ( 푡 ) =6sin൬ 휋푡 3 ൰−2푡. Which bug has a greater velocity when 푡=1?</p><p>Created by B Passwater and FM</p><p>3. For 0≤푡≤11,particles 푃 and 푄 are moving along the 푥 axis. The positions of the particles are 푥 ௉ and 푥 ொ respectively. Selected values of the position and velocity for particle 푃 are given in the table above along with a graph of the velocity for particle Q. It is known that 푥 ொ ( 6 ) =5,and that 푥 ௣ ( 푡 ) and 푣 ௣ ( 푡 ) are both continuous.</p><p>( a ) Approximate 푎 ௉ ( 5 ) . Show the calculations that lead to your answer.</p><p>( b ) Find 푎 ொ ( 휋 ) .</p><p>( c ) At what time ( s ) 푡 does particle 푄 turn around? Give a reason for your answer.</p><p>( d ) Are particles 푃 and 푄 moving toward or away from each other at time 푡=6? Give a reason for your answer.</p><p>( e ) Is particle 푄 speeding up or slowing down when 푡=1? Give a reason for your answer.</p><p>( f ) Can you guarantee a time 푐,where 1&lt;푐 &lt;11,such that 푣 ௉ ( 푐 ) =0? Justify your answer.</p><p>( g ) What is the velocity of particle 푄 when 푥 ௉ ( 푡 ) =9?</p><p>Created by B Passwater and FM</p><p>4. For 0≤푡≤15,a particle moves along a horizontal axis with position 푥 ( 푡 ) ,where 푥 ( 푡 ) is measured in meters and 푡 is measured in seconds. Information about the particle ᇱ s position,velocity and acceleration is given in the table above with differentiable functions 푥 ( 푡 ) ,푣 ( 푡 ) and 푎 ( 푡 ) .</p><p>( a ) Use the data in the table to estimate 푣 ( 2 ) . Include units of measure.</p><p>( b ) Do the data in the table support the claim that there is a time 푐,for 0&lt;푐&lt;15,such that 푎 ( 푐 ) =0? Justify your answer.</p><p>( c ) Is the particle speeding up or slowing down when 푡=11? Give a reason for your answer.</p><p>( d ) At what time ( s ) does the parti</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 4-2 A Straight-Line Motion #1 AP Calculus Name______________________________ Directions: The following problems involve straight line motion. Unless otherwise stated, the functions modeling the position, velocity, and acceleration are continuous and differentiable. 1. For 푡≥0,a particle moves along the 푥 axis with velocity 푣 ( 푡 ) =푡 ଶ −8푡+12. It is known that 푥 ( 0 ) =−5 ( a ) Find the acceleration of the particle when 푡=10. ( b ) Find all times when the particle is at rest. ( c ) For what times is the particle moving to the right? ( d ) Find 푎 ( 3 ) . Is the particle speeding up or slowing down at 푡=3? Give a reason for your answer. ( e ) Is the particle moving towards or away from the origin at 푡=0? Give a reason for your answer. ( f ) What is the velocity of the particle when its acceleration is 0? ( g ) What is the acceleration of the particle when 푡=0? ( h ) At what time ( s ) is the velocity of the particle equal to 60? Created by B Passwater and FM 2. For 0≤푡≤16 seconds,a bug is walking along a straight path. The velocity of the bug can be modeled by 푣 ( 푡 ) as shown in the βigure above,where 푣 ( 푡 ) is measured in centimeters per sec…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "4-3 WK A Rates in Context #1",
+      "calcAllowed": true,
+      "context": "<p><strong>4-3 WK A Rates in Context #1</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-3%20WK%20A%20Rates%20in%20Context%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%204/Homework%20%20/4-3%20WK%20A%20Rates%20in%20Context%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________</p><p>1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ௫ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6.</p><p>2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right.</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure.</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(e)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(f)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(g)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(h)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(i)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴௘ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this will occur.</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(k)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(l)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(m)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(n)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM Worksheet 4-3 A Rates in Context #1 AP Calculus Name______________________________ 1. (Calculator Active) The tide removes sand from a beach at a rate modeled by the function R, given by 푅 ( 푡 ) =1+6sinቀ ଶగ ଶହ ቁ. A pumping station adds sand to the beach at a rate modeled by the function S, given by 푆 ( 푡 ) = ଵ଼௧ ଵାସ௧ . Both 푅(푡) and 푆(푡) have units of cubic yards per hour and 푡 is measured in hours for 0≤푡 ≤10. Find the rate at which the total amount of sand on the beach is changing at time 푡=6. 2. (Calculator Active) Tourists visiting an island resort contracted a mystery illness over a 45-day period. The health authorities recorded the rate of new cases per day and some of the rates are listed in the table at the right. a.) Use the table to estimate 푁′(20). Show the computations that lead to your answer. Indicate units of measure. b.) After studying the spread of the disease, the health department authorities decided they could model the number of new cases per day with the model 푅 ( 푡 ) = ଼଴଴଴଴௘ షబ.మ೟ ( ଵାଶ଴଴ షబ.మ೟ ) మ for 0≤푡 ≤50 days. The disease is considered eradicated when the number of new cases per day does not exceed 5. Use 푅 ( 푡 ) to find on what day this …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "4-5 WK A Related Rates #1",
+      "calcAllowed": true,
+      "context": "<p><strong>4-5 WK A Related Rates #1</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-5%20WK%20A%20Related%20Rates%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%204/Homework%20%20/4-5%20WK%20A%20Related%20Rates%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by FM Worksheet 4-5 A Related Rates #1 AP Calculus Name______________________________</p><p>Directions: Find a relationship between the given rates of change by doing the following: 1. Set up a relationship using variables for the situation. 2. Differentiate with respect to time 풕.</p><p>1. An ice cube is melting. Relate the volume’s rate of change with the edges’ rate of change.</p><p>2. The width and length of a rectangle are increasing. Relate these rates of change with the rate of change of the area of the rectangle.</p><p>3. A spherical balloon is expanding. Relate the rate of change of surface area with the rate of change of the radius of the balloon. The surface area of a sphere is: 퐴=4휋푟 ଶ .</p><p>4. The water level is dropping in a cylindrical tank because of a small leak in the tank. Relate the rates of change between the water level and the volume of the water. The volume of a cylinder is: 푉 =휋푟 ଶ ℎ.</p><p>5. Mr. Brust is using a ladder to paint his house. The ladder is leaning against the house when Mr. Sullivan decides to pull the base of the ladder away from the house. Set up a relationship of the rates of change of how high the top of the ladder is and the distance from the bottom of the ladder to the house.</p><p>Created by FM 6. A rocket is rising vertically. An observer on the ground is standing a certain distance from the rocket’s launch point. As the observer watches the rocket, the angle of elevation is increasing. Relate the rates of change of the angle of elevation with the speed of the rocket.</p><p>7. A boat is being pulled toward a dock by a rope attached to its bow through a pulley on the dock. The pulley is higher than the boat’s bow by several feet. Relate the rate that the rope is hauled in with how fast the boat is approaching the dock.</p><p>8. Let 푎 and 푏 be functions of time 푡 such that the sum of 푎 and three times 푏 is constant. Which of the following equations describes the relationship between the rate of change of 푎 with respect to time and the rate of change of 푏 with respect to time?</p><p>(A) ௗ௔ ௗ௧ =3 ௗ௕ ௗ௧ (B) ௗ௔ ௗ௧ =−3 ௗ௕ ௗ௧</p><p>(C) 3 ௗ௔ ௗ௧ + ௗ௕ ௗ௧ =0 (D) ௗ௔ ௗ௧ +3 ௗ௕ ௗ௧ =퐹, where 퐹is a function of 푡.</p>",
+          "finalAnswer": "Created by FM Worksheet 4-5 A Related Rates #1 AP Calculus Name______________________________ Directions: Find a relationship between the given rates of change by doing the following: 1. Set up a relationship using variables for the situation. 2. Differentiate with respect to time 풕. 1. An ice cube is melting. Relate the volume’s rate of change with the edges’ rate of change. 2. The width and length of a rectangle are increasing. Relate these rates of change with the rate of change of the area of the rectangle. 3. A spherical balloon is expanding. Relate the rate of change of surface area with the rate of change of the radius of the balloon. The surface area of a sphere is: 퐴=4휋푟 ଶ . 4. The water level is dropping in a cylindrical tank because of a small leak in the tank. Relate the rates of change between the water level and the volume of the water. The volume of a cylinder is: 푉 =휋푟 ଶ ℎ. 5. Mr. Brust is using a ladder to paint his house. The ladder is leaning against the house when Mr. Sullivan decides to pull the base of the ladder away from the house. Set up a relationship of the rates of change of how high the top of the ladder is and the distance from the bottom of the ladder…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "4-5 WK B Related Rates #2",
+      "calcAllowed": true,
+      "context": "<p><strong>4-5 WK B Related Rates #2</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-5%20WK%20B%20Related%20Rates%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>If 푥 ଶ +푦 ଶ =푧 ଶ , βind ௗ௬ ௗ௧ when 푥 =3, 푦 =4, ௗ௫ ௗ௧ =−1, and ௗ௭ ௗ௧ =5.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>If 퐴= ଵ ଶ 푏ℎ, βind ௗ஺ ௗ௧ when 푏 =7, ℎ=6, ௗ௕ ௗ௧ =2, and ௗ௛ ௗ௧ =−3.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>A particle is moving along the function 푦 =푥 ଶ +3. It is known that ௗ௫ ௗ௧ =−3 cm per hour. Find the rate that the value of 푦 is changing with respect to time when 푥 =4.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>A 25-foot ladder is leaning against a house. The base of the ladder is pulled away from the house at a rate of 2 feet per second. How fast is the top of the ladder moving down the wall when the base is 7 feet from the house?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>Air is being pumped into a spherical balloon at the rate of 4.5 cubic inches per minute. Find the rate of change of the radius with respect to time when the radius is 2 inches. Volume of a sphere is: 푉 = ସ ଷ 휋푟 ଷ .</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>The radius of a circle is decreasing at the rate of 6 meters per second. Find the rate that the circumference of the circle is changing with respect to time when the area of the circle is 4π m 2 .</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>An ice cube is melting at a rate of 5 cubic cm per hour. At what rate is the edge of the cube changing when the edge of the cube is 3 cm.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>A circular pool of water is expanding at the rate of 16휋 in 2 /sec. At what rate is the radius expanding when the radius is 4 inches?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>An airplane (pt. A) is βlying 600 mph on a horizontal path that will take it directly over an observer (pt. O). The airplane maintains a constant altitude of 7 miles (see βigure). What is the rate of change of the distance between the observer and the airplane when 푥 =5 miles?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>Mr. Brust is using a ladder to paint his house. The 17-ft ladder is leaning against the house when Mr. Kelly decides to pull the base of the ladder away from the house at a rate of 3 ft./sec. How fast is the top of the ladder moving down the side of the house when it is 8 ft. above the ground? Indicate units of measure.</p><p>Answers:</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>ௗ௬ ௗ௧ =7 2.) ௗ஺ ௗ௧ =− ଽ ଶ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>The value of y is decreasing at a rate of 24 cm/hr</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>The top of the ladder is moving down the wall at a rate of ଻ ଵଶ ft/sec 5.) The radius is increasing at a rate of ସ.ହ ଵ଺ in/min</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>The circumference is decreasing at a rate of 12휋 m/sec 7.) The edge of the cube is decreasing at a rate of ହ ଶ଻ cm/hr</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "4-5 WK C Related Rates #3",
+      "calcAllowed": true,
+      "context": "<p><strong>4-5 WK C Related Rates #3</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-5%20WK%20C%20Related%20Rates%20#3.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>C 2.) D 3.) A 4.) D 5.) ଼଴ ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>− ଵ଺ ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>The water level is dropping at a rate of ଵ ଽగ in/s</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>The trains are separating at a rate of 74.246 mi/h at 3pm</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>The string is being paid out at a rate of 16 ft/s</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>The length of his shadow is increasing at a rate of ସ ଷ ft/s; the tip of shadow is changing at a rate of ଵ଺ ଷ ft/s</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(11)",
+          "points": 2,
+          "question": "<p>a) The distance between the person and the balloon is increasing at a rate of ଶସ ଵ଻ ft/s b)  is increasing at a rate of ଽ ଶ଼ଽ radians/s c) The balloon is falling at a rate of ଵଶହ ସ ft/s</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(12)",
+          "points": 2,
+          "question": "<p>a) The distance between Plane A and Plane B is decreasing at a rate of 320 mi/h b)  is decreasing at a rate of ଵ ହ଴ radians/hr</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "4-5 WK D Related Rates #4",
+      "calcAllowed": true,
+      "context": "<p><strong>4-5 WK D Related Rates #4</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-5%20WK%20D%20Related%20Rates%20#4.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>ଵ ଵଶ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>The total surface area is decreasing at a rate of ସ଴ ଷ m 2 /h 3.) She must blow air into the balloon at a rate of 80 cm 3 /sec</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>The distance between Clark and Lana is increasing at a rate of 5 mi/h at 10 hours 5.) The radius is increasing at a rate of ଷଶ଴଴ ସଽగ ft/min when the height is 7 ft</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>He must unwind the string at a rate of 18 m/sec 7.) The top of the ladder is sliding down the wall at a rate of 3 ft/sec</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>The surface of the water is rising at a rate of ଶହ ଵ଼గ in/sec 9.) His shadow is lengthening at a rate of ଷହ ଼ ft/sec</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>The balloon’s radius is increasing at a rate of 1 ft/min and the surface area is increasing at a rate of 40 ft 2 /min</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(11)",
+          "points": 2,
+          "question": "<p>The perimeter is decreasing at a rate of 4 in/s when the length of an increasing side is 5 in.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(12)",
+          "points": 2,
+          "question": "<p>The number of fast food restaurants in town is increasing at a rate of ଶ ହ restaurants/month when there are 24 restaurants</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": "4-6 WK A Local Linearity and Linearization #1",
+      "calcAllowed": true,
+      "context": "<p><strong>4-6 WK A Local Linearity and Linearization #1</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-6%20WK%20A%20Local%20Linearity%20and%20Linearization%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%204/Homework%20%20/4-6%20WK%20A%20Local%20Linearity%20and%20Linearization%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 4-6 A Local Linearity and Linearization #1 AP Calculus Name______________________________ Do not use a calculator unless you are told the question is calculator active. 1. Let 푓 ( 푥 ) =2cos ( 3푥 ) +5. Write an equation of the line tangent to 푓 ( 푥 ) at = గ ଺ . Use the tangent line to approximate 푓 ( 1 ) .</p><p>2. The function 푔 is differentiable with 푔 ( 3 ) =−4 and 푔 ᇱ ( 3 ) =2. Use the tangent line to 푔 at 푥 =3 to approximate 푔 ( 3.1 ) .</p><p>For 3 – 6, the function 푓 ( 푥 ) is differentiable with selected values of 푓 and 푓 ᇱ given in the table above. The graph of 푔 consists of three line segments as shown in the figure above.</p><p>3. Let ℎ ( 푥 ) =푓 ( 푥 ) 푔 ( 푥 ) . Use the tangent line to ℎ at 푥 =1 to approximate ℎ ( 2 ) .</p><p>4. Let 푘 ( 푥 ) =푔 ൫ 푓 ( 푥 ) ൯ . Write an equation of the line tangent to 푘 ( 푥 ) at 푥 =0. Use the tangent line to approximate 푘 ( −0.3 ) .</p><p>5. Let 푚 ( 푥 ) = ඥ 푓 ( 푥 ) . Use the tangent line approximation to 푚 ( 푥 ) at 푥 =5 to approximate 푚 ( 5.1 ) .</p><p>6. Let 푝 ( 푥 ) =푓 ൫ 푔 ( 푥 ) ൯ . Approximate 푝 ( 6.2 ) by using a linear approximation for 푝 ( 푥 ) at 푥 =6.</p><p>푥 −3 0 1 5 푓 ( 푥 ) 2 −3 6 9 푓′(푥) 4 5 3 −24</p><p>Created by B Passwater 7. The function 퐿 is differentiable with a derivative defined as ௗ௅ ௗ௧ = ଵ ଷ ( 12−퐿 ) . It is known that 퐿 ( 9 ) =6. Write an equation for the line tangent to the graph of 퐿 at 푡=9. Use this equation to approximate 퐿 at 푡=7.</p><p>8. The bottom of a cylindrical tank filled with water is leaking. The rate of change of volume ( 푉 ) of water in the tank at time 푡 is given by ௗ௏ ௗ௧ =−2 √ 푉. At time 푡=0, 푉=81. Use a linear approximation for 푉 at 푡=0 to approximate the volume of water in the tank when 푡=4.</p><p>9. For 푡≥0 minutes, the number of people that have entered a department store is modeled by the function 퐸. At 푡=1, a total of 26 people have entered the department store. Write an equation of the line tangent to 퐸 at 푡=1. Use this equation to approximate the total number of people that have entered the department store at time 푡=2.</p><p>10. (Calculator Active) After a large snowstorm, snow is plowed into a large mound to the side of a parking lot. As the snow melts, the amount of snow remaining can be modeled by 푆 ( 푡 ) =562푒 ି଴.ହ௧ where 푡 is measured in days. After 7 days, the amount of snow remaining is better estimated by the linear approximation to 푆 at 푡=7 days. Use this linear approximation to 푆 to estimate the amount of snow remaining at 푡=8 days.</p><p>푡 (minutes) 0 1 3 7 퐸′(푡) ( peopleminute ⁄)</p><p>8 6 11 9</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "4-7 WK A L'Hospital's Rule #1 & 2",
+      "calcAllowed": true,
+      "context": "<p><strong>4-7 WK A L'Hospital's Rule #1 &amp; 2</strong> — Open the original worksheet: <a href=\"Unit%204/Homework%20%20/4-7%20WK%20A%20L'Hospital's%20Rule%20#1%20&amp;%202.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>ଵ ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>ଵ ସ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>ହ ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>DNE 5.) 2 6.) ଶ ଷ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>ଷ ଶ</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>+ 9.) 1 10.) 0 11.) 0 12.) –1</p><p>Directions: Evaluate the following limits, if possible. Then circle the correct answer.</p><p>14. lim ௫→଴ cos ( 2푥+휋 ) +푥+1 푒 ௫ మ +2푥−1</p><p>( A )</p><p>1 3</p><p>( B )</p><p>1 2</p><p>( C )</p><p>2 3</p><p>( D ) does not exist</p><p>The table above gives selected values of a twice-differentiable function 푓(푥). Use the table to answer questions 15−16.</p><p>15. lim ௫→ିଷ 푓 ( 2푥−1 ) 푥 ଶ −9</p><p>( A ) −3 ( B ) −2 ( C ) −1 ( D ) does not exist</p><p>16. lim ௫→ିହ 푓 ൫ 푓 ( 푥 ) ൯ 3푥+15</p><p>( A )</p><p>1 3</p><p>( B ) −3 ( C ) 3 ( D ) does not exist</p><p>17. The graph of 푔 ( 푥 ) is above. Use the graph to βind lim ௫→ସ 푔(푥−3) 푥 ଶ −2푥−8 if it exists.</p><p>( A )</p><p>1 12</p><p>( B ) − 1 6</p><p>( C ) 3 ( D ) does not exist</p><p>풙 −7 −5 −3 풇(풙) 0 −3 0 풇′(풙) 6 −1 9</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 9
+    },
+    {
+      "title": "Review of Unit 4",
+      "calcAllowed": true,
+      "context": "<p><strong>Review of Unit 4</strong> — Open the original worksheet: <a href=\"Unit%204/Review/Review%20of%20Unit%204.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%204/Review/Review%20of%20Unit%204%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Unit 4 Review AP Calculus Name______________________________</p><p>YOU MUST SHOW ALL WORK TO RECEIVE CREDIT. 1. ( Calculator Active ) A bottling company produces bottles of water. The amount of bottles that have been produced at time 푡 hours can be modeled by 퐵 ( 푡 ) =3125푡 ଵ.ହ +2푡 where 0≤푡≤10.</p><p>( a ) Find 퐵 ᇱ ( 4 ) . Using correct units,interpret the meaning of this value in context of the problem.</p><p>( b ) What are the units of 퐵 ᇱᇱ ( 3 ) ? Do not βind 퐵 ᇱᇱ ( 3 ) .</p><p>2. ( Calculator Active ) For 0≤푡≤8 hours,the number of people in line to vote at a local precinct is deβined by 퐿 ( 푡 ) =78sin ൬ 푡 13 ൰ +15. Find 퐿 ᇱ ( 5 ) . Using correct units,interpret the meaning of this value in context of the problem.</p><p>푡 (minutes) 1 3 6 8 퐷(푡) ( donutsminute ⁄)</p><p>21 46 35 12</p><p>3. For 0≤푡≤8 minutes,the rate that a local bakery sells donuts,in donuts per minute,can be modeled by the differentiable function 퐷 ( 푡 ) . Selected values for 퐷 ( 푡 ) are shown in the table above.</p><p>( a ) Approximate 퐷 ᇱ ( 2 ) . Using correct units,interpret the meaning of 퐷 ᇱ ( 2 ) in context of the problem.</p><p>( b ) Is there a time 푐,such that 1&lt;푐&lt;8,when 퐷 ( 푐 ) =15? Justify your answer.</p><p>( c ) It is known that the bakery has sold 220 donuts at time 푡=8. Using a linear approximation at 푡=8,estimate the number of donuts the bakery has sold at time 푡=10 minutes.</p><p>Created by B Passwater 푡 (hours) 0 3 4 6 푃(푡) ( 100 ᇱ s peoplehour ⁄)</p><p>18 51 46 82</p><p>4. During the time leading up to the 2024 Presidential election,people made posts on social media showing that they voted. In one town,the rate that people posted on social media,in 100 ᇱ s of people per hour,is modeled by 푃 ( 푡 ) ,where 푡 is measured in hours and 푃 is measured in 100 ᇱ s of people per hour. Estimate 푃 ᇱ ( 5 ) . Using correct units,interpret the meaning of this value in the context of the problem.</p><p>5. After a ride ends,the rate that the number of people on a carnival ride is changing is modeled by the function 푃 ᇱ ( 푡 ) ,where 푃 ᇱ ( 푡 ) is measured in people per second and 푡 is measured in seconds. The graph of 푃 ᇱ consists of three line segments as shown at the right.</p><p>( a ) Find 푃 ᇱ ( 1 ) . Using correct units,interpret the meaning of this value in the context of the problem.</p><p>( b ) Find 푃 ᇱᇱ ( 5 ) . Using correct units,interpret the meaning of this value in the context of the problem.</p><p>( c ) The total weight of people on the ride,in pounds,at time 푡 seconds,is modeled by 푊 ( 푡 ) =4150+150푃 ( 푡 ) . Find 푊 ᇱ ( 3 ) . Using correct units,explain the meaning of this value in the context of the problem.</p><p>Created by B Passwater 6. ( Calculator Active ) For 0≤푡≤10 days,the rate that a company sells t−shirts,in 100 ᇱ s shirts per day, on its website after an appearance on Shark Tank is modeled by 푆 ( 푡 ) =124푒 ିଶ௧ . At what rate is the rate of t− shirt sales on the website changing at 푡=5 days?</p><p>7. The temperature of a cooler 푇,in °F,is a function of the amount of ice in the cooler 푖,measured in pounds, and can be written as 푇 ( 푖 ) . What are units for 푇 ᇱ ( 푖 ) and 푇 ᇱᇱ ( 푖 ) ?</p><p>8. Let 푃 be the rate that the number of people in a store is changing,where 푃 is measured in people per second and 푡 is measured in seconds. The graph of 푃 is shown at the right. Find 푃 ᇱ ( 2 ) . Include units of measure.</p><p>9. For 푡≥0,a particle moves along the 푥 axis with velocity 푣 ( 푡 ) =푡 ଶ −7푡+10 and 푥 ( 6 ) =−4.</p><p>( a ) Find all times 푡 when the particle changes direction. Give a reason for your answer.</p><p>( b ) Find the velocity of the particle at the time when its acceleration is 1.</p><p>( c ) Find 푎 ( 3 ) . Is the particle speeding up or slowing d</p>",
+          "finalAnswer": "Created by B Passwater Unit 4 Review AP Calculus Name______________________________ YOU MUST SHOW ALL WORK TO RECEIVE CREDIT. 1. ( Calculator Active ) A bottling company produces bottles of water. The amount of bottles that have been produced at time 푡 hours can be modeled by 퐵 ( 푡 ) =3125푡 ଵ.ହ +2푡 where 0≤푡≤10. ( a ) Find 퐵 ᇱ ( 4 ) . Using correct units,interpret the meaning of this value in context of the problem. ( b ) What are the units of 퐵 ᇱᇱ ( 3 ) ? Do not βind 퐵 ᇱᇱ ( 3 ) . 2. ( Calculator Active ) For 0≤푡≤8 hours,the number of people in line to vote at a local precinct is deβined by 퐿 ( 푡 ) =78sin ൬ 푡 13 ൰ +15. Find 퐿 ᇱ ( 5 ) . Using correct units,interpret the meaning of this value in context of the problem. 푡 (minutes) 1 3 6 8 퐷(푡) ( donutsminute ⁄) 21 46 35 12 3. For 0≤푡≤8 minutes,the rate that a local bakery sells donuts,in donuts per minute,can be modeled by the differentiable function 퐷 ( 푡 ) . Selected values for 퐷 ( 푡 ) are shown in the table above. ( a ) Approximate 퐷 ᇱ ( 2 ) . Using correct units,interpret the meaning of 퐷 ᇱ ( 2 ) in context of the problem. ( b ) Is there a time 푐,such that 1&lt;푐&lt;8,when 퐷 ( 푐 ) =15? Justify your answer. ( c ) It is known that the ba…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 10
+    },
+    {
+      "title": "Unit 4 FRQ Practice",
+      "calcAllowed": true,
+      "context": "<p><strong>Unit 4 FRQ Practice</strong> — Open the original worksheet: <a href=\"Unit%204/Review/Unit%204%20FRQ%20Practice.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Unit 4 FRQ Practice AP Calculus AB Name_____________________________</p><p>NO CALCULATOR IS ALLOWED FOR THIS QUESTION</p><p>Ayan is driving due east and passes through an intersection at time 푡=0 seconds. The velocity of Ayan’s car can be modeled by the equation 푣 ( 푡 ) =− ଵ ଵ଴ 푡 ଷ + ଷ ଶ 푡 ଶ −4푡+10, for 0≤푡≤11, where 푣(푡) is measured in meters per second and 푡 is measured in seconds. Ayan’s car is 900 meters east of the intersection after 10 seconds.</p><p>(a) Find the acceleration of Ayan’s car at time 푡=10. Show the work that leads to your answer and indicate units of measure.</p><p>(b) Is Ayan’s car speeding up or slowing down at time 푡=10? Explain your reasoning.</p><p>(c) Ben is in a hot air balloon directly over the intersection. Let 휃 be the angle of elevation from Ayan to Ben, where 휃 is measured in radians. Let 퐴 be the distance between Ayan’s car and the intersection and 퐵 be the distance between Ben and the intersection at time 푡, both measured in meters. These quantities satisfy the relationship tan휃= ஻ ஺ . Write an equation that describes the relationship between the rates of change of 휃, 퐴, and 퐵.</p><p>(d) Using 휃 as defined in Part C, at time 푡=10, ௗఏ ௗ௧ =−0.0073. Using correct units, interpret the meaning of ௗఏ ௗ௧ in the context of this problem.</p><p>(e) Keng is standing 1200 meters due north of the intersection. Find the rate of change of the distance between Keng and Ayan, in meters per second, at time 푡=10. Show the work leading to your answer.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 11
     }
   ],
   "notesData": {
@@ -139,9 +843,83 @@
     "4.3": {
       "title": "4-6 and 4-7 Approximation + L'Hospital",
       "content": "<div class='notes-block'><h3>Approximation tools</h3><p>Use linearization for nearby estimates and L'Hospital for qualifying indeterminate forms.</p></div>"
+    },
+    "packet-pdfs": {
+      "title": "Packet PDFs (class notes & homework)",
+      "content": "<div class=\"notes-block\"><p style=\"color:var(--text2);margin-bottom:10px\">These match your physical binders. Use them alongside the MCQ/FRQ banks.</p><h3 style=\"margin-top:14px\">Notes packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%204/Notes/4-1%20The%20Derivative%20In%20Context%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-1 The Derivative In Context COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Notes/4-2%20Straight-Line%20Motion%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-2 Straight-Line Motion COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Notes/4-3%20Rates%20in%20Context%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-3 Rates in Context COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Notes/4-4%20&amp;%204-5%20Related%20Rates%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-4 &amp; 4-5 Related Rates COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Notes/4-6%20Local%20Linearity%20and%20Linearization%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-6 Local Linearity and Linearization COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Notes/4-7%20L'Hospital's%20Rule%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-7 L'Hospital's Rule COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div><h3 style=\"margin-top:14px\">Homework packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%204/Homework%20%20/4-1%20WK%20A%20Derivatives%20in%20Context%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-1 WK A Derivatives in Context #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-1%20WK%20A%20Derivatives%20in%20Context%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-1 WK A Derivatives in Context #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-2%20WK%20A%20Straight-Lline%20Motion%20#1%20solutions.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-2 WK A Straight-Lline Motion #1 solutions</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-2%20WK%20A%20Straight-Lline%20Motion%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-2 WK A Straight-Lline Motion #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-3%20WK%20A%20Rates%20in%20Context%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-3 WK A Rates in Context #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-3%20WK%20A%20Rates%20in%20Context%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-3 WK A Rates in Context #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-5%20WK%20A%20Related%20Rates%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-5 WK A Related Rates #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-5%20WK%20A%20Related%20Rates%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-5 WK A Related Rates #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-5%20WK%20B%20Related%20Rates%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-5 WK B Related Rates #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-5%20WK%20C%20Related%20Rates%20#3.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-5 WK C Related Rates #3</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-5%20WK%20D%20Related%20Rates%20#4.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-5 WK D Related Rates #4</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-6%20WK%20A%20Local%20Linearity%20and%20Linearization%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-6 WK A Local Linearity and Linearization #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-6%20WK%20A%20Local%20Linearity%20and%20Linearization%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-6 WK A Local Linearity and Linearization #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%204/Homework%20%20/4-7%20WK%20A%20L'Hospital's%20Rule%20#1%20&amp;%202.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">4-7 WK A L'Hospital's Rule #1 &amp; 2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div></div>"
     }
   },
   "materials": [
+    {
+      "type": "homework",
+      "title": "4-1 WK A Derivatives in Context #1 SOLUTIONS",
+      "path": "Unit 4/Homework  /4-1 WK A Derivatives in Context #1 SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-1 WK A Derivatives in Context #1",
+      "path": "Unit 4/Homework  /4-1 WK A Derivatives in Context #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-2 WK A Straight-Lline Motion #1 solutions",
+      "path": "Unit 4/Homework  /4-2 WK A Straight-Lline Motion #1 solutions.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-2 WK A Straight-Lline Motion #1",
+      "path": "Unit 4/Homework  /4-2 WK A Straight-Lline Motion #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-3 WK A Rates in Context #1 SOLUTIONS",
+      "path": "Unit 4/Homework  /4-3 WK A Rates in Context #1 SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-3 WK A Rates in Context #1",
+      "path": "Unit 4/Homework  /4-3 WK A Rates in Context #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-5 WK A Related Rates #1 SOLUTIONS",
+      "path": "Unit 4/Homework  /4-5 WK A Related Rates #1 SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-5 WK A Related Rates #1",
+      "path": "Unit 4/Homework  /4-5 WK A Related Rates #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-5 WK B Related Rates #2",
+      "path": "Unit 4/Homework  /4-5 WK B Related Rates #2.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-5 WK C Related Rates #3",
+      "path": "Unit 4/Homework  /4-5 WK C Related Rates #3.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-5 WK D Related Rates #4",
+      "path": "Unit 4/Homework  /4-5 WK D Related Rates #4.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-6 WK A Local Linearity and Linearization #1 ANSWERS",
+      "path": "Unit 4/Homework  /4-6 WK A Local Linearity and Linearization #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-6 WK A Local Linearity and Linearization #1",
+      "path": "Unit 4/Homework  /4-6 WK A Local Linearity and Linearization #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "4-7 WK A L'Hospital's Rule #1 & 2",
+      "path": "Unit 4/Homework  /4-7 WK A L'Hospital's Rule #1 & 2.pdf"
+    },
     {
       "type": "notes",
       "title": "4-1 The Derivative In Context COMPLETED CLASS NOTES",
@@ -174,6 +952,11 @@
     },
     {
       "type": "review",
+      "title": "Review of Unit 4 SOLUTIONS",
+      "path": "Unit 4/Review/Review of Unit 4 SOLUTIONS.pdf"
+    },
+    {
+      "type": "review",
       "title": "Review of Unit 4",
       "path": "Unit 4/Review/Review of Unit 4.pdf"
     },
@@ -181,6 +964,50 @@
       "type": "review",
       "title": "Unit 4 FRQ Practice",
       "path": "Unit 4/Review/Unit 4 FRQ Practice.pdf"
+    }
+  ],
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 4</strong> — Materials on this site include <strong>6</strong> notes PDFs, <strong>14</strong> homework PDFs, and <strong>3</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "First derivative test idea",
+      "back": "Sign changes of f′ locate local extrema (with continuity).",
+      "tag": "theorems"
+    },
+    {
+      "front": "Second derivative test (local max)",
+      "back": "If f′(c)=0 and f″(c)<0, local max at c.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Inflection point",
+      "back": "Where concavity changes; often f″ changes sign (candidates where f″=0 or undefined).",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 4.1",
+      "back": "Filter MCQs to 4.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 4.2",
+      "back": "Filter MCQs to 4.2 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 4.3",
+      "back": "Filter MCQs to 4.3 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 4.4",
+      "back": "Filter MCQs to 4.4 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 4.5",
+      "back": "Filter MCQs to 4.5 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
     }
   ]
 }

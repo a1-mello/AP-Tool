@@ -126,6 +126,957 @@
           "scoring": "1 pt sign method, 1 pt x=1 class, 1 pt x=3 class."
         }
       ]
+    },
+    {
+      "title": "5-1 WK A MVT #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-1 WK A MVT #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-1%20WK%20A%20MVT%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-1%20WK%20A%20MVT%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡.</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(e)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(f)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer.</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer.</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds.</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(d)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(e)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(f)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by FM and College Board Worksheet 5-1 A MVT #1 AP Calculus Name______________________________ Directions: Solve each problem. 1.) Skater Sully is riding a skateboard back and forth on a street that runs north/south. The twice- differentiable function 푆 models Sully’s position on the street, measured by how many meters north he is from his starting point, at time 푡, measured in seconds from the start of his ride. The table below gives values of 푆(푡) at selected times 푡. a.) For 0≤푡≤20, must there be a time 푡 when Sully is 2 meters south of his starting point? Justify your answer. b.) For 30≤푡≤60, must there be a time 푡 when Sully’s velocity is 1.1 meters per second? Justify your answer. 2.) A particle is moving along the 푥-axis. The twice-differentiable function 푠 models the particles distance from the origin, measured in centimeters, at time 푡, measured in seconds. a.) For 20≤푡≤25, must there be a time 푡 when the particle is at the origin? Justify your answer. b.) For 3≤푡≤10, must there be a time 푡 when the particle’s velocity is –1 cm per second? Justify your answer. 푡 seconds 0 20 30 60 푆 ( 푡 ) meters 0 −5 7 40 푡 seconds 3 10 20 25 푠 ( 푡 ) cm 5 −2 −10 8 S is a twice-diffe…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 1
+    },
+    {
+      "title": "5-10 & 5-11 WK A Optimization Problems #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-10 &amp; 5-11 WK A Optimization Problems #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-10%20&amp;%205-11%20WK%20A%20Optimization%20Problems%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>A manufacturing company has determined that the total cost of producing an item can be determined from the equation 퐶=8푥 ଶ −176푥+180, where 푥 is the number of units that the company makes. How many units should the company manufacture in order to minimize the cost (to the nearest whole number)?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>Determine the maximum area of a rectangular dog pen that can be enclosed with 200 meters of fence.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>Two numbers add up to 40. Find the numbers that maximize their product.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>A rectangle has a perimeter of 71 feet. What length and width should it have so that its area is a maximum? What is its maximum area?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>Find two positive numbers that minimize the sum of twice the first number plus the second if the product of the two numbers is 288.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>The number of flies around a dropped piece of bread is modeled by the formula 푃 ( 푡 ) = ଵ଴଴଴௧ ଵ଴ା௧ మ</p><p>where 푡 is measured in hours. How long will it take for the number of flies to be at a maximum? What is the maximum size of the population of flies (to the nearest fly)?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 2
+    },
+    {
+      "title": "5-10 & 5-11 WK B Optimization Problems #2",
+      "calcAllowed": true,
+      "context": "<p><strong>5-10 &amp; 5-11 WK B Optimization Problems #2</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-10%20&amp;%205-11%20WK%20B%20Optimization%20Problems%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Find the point on the line y = 2x + 3 that is closest to the origin.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>Find the point on the curve y = x that is closest to the point (3, 0).</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>Find two numbers whose difference is 100 and whose product is a minimum.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>The sum of two positive numbers is 16. What is the smallest possible value of the sum of their squares?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>Find the dimensions of a rectangle with an area of 1000 m 2 whose perimeter is as small as possible.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>A farmer wants to fence in an area of 1.5 million square feet in a rectangular field and then divide it in half with a fence parallel to one of the sides of the rectangle. How can he do this so as to minimize the cost of the fence?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>An open box is to be made from a piece of metal 16 by 30 inches by cutting out squares of equal size from the corners and bending up the sides. What size square should be cut out to create a box with greatest volume? What is the maximum volume?</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>A box with a square base and open top must have a volume of 32,000 cm 3 . Find the dimensions of the box that minimize the amount of material used.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(9)",
+          "points": 2,
+          "question": "<p>The top and bottom margins of a poster are each 6 cm and the side margins are each 4 cm. If the area of printed material on the poster is fixed at 384 cm 2 , find the dimensions of the poster with the smallest area.</p><p>Answers:</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>(−1.2,0.6) 2.) ቆ ହ ଶ , ට ହ ଶ ቇ 3.) –50 and 50 4.) 128</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>ଵ଴଴଴ √ ଵ଴଴଴ m x 1000 m or 31.623 m x 31.623 m</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>1000 ft by 1500 ft with the fence parallel to the short side.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>the square should be ଵ଴ ଷ in x ଵ଴ ଷ in; the volume is ଵଽ଺଴଴ ଶ଻ in 3 or 725.926 in 3</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>40 cm x 40 cm x 20 cm</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 3
+    },
+    {
+      "title": "5-3 WK A Intervals of Increase and Decrease #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-3 WK A Intervals of Increase and Decrease #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-3%20WK%20A%20Intervals%20of%20Increase%20and%20Decrease%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-3%20WK%20A%20Intervals%20of%20Increase%20and%20Decrease%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 5-3 A Intervals of Increase and Decrease #1 AP Calculus Name______________________________</p><p>Directions: Given the following, find the critical values of the function 푓(푥). If 푓 ( 푥 ) does not have any critical values, write “푓(푥) has no critical values”.</p><p>1. 푓 ᇱ ( 푥 ) =4cos ( 푥 ) −2 on [0,2휋) 2. 푓 ( 푥 ) = ௘ మೣ ௫ିଷ 3. 푓 ( 푥 ) =푥 ଶ ln(푥)</p><p>4. The graph of 푘 ( 푥 ) is given at the right. Find any 푥 values in the open interval ( 0,16 ) where 푘 ( 푥 ) has a critical value.</p><p>Directions: Given the following, find the intervals where the function 푔(푥) is increasing or decreasing.</p><p>5. 푔 ( 푥 ) = √푥 ଶ −4 య 6. 푔′ ( 푥 ) = ( 푥−3 ) 푒 ௫ାଶ 7. 푔 ( 푥 ) = ௫ାଷ ௫ିସ</p><p>8. The graph of 푚 ᇱ ( 푥 ) is given at the right. On what intervals is the graph of 푚 ᇱ ( 푥 ) increasing? Explain your reasoning.</p><p>9. Let 푔 be a differentiable function such that 푔 ᇱ ( 푥 ) &lt;0 for all values of 푥 and let ℎ ( 푥 ) =푔 ( 푥 ଶ −2푥−8 ) . Find the intervals where ℎ ( 푥 ) is increasing and where ℎ ( 푥 ) is decreasing. Explain your reasoning.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 4
+    },
+    {
+      "title": "5-4 WK A Relative Extrema #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-4 WK A Relative Extrema #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-4%20WK%20A%20Relative%20Extrema%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-4%20WK%20A%20Relative%20Extrema%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 5-4 A Relative Extrema #1 AP Calculus Name______________________________</p><p>Directions: Use the following information to answer the given questions. Show all work.</p><p>1. The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following.</p><p>A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 ) .</p><p>B) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥 =7? Give a reason for your answer.</p><p>C) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥=−1? Give a reason for your answer.</p><p>D) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥=9? Give a reason for your answer.</p><p>E) On what interval(s) in [ −3,11 ] is 푓 ( 푥 ) increasing? Give a reason for your answer.</p><p>Created by B Passwater</p><p>2. The graph of 푔 ᇱ , the derivative of 푔, is shown above for [ −2,11 ] and consists of three line segments and a semicircle. Use the graph of 푔 ᇱ to answer the following.</p><p>A) Find all critical values of 푔 ( 푥 ) in the open interval ( −2,11 ) .</p><p>B) At which value(s) of 푥 does 푔 ( 푥 ) have a local minimum? Explain your reasoning.</p><p>C) On what interval ( s ) in [ −2,11 ] is 푔 ( 푥 ) increasing? Give a reason for your answer</p><p>D) Does 푔 ( 푥 ) have a local minimum,local maximum,or neither at 푥 =4? Give a reason for your answer.</p><p>E) Let ℎ ( 푥 ) =푥푔 ( 푥 ) . If ℎ ( 푥 ) has a relative maximum at 푥=4,βind ℎ ( 4 ) . Show the work that leads to your answer.</p><p>Created by B Passwater</p><p>3. The function 푘 is continuous on the interval [ 0,9 ] . The graph of 푘 ᇱ ( 푥 ) is given above and has horizontal tangents at 푥 =2,푥 =4,and 푥 =6.</p><p>A) On which interval ( s ) is 푘 ( 푥 ) increasing? Give a reason for your answer.</p><p>B) At which value(s) of 푥 does 푘 ( 푥 ) have a relative minimum? Explain your reasoning.</p><p>C) At which value(s) of 푥 does 푘 ( 푥 ) have a local maximum? Explain your reasoning.</p><p>D) Let 푚 ( 푥 ) =푘 ( 푥 ) −sin ( 푥−2 ) . Find 푚 ᇱ ( 2 ) . Does 푚 ( 푥 ) have a local minimum,local maximum,or neither at 푥=4? Give a reason for your answer.</p><p>Directions: Given the following information, βind and classify the x-values of any relative extrema of the given function. Justify your answers.</p><p>4. 푓 ( 푥 ) =−푥 ଷ +6푥 ଶ −9푥+7 5. 푓′ ( 푥 ) =3푥(푥−4)(푥+1)</p><p>Created by B Passwater 6. 푓 ( 푥 ) =푥 ଶ 푒 ௫ 7. 푓′(푥)=2sin ( 푥 ) +1 on [0,2휋)</p><p>8. 푔′ ( 푥 ) = 푥−3 푒 ௫ 9. 푔 ( 푥 ) = 푥−3 푥 ଶ</p><p>Created by B Passwater 10. The function ℎ is twice differentiable on the interval [ −4,4 ] . The graph of ℎ ᇱ ( 푥 ) is given at the right and has horizontal tangents at 푥 =−2,푥 =1,and 푥 =3. It is known that ℎ ( −1 ) =5.</p><p>A) On which interval ( s ) is ℎ ( 푥 ) decreasing? Give a reason for your answer.</p><p>B) Find all critical values for the function ℎ ( 푥 ) . Classify each critical value as a local minimum,local maximum,or neither. Explain your reasoning.</p><p>C) Let 푘 ( 푥 ) =ℎ ( 푥 ) −3푥. At which 푥 value ( s ) does 푘 ( 푥 ) have a relative maximum? Explain your reasoning.</p><p>D) Find the value of lim ௫→ିଵ ℎ ᇱ ( 푥 ଶ ) −2푥 ℎ ( 푥 ) −5 or state that it does not exist. Justify your answer.</p><p>Created by B Passwater</p><p>11. The function</p>",
+          "finalAnswer": "Created by B Passwater Worksheet 5-4 A Relative Extrema #1 AP Calculus Name______________________________ Directions: Use the following information to answer the given questions. Show all work. 1. The graph of 푓 ᇱ , the derivative of 푓, is shown above for [ −3,11 ] and consists of four line segments. Use the graph of 푓 ᇱ to answer the following. A) Find all critical values of 푓 ( 푥 ) in the open interval ( −3,11 ) . B) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥 =7? Give a reason for your answer. C) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥=−1? Give a reason for your answer. D) Does 푓 ( 푥 ) have a relative minimum,relative maximum,or neither at 푥=9? Give a reason for your answer. E) On what interval(s) in [ −3,11 ] is 푓 ( 푥 ) increasing? Give a reason for your answer. 푓 ( 푥 ) has no relative extrema at 푥=7 because 푓′ ( 7 ) ≠0 and 푓′ ( 푥 ) does not change signs at 푥=7 푓 ( −1 ) is a relative maximum because 푓′ ( −1 ) =0 and 푓′ ( 푥 ) changes signs from + to – at 푥=−1 푓 ( 푥 ) has no relative extrema at 푥=9 because 푓′ ( 9 ) =0 and 푓′ ( 푥 ) does not change signs at 푥=7 Created by B Passwater 2. The graph of 푔 ᇱ , the derivative of 푔, …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 5
+    },
+    {
+      "title": "5-5 & 5-2 WK A Absolute Extrema #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-5 &amp; 5-2 WK A Absolute Extrema #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-5%20&amp;%205-2%20WK%20A%20Absolute%20Extrema%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-5%20&amp;%205-2%20WK%20A%20Absolute%20Extrema%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater &amp; FM Worksheet 5-5 &amp; 5-2 Absolute Extrema #1 AP Calculus Name______________________________</p><p>Directions: Find the absolute minimum and absolute maximum values for the following functions on the given intervals.</p><p>1. 푦=3−푥 [ −1,2 ]</p><p>2. 푦=5−2푥 ଶ</p><p>[ −3,1 ]</p><p>3. 푔 ( 푥 ) =2푥 ଶ −8푥 [ 0,6 ]</p><p>4. 푦=푥 ଷ + 3 2 푥 ଶ [−1,2]</p><p>5. 푦= √ 푥 య</p><p>[ −8,8 ]</p><p>Created by B Passwater &amp; FM 6. 푓 ( 푡 ) = 푡 푡+3</p><p>[ −1,6 ]</p><p>7. 푦=2sin ( 휃 )</p><p>[ 0,2휋 ]</p><p>9. A particle moves along the 푦-axis so that its velocity at time 푡, 0≤푡≤6, is given by 푣 ( 푡 ) =2(푡−2)(푡−5). Find the minimum velocity of the particle.</p><p>10. Find the maximum acceleration attained on the interval 0≤푡≤3 by the particle whose velocity is given by 푣 ( 푡 ) = ଶ ଷ 푡 ଷ −4푡 ଶ +8푡−2.</p>",
+          "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
+          "steps": [
+            "Work the problem fully on paper.",
+            "Confirm with the scanned key PDF when available."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 6
+    },
+    {
+      "title": "5-6 WK A Concavity and Points of Inflection #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-6 WK A Concavity and Points of Inflection #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-6%20WK%20A%20Concavity%20and%20Points%20of%20Inflection%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-6%20WK%20A%20Concavity%20and%20Points%20of%20Inflection%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater Worksheet 5-6 A Concavity and Points of Inflection #1 AP Calculus Name______________________________</p><p>Directions: For each of the following, identify the intervals of concavity for 푓 ( 푥 ) and find any value(s) of 푥 where 푓 ( 푥 ) has a point of inflection. DO ALL WORK ON NOTEBOOK PAPER</p><p>1. 푓 ᇱᇱ ( 푥 ) =5 ( 푥−4 ) ଶ ( 푥+3 ) 2. 푓 ( 푥 ) =푥 ସ −6푥 ଶ</p><p>3. 푓 ᇱ ( 푥 ) =푥 ଶ −3푥−10 4. 푓 ᇱ ( 푥 ) =−푥 ଷ −6푥 ଶ +63푥−2</p><p>5. 푓 ᇱ ( 푥 ) =푒 ௫ మ ିସ௫ 6. 푓 ( 푥 ) = 푥 푥−3</p><p>7. The function 푘 is continuous and differentiable on the interval [ −4,7 ] . The graph of 푘′, the derivative of 푘, consists of three line segments and a semicircle as shown in the βigure above.</p><p>A) On what open interval(s) is 푘 ( 푥 ) concave down? Give a reason for your answer.</p><p>B) For which value(s) of 푥 does 푘 ( 푥 ) have a point of inβlection? Give a reason for your answer.</p><p>Created by B Passwater</p><p>8. The function 푓 is continuous and twice differentiable on the interval [ 0,15 ] . The graph of 푓 ᇱ , the derivative of 푓,is given above and has horizontal tangents at 푥=2, 5, 9, and 13. A) On what interval ( s ) is 푓 ( 푥 ) concave down? Explain your reasoning.</p><p>B) For which value ( s ) of 푥 does 푓 ( 푥 ) have a point of inβlection? Give a reason for your answer.</p><p>9. The function ℎ is continuous and twice differentiable on the interval [ −2,14 ] . The graph of ℎ ᇱ , the derivative of ℎ,is given above and has horizontal tangents at 푥=1, 4, 7, 11, and 13. A) For which value ( s ) of 푥 does ℎ ( 푥 ) have a relative minimum? Give a reason for your answer.</p><p>B) For which value ( s ) of 푥 does ℎ ( 푥 ) have a point of inβlection? Give a reason for your answer.</p><p>C) On what interval ( s ) is the graph of ℎ ( 푥 ) both decreasing and concave down? Explain your reasoning.</p>",
+          "finalAnswer": "Created by B Passwater Worksheet 5-6 A Concavity and Points of Inflection #1 AP Calculus Name______________________________ Directions: For each of the following, identify the intervals of concavity for 푓 ( 푥 ) and find any value(s) of 푥 where 푓 ( 푥 ) has a point of inflection. DO ALL WORK ON NOTEBOOK PAPER 1. 푓 ᇱᇱ ( 푥 ) =5 ( 푥−4 ) ଶ ( 푥+3 ) 2. 푓 ( 푥 ) =푥 ସ −6푥 ଶ 3. 푓 ᇱ ( 푥 ) =푥 ଶ −3푥−10 4. 푓 ᇱ ( 푥 ) =−푥 ଷ −6푥 ଶ +63푥−2 Created by B Passwater 6. 푓 ᇱ ( 푥 ) =푒 ௫ మ ିସ௫ 8. 푓 ( 푥 ) = 푥 푥−3 Created by B Passwater 10. The function 푘 is continuous and differentiable on the interval [ −4,7 ] . The graph of 푘′, the derivative of 푘, consists of three line segments and a semicircle as shown in the βigure above. A) On what open interval(s) is 푘 ( 푥 ) concave down? Give a reason for your answer. B) For which value(s) of 푥 does 푘 ( 푥 ) have a point of inβlection? Give a reason for your answer. 11. The function 푓 is continuous and twice differentiable on the interval [ 0,15 ] . The graph of 푓 ᇱ , the derivative of 푓,is given above and has horizontal tangents at 푥=2, 5, 9, and 13. A) On what interval ( s ) is 푓 ( 푥 ) concave down? Explain your reasoning. B) For which value ( s ) of 푥 does 푓 ( 푥 ) ha…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 7
+    },
+    {
+      "title": "5-6 WK B Concavity and Points of Inflection (Graphically) #2",
+      "calcAllowed": true,
+      "context": "<p><strong>5-6 WK B Concavity and Points of Inflection (Graphically) #2</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-6%20WK%20B%20Concavity%20and%20Points%20of%20Inflection%20(Graphically)%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-6%20WK%20B%20Concavity%20and%20Points%20of%20Inflection%20(Graphically)%20#2%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater edited by K Bakowski Worksheet 5-6 B Concavity and Points of Inflection #2 AP Calculus Name______________________________</p><p>1. The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3.</p><p>(A) On what interval ( s ) is 푔 ( 푥 ) decreasing? Give a reason for your answer.</p><p>(B) At which value ( s ) of 푥 does 푔 ( 푥 ) have a relative maximum? Explain your reasoning.</p><p>(C) On what interval ( s ) is 푔 ( 푥 ) concave up? Give a reason for your answer.</p><p>(D) On what interval ( s ) is 푔 ( 푥 ) concave down? Explain your reasoning.</p><p>(E) At which value ( s ) of 푥 does 푔 ( 푥 ) have a point of inβlection? Explain your reasoning.</p><p>( F ) On what interval ( s ) is 푔 ( 푥 ) both increasing and concave down? Give a reason for your answer.</p><p>( G ) On what interval ( s ) is 푔 ( 푥 ) both decreasing and concave up? Give a reason for your answer.</p><p>Created by B Passwater edited by K Bakowski</p><p>2. The graph of ℎ ᇱ ( 푥 ) ,the derivative of ℎ,consists of four line segments and is given above.</p><p>(A) On what interval ( s ) is ℎ ( 푥 ) increasing? Give a reason for your answer.</p><p>(B) On what interval ( s ) is ℎ ( 푥 ) decreasing? Give a reason for your answer.</p><p>(C) At which value ( s ) of 푥 does ℎ ( 푥 ) have a relative minimum? Explain your reasoning.</p><p>(D) At which value ( s ) of 푥 does ℎ ( 푥 ) have a relative maximum? Explain your reasoning.</p><p>(E) On what interval ( s ) is ℎ ( 푥 ) concave up? Give a reason for your answer.</p><p>(F) On what interval ( s ) is ℎ ( 푥 ) concave down? Explain your reasoning.</p><p>(G) At which value ( s ) of 푥 does ℎ ( 푥 ) have a point of inβlection? Explain your reasoning.</p><p>Created by B Passwater edited by K Bakowski</p><p>3. The graph of 푘 ᇱ ( 푥 ) ,shown above,consists of three line segments and a semi circle.</p><p>(A) At which value ( s ) of 푥 does 푘 ( 푥 ) have a point of inβlection? Explain your reasoning.</p><p>( B ) Order the following values from least to greatest: 푘 ᇱᇱ ( 3 ) , 푘 ᇱᇱ ( 4 ) , 푘 ᇱᇱ ( 6 ) .</p><p>( C ) Order the following values from least to greatest: 푘 ᇱᇱ ( −2 ) , 푘 ᇱᇱ ( 6 ) , 푘 ᇱᇱ ( 9 ) .</p><p>( D ) Order the following values from least to greatest: 푘 ᇱ ( −2 ) , 푘 ᇱ ( −1 ) , 푘 ᇱ ( 3 ) .</p><p>( E ) Order the following values from least to greatest: 푘 ᇱ ( 0 ) , 푘 ᇱᇱ ( 2 ) , 푘 ᇱ ( 6 ) .</p><p>( F ) For each of 푘 ᇱ ( 5 ) and 푘 ᇱᇱ ( 5 ) , βind the value or explain why it does not exist.</p><p>( G ) For each of 푘 ᇱ ( 0 ) and 푘 ᇱᇱ ( 0 ) , βind the value or explain why it does not exist.</p><p>Created by B Passwater edited by K Bakowski 4. The graph above represents the velocity v, in feet per second, of a particle moving along the x-axis over the time interval for 0 ≤ t ≤ 9 seconds.</p><p>(A) At t = 4 seconds, is the particle moving to the right or left? Justify.</p><p>(B) At what time(s) is the particle at rest? Justify.</p><p>(C) At what time(s) does the particle change direction? Justify.</p><p>(D) On what open intervals 0 &lt; t &lt; 9 is the particle moving left? Justify.</p><p>(E) What is the acceleration of the particle at t = 4 seconds? Show the work that leads to your answer.</p><p>(F) On what open intervals 0 &lt; t &lt; 9 is the acceleration of the particle positive? Justify.</p><p>(G) What is the average acceleration of the particle over the interval [3,6] seconds? Show the computations that lead to your answer and indicate units of measure.</p><p>(H) On what open intervals 0 &lt; t &lt; 9 is the speed of the particle decreasing? Justify.</p>",
+          "finalAnswer": "Created by B Passwater edited by K Bakowski Worksheet 5-6 B Concavity and Points of Inflection #2 AP Calculus Name______________________________ 1. The graph of 푔 ᇱ ( 푥 ) ,the derivative of 푔,is continuous and differentiable for all real numbers and is given above. 푔 ᇱ ( 푥 ) has horizontal tangents at 푥=−3 and 푥=3. (A) On what interval ( s ) is 푔 ( 푥 ) decreasing? Give a reason for your answer. (B) At which value ( s ) of 푥 does 푔 ( 푥 ) have a relative maximum? Explain your reasoning. (C) On what interval ( s ) is 푔 ( 푥 ) concave up? Give a reason for your answer. (D) On what interval ( s ) is 푔 ( 푥 ) concave down? Explain your reasoning. (E) At which value ( s ) of 푥 does 푔 ( 푥 ) have a point of inβlection? Explain your reasoning. ( F ) On what interval ( s ) is 푔 ( 푥 ) both increasing and concave down? Give a reason for your answer. ( G ) On what interval ( s ) is 푔 ( 푥 ) both decreasing and concave up? Give a reason for your answer. 푔(푥) is decreasing on [−5,−1] and [6,+ ∞) because 푔 ᇱ ( 푥 ) ≤0 on these intervals 푔(푥) has a relative maximum at 푥=−5 and 푥=6 because 푔 ᇱ ( 푥 ) changes from pos to neg at these x-values. 푔(푥) is concave up on (−3,3) because 푔′(푥) is increasing on thi…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 8
+    },
+    {
+      "title": "5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-7%20&amp;%205-12%20WK%20A%202nd%20Derivative%20Test%20and%20Implicit%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-7%20&amp;%205-12%20WK%20A%202nd%20Derivative%20Test%20and%20Implicit%20Functions%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Created by B Passwater and FM Worksheet 5-7 &amp; 5-12 A 2nd Derivative Test and Implicit Functions #1 AP Calculus Name______________________________</p><p>NO CALCULATORS</p><p>1. Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer.</p><p>2. Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ .</p><p>B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning.</p><p>푥 0 1 4 6 9 푓 ( 푥 ) 7 12 9 2 5 푓 ᇱ ( 푥 ) 2 0 −3 0 1 푓 ᇱᇱ ( 푥 ) 3 1 0 −2 0</p><p>Created by B Passwater and FM</p><p>3. Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the following values of 푥, determine if the graph of 푓 ( 푥 ) has a local minimum, local maximum, or neither. If it is not possible to determine if 푓 ( 푥 ) has a local extremum, write “cannot be determined”. Give a reason for your answers.</p><p>A) 푥 =−1 B) 푥 =0</p><p>C) 푥 =3 D) 푥 =7</p><p>푥 −1 0 2 3 7 ℎ ( 푥 ) −4 3 0 −2 0 ℎ ᇱ ( 푥 ) 6 −7 1 0 5</p><p>Created by B Passwater and FM 4. The function 푦=푘 ( 푥 ) is continuous for all real values of 푥 and has the differential equation ௗ௬ ௗ௫ = ଶ௫ାଷ ଷ ( ௬ାଵ ) మ . It is known that 푘 ( 2 ) =−1.</p><p>A) At which value ( s ) of 푥 does the graph of 푘 have a vertical tangent line?</p><p>5. For 푥&gt;0, the function 푦=푓 ( 푥 ) is continuous with 푑푦 푑푥 = 푦 푥 +1. It is known that 푓 ( 1 ) =−1.</p><p>A) Write an equation of the line tangent to the graph of 푓 at 푥=1.</p><p>B) Find an expression for 푑 ଶ 푦 푑푥 ଶ in terms of 푥 and 푦.</p><p>C) What is the value of ௗ మ ௬ ௗ௫ మ when 푥=1? Does 푓 have a local minimum, local maximum, or neither at 푥=1? Give a reason for your answer.</p><p>6. Consider the curve deβined by ௗ௬ ௗ௫ =푦sin푥 where 푓 ( 2휋 ) =1. Does 푓 have a local minimum, local maximum, or neither at the given point? Give a reason for your answer.</p><p>Created by B Passwater and FM 7. Consider the curve deβined by 3푥 ଶ −푥푦+2푦=−36 with 푑푦 푑푥 = 푦−6푥 2−푥 .</p><p>A) Show that there are no points where the line tangent to the curve is vertical.</p><p>B) Find the two points where the curve has a horizontal tangent line.</p><p>C) Write an equation of the line tangent to the curve when 푥=0.</p><p>Created by B Passwater and FM</p><p>The function 푔 ( 푥 ) is continuous on the interval [ −6,7 ] and consists of three line segments as shown in the βigure above. The function ℎ ( 푥 ) is twice differentiable with ℎ ( 푥 ) &lt;0 for all real values of 푥. Selected values for ℎ ᇱ and ℎ ᇱᇱ , the derivatives of ℎ, are included in the table above.</p><p>8. Let 푓 ( 푥 ) be a function where 푓 ᇱ ( 푥 ) =푔 ( 1−2푥 ) . Does 푓 have a local minimum, local maximum, or neither at 푥 =2? Give a reason for your answer.</p><p>9. Let 푝 ( 푥 ) be a function where 푝 ᇱ ( 푥 ) =푔 ( 푥 ଶ +푥 ) . Does 푝 have a local minimum,local maximum, or neither at 푥 =−1? Give a reason for your answer.</p><p>10. Does the function ℎ have a relative minimum,relative maximum,or neither at 푥=5? Explain your reasoning.</p><p>11. Does the function ℎ have a relative minimum,relative maximum,or neither at 푥=3? Explain your reasoning.</p><p>푥 0 1 2 3 5 ℎ′(푥) 0 −6 0 2 0 ℎ′′(푥) 4 −5 −3 0 −1</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-7 &amp; 5-12 A 2nd Derivative Test and Implicit Functions #1 AP Calculus Name______________________________ NO CALCULATORS 1. Let 푓 ( 푥 ) be a twice differentiable function with selected values of 푓,푓 ᇱ and 푓 ᇱᇱ given in the table above. For which 푥 value(s) does 푓 ( 푥 ) have a relative minimum? Give a reason for your answer. 2. Consider the function 푦=푓 ( 푥 ) where 푑푦 푑푥 = 8−2푥 3푦 ଶ . It is known that 푓 ( 4 ) =3. A) Find 푑 ଶ 푦 푑푥 ଶ . B) Does 푓 ( 푥 ) have a relative minimum, relative maximum, or neither at the point (4,3)? Explain your reasoning. 푥 0 1 4 6 9 푓 ( 푥 ) 7 12 9 2 5 푓 ᇱ ( 푥 ) 2 0 −3 0 1 푓 ᇱᇱ ( 푥 ) 3 1 0 −2 0 Created by B Passwater and FM 3. Let 푓 be a twice differentiable function where 푓 ᇱ ( 푥 ) =푔 ᇱ ( 푥 ) ∙ℎ ( 푥 ) . The graph of 푔 ᇱ ( 푥 ) is shown in the βigure above along with a table of ℎ ( 푥 ) and ℎ ᇱ ( 푥 ) at selected values of x. For each of the following values of 푥, determine if the graph of 푓 ( 푥 ) has a local minimum, local maximum, or neither. If it is not possible to determine if 푓 ( 푥 ) has a local extremum, write “cannot be determined”. Give a reason for your answers. A) 푥 =−1 B) 푥 =0 C) 푥 =3 D) 푥 =7 푥 −1 0 2 3 7 ℎ ( 푥…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 9
+    },
+    {
+      "title": "5-9 WK A Connecting Function, 1st and 2nd Derivatives #1",
+      "calcAllowed": true,
+      "context": "<p><strong>5-9 WK A Connecting Function, 1st and 2nd Derivatives #1</strong> — Open the original worksheet: <a href=\"Unit%205/Homework/5-9%20WK%20A%20Connecting%20Function,%201st%20and%202nd%20Derivatives%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Homework/5-9%20WK%20A%20Connecting%20Function,%201st%20and%202nd%20Derivatives%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>is 푓(푥) increasing or decreasing?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>is 푓(푥) concave up or concave down?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>is 푓(푥) increasing or decreasing?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>is 푓(푥) concave up or concave down?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>is 푓(푥) increasing or decreasing?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>is 푓(푥) concave up or concave down?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>is 푓(푥) increasing or decreasing?</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>(See PDF.)</p>",
+          "finalAnswer": "Created by B Passwater and FM Worksheet 5-9 A Connecting 푓,푓 ᇱ ,and 푓′′ #1 AP Calculus Name______________________________ 퐃퐢퐫퐞퐜퐭퐢퐨퐧퐬: The graph of 푓 ( 푥 ) is given below. Use the graph to answer the following questions. If not enough information is given to answer a question,write “Cannot be determined”. 1. At which 푥 value ( s ) is 푓 ( 푥 ) =0? 2. At which 푥 value ( s ) is 푓′ ( 푥 ) =0? 3. On what interval ( s ) is 푓 ( 푥 ) increasing? 4. At which 푥 value ( s ) does 푓 ( 푥 ) have a relative minimum? 5. At which 푥 value ( s ) does 푓 ᇱᇱ ( 푥 ) =0? 6. On what interval ( s ) is 푓 ( 푥 ) concave down? 7. At which 푥 value ( s ) does 푓 ( 푥 ) have a point of inβlection? 푓 ( 푥 ) =0 at 푥=−6, 푥=−1, and 푥=6 푓 ᇱ ( 푥 ) =0 at 푥=−4, 푥=2, and 푥=6 because 푓 ( 푥 ) has a horizontal tangent at these x-values. 푓 ( 푥 ) is increasing on [ −4,2 ] , and [6,10] 푓 ( 푥 ) has a relative minimum at 푥=−4 and 푥=6 because 푓 ( 푥 ) changes from decreasing to increasing at these x-values 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to concave down at this x-value and at 푥=4 because 푓(푥) changes from concave down to concave up at this x-value. 푓′′ ( 푥 ) =0 at 푥=−1 because 푓 ( 푥 ) changes from concave up to c…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 10
+    },
+    {
+      "title": "Review for AP Calculus Fall Final 2025",
+      "calcAllowed": true,
+      "context": "<p><strong>Review for AP Calculus Fall Final 2025</strong> — Open the original worksheet: <a href=\"Unit%205/Review/Review%20for%20AP%20Calculus%20Fall%20Final%202025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Review/Review%20for%20AP%20Calculus%20Fall%20Final%202025%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Find the limit: h x3)hx(3 lim 22 0h  </p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>The graph at the right is the graph of the derivative, f (x), of a function. For what values of x would an accurate graph of f(x) be increasing? decreasing? Use inequality notation.</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>For what values of x is f(x) = –5x 2 – 11x + 9 concave down?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>For what values of x is f(x) = 3x 3 + 5x 2 – 8x + 10 concave up?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>Let           3x7 3x 3x 9x )x(f 2 ,</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(a)",
+          "points": 2,
+          "question": "<p>What is )x(flim 3x ?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(b)",
+          "points": 2,
+          "question": "<p>What is f(3)?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(c)",
+          "points": 2,
+          "question": "<p>Is f(x) is continuous at x = 3?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>Find g(2) if g(x) = x x25 .</p><p>4 y = f (x)</p><p>For exercises 7 – 10, use the information provided about differentiable functions f and g.</p><p>f(x) g(x) f (x) g (x) x = 1 4 2 5 1/2 x = 3 1 -4 3/2 -1</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>Find (f  g) (3) 8.) Find ቀ ௙ ௚ ቁ′(1) 9.) If J(x) = g(f(x)), find J (3)</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(10)",
+          "points": 2,
+          "question": "<p>Find     1 4f  </p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(11)",
+          "points": 2,
+          "question": "<p>What is the slope of the tangent line to the graph of x 2 – 3xy 2 + 3y 2 = 1 at (–3, 1)?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(12)",
+          "points": 2,
+          "question": "<p>A function has derivative f (x) = 7x(x + 5)(x – 3). For what values of x is the function increasing? For what values of x is the function decreasing?</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(13)",
+          "points": 2,
+          "question": "<p>Given the graph below, what is true about the limits and continuity at the following points: x = 2, x = 4, x = 6, x = 8</p><p>MULTIPLE CHOICE PROBLEMS</p><p>The questions in this packet will help you review for the final exam. Your final exam is cumulative and may include questions not included in this review packet.</p><p>I cannot stop you from using your graphing calculator but use it sparingly. Try to do each problem without the calculator. Unless the problem instructions tell you to use a graphing calculator, all these problems can be done without one. You should SHOW WORK FOR EVERY PROBLEM.</p><p>Part A:</p><p>Part B:</p>",
+          "finalAnswer": "Final Exam Review Problems—Answers AP Calculus 1.) 6x 2.) inc: x &gt; 4; dec: x &lt; 4 3.) all real numbers 4.) (-5/9, ) 5.) a.) 6 b.) 7 c.) no because lim ௫→ଷ 푓(푥)≠푓(3) 6.) g (2) = − ହ ସ 7.) –7 8.) 2 9.) ଷ ସ 10.) ଵ ହ 11.) ଷ ଼ 12.) inc: [–5, 0] [3, ) dec: (–, –5] [0, 3] 13.) x = 2: limit is 2; continuous x = 4: limit DNE; jump discontinuity x = 6: limit DNE; jump discontinuity x = 8: limit is 2.5; not continuous, removable discontinuity Multiple Choice Review for Final exam Answers: PART A: 1.) C 2.) B 3.) B 4.) D 5.) B 6.) B 7.) A 8.) A 9.) D 10.) D 12.) D 13.) B 14.) C 15.) C 16.) B 18.) A 19.) D 20.) B 21.) D 22.) C 23.) A 25.) A 26.) C 29.) D 30.) B 32.) A 35.) A 36.) D 37.) C 39.) C PART B: 1.) D 2.) D 3.) C 4.) D 5.) A 6.) D 7.) B 8.) A 9.) B 11.) 3e/2 14.) B 15.) A 17.) C 18.) A 19.) B 26.) C 27.) C 29.) A 32.) B",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 11
+    },
+    {
+      "title": "Unit 5 Review problems 2025",
+      "calcAllowed": true,
+      "context": "<p><strong>Unit 5 Review problems 2025</strong> — Open the original worksheet: <a href=\"Unit%205/Review/Unit%205%20Review%20problems%202025.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Review/Unit%205%20Review%20problems%202025%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>푓′(4) for 푓 ( 푥 ) = ( 푔(푥) ) ଶ</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(2)",
+          "points": 2,
+          "question": "<p>푝′(4) for 푝 ( 푥 ) = ඥ ℎ(푥)</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(3)",
+          "points": 2,
+          "question": "<p>(a) 푟′(4) for 푟 ( 푥 ) =ℎ ( 푔(푥) ) (b) the equation of the tangent line to 푟(푥) at 푥 =4</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(4)",
+          "points": 2,
+          "question": "<p>The graph of ℎ ᇱᇱ ( 푥 ) is at the right. No justification is needed for this problem. (a) Find all 푥 values of the points of inflection of ℎ ( 푥 ) .</p><p>(b) On what intervals is ℎ ( 푥 ) concave up? Concave down?</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(5)",
+          "points": 2,
+          "question": "<p>Given ℎ ᇱ ( 푥 ) =2푥 ଶ (푥+5)(푥−7), find the following: (a) the critical values of ℎ(푥)</p><p>(b) the x-values of any relative extrema</p><p>ℎ′′(푥)</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(6)",
+          "points": 2,
+          "question": "<p>The graph below is the graph of the derivative, f (x), of a function whose domain is (–∞, ∞) and has horizontal tangent lines at x = –3, x = –1, and x = 2. For what values of x is the function f(x) increasing? Decreasing? Concave up? Concave down? x-values of the points of inflection? JUSTIFY YOUR ANSWERS!</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(7)",
+          "points": 2,
+          "question": "<p>The graph of the velocity, v(t), of a particle on [0, 6] is given below. The velocity function has horizontal tangents at x = 2 and x = 5. When is the particle moving to the right? to the left? When is the acceleration positive? negative? When is the particle speeding up? slowing down? JUSTIFY YOUR ANSWERS (USING THE VELOCITY FUNCTION)!</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        },
+        {
+          "label": "(8)",
+          "points": 2,
+          "question": "<p>Using the figure at the right, complete the chart by indicating whether each value is positive (+), negative (–), or zero (0) at the indicated points. For these problems, if the point appears to be a max or min, assume it is. If it appears to be a point of inflection, assume it is.</p><p>푥 A B C D E F G H I J 푓(푥)</p><p>푓′(푥)</p><p>푓′′(푥)</p>",
+          "finalAnswer": "Practice Problems Unit 5 AP Calculus Name_____________________________ 1.) –12 2.) ହ ଺ 3.) (a) 6 (b) 푦+2=6(푥−4) 4.) (a) 푥=−2, 푥=0, 푥=1 푓 ᇱᇱ ( 푥 ) =0 and changes signs. (b) Concave up: (−2,0), (1,3), (3,+∞) Concave down: (−∞,−2), (0,1) 5.) (a) 푥=0, 푥=−5, 푥=7 (b) 푥=−5 is a relative maximum 푥=7 is a relative minimum 6.) increasing: (–, 1] [3, ) because 푓 ᇱ ( 푥 ) ≥0 on these intervals decreasing: [1, 3] because 푓 ᇱ ( 푥 ) ≤0 on this interval concave up: (–3, –1) and (2, ) because 푓 ᇱ ( 푥 ) is increasing on these intervals concave down: (–, –3) and (–1, 2) because 푓 ᇱ ( 푥 ) is decreasing on these intervals x-values of points of inflection: 푥=−3 and 푥=2 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points and 푓 ᇱ ( 푥 ) changes from decreasing to increasing at these values. 푥=−1 because 푓 ᇱ ( 푥 ) has a horizontal tangent line at these points at this point and 푓 ᇱ ( 푥 ) changes from increasing to decreasing at this value. ANSWERS 7.) moving right: (0, 3) because 푣 ( 푡 ) &gt;0 on this interval moving left: (3, 6) because 푣 ( 푡 ) &lt;0 on this interval Acceleration is positive: (0, 2) and (5, 6) because 푣 ( 푡 ) is increasing Acceleration is negative: (2, 5) because 푣 ( 푡 ) is decreas…",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 12
+    },
+    {
+      "title": "Warm-up Velocity problem-graph",
+      "calcAllowed": true,
+      "context": "<p><strong>Warm-up Velocity problem-graph</strong> — Open the original worksheet: <a href=\"Unit%205/Review/Warm-up%20Velocity%20problem-graph.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%205/Review/Warm-up%20Velocity%20problem-graph%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "parts": [
+        {
+          "label": "(1)",
+          "points": 2,
+          "question": "<p>Warm-up Problem—Velocity AP Calculus Name______________________________</p><p>The graph of the velocity, v(t), of a particle on [–7, 7] is given below. The graph has horizontal tangent lines at x = –3, x = 2, and x = 5, and a vertical tangent line at x = 3. (a) When is the particle moving to the right? to the left? JUSTIFY YOUR ANSWERS (b) When is the acceleration positive? negative? JUSTIFY YOUR ANSWERS (c) When is the particle speeding up? slowing down? JUSTIFY YOUR ANSWERS</p><p>t v(t)</p>",
+          "finalAnswer": "Warm-up Problem—Velocity AP Calculus Name______________________________ The graph of the velocity, v(t), of a particle on [–7, 7] is given below. The graph has horizontal tangent lines at x = –3, x = 2, and x = 5, and a vertical tangent line at x = 3. (a) When is the particle moving to the right? to the left? JUSTIFY YOUR ANSWERS (b) When is the acceleration positive? negative? JUSTIFY YOUR ANSWERS (c) When is the particle speeding up? slowing down? JUSTIFY YOUR ANSWERS (a) The particle is moving to the right on [–7, –5)  (–1, 5)  (5, 7] because v(t) &gt; 0 on these intervals. The particle is moving to the left on (–5, –1) because v(t) &lt; 0 on this interval. (b) The acceleration is positive on (–3, 2)  (5, 7) because v(t) is increasing on these intervals. The acceleration is negative on (–7, –3)  (2, 5) because v(t) is decreasing on these intervals. t v(t) SOLUTIONS (c) The particle is speeding up on (–5, –3) because v(t) &lt; 0 and v(t) is decreasing on this interval The particle is speeding up on (–1, 2)  (5, 7) because v(t) &gt; 0 and v(t) is increasing on these intervals The particle is slowing down on (–7, –5)  (2, 5) because v(t) &gt; 0 and v(t) is decreasing on these intervals The …",
+          "steps": [
+            "Compare your work to the extracted key text above.",
+            "Verify assumptions match the worksheet wording."
+          ],
+          "scoring": "Full credit for correct reasoning and answer."
+        }
+      ],
+      "id": 13
     }
   ],
   "notesData": {
@@ -140,9 +1091,18 @@
     "5.3": {
       "title": "5-10 Optimization",
       "content": "<div class='notes-block'><h3>Optimization strategy</h3><p>Objective function -> one variable -> derivative -> test candidates.</p></div>"
+    },
+    "packet-pdfs": {
+      "title": "Packet PDFs (class notes & homework)",
+      "content": "<div class=\"notes-block\"><p style=\"color:var(--text2);margin-bottom:10px\">These match your physical binders. Use them alongside the MCQ/FRQ banks.</p><h3 style=\"margin-top:14px\">Notes packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%205/Notes/5-1%20The%20Mean%20Value%20Theorem%20STU%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-1 The Mean Value Theorem STU NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-10%20&amp;%205-11%20Optimization%20Problems%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-10 &amp; 5-11 Optimization Problems COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-3%20Intervals%20of%20Increase%20and%20Decrease%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-3 Intervals of Increase and Decrease COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-4%20Relative%20Extrema%20&amp;%20First%20Derivative%20Test%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-4 Relative Extrema &amp; First Derivative Test COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-5%20&amp;%205-2%20Extreme%20Value%20Theorem%20and%20Absolute%20Extrema%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-5 &amp; 5-2 Extreme Value Theorem and Absolute Extrema COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-6%20Concavity%20and%20Points%20of%20Inflection%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-6 Concavity and Points of Inflection COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-7%20&amp;%205-12%20The%202nd%20Derivative%20Test%20and%20Implicit%20Relations%20Revisited%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-7 &amp; 5-12 The 2nd Derivative Test and Implicit Relations Revisited COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Notes/5-8%20Sketching%20Graphs%20of%20Functions%20and%20Their%20Derivatives%20COMPLETED%20CLASS%20NOTES.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-8 Sketching Graphs of Functions and Their Derivatives COMPLETED CLASS NOTES</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div><h3 style=\"margin-top:14px\">Homework packets</h3><div style=\"display:flex;flex-direction:column\"><a href=\"Unit%205/Homework/5-1%20WK%20A%20MVT%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-1 WK A MVT #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-1%20WK%20A%20MVT%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-1 WK A MVT #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-10%20&amp;%205-11%20WK%20A%20Optimization%20Problems%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-10 &amp; 5-11 WK A Optimization Problems #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-10%20&amp;%205-11%20WK%20B%20Optimization%20Problems%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-10 &amp; 5-11 WK B Optimization Problems #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-3%20WK%20A%20Intervals%20of%20Increase%20and%20Decrease%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-3 WK A Intervals of Increase and Decrease #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-3%20WK%20A%20Intervals%20of%20Increase%20and%20Decrease%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-3 WK A Intervals of Increase and Decrease #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-4%20WK%20A%20Relative%20Extrema%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-4 WK A Relative Extrema #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-4%20WK%20A%20Relative%20Extrema%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-4 WK A Relative Extrema #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-5%20&amp;%205-2%20WK%20A%20Absolute%20Extrema%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-5 &amp; 5-2 WK A Absolute Extrema #1 ANSWERS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-5%20&amp;%205-2%20WK%20A%20Absolute%20Extrema%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-5 &amp; 5-2 WK A Absolute Extrema #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-6%20WK%20A%20Concavity%20and%20Points%20of%20Inflection%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-6 WK A Concavity and Points of Inflection #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-6%20WK%20A%20Concavity%20and%20Points%20of%20Inflection%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-6 WK A Concavity and Points of Inflection #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-6%20WK%20B%20Concavity%20and%20Points%20of%20Inflection%20(Graphically)%20#2%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-6 WK B Concavity and Points of Inflection (Graphically) #2 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-6%20WK%20B%20Concavity%20and%20Points%20of%20Inflection%20(Graphically)%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-6 WK B Concavity and Points of Inflection (Graphically) #2</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-7%20&amp;%205-12%20WK%20A%202nd%20Derivative%20Test%20and%20Implicit%20Functions%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-7%20&amp;%205-12%20WK%20A%202nd%20Derivative%20Test%20and%20Implicit%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-7 &amp; 5-12 WK A 2nd Derivative Test and Implicit Functions #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-9%20WK%20A%20Connecting%20Function,%201st%20and%202nd%20Derivatives%20#1%20SOLUTIONS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 SOLUTIONS</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a><a href=\"Unit%205/Homework/5-9%20WK%20A%20Connecting%20Function,%201st%20and%202nd%20Derivatives%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" style=\"display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);margin-bottom:6px\"><span style=\"font-weight:600;font-size:13px\">5-9 WK A Connecting Function, 1st and 2nd Derivatives #1</span><span style=\"font-size:12px;color:var(--text3)\">Open ↗</span></a></div></div>"
     }
   },
   "materials": [
+    {
+      "type": "homework",
+      "title": "5-1 WK A MVT #1 SOLUTIONS",
+      "path": "Unit 5/Homework/5-1 WK A MVT #1 SOLUTIONS.pdf"
+    },
     {
       "type": "homework",
       "title": "5-1 WK A MVT #1",
@@ -160,8 +1120,18 @@
     },
     {
       "type": "homework",
+      "title": "5-3 WK A Intervals of Increase and Decrease #1 ANSWERS",
+      "path": "Unit 5/Homework/5-3 WK A Intervals of Increase and Decrease #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
       "title": "5-3 WK A Intervals of Increase and Decrease #1",
       "path": "Unit 5/Homework/5-3 WK A Intervals of Increase and Decrease #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-4 WK A Relative Extrema #1 SOLUTIONS",
+      "path": "Unit 5/Homework/5-4 WK A Relative Extrema #1 SOLUTIONS.pdf"
     },
     {
       "type": "homework",
@@ -170,8 +1140,18 @@
     },
     {
       "type": "homework",
+      "title": "5-5 & 5-2 WK A Absolute Extrema #1 ANSWERS",
+      "path": "Unit 5/Homework/5-5 & 5-2 WK A Absolute Extrema #1 ANSWERS.pdf"
+    },
+    {
+      "type": "homework",
       "title": "5-5 & 5-2 WK A Absolute Extrema #1",
       "path": "Unit 5/Homework/5-5 & 5-2 WK A Absolute Extrema #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-6 WK A Concavity and Points of Inflection #1 SOLUTIONS",
+      "path": "Unit 5/Homework/5-6 WK A Concavity and Points of Inflection #1 SOLUTIONS.pdf"
     },
     {
       "type": "homework",
@@ -180,13 +1160,28 @@
     },
     {
       "type": "homework",
+      "title": "5-6 WK B Concavity and Points of Inflection (Graphically) #2 SOLUTIONS",
+      "path": "Unit 5/Homework/5-6 WK B Concavity and Points of Inflection (Graphically) #2 SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
       "title": "5-6 WK B Concavity and Points of Inflection (Graphically) #2",
       "path": "Unit 5/Homework/5-6 WK B Concavity and Points of Inflection (Graphically) #2.pdf"
     },
     {
       "type": "homework",
+      "title": "5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 SOLUTIONS",
+      "path": "Unit 5/Homework/5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1 SOLUTIONS.pdf"
+    },
+    {
+      "type": "homework",
       "title": "5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1",
       "path": "Unit 5/Homework/5-7 & 5-12 WK A 2nd Derivative Test and Implicit Functions #1.pdf"
+    },
+    {
+      "type": "homework",
+      "title": "5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 SOLUTIONS",
+      "path": "Unit 5/Homework/5-9 WK A Connecting Function, 1st and 2nd Derivatives #1 SOLUTIONS.pdf"
     },
     {
       "type": "homework",
@@ -235,8 +1230,18 @@
     },
     {
       "type": "review",
+      "title": "Review for AP Calculus Fall Final 2025 ANSWERS",
+      "path": "Unit 5/Review/Review for AP Calculus Fall Final 2025 ANSWERS.pdf"
+    },
+    {
+      "type": "review",
       "title": "Review for AP Calculus Fall Final 2025",
       "path": "Unit 5/Review/Review for AP Calculus Fall Final 2025.pdf"
+    },
+    {
+      "type": "review",
+      "title": "Unit 5 Review problems 2025 ANSWERS",
+      "path": "Unit 5/Review/Unit 5 Review problems 2025 ANSWERS.pdf"
     },
     {
       "type": "review",
@@ -245,8 +1250,57 @@
     },
     {
       "type": "review",
+      "title": "Warm-up Velocity problem-graph SOLUTIONS",
+      "path": "Unit 5/Review/Warm-up Velocity problem-graph SOLUTIONS.pdf"
+    },
+    {
+      "type": "review",
       "title": "Warm-up Velocity problem-graph",
       "path": "Unit 5/Review/Warm-up Velocity problem-graph.pdf"
+    }
+  ],
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 5</strong> — Materials on this site include <strong>8</strong> notes PDFs, <strong>18</strong> homework PDFs, and <strong>6</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
+  "flashcards": [
+    {
+      "front": "Antiderivative of cos x",
+      "back": "sin x + C",
+      "tag": "integrals"
+    },
+    {
+      "front": "∫ sec² x dx",
+      "back": "tan x + C",
+      "tag": "integrals"
+    },
+    {
+      "front": "Average value of f on [a,b]",
+      "back": "1/(b−a) ∫_a^b f(x) dx",
+      "tag": "integrals"
+    },
+    {
+      "front": "Study focus — section 5.1",
+      "back": "Filter MCQs to 5.1 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 5.3",
+      "back": "Filter MCQs to 5.3 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 5.4",
+      "back": "Filter MCQs to 5.4 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 5.6",
+      "back": "Filter MCQs to 5.6 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
+    },
+    {
+      "front": "Study focus — section 5.10",
+      "back": "Filter MCQs to 5.10 and re-read the matching notes tab or packet PDF.",
+      "tag": "theorems"
     }
   ]
 }

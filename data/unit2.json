@@ -194,1230 +194,6 @@
       "notesSection": "2.3 - Basic Derivatives",
       "notesSnippet": "Rewrite 1/x as x^{−1}; power rule gives −1/x^2.",
       "timeTip": "Combine over a common denominator for fractional answers."
-    },
-    {
-      "section": "2.1",
-      "topic": "[Packet] 2-1 WK A Ave and Instantaneous Rates of Change #1 · #3",
-      "calcType": "No Calculator",
-      "question": "The graphs of f and g are given below. For each function, βind the average rate of change on the given interval. 4. ℎ ( 푥 ) =푓 ( 푥 ) +푔(푥) on [–4, 3] 5. 푘 ( 푥 ) =푓(푔 ( 푥 ) ) on [–4, 0] 6. 푤 ( 푥 ) =푔(푓 ( 푥 ) ) on [–2, 3]\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-1 WK A Ave and Instantaneous Rates of Change #1 · #3(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.1",
-      "topic": "[Packet] 2-1 WK A Ave and Instantaneous Rates of Change #1 · #7",
-      "calcType": "No Calculator",
-      "question": "Mr. Carlson leaves his house at 6:35AM to head to work. He arrives at school at 7:03AM. The trip from his house to school is 19 miles. Find the average velocity, in miles per hour, for his trip. 푥 0 1 3 4 푝 ( 푥 ) −1 −3 0 5 풇 ( 풙 ) 품 ( 풙 ) Created by B Passwater and FM Find the instantaneous rate of change of each function at the given x-value. 8. 푓 ( 푥 ) = ଵ ଷ௫ at 푥=4 9. 푔 ( 푥 ) =2푥 ଶ +1 at 푥=−2 10. ℎ ( 푥 ) =7 √ 푥 at 푥=2 11. 푝 ( 푥 ) =5푥−2푥 ଶ at 푥=−2 Each limit represents the instantaneous rate of change of a functi\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-1 WK A Ave and Instantaneous Rates of Change #1 · #7(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.1",
-      "topic": "[Packet] 2-1 WK A Ave and Instantaneous Rates of Change #1 · #12",
-      "calcType": "No Calculator",
-      "question": "lim ௫→ଵ భ భబశೣ ି భ భభ ௫ିଵ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-1 WK A Ave and Instantaneous Rates of Change #1 · #12(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.1",
-      "topic": "[Packet] 2-1 WK A Ave and Instantaneous Rates of Change #1 · #13",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ଶ(଺ା௛) మ ା ( ଺ା௛ ) ିଷି(଻ହ) ௛ Function: 푓 ( 푥 ) = Function: 푓 ( 푥 ) = Instantaneous Rate at 푥=_____ Instantaneous Rate at 푥=_____\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-1 WK A Ave and Instantaneous Rates of Change #1 · #13(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-10 WK A Derivatives of Other Trig Functions #1 · #6",
-      "calcType": "Calculator Active",
-      "question": "Given 푓 ( 푥 ) =sec푥,βind the equation of the tangent line to the graph of 푓 ( 푥 ) at 푥= 휋 4 . Created by FM\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-10 WK A Derivatives of Other Trig Functions #1 · #6(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-10 WK A Derivatives of Other Trig Functions #1 · #7",
-      "calcType": "Calculator Active",
-      "question": "Given 푔 ( 푥 ) =3csc푥,βind the instantaneous rate of change of 푔 ( 푥 ) at 푥=− 휋 6 . Directions: Estimate the derivative at the given x-value using a calculator. Remember to round all final answers to three decimal places. 8. ℎ ( 푥 ) =−2sec푥 ଷ at 푥=3 9. 푓 ( 푥 ) =tan ଶ ( 3푥 ) at 푥=−2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-10 WK A Derivatives of Other Trig Functions #1 · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #1",
-      "calcType": "No Calculator",
-      "question": "Given 푔 ( 푥 ) =푥 ଶ −3푥+1, find the following:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #1(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #1",
-      "calcType": "No Calculator",
-      "question": "Write the equation of the tangent line for 푔(푥) at 푥=−3.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #1(d)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #2",
-      "calcType": "No Calculator",
-      "question": "Given ℎ ( 푥 ) =2 √ 푥, find the following\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #2(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #2",
-      "calcType": "No Calculator",
-      "question": "The average rate of change for ℎ on the interval [0, 4]\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #2(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #2",
-      "calcType": "No Calculator",
-      "question": "Write the equation of the tangent line for ℎ(푥) at 푥=9\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #2(c)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #3",
-      "calcType": "No Calculator",
-      "question": "Given 푝 ( 푥 ) = ଵ ௫ , find the following\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #3",
-      "calcType": "No Calculator",
-      "question": "Write the equation of the tangent line for 푝 ( 푥 ) at 푥 =2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #3(b)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #4",
-      "calcType": "No Calculator",
-      "question": "Given 푘 ( 푥 ) =2푥−6푥 ଶ , find the following\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #4",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ௞ ( ௫ା௛ ) ି௞ ( ௫ ) ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #4(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #4",
-      "calcType": "No Calculator",
-      "question": "Explain the meaning of 푘′ ( 3 ) . Do NOT find 푘′ ( 3 ) . Each of the following limits is the definition of a derivative. For each of the following limits, identify 푓(푥).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #4(b)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #5",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ (( ௫ା௛ ) మ ିଶ ( ௫ା௛ ) ାଵ ) ି ( ௫ మ ିଶ௫ାଵ ) ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #5(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #6",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ୱ୧୬ ( ௫ା௛ ) ିୱ୧୬ ( ௫ ) ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #6(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #7",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ௘ ( ೣశ೓ ) ି௘ ೣ ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #8",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ୟ୰ୡୱ୧୬ቀ భ మ ା௛ቁିୟ୰ୡୱ୧୬ቀ భ మ ቁ ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #8(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #9",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ୪୬ (௫ା௛)ି୪୬ (௫) ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #9(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #10",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ඥଶ ( ௫ା௛ ) ିଷି √ ଶ௫ିଷ ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #10(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #11",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ୱ୧୬ቀ ഏ య ା௛ቁିୱ୧୬ቀ ഏ య ቁ ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #11(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.2",
-      "topic": "[Packet] 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #12",
-      "calcType": "No Calculator",
-      "question": "lim ௛→଴ ௘ ( యశ೓ ) ି௘ య ௛\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-2 WK A Definition of the Derivative and Derivative Notation #1 · #12(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "푓 ᇱ ( −2 ) =4 2.) 푔 ᇱ ( 0 ) =−5 3.) ℎ ᇱ ( 3 ) =0 Use the following tables to approximate the given derivative values.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #5",
-      "calcType": "Calculator Active",
-      "question": "ℎ ᇱ ( 4 ) 6. 푔 ᇱ ( −2 ) 7. 푔 ᇱ ( 4 ) Use the following graph to approximate the given values.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #5(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #13",
-      "calcType": "Calculator Active",
-      "question": "푓 ( 3 ) 푥 0 2 6 7 ℎ ( 푥 ) 1 −5 3 2 푥 −3 −1 3 5 푔 ( 푥 ) 4 2 −1 −1 Created by MM Use a calculator to approximate the following values. 푓 ( 푥 ) =2.3sin ( 푥 ଶ −3푥+7 ) −5\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #13(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #15",
-      "calcType": "Calculator Active",
-      "question": "푓 ᇱ ቀ గ ଻ ቁ 16.) 푓 ( −5 )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #15(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #17",
-      "calcType": "Calculator Active",
-      "question": "푓′(0) 푔 ( 푥 ) = 3−푥 ଶ ln | 4푥−7 |\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK A Estimating Derivatives of a Function at a Point #1 · #17(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "A function 푓 ( 푥 ) is continuous and differentiable for all values of 푥. It is known that 푓 ( −2 ) =5 and 푓 ᇱ ( −2 ) =−3. Write an equation of the line tangent to 푓 ( 푥 ) at 푥=−2.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "The function 푔 is defined as 푔 ( 푥 ) =2푥 ଷ +푥−2. It is known that the derivative of 푔 is defined as 푔 ᇱ ( 푥 ) =6푥 ଶ +1. Write an equation of the line tangent to 푔 ( 푥 ) at 푥=2. The function ℎ ( 푥 ) is differentiable for all values of 푥 with selected values of ℎ and ℎ ᇱ in the table above.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #2(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Write the equation of the line tangent to ℎ ( 푥 ) at 푥=2.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #4",
-      "calcType": "Calculator Active",
-      "question": "Write the equation of the line tangent to ℎ ( 푥 ) at 푥=−1.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #5",
-      "calcType": "Calculator Active",
-      "question": "(Calculator Active): The function 푟 is defined as 푟 ( 푥 ) =cos ( ln ( 푥 ଶ +4 )) . Write the equation of the line tangent to 푟 ( 푥 ) at 푥=−3. 푥 −4 −1 2 5 ℎ ( 푥 ) 1 −2 0 7 ℎ ᇱ ( 푥 ) −7 3 2 0 Created by B Passwater The functions 푓 ( 푥 ) and 푔 ( 푥 ) are differentiable for all values of 푥 with selected values of 푓,푓 ᇱ ,푔,and 푔 ᇱ above.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #5(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #6",
-      "calcType": "Calculator Active",
-      "question": "Let 푘 ( 푥 ) =푓 ( 푥 ) 푔 ( 푥 ) . It is known that 푘 ᇱ ( 푥 ) =푓 ( 푥 ) 푔 ᇱ ( 푥 ) +푓 ᇱ ( 푥 ) 푔 ( 푥 ) . Write the equation of the line tangent to 푘 ( 푥 ) at 푥=1.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #6(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #7",
-      "calcType": "Calculator Active",
-      "question": "Let 푝 ( 푥 ) = ௙ ( ௫ ) ௚ ( ௫ ) . It is known that 푝 ᇱ ( 푥 ) = ௙ᇱ(௫)௚ ( ௫ ) ି௙ ( ௫ ) ௚ᇱ ( ௫ ) [ ௚(௫) ] మ . Write the equation of the line tangent to 푝 ( 푥 ) at 푥=4.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #7(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #8",
-      "calcType": "Calculator Active",
-      "question": "Let 푚 ( 푥 ) =푓(푔 ( 푥 ) ). It is known that 푚 ᇱ ( 푥 ) =푓 ᇱ ൫푔 ( 푥 ) ൯푔′(푥). Write the equation of the line tangent to 푚 ( 푥 ) at 푥=−3.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #8(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.3",
-      "topic": "[Packet] 2-3 WK B Tangent Lines #1 · #9",
-      "calcType": "Calculator Active",
-      "question": "Let 푞 ( 푥 ) =푔൫푓 ( 푥 ) ൯. It is known that 푞 ᇱ ( 푥 ) =푔 ᇱ ൫푓 ( 푥 ) ൯푓′(푥). Write the equation of the line tangent to 푞 ( 푥 ) at 푥=7. 푥 −3 1 4 7 푓 ( 푥 ) 1 4 −2 −3 푓 ᇱ ( 푥 ) 0 2 −1 6 푔 ( 푥 ) 7 −3 4 −5 푔′ ( 푥 ) 2 −5 3 7\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-3 WK B Tangent Lines #1 · #9(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.4",
-      "topic": "[Packet] 2-4 WK A Differentiability and Continuity #1 · #5",
-      "calcType": "No Calculator",
-      "question": "The graph of 푔 ( 푥 ) is given at the right. Find all 푥 values in the open interval ( −1,10 ) where 푔 ( 푥 ) is not differentiable.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-4 WK A Differentiability and Continuity #1 · #5(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.4",
-      "topic": "[Packet] 2-4 WK A Differentiability and Continuity #1 · #6",
-      "calcType": "No Calculator",
-      "question": "The graph of ℎ ( 푥 ) is given at the right. Find all 푥 values in the open interval ( −2,10 ) where ℎ ( 푥 ) is not differentiable.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-4 WK A Differentiability and Continuity #1 · #6(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.4",
-      "topic": "[Packet] 2-4 WK A Differentiability and Continuity #1 · #7",
-      "calcType": "No Calculator",
-      "question": "The graph of 푘 ( 푥 ) is given at the right. Find all 푥 values in the open interval ( −1,10 ) where 푘 ( 푥 ) is not differentiable. Created by B Passwater The function 푓 ( 푥 ) is shown in the graph above. Find the following values, if possible. 8. 푓 ᇱ ( −2 ) 9. 푓 ᇱ ( 0 ) 10. 푓 ( 2 ) 11. 푓 ᇱ ( 3 ) 12. 푓 ( 0 ) 13. 푓 ᇱ ( 5 ) 14. 푓 ᇱ ( −3 ) 15. 푓′(1) The graph of 푔 ᇱ ( 푥 ) , the derivative of 푔, is given above. Find the following values, if possible. 16. 푔 ᇱ ( 5 ) 17. 푔 ᇱᇱ ( 5 ) 18. 푔 ᇱᇱ ( −1 ) 19. 푔 ᇱᇱ ( −2 ) 20. 푔 ᇱᇱ (\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-4 WK A Differentiability and Continuity #1 · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.4",
-      "topic": "[Packet] 2-4 WK A Differentiability and Continuity #1 · #24",
-      "calcType": "No Calculator",
-      "question": "Put the following values in order from least to greatest from the graphs of 푓 and 푔 ᇱ a. 푓 ᇱ ( −1 ) ,푓 ᇱ ( 1 ) ,푓 ᇱ ( 3 ) b. 푔 ᇱ ( 3 ) ,푔 ᇱ ( 6 ) ,푔 ᇱ ( 2 ) c. 푓 ( 3 ) ,푓 ( 0 ) ,푓 ᇱ ( −2.5 ) d. 푔 ᇱᇱ ( 9 ) ,푓 ᇱ ( −3 ) ,푔′(2)\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-4 WK A Differentiability and Continuity #1 · #24(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 & 2-6 WK A Power Rule and Basic Derivative Rules #1 · #25",
-      "calcType": "No Calculator",
-      "question": "Find the points on the curve 푦=2푥 ଷ +3푥 ଶ −12푥+1 where the tangent is horizontal.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 &amp; 2-6 WK A Power Rule and Basic Derivative Rules #1 · #25(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #1",
-      "calcType": "No Calculator",
-      "question": "푓 ( 푥 ) = √ 푥 at 푓 ( 9 ) =3 2.) 푔 ( 푥 ) =푥 ଷ −푥 at 푥=1\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #3",
-      "calcType": "No Calculator",
-      "question": "If 푓 ( 2 ) =3 and 푓′ ( 2 ) =5, find the equations of the tangent line and the normal line to the graph of 푓 ( 푥 ) at the point where 푥=2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #3(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #4",
-      "calcType": "No Calculator",
-      "question": "Is the function differentiable at the given value of 푥? 푓 ( 푥 ) =ቊ ଷ଴ √ ௫ −푥 ଶ 푥&lt;9 푥 ଶ −5푥−107푥≥9 at 푥=9\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #4(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #5",
-      "calcType": "No Calculator",
-      "question": "What values of a and b would make the function differentiable at 푥=−1 ? 푓 ( 푥 ) =൜ 푥 ଷ −푎푥+4푥≤−1 푎푥 ଶ +푏푥−2푥&gt;−1\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 · #5(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-7 WK A Derivatives of Important Functions #1 · #1",
-      "calcType": "No Calculator",
-      "question": "Created by B Passwater Worksheet 2-7 Derivatives of Important Functions #1 AP Calculus Name______________________________ Directions: Find the derivative of the following functions. 1. 푓 ( 푥 ) =3cos ( 푥 ) 2. ℎ ( 푥 ) =ln ( 푥 ) −4푒 ௫ 3. 푓 ( 푥 ) =sin ( 푥 ) −cos ( 푥 ) +3푥 4. 푔 ( 푥 ) = 푒 ௫ 5 −2ln ( 푥 ) 5. 푦= 1 푥 − 1 √ 푥 + cos ( 푥 ) 7 6. 푓 ( 푥 ) =푥sin ( 2 ) +2푥 ିହ 7. 푦= 3 푥 ସ − √ 푥+4 √ 푥 8. 푦=ln ( 푥 ) −2푒 ௫ −4sin ( 푥 ) Directions: Find the equation of the tangent line at the given 푥-value 9.푓 ( 푥 ) =3cos푥+푥 at 푥= 휋 2 10.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-7 WK A Derivatives of Important Functions #1 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-8 & 2-9 WK A Product and Quotient Rules #1 · #1",
-      "calcType": "No Calculator",
-      "question": "Created by B Passwater and FM Worksheet 2-8 &amp; 2-9 A Product and Quotient Rules #1 AP Calculus Name______________________________ Directions: Find the derivatives of the given functions below. Use any method. 1. 푓 ( 푥 ) =2푥 ଷ cos ( 푥 ) 2. 푔 ( 푥 ) =푒 ௫ √ 푥 3. 푦=푥 ଶ ln ( 푥 ) −푥 ଷ 4. ℎ ( 푥 ) =4푥−푥 ଶ 푒 ௫ +5sin (푥) 5. 푦= ( 3푥−1 )( 4푥 ଶ +5 ) 6. 푘 ( 푥 ) =− 1 푥 −3sin ( 푥 ) −푥 ସ cos (푥) 7. ℎ ( 푥 ) = 4푥−1 3푥+2 8. 푔 ( 푥 ) = sin푥 푥 Created by B Passwater and FM 9. 푓 ( 푥 ) = 푥 ଷ +2푥 ଶ −푥 2푥 10. 푚 ( 푥 ) = 4푥 ln푥 11. 푦= 3푥 ସ −2푥 ଷ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-8 &amp; 2-9 WK A Product and Quotient Rules #1 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-8 & 2-9 WK B Product and Quotient Rules #2 · #7",
-      "calcType": "No Calculator",
-      "question": "Find 푔 ᇱ ( 7 ) . 8. Find 푔 ᇱ ( 1 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-8 &amp; 2-9 WK B Product and Quotient Rules #2 · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-8 & 2-9 WK B Product and Quotient Rules #2 · #9",
-      "calcType": "No Calculator",
-      "question": "Let ℎ ( 푥 ) =푥 ଶ 푓 ( 푥 ) . Find ℎ ᇱ ( 10 ) . 10. Let 푚(푥)=푘 ( 푥 ) 푒 ௫ . Find 푚 ᇱ ( −1 ) .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-8 &amp; 2-9 WK B Product and Quotient Rules #2 · #9(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-8 & 2-9 WK B Product and Quotient Rules #2 · #11",
-      "calcType": "No Calculator",
-      "question": "Let 푟 ( 푥 ) =−2푥 ଷ 푓 ( 푥 ) . Find the instantaneous rate of change of 푟 ( 푥 ) at 푥=5.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-8 &amp; 2-9 WK B Product and Quotient Rules #2 · #11(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-8 & 2-9 WK B Product and Quotient Rules #2 · #12",
-      "calcType": "No Calculator",
-      "question": "Let 푠 ( 푥 ) =푥 ଶ −푓 ( 푥 ) . Find the average rate of change of 푠 ( 푥 ) over the interval [ 2,7 ] .\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-8 &amp; 2-9 WK B Product and Quotient Rules #2 · #12(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-8 & 2-9 WK B Product and Quotient Rules #2 · #13",
-      "calcType": "No Calculator",
-      "question": "Let 푝 ( 푥 ) =−3cos ( 푥 ) 푘 ( 푥 ) +4푥. Write an equation of the line tangent to 푝 of at 푥=0.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-8 &amp; 2-9 WK B Product and Quotient Rules #2 · #13(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #1",
-      "calcType": "Calculator Active",
-      "question": "lim ௫→௘ ௫ య ି௘ య ௫ି௘ = (A) 0 (B) 3푒 ଶ (C) 푒 ଷ (D) Does Not Exist\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #2",
-      "calcType": "Calculator Active",
-      "question": "lim ௛→଴ √ ଶହା௛ିହ ௛ = (A) 0 (B) 5 (C) ଵ ହ (D) ଵ ଵ଴ (E) ଵ ଶହ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #2(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #3",
-      "calcType": "Calculator Active",
-      "question": "Given 푓 ᇱ ( 푥 ) = ଵ ௫ and 푓 ( 2 ) =5, write an equation for the line which is tangent to the graph of 푓(푥) at the point where 푥=2. (A) 푦= ଵ ଶ 푥− ଵ ଶ (B) 푦= ଵ ହ 푥+5 (C) 푦= ଵ ଶ 푥+4 (D) 푦= ଵ ହ 푥− ଶଷ ହ (E) 푦= ଵ ଶ 푥+5\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #3(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #4",
-      "calcType": "Calculator Active",
-      "question": "Given 푔 ( 푥 ) =2푥 ହ + ௕ ௫ మ where b is a constant, find the value of b if 푔 ᇱ ( 2 ) =180. (A) 10 (B) 20 (C) –40 (D) 80 (E) none of these\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #4(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #5",
-      "calcType": "Calculator Active",
-      "question": "Calculator active. Which of the following is an equation of the line tangent to the graph of 푓 ( 푥 ) =푥 ଺ −푥 ସ at the point where 푓 ᇱ ( 푥 ) =−1? (A) 푦=−푥−1.031 (B) 푦=−푥−0.836 (C) ) 푦=−푥+0.836 (D) ) 푦=−푥+0.934 (E) ) 푦=−푥+1.031\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #5(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #6",
-      "calcType": "Calculator Active",
-      "question": "lim ௛→଴ ଷ(௫ା௛) మ ା మ ೣశ೓ ି(ଷ௫ మ ା మ ೣ ) ௛ (A) 푥 ଷ + ଶ ௫ (B) 3푥 ଶ + ଶ ௫ (C) 6푥− ଶ ௫ మ (D) 6푥+ ଶ ௫ మ (E) nonexistent\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #6(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #7",
-      "calcType": "Calculator Active",
-      "question": "What is the slope of the line tangent to the graph of 푦=2ln푥 at the point 푥=8? (A) ଵ ଵ଺ (B) ଵ ଼ (C) ଵ ସ (D) 16 (E) 4\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #8",
-      "calcType": "Calculator Active",
-      "question": "lim ௛→଴ ୡ୭ୱቀ ഏ ల ା௛ቁିୡ୭ୱቀ ഏ ల ቁ ௛ (A) 0 (B) –1 (C) − √ ଷ ଶ (D) − ଵ ଶ (E) nonexistent\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #8(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #9",
-      "calcType": "Calculator Active",
-      "question": "Calculator active. Line L is tangent to the graph of 푦=2sin푥 at the point (푘,2sin푘), where 0&lt;푘 &lt;2휋. For what value of k does the line L pass through the origin? (A) 1.571 (B) 4.493 (C) 4.712 (D) 3.141 (E) There is no such value of k\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #9(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #10",
-      "calcType": "Calculator Active",
-      "question": "In the figure to the right, line L is tangent to the graph of 푦=푥 ଷ at point A with coordinates (푎,푎 ଷ ). Line L crosses the 푥-axis at point B, with coordinates (푏,0).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #10(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #10",
-      "calcType": "Calculator Active",
-      "question": "Find b in terms of a.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #10(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #10",
-      "calcType": "Calculator Active",
-      "question": "Find the value of b when a = 9.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #10(b)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #11",
-      "calcType": "Calculator Active",
-      "question": "The functions f and g are given by 푓 ( 푥 ) = ௫ మ ସ and 푔 ( 푥 ) =− ଵ ଶ 푥+2. There is a point P on the graph of f for x &gt; 0 at which the line tangent to the graph of f is perpendicular to the graph of g. Find the coordinates of point P.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #11(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "2.5",
-      "topic": "[Packet] 2-5 to 2-7 WK Test Prep Review · #12",
-      "calcType": "Calculator Active",
-      "question": "푓 ( 푥 ) =푥+푎 cos푥, where a is a positive constant and 0≤푥 ≤2휋. Find the x-coordinates of all points, 0≤푥 ≤2휋, where the line 푦 =푥+푎 is a tangent to the graph of 푓(푥).\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 2-5 to 2-7 WK Test Prep Review · #12(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "2.5",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
     }
   ],
   "frqBank": [
@@ -1456,7 +232,7 @@
     {
       "title": "2-1 WK A Ave and Instantaneous Rates of Change #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-1 WK A Ave and Instantaneous Rates of Change #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-1%20WK%20A%20Ave%20and%20Instantaneous%20Rates%20of%20Change%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-1%20WK%20A%20Ave%20and%20Instantaneous%20Rates%20of%20Change%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-1 WK A Ave and Instantaneous Rates of Change #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1470,12 +246,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 1
+      "id": 1,
+      "worksheetPdf": "Unit 2/Homework/2-1 WK A Ave and Instantaneous Rates of Change #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-1 WK A Ave and Instantaneous Rates of Change #1 ANSWERS.pdf"
     },
     {
       "title": "2-10 WK A Derivatives of Other Trig Functions #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-10 WK A Derivatives of Other Trig Functions #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-10%20WK%20A%20Derivatives%20of%20Other%20Trig%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-10%20WK%20A%20Derivatives%20of%20Other%20Trig%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-10 WK A Derivatives of Other Trig Functions #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1489,12 +267,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 2
+      "id": 2,
+      "worksheetPdf": "Unit 2/Homework/2-10 WK A Derivatives of Other Trig Functions #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-10 WK A Derivatives of Other Trig Functions #1 ANSWERS.pdf"
     },
     {
       "title": "2-2 WK A Definition of the Derivative and Derivative Notation #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-2 WK A Definition of the Derivative and Derivative Notation #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-2%20WK%20A%20Definition%20of%20the%20Derivative%20and%20Derivative%20Notation%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-2%20WK%20A%20Definition%20of%20the%20Derivative%20and%20Derivative%20Notation%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-2 WK A Definition of the Derivative and Derivative Notation #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(a)",
@@ -1651,12 +431,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 3
+      "id": 3,
+      "worksheetPdf": "Unit 2/Homework/2-2 WK A Definition of the Derivative and Derivative Notation #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-2 WK A Definition of the Derivative and Derivative Notation #1 ANSWERS.pdf"
     },
     {
       "title": "2-3 WK A Estimating Derivatives of a Function at a Point #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-3 WK A Estimating Derivatives of a Function at a Point #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-3%20WK%20A%20Estimating%20Derivatives%20of%20a%20Function%20at%20a%20Point%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-3%20WK%20A%20Estimating%20Derivatives%20of%20a%20Function%20at%20a%20Point%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-3 WK A Estimating Derivatives of a Function at a Point #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1749,7 +531,7 @@
         {
           "label": "(13)",
           "points": 2,
-          "question": "<p>푓 ( 3 )</p><p>푥 0 2 6 7 ℎ ( 푥 ) 1 −5 3 2</p><p>푥 −3 −1 3 5 푔 ( 푥 ) 4 2 −1 −1</p><p>Created by MM Use a calculator to approximate the following values.</p><p>푓 ( 푥 ) =2.3sin ( 푥 ଶ −3푥+7 ) −5</p>",
+          "question": "<p><strong>13 (a)</strong> — Use a calculator. Tables on the worksheet give:</p><p><em>x</em>: 0, 2, 6, 7 with <em>h</em>(<em>x</em>): 1, −5, 3, 2; and <em>x</em>: −3, −1, 3, 5 with <em>g</em>(<em>x</em>): 4, 2, −1, −1.</p><p>Approximate the requested values using</p><p><em>f</em>(<em>x</em>) = 2.3 sin(<em>x</em><sup>2</sup> − 3<em>x</em> + 7) − 5</p><p>(See the worksheet PDF for the exact prompts, including <em>f</em>(3).)</p>",
           "finalAnswer": "Use the answer key PDF in Materials (open the matching ANSWERS/SOLUTIONS file) or check with your teacher.",
           "steps": [
             "Work the problem fully on paper.",
@@ -1813,12 +595,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 4
+      "id": 4,
+      "worksheetPdf": "Unit 2/Homework/2-3 WK A Estimating Derivatives of a Function at a Point #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-3 WK A Estimating Derivatives of a Function at a Point #1 ANSWERS.pdf"
     },
     {
       "title": "2-3 WK B Tangent Lines #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-3 WK B Tangent Lines #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-3%20WK%20B%20Tangent%20Lines%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-3%20WK%20B%20Tangent%20Lines%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-3 WK B Tangent Lines #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1832,12 +616,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 5
+      "id": 5,
+      "worksheetPdf": "Unit 2/Homework/2-3 WK B Tangent Lines #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-3 WK B Tangent Lines #1 ANSWERS.pdf"
     },
     {
       "title": "2-4 WK A Differentiability and Continuity #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-4 WK A Differentiability and Continuity #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-4%20WK%20A%20Differentiability%20and%20Continuity%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-4%20WK%20A%20Differentiability%20and%20Continuity%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-4 WK A Differentiability and Continuity #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1851,12 +637,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 6
+      "id": 6,
+      "worksheetPdf": "Unit 2/Homework/2-4 WK A Differentiability and Continuity #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-4 WK A Differentiability and Continuity #1 ANSWERS.pdf"
     },
     {
       "title": "2-5 & 2-6 WK A Power Rule and Basic Derivative Rules #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-5 &amp; 2-6 WK A Power Rule and Basic Derivative Rules #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-5%20&amp;%202-6%20WK%20A%20Power%20Rule%20and%20Basic%20Derivative%20Rules%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-5%20&amp;%202-6%20WK%20A%20Power%20Rule%20and%20Basic%20Derivative%20Rules%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-5 & 2-6 WK A Power Rule and Basic Derivative Rules #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1870,12 +658,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 7
+      "id": 7,
+      "worksheetPdf": "Unit 2/Homework/2-5 &amp; 2-6 WK A Power Rule and Basic Derivative Rules #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-5 &amp; 2-6 WK A Power Rule and Basic Derivative Rules #1 ANSWERS.pdf"
     },
     {
       "title": "2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-5%20&amp;%202-6%20WK%20B%20Tangent%20Lines,%20Normal%20Lines%20and%20Piecewise%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-5%20&amp;%202-6%20WK%20B%20Tangent%20Lines,%20Normal%20Lines%20and%20Piecewise%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-5 & 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1922,12 +712,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 8
+      "id": 8,
+      "worksheetPdf": "Unit 2/Homework/2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-5 &amp; 2-6 WK B Tangent Lines, Normal Lines and Piecewise Functions #1 ANSWERS.pdf"
     },
     {
       "title": "2-7 WK A Derivatives of Important Functions #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-7 WK A Derivatives of Important Functions #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-7%20WK%20A%20Derivatives%20of%20Important%20Functions%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-7%20WK%20A%20Derivatives%20of%20Important%20Functions%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-7 WK A Derivatives of Important Functions #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1941,12 +733,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 9
+      "id": 9,
+      "worksheetPdf": "Unit 2/Homework/2-7 WK A Derivatives of Important Functions #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-7 WK A Derivatives of Important Functions #1 ANSWERS.pdf"
     },
     {
       "title": "2-8 & 2-9 WK A Product and Quotient Rules #1",
       "calcAllowed": true,
-      "context": "<p><strong>2-8 &amp; 2-9 WK A Product and Quotient Rules #1</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-8%20&amp;%202-9%20WK%20A%20Product%20and%20Quotient%20Rules%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-8%20&amp;%202-9%20WK%20A%20Product%20and%20Quotient%20Rules%20#1%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-8 & 2-9 WK A Product and Quotient Rules #1</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1960,12 +754,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 10
+      "id": 10,
+      "worksheetPdf": "Unit 2/Homework/2-8 &amp; 2-9 WK A Product and Quotient Rules #1.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-8 &amp; 2-9 WK A Product and Quotient Rules #1 ANSWERS.pdf"
     },
     {
       "title": "2-8 & 2-9 WK B Product and Quotient Rules #2",
       "calcAllowed": true,
-      "context": "<p><strong>2-8 &amp; 2-9 WK B Product and Quotient Rules #2</strong> — Open the original worksheet: <a href=\"Unit%202/Homework/2-8%20&amp;%202-9%20WK%20B%20Product%20and%20Quotient%20Rules%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a> · <a href=\"Unit%202/Homework/2-8%20&amp;%202-9%20WK%20B%20Product%20and%20Quotient%20Rules%20#2%20ANSWERS.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Answer key</a>.</p>",
+      "context": "<p><strong>2-8 & 2-9 WK B Product and Quotient Rules #2</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -1979,12 +775,14 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 11
+      "id": 11,
+      "worksheetPdf": "Unit 2/Homework/2-8 &amp; 2-9 WK B Product and Quotient Rules #2.pdf",
+      "answerKeyPdf": "Unit 2/Homework/2-8 &amp; 2-9 WK B Product and Quotient Rules #2 ANSWERS.pdf"
     },
     {
       "title": "2-5 to 2-7 WK Test Prep Review",
       "calcAllowed": true,
-      "context": "<p><strong>2-5 to 2-7 WK Test Prep Review</strong> — Open the original worksheet: <a href=\"Unit%202/Review/2-5%20to%202-7%20WK%20Test%20Prep%20Review.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">PDF</a>.</p>",
+      "context": "<p><strong>2-5 to 2-7 WK Test Prep Review</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1)",
@@ -2141,7 +939,9 @@
           "scoring": "Full credit for correct reasoning and answer."
         }
       ],
-      "id": 12
+      "id": 12,
+      "worksheetPdf": "Unit 2/Review/2-5 to 2-7 WK Test Prep Review.pdf",
+      "answerKeyPdf": null
     }
   ],
   "notesData": {

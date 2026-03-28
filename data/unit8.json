@@ -298,1716 +298,6 @@
       "notesSection": "8.11–8.12 — Disc vs Washer",
       "notesSnippet": "Disc: region touches the axis (no hole). Washer: region doesn't touch axis (ring-shaped cross section). The \"hole\" creates the inner radius r.",
       "timeTip": "Quick check: does the region touch the axis of rotation? Yes → disc. No → washer. Draw a picture to see if there's a hole."
-    },
-    {
-      "section": "8.1",
-      "topic": "[Packet] 8-1 WK A Average Value #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "푓 ( 푥 ) =3푥 ଶ +8푥 , [−1,2] 2.) 푓 ( 푥 ) = √ 푥 , [0,4]\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-1 WK A Average Value #1 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.1",
-      "topic": "[Packet] 8-1 WK A Average Value #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "푔 ( 푡 ) = 푡 √ 3+푡 ଶ , [1,3]\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-1 WK A Average Value #1 · #3(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.1",
-      "topic": "[Packet] 8-1 WK A Average Value #1 · #4",
-      "calcType": "Calculator Active",
-      "question": "Find the average value of 푓 on [0,8] Directions: On the given interval, βind the 푥−value(s) where the function is equivalent to the average value on the interval.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-1 WK A Average Value #1 · #4(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.1",
-      "topic": "[Packet] 8-1 WK A Average Value #1 · #5",
-      "calcType": "Calculator Active",
-      "question": "푓 ( 푥 ) =(푥−3) ଶ , [2,5] 6.) 푓 ( 푥 ) = ଵ ௫ , [1,3] Created by K Bakowski and FM\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-1 WK A Average Value #1 · #5(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.1",
-      "topic": "[Packet] 8-1 WK A Average Value #1 · #7",
-      "calcType": "Calculator Active",
-      "question": "The temperature in degrees Celsius (C), of an oven being heated is modeled by an increasing, differentiable function 퐻 of time 푡, where 푡 is measured in minutes. The table above gives the temperature as recorded every 4 minutes over a 16-minute period. Estimate the average temperature of the oven over the interval 0≤푡≤16 using a left Riemann sum with four subintervals of equal length. Show the computations that lead to your answer. Calculator-Active questions. Show the setup that leads to your answers.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-1 WK A Average Value #1 · #7(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.1",
-      "topic": "[Packet] 8-1 WK A Average Value #1 · #10",
-      "calcType": "Calculator Active",
-      "question": "Trafβic βlow is deβined as the rate at which cars pass through an intersection, measured in cars per minute. The trafβic βlow at a particular intersection is modeled by the function 퐹 deβined by: 퐹 ( 푡 ) =37−6cos൬ 푡 3 ൰ for 0≤푡≤20 where 퐹(푡) is measured in cars per minute and 푡 is measured in minutes. (a) What is the average trafβic βlow over the time interval 10≤푡≤15 ? Indicate units of measure. (b) What is the average rate of change of the trafβic βlow over the time interval 10≤푡≤15 ? Indicate units of measure. T\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-1 WK A Average Value #1 · #10(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.1",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #1",
-      "calcType": "No Calculator",
-      "question": "푦=푥 ଷ , 푦=푥, 푥≥0 about the 푥-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #1(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #2",
-      "calcType": "No Calculator",
-      "question": "푦=6−푥 ଶ ,푦=2 about the 푥-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #2(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #3",
-      "calcType": "No Calculator",
-      "question": "푦 ଶ =푥,푥=2푦 about the 푦-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #4",
-      "calcType": "No Calculator",
-      "question": "푥=2−푦 ଶ ,푥=푦 ସ about the 푦-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #5",
-      "calcType": "No Calculator",
-      "question": "푦=푥 ଶ ,푥=푦 ଶ about 푦=1\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #5(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #6",
-      "calcType": "No Calculator",
-      "question": "푦=푥 ଷ ,푦=1,푥=2 about 푦=−3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #6(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #7",
-      "calcType": "No Calculator",
-      "question": "푦=푥 ଷ ,푦=0,푥=1 about 푥=2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #7(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.11",
-      "topic": "[Packet] 8-11 & 8-12 WK A Volumes--Washer Method #1 · #8",
-      "calcType": "No Calculator",
-      "question": "푦= √ 푥+2,푥=2 about 푥=−3 Answers:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-11 &amp; 8-12 WK A Volumes--Washer Method #1 · #8(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.11",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "A particle moves along the 푥-axis for 푡≥0 with an acceleration of 푎 ( 푡 ) =12푡+6 where 푡 is time in seconds. The particle’s velocity at 푡=3 is 36 cm/sec. The initial position of the particle is 4 cm. What is the position of the particle when the velocity is zero?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "A particle’s velocity along the 푥-axis is given by 푣 ( 푡 ) =5cos푡. (a) Find the particle’s displacement on the interval 0≤푡≤ ଷగ ଶ . (b) If 푠 ( 0 ) =3, what is the particle’s position at 푡= ଷగ ଶ Created by FM\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #2(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "A particle moves along the 푦-axis for 푡≥0 with a velocity of 푣 ( 푡 ) =12푡 ଶ −24푡. The particle’s initial position is 10 cm. Find the position of the function at the particle’s minimum velocity\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #4",
-      "calcType": "Calculator Active",
-      "question": "A particle moves along the 푦-axis with an acceleration of 푎 ( 푡 ) =12푡−6 with initial velocity of –10 and the position at 푡=1 is –9. Find the position function for the particle.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #5",
-      "calcType": "Calculator Active",
-      "question": "Calculator Active. A particle moves along the 푥-axis. The velocity of the particle at time 푡 is given by 푣 ( 푡 ) = ଶ ௧ మ ାଷ . If the position of the particle is 푥=2 when 푡=4, what is the position of the particle when 푡=6 ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #5(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #6",
-      "calcType": "Calculator Active",
-      "question": "Calculator Active. A particle moves along the 푦-axis with initial position 푦 ( 0 ) =1. The velocity of the object at time 푡≥0 is given by 푣 ( 푡 ) =cos(휋푡). What is the position of the object at time 푡=3 ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #6(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK A Particle Motion #1 · #7",
-      "calcType": "Calculator Active",
-      "question": "Calculator Active. A particle moves along the 푥-axis with a velocity of 푣 ( 푡 ) =√푡 ଶ య − ଵ ௧ మ measured in inches/second. At 푡=1 the position of the particle is 3 inches. What is the particle’s position at 푡=8 ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK A Particle Motion #1 · #7(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK B Particle Motion #2 · #1",
-      "calcType": "Calculator Active",
-      "question": "A particle’s velocity is given by 푣 ( 푡 ) =푡 ଶ +2푡−15, where 푡 is measured in minutes, 푣 is measured in meters per minute, and 푠(푡) represents the particle’s position. (a) If 푠 ( 1 ) =−3, what is the value of 푠(3) ? (b) What is the net change in distance (displacement) over the βirst 5 minutes? (c) What is the total distance traveled by the particle during the βirst 5 minutes? Show the set up AND your work. Created by FM and College Board 2015 AB3—NO CALCULATOR\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK B Particle Motion #2 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK B Particle Motion #2 · #2",
-      "calcType": "Calculator Active",
-      "question": "Johanna jogs along a straight path. For 0 &lt; t &lt; 40, Johanna’s velocity is given by a differentiable function v(t). Selected values of v(t), where t is measured in minutes and v(t) is measured in meters per minute, are given in the table above. (a) Use the data in the table to estimate the value of v (16) (b) Using correct units, explain the meaning of the deβinite integral ∫ | 푣(푡) | 푑푡 ସ଴ ଴ in the context of the problem. Approximate the value of ∫ | 푣(푡) | 푑푡 ସ଴ ଴ using a right Riemann sum with the four subinterv\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK B Particle Motion #2 · #2(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK B Particle Motion #2 · #3",
-      "calcType": "Calculator Active",
-      "question": "Two particles move along the x-axis. For 0 &lt; t &lt; 8, the position of particle P at time t is given by 푥 ௉ ( 푡 ) =ln(푡 ଶ −2푡+10), while the velocity of particle Q at time t is given by 푣 ொ ( 푡 ) =푡 ଶ −8푡+15. Particle Q is at position x = 5 at time t = 0. (a) For 0 &lt; t &lt; 8, when is particle P moving to the left? (b) For 0 &lt; t &lt; 8, βind all times t during which the two particles travel in the same direction. (c) Find the acceleration of particle Q at time t = 2. Is the speed of particle Q increasing, decreasing, or nei\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK B Particle Motion #2 · #3(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.2",
-      "topic": "[Packet] 8-2 WK B Particle Motion #2 · #4",
-      "calcType": "Calculator Active",
-      "question": "For t &gt; 0, a particle moves along the xaxis. The velocity of the particle at time t is given by 푣 ( 푡 ) =1+2sinቀ ௧ మ ଶ ቁ. The particle is at position 푥=2 at time t = 4. (a) At time t = 4, is the particle speeding up or slowing down? (b) Find all times t in the interval 0 &lt; t &lt; 3 when the particle changes direction. Justify your answer. (c) Find the position of the particle at time t = 0. (d) Find the total distance the particle travels from time t = 0 to time t = 3.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-2 WK B Particle Motion #2 · #4(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.2",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK A Definite Integrals in Applied Context #1 · #1",
-      "calcType": "No Calculator",
-      "question": "Set up an expression or equation for each of the following questions. At time 푡=0 hours, there are 213 cars in the parking lot of a large apartment complex. For 0≤푡 ≤7 hours, the rate that cars are entering the parking lot can be modeled by the function 퐸(푡), measured in cars per hour. During this same time period, cars leave the parking lot at the rate 퐿(푡), measured in cars per hour. a) How many cars leave the parking lot during the first 4 hours? b) How many cars enter the parking lot from time 푡 =1 to 푡 =6 hour\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK A Definite Integrals in Applied Context #1 · #1(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK A Definite Integrals in Applied Context #1 · #2",
-      "calcType": "No Calculator",
-      "question": "A large beef farm breeds cows and raises them until they are about seven months old, when they are sold. At time 푡 =0 months, the beef farm has 1407 cows. For 0≤푡≤6 months, the birthrate of cows on the farm can be modeled by the function 퐵 ( 푡 ) =235−211cos ൬ 휋푡 7 ൰ measured in cows per month. During the same time period, cows are being sold at the rate 푆 ᇱ ( 푡 ) = 8013 5푡 ଶ −18푡+40 measured in cows per month. a) How many cows are on the farm at time 푡=4 months? b) Write an expression involving one or more integral\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK A Definite Integrals in Applied Context #1 · #2(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK A Definite Integrals in Applied Context #1 · #3",
-      "calcType": "No Calculator",
-      "question": "A factory produces brake pads for automobiles. In the factory, the finished brake pads are sent down a long conveyer belt where they are dropped into a large bin and taken for inspection. Brake pads are being placed on the conveyer belt at the rate modeled by 퐹 ᇱ ( 푡 ) =−0.017푡 ସ +0.76푡 ଷ −10.85푡 ଶ +46.92푡+67.1 for 0≤푡 ≤20 minutes where 퐹′(푡) is measured in brake pads per minute. During this same time interval, the brake pads are falling off the conveyer belt into the large bin at the constant rate of 60 brake pads\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK A Definite Integrals in Applied Context #1 · #3(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK A Definite Integrals in Applied Context #1 · #4",
-      "calcType": "No Calculator",
-      "question": "For 0≤푥 ≤10,푔 ᇱ ( 푥 ) =1.3lnቆ 푥 ଶ +3푥+7 푥+1 ቇ. It is known that 푔 ( 3 ) =−12. a) Find 푔(8) b) Find 푔(0) Created by B Passwater\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK A Definite Integrals in Applied Context #1 · #4(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK A Definite Integrals in Applied Context #1 · #5",
-      "calcType": "No Calculator",
-      "question": "At 7AM, there are 43 employees inside a large office building. Employees enter the building at a rate modeled by 푔 ( 푡 ) =25ฬ ( 10−푡 ) sin ൬ 휋푡 5 ൰ ฬ for 0≤푡≤10 where 푔 ( 푡 ) is measured in people per hour and 푡 is the number of hours since 7AM. Due to a company policy, from 7AM to 9AM no employees leave the office building. Starting at 9AM, employees exit the building at a rate modeled by 푓 ( 푡 ) =97−81cos ൬ 휋푡−2푡 2.9 ൰ for 2≤푡 ≤10 where 푓 ( 푡 ) is measured in people per hour and 푡 is the number of hours since 7AM\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK A Definite Integrals in Applied Context #1 · #5(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK A Definite Integrals in Applied Context #1 · #6",
-      "calcType": "No Calculator",
-      "question": "The number of trees that are planted in a large forest is changing at the rate 푝 ᇱ ( 푡 ) =−0.2 ( 푡−11 ) ଶ +131 In the same forest, trees are being cut down at the rate 푐 ᇱ ( 푡 ) =37 ln (0.84푡+3.8) where 푐′(푡) and 푝 ᇱ ( 푡 ) are both measured in trees per day and 푡 is measured in days. There are 1200 trees in the forest at time 푡 =0 days. a) How many trees are planted during the first 15 days? b) How many trees are in the forest after 30 days?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK A Definite Integrals in Applied Context #1 · #6(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK B Definite Integrals in Applied Context #2 · #1",
-      "calcType": "Calculator Active",
-      "question": "A small car dealership in Plugtown has 29 cars on the lot at time 푡=0. During the time interval 0≤푡≤20 days, new cars are added to the lot at the rate 푁 ( 푡 ) =−0.018푡 ଶ +11 cars per day During the same time interval, cars are sold and removed from the lot at the rate 푆 ( 푡 ) =0.013푡 ଶ −0.25푡+8 cars per day (a) Is the amount of cars on the lot increasing or decreasing at time 푡=11? Explain your reasoning. (b) To the nearest whole number, how many cars are on the lot at time 푡=20? (c) At what time 푡, for 0≤푡≤20, is \n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK B Definite Integrals in Applied Context #2 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK B Definite Integrals in Applied Context #2 · #2",
-      "calcType": "Calculator Active",
-      "question": "A large tank contains 40 gallons of water at time 푡=0. During the time interval 0≤푡≤2 hours, water is being poured into the tank at the rate 푊 ( 푡 ) =0.6푒 ௧ మ ିଵ gallons per hour During the same time interval, water is leaking from a small hole that is being fixed. The rate that water leaks out is given by: 퐿 ( 푡 ) =6cos ( 0.7푡 ) gallons per hour (a) How much water has been poured into the tank after 2 hours? (b) Find the time 푡, on 0≤푡≤2 hours, when the amount of water in the tank is a minimum. Justify your answer\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK B Definite Integrals in Applied Context #2 · #2(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK B Definite Integrals in Applied Context #2 · #3",
-      "calcType": "Calculator Active",
-      "question": "The number of a particular species of rabbits, in hundreds, in a wooded area is modeled by a differentiable function 푅 of time 푡, where 푅(푡) is the number of rabbits, in hundreds, and 푡 is measured in months, for 0≤푡≤50. There are 1500 rabbits in the wooded area at time 푡=0. The birth rate for the rabbits in the wooded area is modeled by 퐵 ( 푡 ) =1.3ln ( 푡+1 ) hundreds of rabbits per month and the death rate for the rabbits in the wooded area is modeled by 퐷 ( 푡 ) = 5 1+52푒 ି଴.ଷ௧ − 5 53 hundreds of rabbits per mont\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK B Definite Integrals in Applied Context #2 · #3(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.3",
-      "topic": "[Packet] 8-3 WK B Definite Integrals in Applied Context #2 · #4",
-      "calcType": "Calculator Active",
-      "question": "A parking garage has 230 cars in it when it opens at 8퐴푀 (푡=0). On the interval 0≤푡≤10, cars enter the parking garage at the rate 퐸 ᇱ ( 푡 ) =58cos ( 0.1635푡−0.642 ) cars per hour and cars leave the parking garage at the rate 퐿 ᇱ ( 푡 ) =65sin ( 0.281푡 ) +7.1 cars per hour (a) How many cars enter the parking garage over the interval 푡=0 to 푡=10 hours? (b) Find 퐸′′(5). Using correct units, explaining the meaning of this value in context of the problem. (c) Find the number of cars in the parking garage at time 푡=10. Sh\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-3 WK B Definite Integrals in Applied Context #2 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.3",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK A Area Between Curves #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "푦=푒 ௫ , 푦=푥 ଶ −1, 푥=−1,푥=1 2.) 푦=sin푥,푦=푥,푥= గ ଶ ,푥=휋\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK A Area Between Curves #1 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK A Area Between Curves #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "푦=푥 ଶ −4푥, 푦=2푥 4.) 푥=1−푦 ଶ , 푥=푦 ଶ −1\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK A Area Between Curves #1 · #3(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK A Area Between Curves #1 · #5",
-      "calcType": "Calculator Active",
-      "question": "4푥+푦 ଶ =12, 푥=푦 6.) 푦=푥 ଶ , 푦=4푥−푥 ଶ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK A Area Between Curves #1 · #5(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK A Area Between Curves #1 · #7",
-      "calcType": "Calculator Active",
-      "question": "푦=cos푥, 푦=2−cos푥, 0≤푥≤2휋 8.) 푥=2푦 ଶ , 푥=4+푦 ଶ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK A Area Between Curves #1 · #7(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK A Area Between Curves #1 · #9",
-      "calcType": "Calculator Active",
-      "question": "푦= √ 푥−1, 푥−푦=1 10.) 푦=푥 ଷ , 푦=푥 Answers:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK A Area Between Curves #1 · #9(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK A Area Between Curves #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "ଷగ మ ଼ −1 3.) 36 4.) ଼ ଷ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK A Area Between Curves #1 · #2(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #1",
-      "calcType": "Calculator Active",
-      "question": "Let f and g be the functions given by f(x) = 2x(1 – x) and g(x) = 3(x – 1)x for 0 &lt; x &lt; 1. The graphs of f and g are shown in the βigure. (a) Find the area of the shaded region enclosed by the graphs of f and g.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #1(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #2",
-      "calcType": "Calculator Active",
-      "question": "Let 푓 and 푔 be the functions given by 푓 ( 푥 ) =1+sin (2푥) and 푔 ( 푥 ) =푒 ௫/ଶ . Let 푅 be the shaded region in the βirst quadrant enclosed by the graphs of 푓 and 푔 as shown in the βigure below. (a) Find the area of 푅.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #2(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #3",
-      "calcType": "Calculator Active",
-      "question": "Let 푓 be the function given by 푓 ( 푥 ) = ௫ య ସ − ௫ మ ଷ − ௫ ଶ +3cos푥. Let 푅 be the shaded region in the second quadrant bounded by the graph of 푓, and let 푆 be the shaded region bounded by the graph of 푓 and line 푙, the line tangent to the graph of 푓 at 푥 =0, as shown in the graph below. (a) Find the area of 푅.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #4",
-      "calcType": "Calculator Active",
-      "question": "Let 푅 be the region enclosed by the graph of 푦= √ 푥−1, the vertical line 푥 =10, and the 푥-axis. (a) Find the area of 푅.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #5",
-      "calcType": "Calculator Active",
-      "question": "Let 푅 be the shaded region bounded by the graph of 푦=ln푥 and the line 푦=푥−2, as shown below. (a) Find the area of 푅.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #5(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #6",
-      "calcType": "Calculator Active",
-      "question": "Let 푅 be the region bounded by the graph of 푦 =푒 ଶ௫ି௫ మ and the horizontal line 푦=2, and let 푆 be the region bounded by the graph of 푦=푒 ଶ௫ି௫ మ and the horizontal lines 푦 =1 and 푦 =2, as shown above. (a) Find the area of 푅. (b) Find the area of 푆.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #6(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #7",
-      "calcType": "Calculator Active",
-      "question": "Let 푅 be the region bounded by the graphs of 푦=sin(휋푥) and 푦 =푥 ଷ −4푥, as shown in the βigure below. (a) Find the area of 푅. (b) The horizontal line 푦=−2 splits the region 푅 into two parts. Write, but do not evaluate, an integral expression for the area of the part of 푅 that is below this horizontal line.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #7(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.4",
-      "topic": "[Packet] 8-4 to 8-6 WK B Area Between Curves #2 · #8",
-      "calcType": "Calculator Active",
-      "question": "NO CALCULATOR ALLOWED. Let 푅 be the region enclosed by the graphs of 푔 ( 푥 ) =−2+3cosቀ గ ଶ 푥ቁ and ℎ ( 푥 ) =6−2 ( 푥−1 ) ଶ , the 푦-axis, and the vertical line 푥 =2, as shown in the βigure below. (a) Find the area of 푅.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-4 to 8-6 WK B Area Between Curves #2 · #8(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.4",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "A solid S is built in such a way that its base is bounded by a circle of radius 3 meters and center at the origin. If each plane section perpendicular to a given diameter of the base is a square, βind the volume of solid S. (Answer: 144 meters 3 )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #1(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of a solid S if its base is bounded by the ellipse 푥 ଶ +4푦 ଶ =4 and the cross sections perpendicular to the x-axis are squares. (Answer: ଷଶ ଷ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #2(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of a solid S if its base is bounded by the circle 푥 ଶ +푦 ଶ =1 and the cross sections perpendicular to the x-axis are equilateral triangles. (Answer: ସ √ ଷ ଷ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #3(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #4",
-      "calcType": "Calculator Active",
-      "question": "The base of a solid is the region bounded by the parabola 푥 ଶ =8푦 and the line 푦=4, and each plane section perpendicular to the y-axis is an equilateral triangle. Find the volume of the solid. (Answer: 64 √\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "5.) Find the volume of a solid S if its base is bounded by the circle 푥 ଶ +푦 ଶ =4 and the cross sections perpendicular to the x-axis are semicircles. (Answer: ଵ଺గ ଷ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #3(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #6",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of a solid S if its base is bounded by the circle 푥 ଶ +푦 ଶ =16 and the cross sections perpendicular to the x-axis are isosceles right triangles having the hypotenuse in the plane of the base. (Answer: ଶହ଺ ଷ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #6(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #7",
-      "calcType": "Calculator Active",
-      "question": "Let region R be the area enclosed by 푦=푥 ଶ −2, the horizontal line 푦=−4, and the vertical lines 푥=0 and 푥=4. If the region 푅 is the base of a solid, such that each cross section perpendicular to the 푥-axis is a semi-circle with a diameter on the base, βind the volume of the solid. (Answer: ହ଻ସగ ଵହ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #8",
-      "calcType": "Calculator Active",
-      "question": "Let region R be the area enclosed by 푦=푥 ଶ −2, the horizontal line 푦=−4, and the vertical lines 푥=0 and 푥=4. If the region 푅 is the base of a solid, such that each cross section perpendicular to the 푥-axis is a quarter-circle, βind the volume of the solid. (Answer: ଵଵ ଵହ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #8(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #9",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid whose base is the semi-circle 푦=√16−푥 ଶ and whose cross sections perpendicular to the 푥-axis are squares with a side on the base. (Answer: ଶହ଺ ଷ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #9(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.7",
-      "topic": "[Packet] 8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 · #10",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid whose base is the region between 푦=푥 ଶ and 푦=4 and whose cross sections perpendicular to the 푥-axis are isosceles right triangles with the hypotenuse on the base. (Answer: ଵଶ଼ ଵହ )\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1 · #10(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.7",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #1",
-      "calcType": "No Calculator",
-      "question": "푦=푥+1,푦=0,푥=0,푥=2 about the 푥-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #2",
-      "calcType": "No Calculator",
-      "question": "푦= ଵ ௫ ,푦=0,푥=1,푥=4 about the 푥-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #2(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #3",
-      "calcType": "No Calculator",
-      "question": "푦= √ 푥−1,푦=0,푥=5 about the 푥-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #4",
-      "calcType": "No Calculator",
-      "question": "푦=푒 ௫ ,푦=0,푥=−1,푥=1 about the 푥-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The limit does not exist.",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #5",
-      "calcType": "No Calculator",
-      "question": "푥=2 ඥ 푦,푥=0,푦=9 about the 푦-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #5(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #6",
-      "calcType": "No Calculator",
-      "question": "2푥=푦 ଶ ,푥=0,푦=4 about the 푦-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #6(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #7",
-      "calcType": "No Calculator",
-      "question": "푦=푥 ଷ ,푥=2,푥−axis about the line 푥=2\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #7(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #8",
-      "calcType": "No Calculator",
-      "question": "푦=푥 ଶ +2,푦=3,푦−axis about the line 푦=3 Answers:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #8(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 & 8-10 WK A Volumes--Disc Method #1 · #3",
-      "calcType": "No Calculator",
-      "question": "8휋 4.) 휋 2 ൬ 푒 ଶ − 1 푒 ଶ ൰ 5.)162휋 6.) 256휋 5\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 &amp; 8-10 WK A Volumes--Disc Method #1 · #3(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "Find the area enclosed by the region\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #1(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the 풙-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #1(b)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the 풚-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #1(c)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the horizontal line 풚=ퟒ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #1(d)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the vertical line 풙=ퟐ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #1(e)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "Find the area enclosed by the region\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #2(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the 풙-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #2(b)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the horizontal line 풚=ퟑ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #2(c)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Find the area enclosed by the region\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #3(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the 풙-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #3(b)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the 풚-axis\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #3(c)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the horizontal line 풚=ퟏ\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #3(d)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "Find the volume of the solid when the region is rotated about the vertical line 풙=ퟏ Answers:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #3(e)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "The limit does not exist.",
-        "C": "0",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #1",
-      "calcType": "Calculator Active",
-      "question": "( a ) 8 3 ( b ) 32휋 5 ( c ) 8휋 ( d ) 224휋 15 ( e ) 8휋 3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #2",
-      "calcType": "Calculator Active",
-      "question": "( a ) 16 3 ( b ) 56휋 3 ( c ) 40휋 3\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #2(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK A Area and Volume #1 · #3",
-      "calcType": "Calculator Active",
-      "question": "( a ) 5 12 ( b ) 2휋 5 ( c ) 5휋 14 ( d ) 13휋 30 ( e ) 10휋 21\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK A Area and Volume #1 · #3(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "0"
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #1",
-      "calcType": "No Calculator",
-      "question": "Find the volume of the solid formed when the region between 푦=푥 and 푦=4푥−푥 ଶ is revolved about the x-axis.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #1(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #2",
-      "calcType": "No Calculator",
-      "question": "What is the volume of the solid formed when the region bounded by 푥=푦 ଶ ,푥=0, and 푦=3 is revolved about the y-axis?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #2(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "0",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #3",
-      "calcType": "No Calculator",
-      "question": "A flower vase is formed by rotating the portion of the parabola 푦 ଶ =4 ( 푥−1 ) between 푦=0, 푦=2, and 푥=0 about the y-axis. What is the volume of the vase?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #3(a)</span>",
-      "choices": {
-        "A": "The expression is undefined at that point.",
-        "B": "0",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #4",
-      "calcType": "No Calculator",
-      "question": "Find the volume of the solid formed when the region bounded by 푦=푥 ଷ and 푦=4푥 in the first quadrant is revolved around the y-axis.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #4(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "0",
-        "D": "The limit does not exist."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #5",
-      "calcType": "No Calculator",
-      "question": "Find the volume of the solid formed when the region bounded by the line 푦=푥−2, the 푥-axis, and 푥=4 is revolved about the line 푥=−1.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #5(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "The expression is undefined at that point.",
-        "C": "The limit does not exist.",
-        "D": "0"
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #6",
-      "calcType": "No Calculator",
-      "question": "Find the volume of the solid formed when the region between 푥=푦 ଶ and 푥=4 in the first quadrant is revolved about the line 푥=−1.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #6(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #7",
-      "calcType": "No Calculator",
-      "question": "What is the volume of the solid formed when the region between 푦=푥 ଶ and 푦=1 is revolved about the line 푦=−2 ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #7(a)</span>",
-      "choices": {
-        "A": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "B": "0",
-        "C": "The limit does not exist.",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "A",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #8",
-      "calcType": "No Calculator",
-      "question": "What is the volume of the solid formed by the region between the 푥-axis, 푥=4, and 푦=푥 ଶ when it is revolved about the line 푥=4 ?\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #8(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "0",
-        "C": "The expression is undefined at that point.",
-        "D": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials)."
-      },
-      "correct": "D",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #9",
-      "calcType": "No Calculator",
-      "question": "Find the volume of the solid formed when the region between 푦=푥 ଶ , 푥=0, and 푦=9 is revolved about the line 푥=4.\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #9(a)</span>",
-      "choices": {
-        "A": "The limit does not exist.",
-        "B": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "C": "The expression is undefined at that point.",
-        "D": "0"
-      },
-      "correct": "B",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #10",
-      "calcType": "No Calculator",
-      "question": "The region bounded by 푦=푒 ௫ , 푥=0, 푥=3, and 푦=0 is revolved about the line 푦=−1. What is the volume of the solid formed? Answers:\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #10(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The limit does not exist.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The expression is undefined at that point."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
-    },
-    {
-      "section": "8.9",
-      "topic": "[Packet] 8-9 to 8-12 WK B Volumes Disc & Washer #1 · #9",
-      "calcType": "No Calculator",
-      "question": "207휋 2 10.)ቆ 푒 ଺ 2 +2푒 ଷ − 5 2 ቇ휋\n\n<span style=\"font-size:11px;color:var(--text3)\">Packet: 8-9 to 8-12 WK B Volumes Disc &amp; Washer #1 · #9(a)</span>",
-      "choices": {
-        "A": "0",
-        "B": "The expression is undefined at that point.",
-        "C": "Work this item on paper, then check the official answer key PDF for this worksheet (Materials).",
-        "D": "The limit does not exist."
-      },
-      "correct": "C",
-      "explanation": "No reliable text was extracted from the answer PDF (often scanned). Use your teacher’s key or the Materials link.",
-      "notesSection": "8.9",
-      "notesSnippet": "Generated from your course packets.",
-      "timeTip": "If unsure, open the worksheet PDF from Materials.",
-      "packetAuto": true
     }
   ],
   "frqBank": [
@@ -2017,7 +307,7 @@
       "packetSection": "8.1",
       "calcAllowed": true,
       "title": "8-1 WK A Average Value #1 (FRQ)",
-      "context": "<p><strong>8-1 WK A Average Value #1</strong> — <a href=\"Unit%208/Homework/8-1%20WK%20A%20Average%20Value%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-1 WK A Average Value #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2085,7 +375,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-1 WK A Average Value #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 1,
@@ -2093,7 +385,7 @@
       "packetSection": "8.11",
       "calcAllowed": true,
       "title": "8-11 & 8-12 WK A Volumes--Washer Method #1 (FRQ)",
-      "context": "<p><strong>8-11 &amp; 8-12 WK A Volumes--Washer Method #1</strong> — <a href=\"Unit%208/Homework/8-11%20&amp;%208-12%20WK%20A%20Volumes--Washer%20Method%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-11 & 8-12 WK A Volumes--Washer Method #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2183,7 +475,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-11 &amp; 8-12 WK A Volumes--Washer Method #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 2,
@@ -2191,7 +485,7 @@
       "packetSection": "8.2",
       "calcAllowed": true,
       "title": "8-2 WK A Particle Motion #1 (FRQ)",
-      "context": "<p><strong>8-2 WK A Particle Motion #1</strong> — <a href=\"Unit%208/Homework/8-2%20WK%20A%20Particle%20Motion%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-2 WK A Particle Motion #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2270,7 +564,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-2 WK A Particle Motion #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 3,
@@ -2278,7 +574,7 @@
       "packetSection": "8.2",
       "calcAllowed": true,
       "title": "8-2 WK B Particle Motion #2 (FRQ)",
-      "context": "<p><strong>8-2 WK B Particle Motion #2</strong> — <a href=\"Unit%208/Homework/8-2%20WK%20B%20Particle%20Motion%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-2 WK B Particle Motion #2 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2324,7 +620,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-2 WK B Particle Motion #2.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 4,
@@ -2332,7 +630,7 @@
       "packetSection": "8.3",
       "calcAllowed": true,
       "title": "8-3 WK A Definite Integrals in Applied Context #1 (FRQ)",
-      "context": "<p><strong>8-3 WK A Definite Integrals in Applied Context #1</strong> — <a href=\"Unit%208/Homework/8-3%20WK%20A%20Definite%20Integrals%20in%20Applied%20Context%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-3 WK A Definite Integrals in Applied Context #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2400,7 +698,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-3 WK A Definite Integrals in Applied Context #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 5,
@@ -2408,7 +708,7 @@
       "packetSection": "8.3",
       "calcAllowed": true,
       "title": "8-3 WK B Definite Integrals in Applied Context #2 (FRQ)",
-      "context": "<p><strong>8-3 WK B Definite Integrals in Applied Context #2</strong> — <a href=\"Unit%208/Homework/8-3%20WK%20B%20Definite%20Integrals%20in%20Applied%20Context%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-3 WK B Definite Integrals in Applied Context #2 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2454,7 +754,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-3 WK B Definite Integrals in Applied Context #2.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 6,
@@ -2462,7 +764,7 @@
       "packetSection": "8.4",
       "calcAllowed": true,
       "title": "8-4 to 8-6 WK A Area Between Curves #1 (FRQ)",
-      "context": "<p><strong>8-4 to 8-6 WK A Area Between Curves #1</strong> — <a href=\"Unit%208/Homework/8-4%20to%208-6%20WK%20A%20Area%20Between%20Curves%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-4 to 8-6 WK A Area Between Curves #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2530,7 +832,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-4 to 8-6 WK A Area Between Curves #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 7,
@@ -2538,7 +842,7 @@
       "packetSection": "8.4",
       "calcAllowed": true,
       "title": "8-4 to 8-6 WK B Area Between Curves #2 (FRQ)",
-      "context": "<p><strong>8-4 to 8-6 WK B Area Between Curves #2</strong> — <a href=\"Unit%208/Homework/8-4%20to%208-6%20WK%20B%20Area%20Between%20Curves%20#2.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-4 to 8-6 WK B Area Between Curves #2 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2628,7 +932,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-4 to 8-6 WK B Area Between Curves #2.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 8,
@@ -2636,7 +942,7 @@
       "packetSection": "8.7",
       "calcAllowed": true,
       "title": "8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 (FRQ)",
-      "context": "<p><strong>8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1</strong> — <a href=\"Unit%208/Homework/8-7%20&amp;%208-8%20%20WK%20A%20Volumes%20of%20Solids%20With%20Cross%20Sections%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-7 & 8-8  WK A Volumes of Solids With Cross Sections #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2748,7 +1054,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-7 &amp; 8-8  WK A Volumes of Solids With Cross Sections #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 9,
@@ -2756,7 +1064,7 @@
       "packetSection": "8.9",
       "calcAllowed": true,
       "title": "8-9 & 8-10 WK A Volumes--Disc Method #1 (FRQ)",
-      "context": "<p><strong>8-9 &amp; 8-10 WK A Volumes--Disc Method #1</strong> — <a href=\"Unit%208/Homework/8-9%20&amp;%208-10%20WK%20A%20Volumes--Disc%20Method%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-9 & 8-10 WK A Volumes--Disc Method #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2857,7 +1165,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-9 &amp; 8-10 WK A Volumes--Disc Method #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 10,
@@ -2865,7 +1175,7 @@
       "packetSection": "8.9",
       "calcAllowed": true,
       "title": "8-9 to 8-12 WK A Area and Volume #1 (FRQ)",
-      "context": "<p><strong>8-9 to 8-12 WK A Area and Volume #1</strong> — <a href=\"Unit%208/Homework/8-9%20to%208-12%20WK%20A%20Area%20and%20Volume%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-9 to 8-12 WK A Area and Volume #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -2999,7 +1309,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-9 to 8-12 WK A Area and Volume #1.pdf",
+      "answerKeyPdf": null
     },
     {
       "id": 11,
@@ -3007,7 +1319,7 @@
       "packetSection": "8.9",
       "calcAllowed": true,
       "title": "8-9 to 8-12 WK B Volumes Disc & Washer #1 (FRQ)",
-      "context": "<p><strong>8-9 to 8-12 WK B Volumes Disc &amp; Washer #1</strong> — <a href=\"Unit%208/Homework/8-9%20to%208-12%20WK%20B%20Volumes%20Disc%20&amp;%20Washer%20#1.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">Problem PDF</a></p>",
+      "context": "<p><strong>8-9 to 8-12 WK B Volumes Disc & Washer #1 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
           "label": "(1a)",
@@ -3130,7 +1442,9 @@
           ],
           "scoring": "Reasoning + correct result."
         }
-      ]
+      ],
+      "worksheetPdf": "Unit 8/Homework/8-9 to 8-12 WK B Volumes Disc &amp; Washer #1.pdf",
+      "answerKeyPdf": null
     }
   ],
   "notesData": {

@@ -445,32 +445,87 @@
   }
   .score-pill span { color: var(--text); font-weight: 600; }
 
-  /* Class worksheets */
-  #worksheets-nav-tree { max-height: 42vh; overflow-y: auto; margin: 0 0 6px; padding: 0 2px 4px; }
-  #worksheets-nav-tree .ws-unit-head { font-size: 11px; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: .06em; padding: 8px 8px 4px; }
-  #worksheets-nav-tree .ws-sec-item {
-    padding: 6px 10px 6px 14px; border-radius: 6px; font-size: 12px; color: var(--text2);
-    cursor: pointer; margin-bottom: 1px;
+  .unit-soon {
+    font-size: 11px; color: var(--text3); padding: 4px 8px; display: inline-block; font-family: var(--font);
+    cursor: default; user-select: none;
   }
-  #worksheets-nav-tree .ws-sec-item:hover { background: var(--bg3); color: var(--text); }
-  #worksheets-nav-tree .ws-sec-item.active { background: rgba(79,126,247,.13); color: var(--accent); }
-  #worksheets-nav-tree .ws-sec-count { opacity: .45; font-size: 10px; margin-left: 4px; }
-  .ws-sheet { background: #fff; border: 1px solid var(--border); border-radius: var(--radius); padding: 18px 20px; margin-bottom: 18px; box-shadow: var(--shadow); }
-  .ws-sheet h3 { font-size: 15px; font-weight: 600; margin: 0 0 14px; color: var(--text); }
-  .ws-q { border-top: 1px solid var(--border); padding: 16px 0 4px; }
-  .ws-q:first-of-type { border-top: none; padding-top: 0; }
-  .ws-q-num { font-size: 11px; font-weight: 700; color: var(--text3); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 8px; }
-  .ws-q-body { font-size: 14px; line-height: 1.55; color: var(--text); font-family: var(--serif); }
-  .ws-show-ans {
-    margin-top: 12px; padding: 7px 16px; background: var(--accent); color: #fff; border: none;
-    border-radius: 8px; font-size: 12px; font-weight: 600; cursor: pointer; font-family: var(--font);
+  .unit-soon-tag { color: #999; font-style: italic; margin-left: 2px; }
+
+  /* FRQ: embedded PDF + answer key panel */
+  .frq-split-layout {
+    display: flex;
+    gap: 0;
+    min-height: min(72vh, 720px);
+    margin-top: 16px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    overflow: hidden;
+    background: var(--bg2);
   }
-  .ws-show-ans:hover { filter: brightness(1.05); }
-  .ws-answer-panel {
-    display: none; margin-top: 12px; padding: 14px 16px; background: var(--green-bg); border: 1px solid #bbf7d0;
-    border-radius: var(--radius); font-size: 14px; line-height: 1.5; color: var(--text);
+  .frq-pdf-pane {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    background: #525659;
   }
-  .ws-answer-panel .ws-ans-label { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .07em; color: var(--green); margin-bottom: 8px; }
+  .frq-pdf-label {
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    color: #e2e8f0;
+    padding: 8px 12px;
+    background: #3f4448;
+  }
+  .frq-pdf-frame {
+    width: 100%;
+    flex: 1;
+    min-height: 480px;
+    border: none;
+    background: #fff;
+  }
+  .frq-key-panel {
+    width: min(38%, 420px);
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg2);
+    border-left: 1px solid var(--border);
+    transition: width .22s ease, min-width .22s ease;
+  }
+  .frq-key-panel.frq-key-collapsed {
+    width: 44px;
+    min-width: 44px;
+  }
+  .frq-key-panel.frq-key-collapsed .frq-key-panel-inner {
+    display: none;
+  }
+  .frq-key-tabbtn {
+    flex-shrink: 0;
+    padding: 10px 8px;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg3);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    color: var(--accent);
+    cursor: pointer;
+    font-family: var(--font);
+  }
+  .frq-key-tabbtn:hover { filter: brightness(1.03); }
+  .frq-key-panel-inner {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+  }
+  .frq-key-iframe { min-height: 520px; flex: 1; }
+  .frq-key-fallback-notes { padding: 12px; overflow-y: auto; max-height: 70vh; }
+  .frq-parts-below { margin-top: 20px; padding-top: 16px; border-top: 1px solid var(--border); }
 
   .content { flex: 1; overflow-y: auto; padding: 28px 28px; }
 
@@ -895,44 +950,12 @@
 
     <!-- Unit picker panel -->
     <div id="unit-picker" style="display:none;background:#f5f3ef;border-radius:8px;padding:10px 8px;margin:4px 0 6px;border:1px solid #ccc">
-      <div style="font-size:10px;color:rgba(255,255,255,.35);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;padding:0 4px">Select units to practice</div>
+      <div style="font-size:10px;color:#666;text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px;padding:0 4px">Select unit · Sections from JSON</div>
 
-      <!-- Quick options -->
-      <div style="display:flex;gap:4px;margin-bottom:8px;flex-wrap:wrap">
-        <button onclick="quickSelect('all')" class="unit-quick-btn active" id="qb-all">All</button>
-        <button onclick="quickSelect('u1')" class="unit-quick-btn" id="qb-u1">Unit 1</button>
-        <button onclick="quickSelect('u2')" class="unit-quick-btn" id="qb-u2">Unit 2</button>
-        <button onclick="quickSelect('u3')" class="unit-quick-btn" id="qb-u3">Unit 3</button>
-        <button onclick="quickSelect('u4')" class="unit-quick-btn" id="qb-u4">Unit 4</button>
-        <button onclick="quickSelect('u5')" class="unit-quick-btn" id="qb-u5">Unit 5</button>
-        <button onclick="quickSelect('u6')" class="unit-quick-btn" id="qb-u6">Unit 6</button>
-        <button onclick="quickSelect('u7')" class="unit-quick-btn" id="qb-u7">Unit 7</button>
-        <button onclick="quickSelect('u8')" class="unit-quick-btn" id="qb-u8">Unit 8</button>
-        <button onclick="quickSelect('u9')" class="unit-quick-btn" id="qb-u9">Unit 9</button>
-        <button onclick="quickSelect('u10')" class="unit-quick-btn" id="qb-u10">Unit 10</button>
-      </div>
+      <div id="unit-picker-units" style="display:flex;gap:4px;margin-bottom:10px;flex-wrap:wrap;align-items:center"></div>
 
-      <!-- Unit 6 checkboxes -->
-      <div style="font-size:10px;color:#555;font-weight:600;letter-spacing:.06em;padding:4px 4px 2px;text-transform:uppercase">Unit 6 · Integration</div>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.1" onchange="handleSectionCB()"> 6.1 Accumulations</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.2" onchange="handleSectionCB()"> 6.2 Riemann Sums</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.3" onchange="handleSectionCB()"> 6.3 Definite Integrals</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.4" onchange="handleSectionCB()"> 6.4/5 FTC</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.6" onchange="handleSectionCB()"> 6.6 Properties</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.7" onchange="handleSectionCB()"> 6.7 FTC Part 1</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.8" onchange="handleSectionCB()"> 6.8 Antiderivatives</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.9" onchange="handleSectionCB()"> 6.9 U-Substitution</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="6.10" onchange="handleSectionCB()"> 6.10 Long Division</label>
-
-      <!-- Unit 8 checkboxes -->
-      <div style="font-size:10px;color:#555;font-weight:600;letter-spacing:.06em;padding:6px 4px 2px;text-transform:uppercase;border-top:1px solid #ccc;margin-top:4px">Unit 8 · Applications</div>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.1" onchange="handleSectionCB()"> 8.1 Average Value</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.2" onchange="handleSectionCB()"> 8.2 Particle Motion</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.3" onchange="handleSectionCB()"> 8.3 Applied Contexts</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.4" onchange="handleSectionCB()"> 8.4 Area Between Curves</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.7" onchange="handleSectionCB()"> 8.7 Cross Sections</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.9" onchange="handleSectionCB()"> 8.9 Disc Method</label>
-      <label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="8.11" onchange="handleSectionCB()"> 8.11 Washer Method</label>
+      <div style="font-size:10px;color:#555;font-weight:600;letter-spacing:.06em;padding:4px 4px 2px;text-transform:uppercase;border-top:1px solid #ccc;margin-top:4px">Sections</div>
+      <div id="unit-picker-sections"></div>
 
       <button onclick="applySection()" style="width:100%;margin-top:8px;padding:7px;background:#2563eb;border:none;border-radius:6px;color:#fff;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--font)">Start Practice →</button>
     </div>
@@ -949,10 +972,6 @@
       <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="12" height="13" rx="2"/><path d="M5 6h6M5 9h6M5 12h3"/></svg>
       Notes
     </div>
-    <div class="nav-item" id="nav-materials" onclick="showPage('materials')">
-      <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 2h6l2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z"/><path d="M10 2v2h2"/><path d="M4 7h8M4 10h8M4 13h5"/></svg>
-      Materials (PDFs)
-    </div>
     <div class="nav-item" id="nav-flashcards" onclick="showPage('flashcards')">
       <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="4" width="14" height="9" rx="2"/><path d="M5 4V2.5a.5.5 0 01.5-.5h5a.5.5 0 01.5.5V4"/></svg>
       Flashcards
@@ -964,24 +983,11 @@
   </div>
 
   <div class="nav-section">
-    <div class="nav-label">Class worksheets</div>
-    <div class="nav-item" id="nav-class-worksheets" onclick="showPage('class-worksheets')">
-      <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 2h10v12H3z"/><path d="M5 6h6M5 9h4M5 12h6"/></svg>
-      Worksheets
-    </div>
-    <div id="worksheets-nav-tree" aria-label="Worksheet sections by unit"></div>
-  </div>
-
-  <div class="nav-section">
     <div class="nav-label">Review</div>
     <div class="nav-item" id="nav-flagged" onclick="showPage('flagged')">
       <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 2v12M3 2h9l-3 4 3 4H3"/></svg>
       Flagged Topics
       <span id="flag-count" style="margin-left:auto;background:rgba(245,166,35,.2);color:var(--amber);border-radius:10px;padding:1px 7px;font-size:10px;display:none">0</span>
-    </div>
-    <div class="nav-item" id="nav-accuracy" onclick="showPage('accuracy')">
-      <svg class="icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 13h12"/><path d="M4 10l2-2 2 1 4-4"/></svg>
-      Accuracy Review
     </div>
   </div>
 </nav>
@@ -1043,23 +1049,7 @@
                     <input type="checkbox" id="sec-all" checked onchange="handleSectionAll(this)" style="accent-color:#1a56db"> All Sections
                   </label>
                   <div style="border-top:1px solid var(--border);margin:4px 0"></div>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.1" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.1 Accumulations</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.2" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.2 Riemann Sums</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.3" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.3 Definite Integrals</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.4" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.4/5 FTC</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.6" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.6 Properties</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.7" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.7 FTC Part 1</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.8" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.8 Antiderivatives</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.9" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.9 U-Substitution</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="6.10" onchange="handleSectionCB()" style="accent-color:#1a56db"> 6.10 Long Division</label>
-                  <div style="border-top:1px solid var(--border);margin:4px 0;padding-top:4px;font-size:10px;color:var(--text3);padding-left:8px;font-family:var(--font);font-weight:600;text-transform:uppercase;letter-spacing:.07em">Unit 8</div>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.1" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.1 Average Value</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.2" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.2 Particle Motion</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.3" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.3 Applied Contexts</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.4" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.4 Area Between Curves</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.7" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.7 Cross Sections</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.9" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.9 Disc Method</label>
-                  <label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="8.11" onchange="handleSectionCB()" style="accent-color:#1a56db"> 8.11 Washer Method</label>
+                  <div id="section-menu-checks"></div>
                   <div style="border-top:1px solid var(--border);margin-top:6px;padding-top:6px">
                     <button onclick="applySection()" style="width:100%;padding:7px;background:#1a56db;border:none;border-radius:6px;color:#fff;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--font)">Apply & Next Question</button>
                   </div>
@@ -1078,7 +1068,7 @@
               <!-- Loading state -->
               <div class="loading-state" id="loading-q" style="background:transparent">
                 <div class="spinner" style="border-color:var(--border);border-top-color:var(--accent)"></div>
-                <div class="loading-text">Generating AP Calc AB question...</div>
+                <div class="loading-text">Loading question...</div>
               </div>
 
               <!-- Question content -->
@@ -1164,7 +1154,7 @@
 
       <!-- FRQ PAGE -->
       <div class="page" id="page-practice-frq">
-        <div style="max-width:760px">
+        <div id="frq-page-inner" style="max-width:1180px;width:100%">
           <div id="frq-tab-bar" style="display:flex;align-items:center;gap:10px;margin-bottom:20px;flex-wrap:wrap">
             <button class="mode-tab active" onclick="showFRQ(0)" id="frq-tab-0">FRQ 1 · FTC</button>
             <button class="mode-tab" onclick="showFRQ(1)" id="frq-tab-1">FRQ 2 · U-Sub</button>
@@ -1200,28 +1190,6 @@
           <button class="tab-btn" onclick="showNotesSection('8.11')">8.11/12</button>
         </div>
         <div class="notes-container" id="notes-container"></div>
-      </div>
-
-      <!-- CLASS WORKSHEETS — typed prompts + show answer -->
-      <div class="page" id="page-class-worksheets">
-        <div style="max-width:820px">
-          <div class="ap-note" style="margin-bottom:20px">
-            <strong>How this works:</strong> Questions and answer keys live in <code style="font-family:var(--mono)">data/class-worksheets.json</code>.
-            Type each problem word-for-word (HTML allowed). Use a PDF open beside the editor, or put PDFs in this repo and run
-            <code style="font-family:var(--mono)">node tools/pdf-extract-text.cjs "path/to/worksheet.pdf"</code> to dump extractable text as a starting draft (scanned pages may come out blank).
-          </div>
-          <div id="class-worksheets-body"></div>
-        </div>
-      </div>
-
-      <!-- MATERIALS (PDF) PAGE -->
-      <div class="page" id="page-materials">
-        <div id="materials-container"></div>
-        <div class="ap-note" style="margin-top:16px">
-          <strong>How to update:</strong> Add PDFs into the Unit folders in Finder, then run
-          <span style="font-family:var(--mono)">node tools/build-materials-manifest.mjs</span>,
-          then commit + push.
-        </div>
       </div>
 
       <!-- FLASHCARDS PAGE — QUIZLET STYLE DECK -->
@@ -1323,20 +1291,6 @@
         </div>
       </div>
 
-      <!-- ACCURACY REVIEW PAGE -->
-      <div class="page" id="page-accuracy">
-        <div style="max-width:920px">
-          <div style="display:flex;align-items:center;gap:12px;margin-bottom:10px;flex-wrap:wrap">
-            <h2 style="font-size:18px">Accuracy Review Mode</h2>
-            <button class="gen-btn" onclick="runAccuracyAudit()">Run Audit</button>
-          </div>
-          <p style="font-size:13px;color:var(--text3);margin-bottom:16px">
-            Checks all unit JSON files for common defects (missing keys, bad answer keys, duplicate questions/choices, low-confidence wording).
-          </p>
-          <div id="accuracy-results"></div>
-        </div>
-      </div>
-
     </div>
 
     <!-- REFERENCE PANEL -->
@@ -1420,8 +1374,6 @@
 </div>
 
 <script>
-const API_KEY_NOTE = "Note: This app uses the Anthropic API via the Claude.ai environment.";
-
 // ===================== STATE =====================
 let state = {
   currentSection: 'all',
@@ -1456,18 +1408,31 @@ document.addEventListener('click', e => {
     if (m) m.style.display = 'none';
   }
 });
+function syncSectionCheckboxesAcrossUis() {
+  const all = selectedSections[0] === 'all' || selectedSections.length === 0;
+  const sa = document.getElementById('sec-all');
+  if (sa) sa.checked = all;
+  document.querySelectorAll('.sec-cb').forEach(cb => {
+    cb.checked = !all && selectedSections.includes(cb.value);
+  });
+}
+
 function handleSectionAll(cb) {
-  document.querySelectorAll('.sec-cb').forEach(c => c.checked = false);
   selectedSections = ['all'];
+  syncSectionCheckboxesAcrossUis();
   document.getElementById('section-menu-label').textContent = 'All Sections';
 }
 function handleSectionCB() {
   document.getElementById('sec-all').checked = false;
-  const checked = [...document.querySelectorAll('.sec-cb:checked')].map(c => c.value);
+  const checked = [...new Set([...document.querySelectorAll('.sec-cb:checked')].map(c => c.value))].sort();
   selectedSections = checked.length > 0 ? checked : ['all'];
-  if (checked.length === 0) document.getElementById('sec-all').checked = true;
-  const label = checked.length === 0 ? 'All Sections' :
-    checked.length === 1 ? checked[0] : `${checked.length} sections`;
+  if (checked.length === 0) {
+    document.getElementById('sec-all').checked = true;
+    selectedSections = ['all'];
+  }
+  syncSectionCheckboxesAcrossUis();
+  const label = selectedSections[0] === 'all' ? 'All Sections' :
+    selectedSections.length === 1 ? selectedSections[0] : `${selectedSections.length} sections`;
   document.getElementById('section-menu-label').textContent = label;
 }
 function applySection() {
@@ -1569,434 +1534,21 @@ function updateScore() {
   if (fill) fill.style.width = Math.min(state.sessionTotal * 2.2, 100) + '%';
 }
 
-// ===================== PRE-LOADED QUESTION BANK =====================
-// 120+ questions built from your actual Unit 6 notes and worksheets
-const questionBank = [
-  // ── 6.1 ACCUMULATIONS ──
-  {section:'6.1',topic:'Accumulation of Rates',calcType:'No Calculator',
-   question:'A particle moves along a straight path with a constant velocity of 3 ft/sec. What is the total distance the particle travels from t = 0 to t = 4 seconds?',
-   choices:{A:'7 ft',B:'12 ft',C:'3 ft',D:'16 ft'},correct:'B',
-   explanation:'Distance = rate × time = 3 ft/sec × 4 sec = 12 ft. This is the area of the rectangle under the velocity graph.',
-   notesSection:'6.1 — Accumulation of Rates',notesSnippet:'The area of the region between a rate-of-change graph and the x-axis gives the accumulation of change. Here, distance = rate × time = area of the rectangle.',
-   timeTip:'For constant rate problems, just multiply rate × time. Draw the rectangle under the graph if it helps.'},
-
-  {section:'6.1',topic:'Accumulation of Rates',calcType:'No Calculator',
-   question:'The graph of v(t), the velocity of a particle (in m/min), forms a trapezoid above the x-axis with parallel sides of length 2 and 6, and height 4. What is the total distance traveled by the particle?',
-   choices:{A:'8 m',B:'16 m',C:'24 m',D:'12 m'},correct:'B',
-   explanation:'Distance = area under the velocity curve = area of trapezoid = ½(b₁ + b₂)(h) = ½(2 + 6)(4) = ½(8)(4) = 16 m.',
-   notesSection:'6.1 — Area Under Curve',notesSnippet:'Accumulation can be evaluated geometrically. For a trapezoid: Area = ½(b₁ + b₂)(h). Remember "under" means between the function and the x-axis.',
-   timeTip:'Recognize geometric shapes (rectangles, triangles, trapezoids) under the curve and use their area formulas directly — much faster than integration.'},
-
-  {section:'6.1',topic:'Accumulation — Context',calcType:'No Calculator',
-   question:'The rate at which people enter a museum is modeled by r(t) people per hour. If the area between the graph of r(t) and the x-axis from t = 0 to t = 5 is 200, what does this value represent?',
-   choices:{A:'The average number of people per hour',B:'The rate at which people enter at t = 5',C:'The total number of people who entered the museum in the first 5 hours',D:'The maximum number of people in the museum at any time'},correct:'C',
-   explanation:'The area under a rate-of-change graph gives the total accumulation. Since r(t) = people per hour, the integral from 0 to 5 gives total people who entered over 5 hours = 200 people.',
-   notesSection:'6.1 — Interpreting Accumulation',notesSnippet:'Units of the accumulation = units of f(t) × units of t. If r(t) is in people/hour and t is in hours, the integral has units of people.',
-   timeTip:'Always check units: rate × time = accumulated quantity. This tells you what the integral represents.'},
-
-  {section:'6.1',topic:'Signed Accumulation',calcType:'No Calculator',
-   question:'A particle\'s velocity v(t) is positive on [0, 3] with area 8 above the x-axis, then negative on [3, 7] with area 5 below the x-axis. What is the particle\'s net displacement from t = 0 to t = 7?',
-   choices:{A:'13',B:'3',C:'-3',D:'5'},correct:'B',
-   explanation:'Net displacement = area above x-axis − area below x-axis = 8 − 5 = 3. The negative portion represents backward motion, so it subtracts from the total.',
-   notesSection:'6.1 — Signed Areas',notesSnippet:'If the rate of change is negative over an interval, the accumulated change is negative. Net displacement = positive areas − negative areas.',
-   timeTip:'Net displacement uses signed area. Total distance uses all areas as positive. Know which one is being asked!'},
-
-  // ── 6.2 RIEMANN SUMS ──
-  {section:'6.2',topic:'Right Riemann Sum',calcType:'No Calculator',
-   question:'The table shows values of f(x): x = 1, 3, 4, 8 and f(x) = 6, 2, 5, 7. Use a right Riemann sum with 3 subintervals to approximate ∫₁⁸ f(x) dx.',
-   choices:{A:'38',B:'34',C:'30',D:'26'},correct:'A',
-   explanation:'The 3 subintervals are [1,3], [3,4], [4,8]. Right endpoints give f(3)=2, f(4)=5, f(8)=7. Widths are 2, 1, 4. Sum = 2(2) + 1(5) + 4(7) = 4 + 5 + 28 = 37. Wait — recalculate: 2(2)+1(5)+4(7) = 4+5+28 = 37 ≈ 38 with rounding. Answer A = 38.',
-   explanation:'Subintervals [1,3],[3,4],[4,8] with widths 2,1,4. Right endpoints: f(3)=2, f(4)=5, f(8)=7. Right Riemann sum = 2(2)+1(5)+4(7) = 4+5+28 = 37.',
-   correct:'B',
-   choices:{A:'34',B:'37',C:'41',D:'29'},
-   notesSection:'6.2 — Right Riemann Sum',notesSnippet:'Right Riemann sum: use the right endpoint of each subinterval for height. Sum = Σ f(xᵢ)·Δxᵢ. Note subintervals may have unequal widths.',
-   timeTip:'List the subintervals first, then their widths, then the right endpoint values. Multiply each f-value by its width and add.'},
-
-  {section:'6.2',topic:'Left Riemann Sum',calcType:'No Calculator',
-   question:'Using the table x: 0,1,2,5,8,10,12 and g\'(x): 2.1,4.7,1.9,5.6,8.2,4.3,2.5, approximate ∫₀¹² g\'(x) dx using a left Riemann sum with 3 equal subintervals of width 4.',
-   choices:{A:'49.6',B:'56.4',C:'44.0',D:'33.6'},correct:'A',
-   explanation:'3 equal subintervals of width 4: [0,4], [4,8], [8,12]. Left endpoints x=0,4,8 give g\'(0)=2.1, g\'(4)≈5.6 (from table at x=5, closest), g\'(8)=8.2. Sum = 4(2.1)+4(5.6)+4(8.2) = 8.4+22.4+32.8 = 63.6. Using exact: [0,4] left=g\'(0)=2.1, [4,8] left=g\'(4)≈use x=5: 5.6, [8,12] left=g\'(8)=8.2. 4(2.1+5.6+8.2)=4(15.9)=63.6.',
-   notesSection:'6.2 — Left Riemann Sum',notesSnippet:'Left Riemann sum: Σ f(xᵢ₋₁)·Δx. For equal subintervals, all widths are the same Δx = (b−a)/n.',
-   timeTip:'Always identify subinterval width first: Δx = (b−a)/n. Then pick left endpoints. Factor out Δx to speed up arithmetic.'},
-
-  {section:'6.2',topic:'Over/Underestimate',calcType:'No Calculator',
-   question:'If f is a positive, increasing, and concave up function on [a, b], which of the following correctly orders the approximations from least to greatest?',
-   choices:{A:'Left < Trapezoid < Midpoint < Right',B:'Left < Midpoint < Trapezoid < Right',C:'Trapezoid < Left < Midpoint < Right',D:'Left < Right < Midpoint < Trapezoid'},correct:'B',
-   explanation:'For an increasing function: Left < Right (Left underestimates, Right overestimates). For concave up: Midpoint underestimates, Trapezoid overestimates the actual integral. So the order is Left < Midpoint < Actual < Trapezoid < Right is wrong — actually Left < Midpoint < Trap < Right for increasing concave up.',
-   notesSection:'6.2 — Over/Underestimate Rules',notesSnippet:'Increasing: L < R. Concave up: Midpoint underestimates, Trapezoid overestimates. So for increasing + concave up: Left < Midpoint < Trapezoid < Right.',
-   timeTip:'Draw a small increasing concave-up curve and sketch rectangles. This visual will make the over/under relationships obvious and stick in memory.'},
-
-  {section:'6.2',topic:'Trapezoid Rule',calcType:'No Calculator',
-   question:'Use the Trapezoidal Rule with n = 3 to approximate ∫₀⁶ f(x) dx given f(0)=1, f(2)=3, f(4)=2, f(6)=4.',
-   choices:{A:'16',B:'14',C:'18',D:'12'},correct:'A',
-   explanation:'Trapezoid Rule: Δx/2 · [f(x₀) + 2f(x₁) + 2f(x₂) + f(x₃)] = (2/2)[1 + 2(3) + 2(2) + 4] = 1[1+6+4+4] = 15. Hmm — let me recheck: 1·[1+6+4+4] = 15. Closest answer is A=16.',
-   notesSection:'6.2 — Trapezoidal Rule',notesSnippet:'Trapezoidal Rule: (Δx/2)[f(x₀) + 2f(x₁) + 2f(x₂) + ... + 2f(xₙ₋₁) + f(xₙ)]. The first and last values have coefficient 1; all middle values have coefficient 2.',
-   timeTip:'Remember the "1, 2, 2, ..., 2, 1" pattern for trapezoid coefficients. Write it out before plugging in numbers.'},
-
-  {section:'6.2',topic:'Real-World Riemann Sum',calcType:'No Calculator',
-   question:'The rate that fans exit a school after a basketball game is modeled by L(t) fans/second, with values L(0)=3.5, L(2)=2.0, L(3)=2.1, L(6)=1.5. Use a left Riemann sum with the 3 subintervals [0,2],[2,3],[3,6] to estimate total fans who exited from t=0 to t=6.',
-   choices:{A:'17.3 fans',B:'16.3 fans',C:'14.1 fans',D:'18.0 fans'},correct:'A',
-   explanation:'Left endpoints: L(0)=3.5, L(2)=2.0, L(3)=2.1. Widths: 2, 1, 3. Sum = 2(3.5)+1(2.0)+3(2.1) = 7+2+6.3 = 15.3 fans.',
-   notesSection:'6.1/6.2 — Real-World Accumulation',notesSnippet:'Units: fans/second × seconds = fans. Always include units in your answer on the AP exam — points are given for units.',
-   timeTip:'In real-world problems, identify the units first. Rate × time = accumulated quantity. Don\'t forget units in your final answer!'},
-
-  // ── 6.3 DEFINITE INTEGRAL NOTATION ──
-  {section:'6.3',topic:'Limit of Riemann Sum to Integral',calcType:'No Calculator',
-   question:'Which definite integral is equal to lim(n→∞) Σᵢ₌₁ⁿ (3 + 4k/n)(4/n)?',
-   choices:{A:'∫₀⁴ (3+x) dx',B:'∫₃⁷ x dx',C:'∫₀⁴ (3+4x) dx',D:'∫₀¹ (3+4x) dx'},correct:'A',
-   explanation:'Δx = 4/n means the interval has length 4. xᵢ = 0 + i(4/n) = 4i/n, so f(xᵢ) = 3 + 4(i/n)·... Actually f(xᵢ) = 3 + 4k/n = 3 + x when x = 4k/n goes from 0 to 4. So the integral is ∫₀⁴(3+x)dx.',
-   notesSection:'6.3 — Riemann Sum to Integral',notesSnippet:'To convert: Δx = (b−a)/n gives the interval width. xᵢ = a + i·Δx identifies the function and bounds. Match f(xᵢ) to find the integrand.',
-   timeTip:'Look at Δx first — it gives you the interval length (b−a). Then find xᵢ to identify the integrand. This is a guaranteed AP question type.'},
-
-  {section:'6.3',topic:'Definite Integral Notation',calcType:'No Calculator',
-   question:'What does ∫₂⁵ f(x) dx represent geometrically when f(x) ≥ 0 on [2, 5]?',
-   choices:{A:'The slope of f on [2,5]',B:'The area of the region between f and the x-axis on [2,5]',C:'The average value of f on [2,5]',D:'The length of f on [2,5]'},correct:'B',
-   explanation:'When f(x) ≥ 0, the definite integral equals the area of the region between the curve y=f(x) and the x-axis over [2,5]. If f were negative, the integral would give signed area.',
-   notesSection:'6.3 — Definite Integral as Area',notesSnippet:'∫ₐᵇ f(x) dx = signed area between f and the x-axis. When f ≥ 0, this is simply the area. When f < 0, the contribution is negative.',
-   timeTip:'For geometry interpretation questions, remember: positive f → positive area, negative f → negative contribution. The integral gives NET signed area.'},
-
-  // ── 6.4/6.5 FTC ──
-  {section:'6.4',topic:'FTC Part 2',calcType:'No Calculator',
-   question:'Evaluate ∫₁⁴ (3x² − 2x + 1) dx.',
-   choices:{A:'48',B:'54',C:'42',D:'60'},correct:'B',
-   explanation:'Antiderivative: F(x) = x³ − x² + x. F(4) = 64 − 16 + 4 = 52. F(1) = 1 − 1 + 1 = 1. Integral = 52 − 1 = 51. Hmm — recheck: 64-16+4=52, 1-1+1=1, 52-1=51. Closest is B=54. Let me recompute: ∫(3x²-2x+1)dx = x³-x²+x. At x=4: 64-16+4=52. At x=1: 1-1+1=1. Answer = 51.',
-   choices:{A:'48',B:'51',C:'54',D:'45'},correct:'B',
-   explanation:'F(x) = x³ − x² + x. F(4) = 64 − 16 + 4 = 52. F(1) = 1 − 1 + 1 = 1. ∫₁⁴ = F(4) − F(1) = 52 − 1 = 51.',
-   notesSection:'6.4/6.5 — FTC Part 2',notesSnippet:'FTC Part 2: ∫ₐᵇ f(x)dx = F(b) − F(a). Find the antiderivative F, evaluate at both bounds, subtract. The +C cancels so omit it for definite integrals.',
-   timeTip:'Write [F(x)]ₐᵇ notation to organize your work. Evaluate top bound first, then subtract bottom bound. Show this step on the AP exam for partial credit.'},
-
-  {section:'6.4',topic:'FTC Part 1',calcType:'No Calculator',
-   question:'If g(x) = ∫₂ˣ (t² + 3t) dt, find g\'(x).',
-   choices:{A:'x² + 3x',B:'2x + 3',C:'x³/3 + 3x²/2 − 26/3',D:'(x² + 3x) − (4 + 6)'},correct:'A',
-   explanation:'By FTC Part 1, d/dx[∫ₐˣ f(t)dt] = f(x). Simply replace t with x in the integrand: g\'(x) = x² + 3x. The lower bound is constant so it has no effect on the derivative.',
-   notesSection:'6.4/6.5 — FTC Part 1',notesSnippet:'FTC Part 1: d/dx[∫ₐˣ f(t)dt] = f(x). Think of it as "the derivative and integral cancel." Just replace the variable t with x.',
-   timeTip:'FTC Part 1 derivative questions take 5 seconds once memorized. The answer is always f(x) — just replace t with x. Watch for chain rule when the upper bound is g(x), not just x.'},
-
-  {section:'6.4',topic:'FTC with Chain Rule',calcType:'No Calculator',
-   question:'Find d/dx [∫₁^(x³) sin(t²) dt].',
-   choices:{A:'sin(x³)',B:'sin(x⁶) · 3x²',C:'3x² · sin(x³)',D:'cos(x⁶) · 3x²'},correct:'B',
-   explanation:'Using FTC Part 1 with chain rule: d/dx[∫₁^(g(x)) f(t)dt] = f(g(x))·g\'(x). Here g(x) = x³, g\'(x) = 3x². So: sin((x³)²)·3x² = sin(x⁶)·3x².',
-   notesSection:'6.4/6.5 — FTC with Chain Rule',notesSnippet:'When the upper bound is g(x) instead of x: d/dx[∫ₐ^(g(x)) f(t)dt] = f(g(x))·g\'(x). Replace t with g(x) in the integrand, then multiply by g\'(x).',
-   timeTip:'Two-step process: (1) Replace t with the upper bound expression, (2) multiply by derivative of upper bound. Common mistake: forgetting to square x³ to get x⁶.'},
-
-  {section:'6.4',topic:'FTC Part 1 — Lower Bound Variable',calcType:'No Calculator',
-   question:'Find d/dx [∫ₓ⁵ e^(t²) dt].',
-   choices:{A:'e^(x²)',B:'-e^(x²)',C:'e^(25)',D:'2x·e^(x²)'},correct:'B',
-   explanation:'When the variable is in the LOWER bound, flip the integral: ∫ₓ⁵ = −∫₅ˣ. Then d/dx[−∫₅ˣ e^(t²)dt] = −e^(x²).',
-   notesSection:'6.4/6.5 — FTC Lower Bound',notesSnippet:'If the variable is in the lower bound: d/dx[∫ₓᵇ f(t)dt] = −f(x). Flip the bounds to get a positive upper limit, then apply FTC Part 1.',
-   timeTip:'Variable in lower bound → flip the sign. This trips up many students. Always check which bound has the variable before applying FTC.'},
-
-  {section:'6.4',topic:'Accumulation Function',calcType:'No Calculator',
-   question:'Let f be the function defined by f(x) = ∫₀ˣ (t² − 4) dt. On what interval(s) is f increasing?',
-   choices:{A:'(−∞, ∞)',B:'(−2, 2)',C:'(−∞, −2) ∪ (2, ∞)',D:'(0, 2)'},correct:'C',
-   explanation:'f\'(x) = x² − 4 by FTC Part 1. f is increasing when f\'(x) > 0, i.e., x² − 4 > 0, i.e., x² > 4, so x < −2 or x > 2. The interval is (−∞, −2) ∪ (2, ∞).',
-   notesSection:'6.4/6.5 — Analyzing Accumulation Functions',notesSnippet:'g\'(x) = f(x) from FTC. So g increases where f(x) > 0. The graph of f tells you everything about the behavior of g: increasing, decreasing, max, min.',
-   timeTip:'For accumulation function analysis: f\'(x) = integrand. Set integrand > 0 for increasing intervals. This connects back to first derivative analysis from Unit 5.'},
-
-  // ── 6.6 PROPERTIES ──
-  {section:'6.6',topic:'Properties of Integrals',calcType:'No Calculator',
-   question:'Given ∫₋₃² f(x)dx = −4 and ∫₋₃² g(x)dx = 2, find ∫₋₃² [2f(x) − 3g(x)] dx.',
-   choices:{A:'-14',B:'-2',C:'-10',D:'2'},correct:'A',
-   explanation:'∫[2f − 3g] = 2∫f − 3∫g = 2(−4) − 3(2) = −8 − 6 = −14.',
-   notesSection:'6.6 — Properties of Definite Integrals',notesSnippet:'∫[af(x) ± bg(x)]dx = a∫f(x)dx ± b∫g(x)dx. You can split sums and pull out constants.',
-   timeTip:'Distribute the integral sign and pull out constants. This is like distributing a factor — very mechanical once you know the property.'},
-
-  {section:'6.6',topic:'Properties — Additivity',calcType:'No Calculator',
-   question:'If ∫₀⁹ f(x)dx = 11 and ∫₃⁹ f(x)dx = −1, what is ∫₀³ f(x)dx?',
-   choices:{A:'12',B:'10',C:'-12',D:'-10'},correct:'A',
-   explanation:'∫₀⁹ = ∫₀³ + ∫₃⁹, so ∫₀³ = ∫₀⁹ − ∫₃⁹ = 11 − (−1) = 12.',
-   notesSection:'6.6 — Additivity Property',notesSnippet:'∫ₐᶜ f dx = ∫ₐᵇ f dx + ∫ᵦᶜ f dx. You can split an integral at any interior point, or use this to find a missing piece.',
-   timeTip:'Think of this like a number line: the total integral = left piece + right piece. Rearrange algebraically to find whichever piece is missing.'},
-
-  {section:'6.6',topic:'Properties — Flip Bounds',calcType:'No Calculator',
-   question:'Which of the following is equivalent to −∫₇² f(x)dx?',
-   choices:{A:'∫₇² f(x)dx',B:'∫₂⁷ f(x)dx',C:'∫₂⁷ −f(x)dx',D:'−∫₂⁷ f(x)dx'},correct:'B',
-   explanation:'Flipping the bounds changes the sign: ∫ₐᵇ f = −∫ᵦₐ f. So −∫₇² f = −(−∫₂⁷ f) = ∫₂⁷ f.',
-   notesSection:'6.6 — Reversing Bounds',notesSnippet:'∫ₐᵇ f(x)dx = −∫ᵦₐ f(x)dx. Flipping the bounds changes the sign. Two negatives cancel, giving the original direction.',
-   timeTip:'A double negative: the original has −∫₇², flipping the bounds introduces another negative, giving +∫₂⁷. Watch for this trap on the AP exam!'},
-
-  {section:'6.6',topic:'Properties — Given Values',calcType:'No Calculator',
-   question:'Given ∫₂⁷ f(x)dx = 7 and ∫₂⁷ g(x)dx = 5, find ∫₂⁷ [f(x) + g(x)] dx.',
-   choices:{A:'35',B:'2',C:'12',D:'7/5'},correct:'C',
-   explanation:'∫[f + g] = ∫f + ∫g = 7 + 5 = 12.',
-   notesSection:'6.6 — Sum Property',notesSnippet:'∫[f(x) + g(x)]dx = ∫f(x)dx + ∫g(x)dx. The integral of a sum equals the sum of the integrals — same bounds required.',
-   timeTip:'Sum/difference property: split the integral. Always check that the bounds are the same before combining integrals.'},
-
-  // ── 6.7 FTC PART 1 ──
-  {section:'6.7',topic:'Evaluating with FTC',calcType:'No Calculator',
-   question:'Evaluate ∫₀^(π/2) cos(x) dx.',
-   choices:{A:'0',B:'1',C:'-1',D:'π/2'},correct:'B',
-   explanation:'Antiderivative of cos(x) is sin(x). [sin(x)]₀^(π/2) = sin(π/2) − sin(0) = 1 − 0 = 1.',
-   notesSection:'6.7 — FTC Evaluation',notesSnippet:'∫cos(x)dx = sin(x) + C. For definite integrals, evaluate [sin(x)]ₐᵇ = sin(b) − sin(a). The +C cancels so omit it.',
-   timeTip:'Memorize ∫cos(x)dx = sin(x). For definite integrals, bracket notation [F(x)]ₐᵇ helps organize the work. sin(π/2)=1 and sin(0)=0 are unit circle values.'},
-
-  {section:'6.7',topic:'FTC Evaluation',calcType:'No Calculator',
-   question:'Evaluate ∫₁^e (1/x) dx.',
-   choices:{A:'e − 1',B:'1',C:'ln(e²)',D:'0'},correct:'B',
-   explanation:'∫(1/x)dx = ln|x|. [ln|x|]₁^e = ln(e) − ln(1) = 1 − 0 = 1.',
-   notesSection:'6.7 — Logarithmic Integral',notesSnippet:'∫(1/x)dx = ln|x| + C. Since ln(1) = 0 and ln(e) = 1, this is a common AP evaluation.',
-   timeTip:'Know that ln(1) = 0 and ln(e) = 1. These exact values make ∫₁^e (1/x)dx a clean problem. Watch for it on the exam!'},
-
-  {section:'6.7',topic:'FTC Evaluation',calcType:'No Calculator',
-   question:'Evaluate ∫₀² (3eˣ + 2) dx.',
-   choices:{A:'3e² + 4',B:'3e² + 1',C:'3e² − 3 + 4',D:'6e² + 4'},correct:'C',
-   explanation:'∫(3eˣ + 2)dx = 3eˣ + 2x. Evaluate: [3eˣ + 2x]₀² = (3e² + 4) − (3e⁰ + 0) = 3e² + 4 − 3 = 3e² + 1. Answer is B.',
-   correct:'B',
-   choices:{A:'3e² + 4',B:'3e² + 1',C:'3e² − 3',D:'6e²'},
-   explanation:'[3eˣ + 2x]₀² = (3e² + 4) − (3(1) + 0) = 3e² + 4 − 3 = 3e² + 1.',
-   notesSection:'6.7 — Evaluating Exponential Integrals',notesSnippet:'∫eˣ dx = eˣ + C. Note that e⁰ = 1, not 0. This is a common error on the AP exam.',
-   timeTip:'Don\'t forget e⁰ = 1. When you evaluate at x = 0, 3e⁰ = 3(1) = 3, not 0!'},
-
-  // ── 6.8 ANTIDERIVATIVES ──
-  {section:'6.8',topic:'Basic Antiderivatives',calcType:'No Calculator',
-   question:'Find ∫ (4x³ − 6x + 5) dx.',
-   choices:{A:'12x² − 6 + C',B:'x⁴ − 3x² + 5x + C',C:'4x⁴ − 6x² + 5x + C',D:'x⁴ − 6x² + 5x + C'},correct:'B',
-   explanation:'∫4x³ dx = x⁴, ∫−6x dx = −3x², ∫5 dx = 5x. Result: x⁴ − 3x² + 5x + C.',
-   notesSection:'6.8 — Power Rule for Integrals',notesSnippet:'∫xⁿ dx = xⁿ⁺¹/(n+1) + C. For each term: add 1 to exponent, divide by new exponent. Always add + C for indefinite integrals.',
-   timeTip:'Do each term separately. Add 1 to exponent, divide by new exponent. Check your work by differentiating your answer — it should give the original.'},
-
-  {section:'6.8',topic:'Trig Antiderivatives',calcType:'No Calculator',
-   question:'Find ∫ (sec²x − sin x) dx.',
-   choices:{A:'2sec(x)tan(x) + cos(x) + C',B:'tan(x) + cos(x) + C',C:'tan(x) − cos(x) + C',D:'sec²(x)tan(x) − cos(x) + C'},correct:'B',
-   explanation:'∫sec²x dx = tan(x) and ∫−sin(x) dx = cos(x). Result: tan(x) + cos(x) + C.',
-   notesSection:'6.8 — Trig Antiderivatives',notesSnippet:'∫sec²(x)dx = tan(x) + C. ∫sin(x)dx = −cos(x) + C, so ∫−sin(x)dx = cos(x) + C. Memorize these!',
-   timeTip:'The most common error: ∫sin(x)dx = −cos(x), NOT +cos(x). The negative sign trips many students. Think: derivative of −cos(x) = sin(x) ✓'},
-
-  {section:'6.8',topic:'Antiderivatives — Inverse Trig',calcType:'No Calculator',
-   question:'Find ∫ 1/(1+x²) dx.',
-   choices:{A:'−1/(1+x²)² + C',B:'arcsin(x) + C',C:'arctan(x) + C',D:'ln(1+x²) + C'},correct:'C',
-   explanation:'∫1/(1+x²) dx = arctan(x) + C. This is one of the standard antiderivative formulas to memorize.',
-   notesSection:'6.8 — Inverse Trig Integrals',notesSnippet:'∫1/(1+x²)dx = arctan(x) + C. ∫1/√(1−x²)dx = arcsin(x) + C. These appear regularly on the AP exam.',
-   timeTip:'1/(1+x²) → arctan, 1/√(1−x²) → arcsin. A helpful memory trick: the denominator with a square root points to arcsin, the one without points to arctan.'},
-
-  {section:'6.8',topic:'Antiderivatives — Combining Rules',calcType:'No Calculator',
-   question:'Evaluate ∫₀^(π/4) sec²(x) dx.',
-   choices:{A:'√2',B:'0',C:'1',D:'π/4'},correct:'C',
-   explanation:'[tan(x)]₀^(π/4) = tan(π/4) − tan(0) = 1 − 0 = 1.',
-   notesSection:'6.8 — Evaluating Trig Definite Integrals',notesSnippet:'∫sec²(x)dx = tan(x) + C. Know unit circle values: tan(π/4) = 1, tan(0) = 0.',
-   timeTip:'tan(π/4) = 1 is a unit circle fact. This is a quick problem if you know the antiderivative and the trig value.'},
-
-  // ── 6.9 U-SUBSTITUTION ──
-  {section:'6.9',topic:'U-Substitution',calcType:'No Calculator',
-   question:'Find ∫ 2(2x+1)⁴ dx.',
-   choices:{A:'(2x+1)⁵/5 + C',B:'8(2x+1)⁵ + C',C:'(2x+1)⁵ + C',D:'10(2x+1)³ + C'},correct:'A',
-   explanation:'Let u = 2x+1, du = 2dx. So 2dx = du. Integral becomes ∫u⁴ du = u⁵/5 + C = (2x+1)⁵/5 + C.',
-   notesSection:'6.9 — U-Substitution Setup',notesSnippet:'u = inner function = 2x+1. du = 2dx, which exactly matches the 2 in front. After substituting: ∫u⁴ du = u⁵/5 + C. Back-substitute.',
-   timeTip:'When you see (something)ⁿ, let u = that something. Check that its derivative is also present in the integral. Here 2 = derivative of 2x+1 ✓'},
-
-  {section:'6.9',topic:'U-Substitution',calcType:'No Calculator',
-   question:'Find ∫ 2x(x²−9)³ dx.',
-   choices:{A:'(x²−9)⁴/4 + C',B:'(x²−9)⁴/2 + C',C:'x²(x²−9)⁴/4 + C',D:'2(x²−9)⁴ + C'},correct:'A',
-   explanation:'Let u = x²−9, du = 2x dx. Integral becomes ∫u³ du = u⁴/4 + C = (x²−9)⁴/4 + C.',
-   notesSection:'6.9 — U-Substitution',notesSnippet:'The 2x in front is exactly the derivative of x²−9. This is the signal to use u-sub with u = x²−9.',
-   timeTip:'Look for a function and its derivative in the same integral — that\'s the u-sub signal. Here: x²−9 and its derivative 2x both appear.'},
-
-  {section:'6.9',topic:'U-Substitution',calcType:'No Calculator',
-   question:'Find ∫ −2x√(9−x²) dx.',
-   choices:{A:'(9−x²)^(3/2)/(3/2) + C',B:'(2/3)(9−x²)^(3/2) + C',C:'−(2/3)(9−x²)^(3/2) + C',D:'√(9−x²) + C'},correct:'B',
-   explanation:'Let u = 9−x², du = −2x dx. So −2x dx = du. Integral = ∫u^(1/2) du = u^(3/2)/(3/2) + C = (2/3)(9−x²)^(3/2) + C.',
-   notesSection:'6.9 — U-Substitution with Roots',notesSnippet:'For ∫f(g(x))·g\'(x)dx, let u = g(x). Here g(x) = 9−x², g\'(x) = −2x. The integral becomes ∫√u du.',
-   timeTip:'∫u^(1/2) du = u^(3/2)/(3/2) = (2/3)u^(3/2). Remember: dividing by 3/2 is the same as multiplying by 2/3.'},
-
-  {section:'6.9',topic:'U-Sub Definite Integral — Change Bounds',calcType:'No Calculator',
-   question:'Evaluate ∫₁³ 2x·e^(x²) dx.',
-   choices:{A:'e⁹ − e',B:'e⁹ − 1',C:'e⁸',D:'2(e⁹ − e)'},correct:'A',
-   explanation:'Let u = x², du = 2x dx. Change bounds: x=1→u=1, x=3→u=9. ∫₁⁹ eᵘ du = [eᵘ]₁⁹ = e⁹ − e¹ = e⁹ − e.',
-   notesSection:'6.9 — Definite Integrals with U-Sub',notesSnippet:'When changing bounds: substitute x values into u = g(x). x=1 → u=1²=1. x=3 → u=3²=9. Then integrate in u from 1 to 9.',
-   timeTip:'Changing bounds is faster than back-substituting. After finding u, immediately compute new bounds. Write u=... next to the new bounds so you don\'t forget.'},
-
-  {section:'6.9',topic:'U-Sub — Requires Algebra',calcType:'No Calculator',
-   question:'Find ∫ x²/(1−x³)² dx.',
-   choices:{A:'1/(3(1−x³)) + C',B:'−x³/(1−x³) + C',C:'−1/(3(1−x³)) + C',D:'ln|1−x³| + C'},correct:'A',
-   explanation:'Let u = 1−x³, du = −3x² dx, so x² dx = −du/3. Integral = ∫(1/u²)(−du/3) = −(1/3)∫u⁻² du = −(1/3)(−1/u) + C = 1/(3u) + C = 1/(3(1−x³)) + C.',
-   notesSection:'6.9 — U-Sub with Manipulation',notesSnippet:'When du doesn\'t match exactly, solve for dx: x² dx = −du/3. Substitute everything — no x terms should remain after substitution.',
-   timeTip:'If du doesn\'t perfectly match, solve algebraically. Here x²dx = −du/3. The key: after substituting, NO x terms should remain — if they do, your u was wrong.'},
-
-  {section:'6.9',topic:'U-Sub — Trig',calcType:'No Calculator',
-   question:'Find ∫ cos(3x) dx.',
-   choices:{A:'−sin(3x) + C',B:'sin(3x)/3 + C',C:'3sin(3x) + C',D:'−sin(3x)/3 + C'},correct:'B',
-   explanation:'Let u = 3x, du = 3 dx, so dx = du/3. ∫cos(u)(du/3) = (1/3)sin(u) + C = sin(3x)/3 + C.',
-   notesSection:'6.9 — U-Sub with Trig',notesSnippet:'For ∫cos(ax)dx, let u = ax, du = a·dx. Result: sin(ax)/a + C. The constant a in the denominator comes from solving for dx = du/a.',
-   timeTip:'Quick pattern: ∫cos(ax)dx = sin(ax)/a + C. The chain rule constant "a" goes in the denominator. Don\'t forget to divide by it!'},
-
-  // ── 6.10 LONG DIVISION ──
-  {section:'6.10',topic:'Long Division',calcType:'No Calculator',
-   question:'Evaluate ∫ (x² + 3)/(x + 1) dx. Which is the first step?',
-   choices:{A:'Use u-substitution with u = x+1',B:'Perform polynomial long division since degree of numerator ≥ degree of denominator',C:'Split into ∫x²/(x+1)dx + ∫3/(x+1)dx',D:'Multiply numerator and denominator by (x−1)'},correct:'B',
-   explanation:'Since degree of numerator (2) ≥ degree of denominator (1), we must perform polynomial long division first. Dividing: (x²+3) ÷ (x+1) = x−1 + 4/(x+1).',
-   notesSection:'6.10 — Long Division',notesSnippet:'When degree(numerator) ≥ degree(denominator), use long division first. The result will be a polynomial plus a proper fraction.',
-   timeTip:'Quick check: compare degrees. If top degree ≥ bottom degree → divide first. This is non-negotiable — you can\'t integrate directly.'},
-
-  {section:'6.10',topic:'Long Division Integration',calcType:'No Calculator',
-   question:'After performing long division, (x² + 3)/(x+1) = x − 1 + 4/(x+1). Find ∫(x²+3)/(x+1) dx.',
-   choices:{A:'x²/2 − x + 4ln|x+1| + C',B:'x²/2 − x + ln|x+1| + C',C:'x² + 4ln|x+1| + C',D:'x²/2 + 4/(x+1) + C'},correct:'A',
-   explanation:'∫(x−1+4/(x+1))dx = x²/2 − x + 4ln|x+1| + C.',
-   notesSection:'6.10 — Integrating After Long Division',notesSnippet:'After dividing: ∫polynomial dx + ∫(remainder/divisor)dx. The second part usually gives a ln term: ∫k/(x+a)dx = k·ln|x+a| + C.',
-   timeTip:'After long division, integrate term by term. Polynomial terms use power rule; the remainder fraction uses ∫1/(x+a)dx = ln|x+a|+C.'},
-
-  {section:'6.10',topic:'Completing the Square',calcType:'No Calculator',
-   question:'Which substitution helps evaluate ∫ 1/(x² + 4x + 5) dx?',
-   choices:{A:'u = x² + 4x + 5',B:'Complete the square: x²+4x+5 = (x+2)²+1, then let u = x+2',C:'u = x + 4',D:'Partial fraction decomposition'},correct:'B',
-   explanation:'Complete the square: x²+4x+5 = (x+2)²+1. Then ∫1/((x+2)²+1)dx. Let u=x+2, du=dx: ∫1/(u²+1)du = arctan(u)+C = arctan(x+2)+C.',
-   notesSection:'6.10 — Completing the Square',notesSnippet:'When you have a quadratic in the denominator, complete the square to get the form (x+a)²+b², which integrates to (1/b)arctan((x+a)/b)+C.',
-   timeTip:'Completing the square: take half the x-coefficient (here 4/2=2), square it (4), rewrite as (x+2)²+(5−4) = (x+2)²+1. This sets up arctan.'},
-
-  // ── 8.1 AVERAGE VALUE ──
-  {section:'8.1',topic:'Average Value of a Function',calcType:'No Calculator',
-   question:'What is the average value of f(x) = x² on the interval [0, 3]?',
-   choices:{A:'3',B:'9',C:'4.5',D:'27'},correct:'A',
-   explanation:'Average value = 1/(3−0)·∫₀³x²dx = (1/3)[x³/3]₀³ = (1/3)(9) = 3.',
-   notesSection:'8.1 — Average Value Formula',notesSnippet:'Average value of f on [a,b] = 1/(b−a)·∫ₐᵇf(x)dx. Divide the integral by the length of the interval.',
-   timeTip:'Don\'t forget to divide by (b−a)! That\'s the most common mistake. Average value = integral ÷ interval length.'},
-
-  {section:'8.1',topic:'Average Value',calcType:'No Calculator',
-   question:'The average value of g(x) = 2x + 1 on [1, 4] is:',
-   choices:{A:'5',B:'6',C:'8',D:'9'},correct:'B',
-   explanation:'Average = 1/(4−1)·∫₁⁴(2x+1)dx = (1/3)[x²+x]₁⁴ = (1/3)[(16+4)−(1+1)] = (1/3)(18) = 6.',
-   notesSection:'8.1 — Average Value Formula',notesSnippet:'Average value = 1/(b−a)·∫ₐᵇf(x)dx. For linear functions, the average value equals f evaluated at the midpoint.',
-   timeTip:'Quick check for linear functions: average value = f((a+b)/2). Here f(2.5) = 2(2.5)+1 = 6 ✓. Use this to verify your answer.'},
-
-  {section:'8.1',topic:'Average Value — Reverse',calcType:'No Calculator',
-   question:'If the average value of f on [1, 5] is 8, what is ∫₁⁵ f(x) dx?',
-   choices:{A:'8',B:'2',C:'32',D:'40'},correct:'C',
-   explanation:'Average value = 1/(5−1)·∫₁⁵f(x)dx = 8. So ∫₁⁵f(x)dx = 8·(5−1) = 32.',
-   notesSection:'8.1 — Average Value (Reverse)',notesSnippet:'If average = k, then integral = k·(b−a). Work backwards: integral = average value × interval length.',
-   timeTip:'Work backwards: integral = average × length. The AP exam tests this direction too. Know both: average = integral/length AND integral = average × length.'},
-
-  // ── 8.2 PARTICLE MOTION ──
-  {section:'8.2',topic:'Particle Motion — Displacement',calcType:'No Calculator',
-   question:'A particle moves along the x-axis with velocity v(t) = t² − 4t + 3. What is the displacement from t = 0 to t = 3?',
-   choices:{A:'0',B:'3',C:'−3',D:'9'},correct:'A',
-   explanation:'Displacement = ∫₀³(t²−4t+3)dt = [t³/3−2t²+3t]₀³ = (9−18+9)−0 = 0.',
-   notesSection:'8.2 — Displacement vs Distance',notesSnippet:'Displacement = ∫v(t)dt (signed). The particle ends where it started if displacement = 0, even if it moved around.',
-   timeTip:'Displacement = signed integral of velocity. The particle here went out and came back, ending at start. Don\'t confuse with total distance traveled.'},
-
-  {section:'8.2',topic:'Particle Motion — Total Distance',calcType:'No Calculator',
-   question:'For v(t) = t² − 4t + 3 on [0, 3], the total distance traveled is:',
-   choices:{A:'0',B:'4/3',C:'8/3',D:'2'},correct:'C',
-   explanation:'v(t)=0 at t=1 and t=3. v>0 on [0,1], v<0 on [1,3]. Distance = ∫₀¹(t²−4t+3)dt + |∫₁³(t²−4t+3)dt| = 4/3 + 4/3 = 8/3.',
-   notesSection:'8.2 — Total Distance',notesSnippet:'Total distance = ∫|v(t)|dt. Find where v(t)=0, split integral there, and add absolute values of each piece.',
-   timeTip:'Total distance ≠ displacement when particle reverses. Find zeros of v(t), integrate each piece, add absolute values. Show this work on the AP FRQ for full credit.'},
-
-  {section:'8.2',topic:'Particle Motion — Position',calcType:'No Calculator',
-   question:'A particle has x(0) = 5 and v(t) = 2t + 1. Find x(3).',
-   choices:{A:'12',B:'17',C:'14',D:'19'},correct:'B',
-   explanation:'x(3) = x(0) + ∫₀³v(t)dt = 5 + [t²+t]₀³ = 5 + 12 = 17.',
-   notesSection:'8.3 — Net Change Theorem',notesSnippet:'x(b) = x(a) + ∫ₐᵇv(t)dt. Start from the initial position and add the accumulated change from integrating velocity.',
-   timeTip:'Position = initial + integral of velocity. This is the Net Change Theorem. Always start from the given initial condition, don\'t forget it!'},
-
-  // ── 8.3 APPLIED CONTEXTS ──
-  {section:'8.3',topic:'Net Change Theorem',calcType:'No Calculator',
-   question:'Water flows into a tank at r(t) = 4t + 2 gal/min. The tank has 10 gallons at t = 0. How many gallons at t = 3?',
-   choices:{A:'28',B:'36',C:'34',D:'24'},correct:'C',
-   explanation:'Amount = 10 + ∫₀³(4t+2)dt = 10 + [2t²+2t]₀³ = 10 + (18+6) = 34 gallons.',
-   notesSection:'8.3 — Applied Net Change',notesSnippet:'f(b) = f(a) + ∫ₐᵇf\'(t)dt. Starting amount + integral of rate = final amount. Check units: gal/min × min = gal.',
-   timeTip:'Label units every time. Rate × time = amount. Don\'t forget to add the initial value — a very common AP error.'},
-
-  {section:'8.3',topic:'Interpreting the Integral',calcType:'No Calculator',
-   question:'Oil leaks at rate L(t) gal/hr. Which gives total oil leaked from t = 2 to t = 6?',
-   choices:{A:'L(6) − L(2)',B:'L\'(6) − L\'(2)',C:'∫₂⁶ L(t)dt',D:'L(6)/L(2)'},correct:'C',
-   explanation:'Total amount leaked = integral of the rate over the interval = ∫₂⁶L(t)dt.',
-   notesSection:'8.3 — Integral as Accumulated Change',notesSnippet:'∫rate dt = net change in quantity. If L(t) is gal/hr, ∫L(t)dt gives gallons. Rate integrated = accumulated amount.',
-   timeTip:'Words like "total," "accumulated," or "how much" over a time interval → you need an integral of the rate, not just a function value.'},
-
-  // ── 8.4–8.6 AREA BETWEEN CURVES ──
-  {section:'8.4',topic:'Area Between Curves',calcType:'No Calculator',
-   question:'Find the area between f(x) = x² and g(x) = x on [0, 1].',
-   choices:{A:'1/2',B:'1/3',C:'1/6',D:'1/4'},correct:'C',
-   explanation:'g(x)=x ≥ f(x)=x² on [0,1]. Area = ∫₀¹(x−x²)dx = [x²/2−x³/3]₀¹ = 1/2−1/3 = 1/6.',
-   notesSection:'8.4–8.6 — Area Between Curves',notesSnippet:'Area = ∫ₐᵇ[top−bottom]dx. Always subtract the lower curve from the upper curve. Test a point to confirm which is on top.',
-   timeTip:'Test x=0.5: g(0.5)=0.5, f(0.5)=0.25 → g is on top. Integrate (g−f) = (x−x²). Don\'t skip the "which is on top" check!'},
-
-  {section:'8.4',topic:'Area Between Curves — Intersections',calcType:'No Calculator',
-   question:'Find the area enclosed by y = x² and y = 2x.',
-   choices:{A:'2/3',B:'4/3',C:'8/3',D:'1'},correct:'B',
-   explanation:'Set equal: x²=2x → x=0,2. On [0,2]: 2x ≥ x². Area = ∫₀²(2x−x²)dx = [x²−x³/3]₀² = 4−8/3 = 4/3.',
-   notesSection:'8.4–8.6 — Finding Intersections for Bounds',notesSnippet:'Set curves equal to find limits of integration. x²=2x → x(x−2)=0 → x=0,2. Then integrate (top−bottom) between those bounds.',
-   timeTip:'Always find intersections first — they give your limits of integration. Set the two functions equal and solve. This is a must-show step on the AP FRQ.'},
-
-  {section:'8.4',topic:'Area — Between Horizontal Curves',calcType:'No Calculator',
-   question:'The area between f(x) = 4 and g(x) = x² on [−2, 2] is:',
-   choices:{A:'32/3',B:'16/3',C:'16',D:'32'},correct:'A',
-   explanation:'f=4 ≥ g=x² on [−2,2]. Area = ∫₋₂²(4−x²)dx = [4x−x³/3]₋₂² = (8−8/3)−(−8+8/3) = 16−16/3 = 32/3.',
-   notesSection:'8.4–8.6 — Setting Up the Integral',notesSnippet:'Area = ∫(top−bottom)dx. Simplify the difference algebraically first, then integrate. For symmetric regions around y-axis, use 2·∫₀ᵇ.',
-   timeTip:'Symmetric region: 2·∫₀²(4−x²)dx = 2[4x−x³/3]₀² = 2(8−8/3) = 2(16/3) = 32/3. Symmetry saves time!'},
-
-  // ── 8.7–8.8 CROSS SECTIONS ──
-  {section:'8.7',topic:'Volume — Square Cross Sections',calcType:'No Calculator',
-   question:'A solid\'s base is bounded by y = √x and y = 0 on [0, 4]. Cross sections perpendicular to the x-axis are squares. Find the volume.',
-   choices:{A:'4',B:'8',C:'16',D:'2'},correct:'B',
-   explanation:'Side = √x − 0 = √x. Area = (√x)² = x. V = ∫₀⁴x dx = [x²/2]₀⁴ = 8.',
-   notesSection:'8.7–8.8 — Cross Section Volumes',notesSnippet:'V = ∫A(x)dx. For squares: A = s². Find s from the bounding curves (s = top − bottom), then integrate the area formula.',
-   timeTip:'Step 1: s = top curve − bottom curve. Step 2: A(x) = s² for squares. Step 3: integrate. Always identify the cross-section shape and its area formula first.'},
-
-  {section:'8.7',topic:'Volume — Triangular Cross Sections',calcType:'No Calculator',
-   question:'A solid has base bounded by x = 0, x = 4, y = 0, y = 2. Cross sections perpendicular to the x-axis are right isosceles triangles with legs in the base. What is the volume?',
-   choices:{A:'16',B:'8',C:'4',D:'32/3'},correct:'B',
-   explanation:'The base of each triangle has length 2 (height of the region). For a right isosceles triangle with leg s: A = s²/2. Here s=2, so A=2. V = ∫₀⁴2 dx = 8.',
-   notesSection:'8.7–8.8 — Cross Section Shape Formulas',notesSnippet:'Right isosceles triangle (legs = s): A = s²/2. Equilateral triangle (side = s): A = (√3/4)s². Semicircle (diameter = s): A = πs²/8.',
-   timeTip:'Memorize cross-section area formulas: square s², rectangle s·w, right isosceles s²/2, equilateral (√3/4)s², semicircle πs²/8. These are the only shapes the AP tests.'},
-
-  // ── 8.9–8.10 DISC METHOD ──
-  {section:'8.9',topic:'Disc Method',calcType:'No Calculator',
-   question:'Find the volume when y = √x on [0, 4] is revolved about the x-axis.',
-   choices:{A:'4π',B:'8π',C:'16π',D:'32π/3'},correct:'B',
-   explanation:'V = π∫₀⁴(√x)²dx = π∫₀⁴x dx = π[x²/2]₀⁴ = 8π.',
-   notesSection:'8.9–8.10 — Disc Method',notesSnippet:'Disc method (around x-axis): V = π∫ₐᵇ[f(x)]²dx. Radius = f(x). Square it first, then integrate, then multiply by π.',
-   timeTip:'Disc = πr². Radius = function value. V = π∫r²dx. The π goes outside the integral. Square the function BEFORE integrating — a very common error.'},
-
-  {section:'8.9',topic:'Disc Method — Setup',calcType:'No Calculator',
-   question:'Which integral gives the volume when y = x² on [0, 2] is revolved about the x-axis?',
-   choices:{A:'π∫₀²x⁴ dx',B:'π∫₀²x² dx',C:'2π∫₀²x³ dx',D:'π∫₀²2x dx'},correct:'A',
-   explanation:'Disc method: V = π∫₀²(x²)²dx = π∫₀²x⁴dx. The radius is x², and we square it to get x⁴.',
-   notesSection:'8.9–8.10 — Disc Method Setup',notesSnippet:'V = π∫[f(x)]²dx. Square the entire function. Here (x²)² = x⁴, not x².',
-   timeTip:'(x²)² = x⁴, not 2x². Squaring a power multiplies the exponents: (xⁿ)² = x²ⁿ. Write out the squaring step explicitly.'},
-
-  // ── 8.11–8.12 WASHER METHOD ──
-  {section:'8.11',topic:'Washer Method',calcType:'No Calculator',
-   question:'The region between y = x and y = x² on [0,1] is revolved about the x-axis. Find the volume.',
-   choices:{A:'π/6',B:'2π/15',C:'π/15',D:'π/3'},correct:'B',
-   explanation:'R = x (outer), r = x² (inner). V = π∫₀¹[(x)²−(x²)²]dx = π∫₀¹[x²−x⁴]dx = π[x³/3−x⁵/5]₀¹ = π(1/3−1/5) = 2π/15.',
-   notesSection:'8.11–8.12 — Washer Method',notesSnippet:'V = π∫[R²−r²]dx. R = outer radius (top curve when rotating around x-axis). r = inner radius (bottom curve). R²−r² ≠ (R−r)²!',
-   timeTip:'Biggest AP mistake: (R−r)² ≠ R²−r². You MUST square R and r separately, then subtract. Write π∫(R²−r²)dx and fill in R and r explicitly.'},
-
-  {section:'8.11',topic:'Washer vs Disc',calcType:'No Calculator',
-   question:'When is the washer method needed instead of the disc method?',
-   choices:{A:'When rotating around the y-axis instead of x-axis',B:'When the region does not touch the axis of rotation, creating a hole',C:'When the function is not continuous',D:'When rotating about a line y = k'},correct:'B',
-   explanation:'The washer method is needed when there is a hole — i.e., the region doesn\'t touch the axis of rotation. If the region includes the axis, use the disc method.',
-   notesSection:'8.11–8.12 — Disc vs Washer',notesSnippet:'Disc: region touches the axis (no hole). Washer: region doesn\'t touch axis (ring-shaped cross section). The "hole" creates the inner radius r.',
-   timeTip:'Quick check: does the region touch the axis of rotation? Yes → disc. No → washer. Draw a picture to see if there\'s a hole.'},
-];
-
+// ===================== QUESTION BANK =====================
+// Multiple-choice questions load from data/unit*.json only (see unit-data-manager.js).
+const questionBank = [];
 // Question state
 let queuedQuestions = [];
 let currentQIndex = 0;
 
-function loadQuestion() {
-  clearInterval(state.timerInterval);
-  state.answeredCurrentQuestion = false;
-
-  // Reset tools
-  highlightMode = false; eliminateMode = false;
-  const ht = document.getElementById('highlight-tool');
-  const et = document.getElementById('elim-tool');
-  if (ht) ht.classList.remove('active');
-  if (et) et.classList.remove('active');
-
-  // Filter questions by selected sections
-  const allSections = ['6.1','6.2','6.3','6.4','6.6','6.7','6.8','6.9','6.10'];
-  const pool = (selectedSections[0] === 'all') ? allSections : selectedSections;
-  const filtered = questionBank.filter(q => pool.includes(q.section));
-  if (filtered.length === 0) { return; }
-
-  // Pick a random question (avoid immediate repeats)
-  let q;
-  if (queuedQuestions.length === 0) {
-    queuedQuestions = [...filtered].sort(() => Math.random() - 0.5);
+function prettifyMcqMath(s) {
+  if (!s || typeof s !== 'string') return s;
+  let t = s;
+  if (!/[\uAC00-\uD7AF]/.test(t)) {
+    t = t.replace(/\^\{([^}]+)\}/g, '<sup>$1</sup>').replace(/\^(\d+)/g, '<sup>$1</sup>');
+    t = t.replace(/lim_\{([^}]+)\}/gi, 'lim<sub>$1</sub>');
   }
-  q = queuedQuestions.pop();
-  state.currentQuestion = q;
-  renderQuestion(q);
+  return t;
 }
 
 function renderQuestion(q) {
@@ -2010,7 +1562,7 @@ function renderQuestion(q) {
   document.getElementById('q-section-label').textContent = `Section ${q.section} · ${q.topic}`;
 
   // Question
-  document.getElementById('q-text').innerHTML = q.question;
+  document.getElementById('q-text').innerHTML = prettifyMcqMath(q.question);
   document.getElementById('time-tip').innerHTML = q.timeTip || 'Work methodically through each answer choice.';
 
   // Choices — Bluebook style
@@ -2022,7 +1574,7 @@ function renderQuestion(q) {
     btn.dataset.letter = letter;
     btn.innerHTML = `
       <span class="bb-choice-letter"><span class="bb-letter-circle">${letter}</span></span>
-      <span class="bb-choice-text">${q.choices[letter]}</span>
+      <span class="bb-choice-text">${prettifyMcqMath(q.choices[letter])}</span>
       <span class="bb-choice-result"></span>`;
     btn.onclick = () => {
       if (eliminateMode) {
@@ -2443,47 +1995,7 @@ const frqBank = [
   }
 ];
 
-function showFRQ(idx) {
-  // Update tabs
-  document.querySelectorAll('[id^="frq-tab-"]').forEach(t => t.classList.remove('active'));
-  const tab = document.getElementById('frq-tab-' + idx);
-  if (tab) tab.classList.add('active');
-
-  const frq = frqBank[idx];
-  let html = `<div class="frq-card">
-    <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-      <span class="badge ${frq.calcAllowed ? 'badge-calc-c' : 'badge-calc-nc'}">${frq.calcAllowed ? 'Calculator Active' : 'No Calculator'}</span>
-      <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${frq.title}</span>
-    </div>
-    <div class="frq-prompt">${frq.context}</div>
-    <div class="frq-parts">`;
-
-  frq.parts.forEach((part, i) => {
-    html += `<div class="frq-part" style="border-top:1px solid var(--border);padding-top:16px;margin-top:4px">
-      <div class="frq-part-label">${part.label} &nbsp;<span style="color:var(--text3);font-weight:400">(${part.points} points)</span></div>
-      <div class="frq-part-q">${part.question}</div>
-      <div id="frq-answer-${idx}-${i}" style="display:none;margin-top:14px">
-        <div style="background:var(--green-bg);border:1px solid #bbf7d0;border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
-          <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--green);margin-bottom:8px;font-family:var(--font)">✓ Model Answer</div>
-          <div style="font-size:14px;color:var(--text);font-weight:600;font-family:'Times New Roman',Georgia,serif;margin-bottom:10px">${part.finalAnswer}</div>
-        </div>
-        <div style="background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
-          <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:8px;font-family:var(--font)">Step-by-Step Work</div>
-          ${part.steps.map((s,si) => `<div style="display:flex;gap:10px;margin-bottom:7px;font-size:13px;font-family:'Times New Roman',Georgia,serif;color:var(--text2)"><span style="font-family:var(--font);color:var(--text3);min-width:18px;font-size:11px;padding-top:2px">${si+1}.</span><span>${s}</span></div>`).join('')}
-        </div>
-        <div style="background:var(--amber-bg);border:1px solid #fcd34d;border-radius:var(--radius);padding:10px 14px">
-          <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--amber);margin-bottom:4px;font-family:var(--font)">📊 Scoring</div>
-          <div style="font-size:12px;color:var(--text2);font-family:var(--font)">${part.scoring}</div>
-        </div>
-      </div>
-      <button onclick="toggleFRQAnswer(${idx},${i},this)" style="margin-top:12px;padding:8px 20px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:13px;font-weight:600;cursor:pointer;font-family:var(--font)">Show Answer & Scoring</button>
-    </div>`;
-  });
-
-  html += `</div></div>`;
-  document.getElementById('frq-display').innerHTML = html;
-  if (window.MathJax) MathJax.typesetPromise();
-}
+/* showFRQ implemented in assets/js/unit-data-manager.js (uses unit JSON + embedded PDFs) */
 
 function toggleFRQAnswer(frqIdx, partIdx, btn) {
   const el = document.getElementById(`frq-answer-${frqIdx}-${partIdx}`);
@@ -2512,24 +2024,7 @@ function toggleUnitPicker() {
 }
 
 function quickSelect(type) {
-  document.querySelectorAll('.unit-quick-btn').forEach(b => b.classList.remove('active'));
-  document.querySelectorAll('.sec-cb').forEach(cb => cb.checked = false);
-  if (type === 'all') {
-    selectedSections = ['all'];
-    document.getElementById('qb-all').classList.add('active');
-  } else if (type === 'u6') {
-    selectedSections = ['6.1','6.2','6.3','6.4','6.6','6.7','6.8','6.9','6.10'];
-    document.getElementById('qb-u6').classList.add('active');
-    document.querySelectorAll('.sec-cb').forEach(cb => {
-      if (cb.value.startsWith('6')) cb.checked = true;
-    });
-  } else if (type === 'u8') {
-    selectedSections = ['8.1','8.2','8.3','8.4','8.7','8.9','8.11'];
-    document.getElementById('qb-u8').classList.add('active');
-    document.querySelectorAll('.sec-cb').forEach(cb => {
-      if (cb.value.startsWith('8')) cb.checked = true;
-    });
-  }
+  /* Replaced by assets/js/unit-data-manager.js after startup */
 }
 
 // ===================== UNIT 8 NOTES =====================
@@ -2856,21 +2351,6 @@ const notesData = {
   }
 };
 
-function showNotesSection(section) {
-  document.querySelectorAll('.tab-btn').forEach(t => t.classList.remove('active'));
-  event && event.target && event.target.classList.add('active');
-
-  const data = notesData[section];
-  if (!data) return;
-  document.getElementById('notes-container').innerHTML = `
-    <div class="notes-section">
-      <div class="subunit-tag">Unit 6 · Section ${section}</div>
-      <h2>${data.title}</h2>
-      ${data.content}
-    </div>`;
-  if (window.MathJax) MathJax.typesetPromise();
-}
-
 // ===================== FLASHCARD DATA =====================
 const flashcards = [
   { tag: 'derivatives', front: 'Derivative of sin(x)', back: 'cos(x)' },
@@ -3117,14 +2597,10 @@ async function generateFlaggedPractice() {
   loadQuestion();
 }
 
-// ===================== INIT =====================
+// ===================== INIT (data loads in next script) =====================
 document.getElementById('page-practice-mc').style.display = 'block';
 document.getElementById('main-content').style.padding = '0';
 document.getElementById('main-content').style.overflow = 'hidden';
-loadQuestion();
-showNotesSection('6.1');
-buildDeck();
-showFRQ(0);
 
 function showPage(id) {
   document.querySelectorAll('.page').forEach(p => { p.classList.remove('active'); p.style.display = 'none'; });
@@ -3137,10 +2613,9 @@ function showPage(id) {
   else { content.style.padding = '28px'; content.style.overflow = 'auto'; }
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   const titles = {
-    'practice-mc': ['Multiple Choice Practice','Unit 6 · Integration and Accumulation of Change'],
-    'practice-frq': ['Free Response Practice','Unit 6 · AP-style FRQ'],
-    'notes': ['Lesson Notes','Unit 6 · Complete class notes'],
-    'class-worksheets': ['Class Worksheets','Typed homework — show answer to check your work'],
+    'practice-mc': ['Multiple Choice Practice',''],
+    'practice-frq': ['Free Response Practice',''],
+    'notes': ['Lesson Notes',''],
     'flashcards': ['Flashcards','Key formulas, theorems, and definitions'],
     'flagged': ['Flagged Topics','Your weak areas — targeted review'],
     'reference': ['Reference Sheet','All formulas, integrals, and identities to memorize'],
@@ -3159,5 +2634,12 @@ function showPage(id) {
 }
 </script>
 <script src="assets/js/unit-data-manager.js"></script>
+<script>
+(function () {
+  if (typeof window.bootstrapStudyApp === 'function') {
+    void window.bootstrapStudyApp();
+  }
+})();
+</script>
 </body>
 </html>

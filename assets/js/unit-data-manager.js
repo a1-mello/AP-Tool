@@ -1,25 +1,14 @@
 (() => {
-  const unitConfig = {
-    u1: { id: "u1", label: "Unit 1", sections: [] },
-    u2: { id: "u2", label: "Unit 2", sections: [] },
-    u3: { id: "u3", label: "Unit 3", sections: [] },
-    u4: { id: "u4", label: "Unit 4", sections: [] },
-    u5: { id: "u5", label: "Unit 5", sections: [] },
-    u6: { id: "u6", label: "Unit 6", sections: ["6.1", "6.2", "6.3", "6.4", "6.6", "6.7", "6.8", "6.9", "6.10"] },
-    u7: { id: "u7", label: "Unit 7", sections: [] },
-    u8: { id: "u8", label: "Unit 8", sections: ["8.1", "8.2", "8.3", "8.4", "8.7", "8.9", "8.11"] },
-    u9: { id: "u9", label: "Unit 9", sections: [] },
-    u10: { id: "u10", label: "Unit 10", sections: [] }
-  };
+  const unitConfig = {};
 
   const store = {
     activeUnitKey: "u6",
     activeUnitData: null,
     cache: {},
-    classWorksheetsData: null,
-    lastWorksheetUk: null,
-    lastWorksheetSec: null,
-    _wsNavBuilt: false
+    unitsManifest: [],
+    unitMcqCounts: {},
+    mergedAllQuestionBank: [],
+    initDone: false
   };
   window.unitStore = store;
 
@@ -34,6 +23,9 @@
   }
 
   function getActiveQuestionBank() {
+    if (store.activeUnitKey === "all" && Array.isArray(store.mergedAllQuestionBank)) {
+      return store.mergedAllQuestionBank;
+    }
     if (store.activeUnitData && Array.isArray(store.activeUnitData.questionBank)) {
       return store.activeUnitData.questionBank;
     }
@@ -52,13 +44,6 @@
       return store.activeUnitData.notesData;
     }
     return getInlineNotesData();
-  }
-
-  function getActiveMaterials() {
-    if (store.activeUnitData && Array.isArray(store.activeUnitData.materials)) {
-      return store.activeUnitData.materials;
-    }
-    return [];
   }
 
   function resolveUnitJsonUrl(unitKey) {
@@ -88,6 +73,121 @@
     }
   }
 
+  async function loadUnitsManifest() {
+    try {
+      const url = new URL("data/units.json", window.location.href).href;
+      const res = await fetch(url, { cache: "no-cache" });
+      if (!res.ok) throw new Error(String(res.status));
+      const j = await res.json();
+      store.unitsManifest = Array.isArray(j.units) ? j.units : [];
+    } catch {
+      store.unitsManifest = [];
+    }
+  }
+
+  function usableMcqs(data) {
+    const qb = Array.isArray(data?.questionBank) ? data.questionBank : [];
+    return qb.filter(q => q && !q.packetAuto);
+  }
+
+  async function initUnitRegistry() {
+    await loadUnitsManifest();
+    store.mergedAllQuestionBank = [];
+    store.unitMcqCounts = {};
+
+    for (const u of store.unitsManifest) {
+      const key = u.id;
+      if (!/^u\d+$/.test(key)) continue;
+      const data = await loadUnitFile(key);
+      const list = usableMcqs(data);
+      store.unitMcqCounts[key] = list.length;
+      for (const q of list) {
+        store.mergedAllQuestionBank.push(q);
+      }
+      const sections =
+        data?.sections?.length > 0
+          ? [...data.sections]
+          : [...new Set(list.map(x => x.section).filter(Boolean))].sort();
+      unitConfig[key] = {
+        id: key,
+        label: u.label || key,
+        file: u.file || `data/unit${key.replace("u", "")}.json`,
+        sections
+      };
+    }
+    store.initDone = true;
+  }
+
+  function buildUnitPickerButtons() {
+    const host = document.getElementById("unit-picker-units");
+    if (!host) return;
+    let html = "";
+    if (store.mergedAllQuestionBank.length > 0) {
+      html += `<button type="button" onclick="quickSelect('all')" class="unit-quick-btn" id="qb-all">All</button>`;
+    }
+    for (const u of store.unitsManifest) {
+      const id = u.id;
+      if (!/^u\d+$/.test(id)) continue;
+      const cnt = store.unitMcqCounts[id] ?? 0;
+      const label = escapeHtml(u.label || id);
+      if (cnt > 0) {
+        html += `<button type="button" onclick="quickSelect('${escapeHtml(id)}')" class="unit-quick-btn" id="qb-${escapeHtml(id)}">${label}</button>`;
+      } else {
+        html += `<span class="unit-soon">${label} <span class="unit-soon-tag">(coming soon)</span></span>`;
+      }
+    }
+    host.innerHTML = html || `<span style="font-size:11px;color:var(--text3)">No units listed in data/units.json.</span>`;
+  }
+
+  function rebuildSectionFilterUis() {
+    const qb = getActiveQuestionBank();
+    const fromBank = [...new Set(qb.map(q => q.section).filter(Boolean))].sort();
+    let sections = fromBank;
+    if (store.activeUnitKey !== "all" && store.activeUnitData?.sections?.length > 0) {
+      const allowed = new Set(store.activeUnitData.sections);
+      sections = fromBank.filter(s => allowed.has(s));
+      if (sections.length === 0) sections = [...store.activeUnitData.sections].sort();
+    }
+
+    const sidebarHost = document.getElementById("unit-picker-sections");
+    if (sidebarHost) {
+      if (sections.length === 0) {
+        sidebarHost.innerHTML = `<div style="font-size:11px;color:var(--text3);padding:6px">No sections in this unit yet.</div>`;
+      } else {
+        sidebarHost.innerHTML = sections
+          .map(
+            sec =>
+              `<label class="unit-cb-label"><input type="checkbox" class="sec-cb" value="${escapeHtml(sec)}" onchange="handleSectionCB()"> ${escapeHtml(sec)}</label>`
+          )
+          .join("");
+      }
+    }
+
+    const menuHost = document.getElementById("section-menu-checks");
+    if (menuHost) {
+      if (sections.length === 0) {
+        menuHost.innerHTML = `<div style="font-size:11px;color:var(--text3);padding:6px 8px">No sections</div>`;
+      } else {
+        menuHost.innerHTML = sections
+          .map(
+            sec =>
+              `<label style="display:flex;align-items:center;gap:8px;padding:5px 8px;border-radius:6px;cursor:pointer;font-size:12px;color:var(--text2);font-family:var(--font)" onmouseover="this.style.background='var(--bg2)'" onmouseout="this.style.background=''"><input type="checkbox" class="sec-cb" value="${escapeHtml(sec)}" onchange="handleSectionCB()" style="accent-color:#1a56db"> ${escapeHtml(sec)}</label>`
+          )
+          .join("");
+      }
+    }
+    const ml = document.getElementById("section-menu-label");
+    if (ml) {
+      ml.textContent =
+        selectedSections[0] === "all" || selectedSections.length === 0
+          ? "All Sections"
+          : selectedSections.length === 1
+            ? selectedSections[0]
+            : `${selectedSections.length} sections`;
+    }
+    if (typeof syncSectionCheckboxesAcrossUis === "function") syncSectionCheckboxesAcrossUis();
+  }
+
   function updateTopbarSubtitle(pageId) {
     const sub = document.getElementById("topbar-sub");
     if (!sub) return;
@@ -103,8 +203,6 @@
       })(),
       "flagged": "Flagged Topics",
       reference: `${unitLabel} · Reference`,
-      materials: `${unitLabel} · PDFs`,
-      "class-worksheets": "All units · Sidebar picks section"
     };
     if (map[pageId]) sub.textContent = map[pageId];
   }
@@ -116,12 +214,9 @@
       "practice-mc": "Multiple Choice Practice",
       "practice-frq": "Free Response Practice",
       "notes": "Lesson Notes",
-      "materials": "Materials (PDFs)",
       "flashcards": "Flashcards",
       "reference": "Reference Sheet",
-      "flagged": "Flagged Topics",
-      "accuracy": "Accuracy Review Mode",
-      "class-worksheets": "Class Worksheets"
+      "flagged": "Flagged Topics"
     };
     if (map[pageId]) title.textContent = map[pageId];
   }
@@ -135,69 +230,14 @@
       .replaceAll("'", "&#039;");
   }
 
-  function renderMaterials() {
-    const container = document.getElementById("materials-container");
-    if (!container) return;
-    const mats = getActiveMaterials();
-    if (!mats || mats.length === 0) {
-      container.innerHTML = `<div class="flagged-empty">No PDFs added for this unit yet.<br>Add PDFs into the Unit folder in Finder, then run the materials builder.</div>`;
-      return;
-    }
-
-    const byType = mats.reduce((acc, m) => {
-      const k = m.type || "other";
-      acc[k] = acc[k] || [];
-      acc[k].push(m);
-      return acc;
-    }, {});
-
-    const order = ["notes", "homework", "review", "other"];
-    let html = `<div style="max-width:900px">`;
-    html += `<h2 style="font-size:18px;margin-bottom:6px">Unit Materials (PDFs)</h2>`;
-    html += `<p style="font-size:13px;color:var(--text3);margin-bottom:18px">Click a PDF to open it in a new tab.</p>`;
-
-    for (const t of order) {
-      const list = byType[t];
-      if (!list || list.length === 0) continue;
-      const label = t === "notes" ? "Notes" : t === "homework" ? "Homework" : t === "review" ? "Review" : "Other";
-      html += `<div class="notes-block" style="margin-bottom:14px">`;
-      html += `<h3 style="margin-bottom:10px">${label}</h3>`;
-      html += `<div style="display:flex;flex-direction:column;gap:8px">`;
-      for (const m of list) {
-        html += `<a href="${escapeHtml(m.path)}" target="_blank" rel="noopener noreferrer" style="display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);box-shadow:var(--shadow)">
-          <span style="font-weight:600;font-size:13px">${escapeHtml(m.title)}</span>
-          <span style="font-size:12px;color:var(--text3)">Open ↗</span>
-        </a>`;
-      }
-      html += `</div></div>`;
-    }
-    html += `</div>`;
-    container.innerHTML = html;
-  }
-
   function renderNotesFallbackFromMaterials() {
-    const mats = getActiveMaterials().filter(m => m.type === "notes");
     const container = document.getElementById("notes-container");
     if (!container) return;
-    if (mats.length === 0) {
-      container.innerHTML = `
-        <div class="notes-section">
-          <h2>No notes loaded for this unit yet</h2>
-          <p>Add notes under <code style="font-family:var(--mono)">notesData</code> in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>, or use the Materials page to open PDFs.</p>
-        </div>`;
-      return;
-    }
     container.innerHTML = `
-      <div class="notes-section">
-        <h2>${unitConfig[store.activeUnitKey]?.label || "Unit"} Notes PDFs</h2>
-        <p style="margin-bottom:12px;color:var(--text2)">No structured notes JSON yet. Use these source notes PDFs:</p>
-        <div style="display:flex;flex-direction:column;gap:8px">
-          ${mats.map(m => `<a href="${escapeHtml(m.path)}" target="_blank" rel="noopener noreferrer" style="display:flex;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid var(--border);border-radius:10px;background:#fff;text-decoration:none;color:var(--text);box-shadow:var(--shadow)">
-            <span style="font-weight:600;font-size:13px">${escapeHtml(m.title)}</span>
-            <span style="font-size:12px;color:var(--text3)">Open ↗</span>
-          </a>`).join("")}
-        </div>
-      </div>`;
+        <div class="notes-section">
+          <h2>No notes for this section</h2>
+          <p style="color:var(--text2)">Add a <code style="font-family:var(--mono)">notesData</code> entry in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u", "unit")}.json</code> for this unit.</p>
+        </div>`;
   }
 
   function renderNotesTabs() {
@@ -209,8 +249,9 @@
       bar.innerHTML = `<div style="font-size:11px;color:var(--text3);padding:2px 6px">No structured notes sections in this unit yet.</div>`;
       return;
     }
-    const unitLabel = unitConfig[store.activeUnitKey]?.label || "Unit";
-    bar.innerHTML = `<div style="display:flex;gap:2px;align-items:center;padding:2px 6px;font-size:10px;color:var(--text3);font-weight:600;text-transform:uppercase;letter-spacing:.06em">${unitLabel}</div>` +
+    const unitLabel =
+      store.activeUnitKey === "all" ? "All units" : unitConfig[store.activeUnitKey]?.label || "Unit";
+    bar.innerHTML = `<div style="display:flex;gap:2px;align-items:center;padding:2px 6px;font-size:10px;color:var(--text3);font-weight:600;text-transform:uppercase;letter-spacing:.06em">${escapeHtml(unitLabel)}</div>` +
       sections.map((s, i) => `<button class="tab-btn ${i === 0 ? "active" : ""}" onclick="showNotesSection('${s}')">${s}</button>`).join("");
   }
 
@@ -227,111 +268,45 @@
     ).join("");
   }
 
-  function runChecksOnUnit(unitName, unitJson) {
-    const issues = [];
-    const warns = [];
-    const qb = Array.isArray(unitJson.questionBank) ? unitJson.questionBank : [];
-    const fb = Array.isArray(unitJson.frqBank) ? unitJson.frqBank : [];
-
-    const seenQ = new Set();
-    qb.forEach((q, i) => {
-      const at = `${unitName} questionBank[${i}]`;
-      if (!q || typeof q !== "object") {
-        issues.push(`${at}: not an object`);
-        return;
-      }
-      const required = ["section", "topic", "question", "choices", "correct", "explanation"];
-      required.forEach(k => { if (!(k in q)) issues.push(`${at}: missing ${k}`); });
-      const letters = ["A", "B", "C", "D"];
-      if (!q.choices || typeof q.choices !== "object") issues.push(`${at}: choices missing/object`);
-      letters.forEach(l => {
-        if (!q.choices || typeof q.choices[l] !== "string" || !q.choices[l].trim()) issues.push(`${at}: choices.${l} missing/empty`);
-      });
-      if (!letters.includes(q.correct)) issues.push(`${at}: correct must be A/B/C/D`);
-      const sig = String(q.question || "").trim().toLowerCase();
-      if (sig) {
-        if (seenQ.has(sig)) warns.push(`${at}: duplicate question text`);
-        seenQ.add(sig);
-      }
-      if (q.choices) {
-        const vals = letters.map(l => String(q.choices[l] || "").trim().toLowerCase()).filter(Boolean);
-        const uniq = new Set(vals);
-        if (vals.length !== uniq.size) warns.push(`${at}: duplicate choice text`);
-      }
-      const exp = String(q.explanation || "").toLowerCase();
-      if (/(closest answer|hmm|recheck|let me recheck|wait)/.test(exp)) {
-        warns.push(`${at}: low-confidence wording in explanation`);
-      }
-    });
-
-    fb.forEach((f, i) => {
-      const at = `${unitName} frqBank[${i}]`;
-      if (!f || typeof f !== "object") {
-        issues.push(`${at}: not an object`);
-        return;
-      }
-      ["title", "context", "parts"].forEach(k => { if (!(k in f)) issues.push(`${at}: missing ${k}`); });
-      if (!Array.isArray(f.parts) || f.parts.length === 0) issues.push(`${at}: parts missing/empty`);
-    });
-
-    return { issues, warns, mcqCount: qb.length, frqCount: fb.length };
-  }
-
-  async function loadUnitByNumber(n) {
-    const key = `u${n}`;
-    const data = await loadUnitFile(key);
-    return data || { unit: `Unit ${n}`, questionBank: [], frqBank: [] };
-  }
-
-  window.runAccuracyAudit = async function runAccuracyAudit() {
-    const out = document.getElementById("accuracy-results");
-    if (!out) return;
-    out.innerHTML = `<div class="loading-state" style="background:transparent"><div class="spinner"></div><div class="loading-text">Auditing unit data...</div></div>`;
-
-    const rows = [];
-    let totalIssues = 0;
-    let totalWarns = 0;
-    for (let n = 1; n <= 10; n++) {
-      const data = await loadUnitByNumber(n);
-      const r = runChecksOnUnit(`Unit ${n}`, data);
-      totalIssues += r.issues.length;
-      totalWarns += r.warns.length;
-      rows.push({ n, ...r });
+  function syncAuxiliaryPages() {
+    if (document.getElementById("page-notes")?.classList.contains("active")) {
+      renderNotesTabs();
+      const nk = Object.keys(getActiveNotesData());
+      const first =
+        selectedSections[0] && selectedSections[0] !== "all" && nk.includes(selectedSections[0])
+          ? selectedSections[0]
+          : nk[0];
+      if (first) showNotesSection(first);
+      else renderNotesFallbackFromMaterials();
     }
+    if (document.getElementById("page-practice-frq")?.classList.contains("active")) {
+      renderFRQTabs();
+      showFRQ(0);
+    }
+    if (document.getElementById("page-reference")?.classList.contains("active")) {
+      renderReferencePage();
+    }
+    if (document.getElementById("page-flashcards")?.classList.contains("active") && typeof buildDeck === "function") {
+      buildDeck();
+    }
+  }
 
-    let html = `<div class="notes-block" style="margin-bottom:12px">
-      <h3>Audit Summary</h3>
-      <p style="color:var(--text2)">Units checked: 10 | Hard issues: <strong>${totalIssues}</strong> | Warnings: <strong>${totalWarns}</strong></p>
-    </div>`;
-    rows.forEach(r => {
-      html += `<div class="notes-block" style="margin-bottom:10px">
-        <h3>Unit ${r.n} — MCQ: ${r.mcqCount}, FRQ: ${r.frqCount}</h3>`;
-      if (r.issues.length === 0 && r.warns.length === 0) {
-        html += `<p style="color:var(--green)">No issues found.</p>`;
-      } else {
-        if (r.issues.length > 0) {
-          html += `<div style="margin-bottom:6px;font-size:12px;color:var(--red);font-weight:600">Hard issues</div>`;
-          html += `<ul style="padding-left:18px;color:var(--text2);font-size:12px">${r.issues.slice(0, 20).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`;
-        }
-        if (r.warns.length > 0) {
-          html += `<div style="margin:8px 0 6px;font-size:12px;color:var(--amber);font-weight:600">Warnings</div>`;
-          html += `<ul style="padding-left:18px;color:var(--text2);font-size:12px">${r.warns.slice(0, 20).map(x => `<li>${escapeHtml(x)}</li>`).join("")}</ul>`;
-        }
-      }
-      html += `</div>`;
-    });
-    out.innerHTML = html;
-  };
-
-  const originalQuickSelect = window.quickSelect;
   window.quickSelect = async function quickSelectWithData(type) {
+    if (!store.initDone) await initUnitRegistry();
+
     if (type === "all") {
-      store.activeUnitKey = "u6";
+      store.activeUnitKey = "all";
       store.activeUnitData = null;
-      if (typeof queuedQuestions !== "undefined" && Array.isArray(queuedQuestions)) {
-        queuedQuestions.length = 0;
-      }
-      if (typeof originalQuickSelect === "function") originalQuickSelect(type);
+      selectedSections = ["all"];
+      const sa = document.getElementById("sec-all");
+      if (sa) sa.checked = true;
+      document.querySelectorAll(".unit-quick-btn").forEach(b => b.classList.remove("active"));
+      document.getElementById("qb-all")?.classList.add("active");
+      rebuildSectionFilterUis();
+      if (typeof queuedQuestions !== "undefined" && Array.isArray(queuedQuestions)) queuedQuestions.length = 0;
+      state.currentQuestion = null;
+      loadQuestion();
+      syncAuxiliaryPages();
       return;
     }
 
@@ -343,55 +318,32 @@
         loaded ||
         {
           unit: cfg.label,
-          sections: [],
+          sections: cfg.sections || [],
           questionBank: [],
           frqBank: [],
           notesData: {}
         };
 
       let nextSections = [];
-      if (store.activeUnitData.sections && Array.isArray(store.activeUnitData.sections) && store.activeUnitData.sections.length > 0) {
+      if (store.activeUnitData.sections?.length > 0) {
         nextSections = [...store.activeUnitData.sections];
-      } else if (cfg.sections.length > 0) {
+      } else if (cfg.sections?.length > 0) {
         nextSections = [...cfg.sections];
       } else if (Array.isArray(store.activeUnitData.questionBank) && store.activeUnitData.questionBank.length > 0) {
-        nextSections = [...new Set(store.activeUnitData.questionBank.map(q => q.section).filter(Boolean))].sort();
+        nextSections = [...new Set(usableMcqs(store.activeUnitData).map(q => q.section).filter(Boolean))].sort();
       }
-      selectedSections = nextSections.length > 0 ? nextSections : ["all"];
+      selectedSections = nextSections.length > 0 ? [...nextSections] : ["all"];
 
-      if (typeof originalQuickSelect === "function") originalQuickSelect(type);
-      // Original quickSelect only marks active button for all/u6/u8.
       document.querySelectorAll(".unit-quick-btn").forEach(b => b.classList.remove("active"));
-      const activeBtn = document.getElementById(`qb-${type}`);
-      if (activeBtn) activeBtn.classList.add("active");
+      document.getElementById(`qb-${type}`)?.classList.add("active");
+      const sa = document.getElementById("sec-all");
+      if (sa) sa.checked = selectedSections[0] === "all";
+      rebuildSectionFilterUis();
+      if (typeof queuedQuestions !== "undefined" && Array.isArray(queuedQuestions)) queuedQuestions.length = 0;
       state.currentQuestion = null;
-      if (typeof queuedQuestions !== "undefined" && Array.isArray(queuedQuestions)) {
-        queuedQuestions.length = 0;
-      }
       loadQuestion();
-      if (document.getElementById("page-notes")?.classList.contains("active")) {
-        renderNotesTabs();
-        const firstSection = selectedSections[0] || Object.keys(getActiveNotesData())[0];
-        if (firstSection) showNotesSection(firstSection);
-        else renderNotesFallbackFromMaterials();
-      }
-      if (document.getElementById("page-practice-frq")?.classList.contains("active")) {
-        renderFRQTabs();
-        showFRQ(0);
-      }
-      if (document.getElementById("page-materials")?.classList.contains("active")) {
-        renderMaterials();
-      }
-      if (document.getElementById("page-reference")?.classList.contains("active")) {
-        renderReferencePage();
-      }
-      if (document.getElementById("page-flashcards")?.classList.contains("active")) {
-        if (typeof buildDeck === "function") buildDeck();
-      }
-      return;
+      syncAuxiliaryPages();
     }
-
-    if (typeof originalQuickSelect === "function") originalQuickSelect(type);
   };
 
   function renderReferencePage() {
@@ -402,7 +354,8 @@
     if (!store._defaultReferenceInnerHtml) {
       store._defaultReferenceInnerHtml = inner.innerHTML;
     }
-    const unitLabel = unitConfig[store.activeUnitKey]?.label || "AP Calc AB";
+    const unitLabel =
+      store.activeUnitKey === "all" ? "All units" : unitConfig[store.activeUnitKey]?.label || "AP Calc AB";
     if (heading) {
       heading.textContent = store.activeUnitData?.referenceTitle || "AP Calc AB — Reference Sheet";
     }
@@ -438,7 +391,7 @@
       if (loading && content) {
         loading.style.display = "block";
         content.style.display = "none";
-        loading.innerHTML = `<div class="loading-text">No practice MCQs for this unit (or only worksheet packet items). Add hand-checked MCQs in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>, or use <strong>Class worksheets</strong> for typed homework.</div>`;
+        loading.innerHTML = `<div class="loading-text">No questions available for this unit yet.</div>`;
       }
       return;
     }
@@ -461,13 +414,89 @@
       renderNotesFallbackFromMaterials();
       return;
     }
+    const ul = store.activeUnitKey === "all" ? "All units" : unitConfig[store.activeUnitKey]?.label || "Unit";
     document.getElementById("notes-container").innerHTML = `
       <div class="notes-section">
-        <div class="subunit-tag">${unitConfig[store.activeUnitKey]?.label || "Unit"} · Section ${section}</div>
+        <div class="subunit-tag">${escapeHtml(ul)} · Section ${escapeHtml(section)}</div>
         <h2>${data.title}</h2>
         ${data.content}
       </div>`;
     if (window.MathJax) MathJax.typesetPromise();
+  };
+
+  function frqPdfUrl(relPath) {
+    if (!relPath || typeof relPath !== "string") return "";
+    return encodeURI(String(relPath).trim().replace(/#/g, "%23"));
+  }
+
+  /** PDF extractors often map math letters to Hangul BMP codepoints — hide that garbage when a worksheet PDF exists. */
+  function frqQuestionPlainText(html) {
+    return String(html || "").replace(/<[^>]+>/g, " ");
+  }
+
+  function frqPartQuestionHtml(frq, part) {
+    const raw = part.question || "";
+    const plain = frqQuestionPlainText(raw);
+    if (frq.worksheetPdf && /[\uAC00-\uD7AF]/.test(plain)) {
+      const lab = escapeHtml(String(part.label || "?"));
+      return `<p class="frq-pdf-ref" style="font-size:14px;line-height:1.55;color:var(--text2)">Do part <strong>${lab}</strong> on the <strong>worksheet PDF</strong> (left). Auto-extracted text was garbled, so use the PDF for every formula, table, and graph.</p>`;
+    }
+    return raw;
+  }
+
+  function frqFinalAnswerDisplay(part, hasKeyPdf) {
+    const fa = String(part.finalAnswer || "");
+    if (/Use the answer key PDF in Materials|open the matching ANSWERS/i.test(fa)) {
+      return hasKeyPdf
+        ? "<p style=\"margin:0\">Use the <strong>Answer key</strong> panel on the right (same page) — no new tab.</p>"
+        : "<p style=\"margin:0\">Check the embedded answer materials for this worksheet when available.</p>";
+    }
+    if (/See answer key PDF linked from Materials/i.test(fa)) {
+      return "<p style=\"margin:0\">Use the <strong>Answer key</strong> panel on the right when available.</p>";
+    }
+    return fa;
+  }
+
+  function frqStepsDisplay(part, hasKeyPdf) {
+    const steps = Array.isArray(part.steps) ? part.steps : [];
+    const out = steps.map(s => {
+      const t = String(s);
+      if (/Work the problem fully on paper|Confirm with the scanned key PDF/i.test(t)) {
+        return hasKeyPdf
+          ? "Toggle the <strong>Answer key</strong> PDF on the right and compare your work."
+          : "Verify your reasoning against your notes or the answer key when provided.";
+      }
+      return t;
+    });
+    return [...new Set(out)];
+  }
+
+  function buildFrqPartAnswerHtml(idx, part, i, frq) {
+    const hasKey = Boolean(frq && frq.answerKeyPdf);
+    const fa = frqFinalAnswerDisplay(part, hasKey);
+    const steps = frqStepsDisplay(part, hasKey);
+    return `<div id="frq-answer-${idx}-${i}" style="display:none;margin-top:14px">
+          <div style="background:var(--green-bg);border:1px solid #bbf7d0;border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
+            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--green);margin-bottom:8px;font-family:var(--font)">Model Answer</div>
+            <div style="font-size:14px;color:var(--text);font-weight:600;font-family:'Times New Roman',Georgia,serif;margin-bottom:10px">${fa}</div>
+          </div>
+          <div style="background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
+            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:8px;font-family:var(--font)">Step-by-Step Work</div>
+            ${steps.map((s, si) => `<div style="display:flex;gap:10px;margin-bottom:7px;font-size:13px;font-family:'Times New Roman',Georgia,serif;color:var(--text2)"><span style="font-family:var(--font);color:var(--text3);min-width:18px;font-size:11px;padding-top:2px">${si + 1}.</span><span>${s}</span></div>`).join("")}
+          </div>
+          <div style="background:var(--amber-bg);border:1px solid #fcd34d;border-radius:var(--radius);padding:10px 14px">
+            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--amber);margin-bottom:4px;font-family:var(--font)">Scoring</div>
+            <div style="font-size:12px;color:var(--text2);font-family:var(--font)">${part.scoring || ""}</div>
+          </div>
+        </div>`;
+  }
+
+  window.toggleFrqKeyPanel = function toggleFrqKeyPanel(idx) {
+    const aside = document.getElementById(`frq-key-aside-${idx}`);
+    if (!aside) return;
+    aside.classList.toggle("frq-key-collapsed");
+    const btn = aside.querySelector(".frq-key-tabbtn");
+    if (btn) btn.textContent = aside.classList.contains("frq-key-collapsed") ? "Show answer key" : "Hide answer key";
   };
 
   window.showFRQ = function showFRQUsingActiveUnit(idx) {
@@ -481,199 +510,69 @@
       document.getElementById("frq-display").innerHTML = `<div class="frq-empty">No FRQ set found for this unit yet.</div>`;
       return;
     }
-    let html = `<div class="frq-card">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
-        <span class="badge ${frq.calcAllowed ? "badge-calc-c" : "badge-calc-nc"}">${frq.calcAllowed ? "Calculator Active" : "No Calculator"}</span>
-        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${frq.title}</span>
-      </div>
-      <div class="frq-prompt">${frq.context}</div>
-      <div class="frq-parts">`;
 
-    frq.parts.forEach((part, i) => {
-      html += `<div class="frq-part" style="border-top:1px solid var(--border);padding-top:16px;margin-top:4px">
-        <div class="frq-part-label">${part.label} &nbsp;<span style="color:var(--text3);font-weight:400">(${part.points} points)</span></div>
-        <div class="frq-part-q">${part.question}</div>
-        <div id="frq-answer-${idx}-${i}" style="display:none;margin-top:14px">
-          <div style="background:var(--green-bg);border:1px solid #bbf7d0;border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
-            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--green);margin-bottom:8px;font-family:var(--font)">Model Answer</div>
-            <div style="font-size:14px;color:var(--text);font-weight:600;font-family:'Times New Roman',Georgia,serif;margin-bottom:10px">${part.finalAnswer}</div>
-          </div>
-          <div style="background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
-            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:8px;font-family:var(--font)">Step-by-Step Work</div>
-            ${part.steps.map((s,si) => `<div style="display:flex;gap:10px;margin-bottom:7px;font-size:13px;font-family:'Times New Roman',Georgia,serif;color:var(--text2)"><span style="font-family:var(--font);color:var(--text3);min-width:18px;font-size:11px;padding-top:2px">${si + 1}.</span><span>${s}</span></div>`).join("")}
-          </div>
-          <div style="background:var(--amber-bg);border:1px solid #fcd34d;border-radius:var(--radius);padding:10px 14px">
-            <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--amber);margin-bottom:4px;font-family:var(--font)">Scoring</div>
-            <div style="font-size:12px;color:var(--text2);font-family:var(--font)">${part.scoring}</div>
-          </div>
-        </div>
-        <button onclick="toggleFRQAnswer(${idx},${i},this)" style="margin-top:12px;padding:8px 20px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:13px;font-weight:600;cursor:pointer;font-family:var(--font)">Show Answer & Scoring</button>
+    const parts = Array.isArray(frq.parts) ? frq.parts : [];
+    const partsHtml = parts
+      .map((part, i) => {
+        return `<div class="frq-part" style="border-top:1px solid var(--border);padding-top:14px;margin-top:10px">
+        <div class="frq-part-label">${escapeHtml(part.label)} &nbsp;<span style="color:var(--text3);font-weight:400">(${escapeHtml(String(part.points))} points)</span></div>
+        <div class="frq-part-q">${frqPartQuestionHtml(frq, part)}</div>
+        ${buildFrqPartAnswerHtml(idx, part, i, frq)}
+        <button type="button" onclick="toggleFRQAnswer(${idx},${i},this)" style="margin-top:12px;padding:8px 20px;background:var(--accent);color:#fff;border:none;border-radius:var(--radius);font-size:13px;font-weight:600;cursor:pointer;font-family:var(--font)">Show Answer & Scoring</button>
       </div>`;
-    });
+      })
+      .join("");
 
-    html += `</div></div>`;
-    document.getElementById("frq-display").innerHTML = html;
-    if (window.MathJax) MathJax.typesetPromise();
-  };
+    if (frq.worksheetPdf) {
+      const ws = frqPdfUrl(frq.worksheetPdf);
+      const ak = frq.answerKeyPdf ? frqPdfUrl(frq.answerKeyPdf) : "";
+      const keyBlock = ak
+        ? `<div class="frq-pdf-label">Answer key</div><iframe class="frq-pdf-frame frq-key-iframe" title="Answer key PDF" src="${ak.replace(/"/g, "%22")}"></iframe>`
+        : `<div class="frq-key-fallback-notes"><p style="font-size:12px;color:var(--text3);margin-bottom:10px">No separate answer PDF linked — expand each part below for model solutions.</p>${partsHtml}</div>`;
 
-  async function loadClassWorksheetsData() {
-    if (store.classWorksheetsData) return store.classWorksheetsData;
-    try {
-      const url = new URL("data/class-worksheets.json", window.location.href).href;
-      const res = await fetch(url, { cache: "no-cache" });
-      if (!res.ok) throw new Error(String(res.status));
-      store.classWorksheetsData = await res.json();
-    } catch {
-      store.classWorksheetsData = { version: 1, byUnit: {} };
-    }
-    return store.classWorksheetsData;
-  }
+      const html = `<div class="frq-card frq-card-embed">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
+        <span class="badge ${frq.calcAllowed ? "badge-calc-c" : "badge-calc-nc"}">${frq.calcAllowed ? "Calculator Active" : "No Calculator"}</span>
+        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${escapeHtml(frq.title || "Worksheet")}</span>
+      </div>
+      <div class="frq-prompt">${frq.context || ""}</div>
+      <div class="frq-split-layout">
+        <div class="frq-pdf-pane">
+          <div class="frq-pdf-label">Worksheet</div>
+          <iframe class="frq-pdf-frame" title="Worksheet PDF" src="${ws.replace(/"/g, "%22")}"></iframe>
+        </div>
+        <aside class="frq-key-panel" id="frq-key-aside-${idx}">
+          <button type="button" class="frq-key-tabbtn" onclick="toggleFrqKeyPanel(${idx})">Hide answer key</button>
+          <div class="frq-key-panel-inner" id="frq-key-inner-${idx}">
+            ${keyBlock}
+          </div>
+        </aside>
+      </div>
+      ${ak ? `<div class="frq-parts-below">${partsHtml}</div>` : ""}
+    </div>`;
 
-  function wsSectionCount(cw, uk, sec) {
-    const list = cw?.byUnit?.[uk]?.[sec];
-    if (!Array.isArray(list)) return 0;
-    return list.reduce((n, w) => n + (Array.isArray(w.questions) ? w.questions.length : 0), 0);
-  }
-
-  function worksheetSafeId(uk, sec) {
-    return `${uk}-${String(sec).replace(/[^a-zA-Z0-9_-]/g, "_")}`;
-  }
-
-  async function buildWorksheetsNav() {
-    const tree = document.getElementById("worksheets-nav-tree");
-    if (!tree) return;
-    const cw = await loadClassWorksheetsData();
-    let html = "";
-    for (let n = 1; n <= 10; n++) {
-      const uk = `u${n}`;
-      const data = await loadUnitFile(uk);
-      const sections = (data && Array.isArray(data.sections) ? data.sections : []).slice().sort();
-      if (sections.length === 0) continue;
-      const label = unitConfig[uk]?.label || `Unit ${n}`;
-      html += `<div class="ws-unit-head">${escapeHtml(label)}</div>`;
-      for (const sec of sections) {
-        const cnt = wsSectionCount(cw, uk, sec);
-        const active =
-          store.lastWorksheetUk === uk && store.lastWorksheetSec === sec ? " active" : "";
-        html += `<div class="ws-sec-item${active}" role="button" tabindex="0" data-ws-uk="${escapeHtml(uk)}" data-ws-sec="${escapeHtml(sec)}">`;
-        html += `${escapeHtml(sec)}<span class="ws-sec-count">${cnt ? `· ${cnt} Q` : "· —"}</span>`;
-        html += `</div>`;
-      }
-    }
-    tree.innerHTML = html || `<div style="font-size:11px;color:var(--text3);padding:8px">No unit sections found.</div>`;
-    tree.querySelectorAll(".ws-sec-item").forEach(el => {
-      const open = () => {
-        const uk = el.getAttribute("data-ws-uk");
-        const sec = el.getAttribute("data-ws-sec");
-        if (uk && sec) window.openWorksheetSection(uk, sec);
-      };
-      el.addEventListener("click", open);
-      el.addEventListener("keydown", e => {
-        if (e.key === "Enter" || e.key === " ") {
-          e.preventDefault();
-          open();
-        }
-      });
-    });
-    store._wsNavBuilt = true;
-  }
-
-  window.ensureWorksheetsNav = async function ensureWorksheetsNav() {
-    await buildWorksheetsNav();
-  };
-
-  window.openWorksheetSection = async function openWorksheetSection(uk, sec) {
-    store.lastWorksheetUk = uk;
-    store.lastWorksheetSec = sec;
-    document.querySelectorAll("#worksheets-nav-tree .ws-sec-item").forEach(el => {
-      el.classList.toggle("active", el.getAttribute("data-ws-uk") === uk && el.getAttribute("data-ws-sec") === sec);
-    });
-    await renderWorksheetSection(uk, sec);
-  };
-
-  window.toggleWorksheetAnswer = function toggleWorksheetAnswer(btn) {
-    const id = btn.getAttribute("data-ws-target");
-    const panel = id ? document.getElementById(id) : null;
-    if (!panel) return;
-    const show = panel.style.display !== "block";
-    panel.style.display = show ? "block" : "none";
-    btn.textContent = show ? "Hide answer" : "Show answer";
-  };
-
-  async function renderWorksheetSection(uk, sec) {
-    const body = document.getElementById("class-worksheets-body");
-    if (!body) return;
-    const cw = await loadClassWorksheetsData();
-    const label = unitConfig[uk]?.label || uk.toUpperCase();
-    const list = cw?.byUnit?.[uk]?.[sec];
-    const sid = worksheetSafeId(uk, sec);
-
-    if (!Array.isArray(list) || list.length === 0) {
-      body.innerHTML = `
-        <div class="notes-block">
-          <h2 style="font-size:17px;margin-bottom:8px">${escapeHtml(label)} · Section ${escapeHtml(sec)}</h2>
-          <p style="font-size:14px;color:var(--text2);line-height:1.55">No typed worksheets for this section yet. Add an entry under <code style="font-family:var(--mono)">byUnit → ${escapeHtml(
-            uk
-          )} → "${escapeHtml(sec)}"</code> in <code style="font-family:var(--mono)">data/class-worksheets.json</code>.</p>
-        </div>`;
-      if (window.MathJax) MathJax.typesetPromise([body]);
+      document.getElementById("frq-display").innerHTML = html;
+      if (window.MathJax) MathJax.typesetPromise();
       return;
     }
 
-    let html = `<div style="margin-bottom:18px"><span class="badge badge-calc-nc">${escapeHtml(label)}</span> <span style="font-size:14px;font-weight:600;color:var(--text)">Section ${escapeHtml(sec)}</span></div>`;
-
-    list.forEach((sheet, wi) => {
-      const title = sheet.title || "Worksheet";
-      html += `<div class="ws-sheet"><h3>${escapeHtml(title)}</h3>`;
-      if (sheet.sourcePdf && String(sheet.sourcePdf).trim()) {
-        const p = escapeHtml(String(sheet.sourcePdf).trim());
-        html += `<p style="font-size:12px;color:var(--text3);margin:-8px 0 14px"><a href="${p}" target="_blank" rel="noopener noreferrer">Open source PDF ↗</a></p>`;
-      }
-      const qs = Array.isArray(sheet.questions) ? sheet.questions : [];
-      qs.forEach((q, qi) => {
-        const aid = `ws-ans-${sid}-w${wi}-q${qi}`;
-        const prompt = typeof q.prompt === "string" ? q.prompt : "";
-        const ans = typeof q.answerHtml === "string" ? q.answerHtml : "<p><em>No answer key typed yet.</em></p>";
-        html += `<div class="ws-q">`;
-        html += `<div class="ws-q-num">Question ${qi + 1}</div>`;
-        html += `<div class="ws-q-body">${prompt}</div>`;
-        html += `<button type="button" class="ws-show-ans" data-ws-target="${aid}" onclick="toggleWorksheetAnswer(this)">Show answer</button>`;
-        html += `<div id="${aid}" class="ws-answer-panel"><div class="ws-ans-label">Answer key</div>${ans}</div>`;
-        html += `</div>`;
-      });
-      html += `</div>`;
-    });
-
-    body.innerHTML = html;
-    if (window.MathJax) MathJax.typesetPromise([body]);
-  }
-
-  async function pickFirstWorksheetSection() {
-    const cw = await loadClassWorksheetsData();
-    for (let n = 1; n <= 10; n++) {
-      const uk = `u${n}`;
-      const data = await loadUnitFile(uk);
-      const sections = (data && Array.isArray(data.sections) ? data.sections : []).slice().sort();
-      for (const sec of sections) {
-        if (wsSectionCount(cw, uk, sec) > 0) {
-          await window.openWorksheetSection(uk, sec);
-          return;
-        }
-      }
-    }
-    const body = document.getElementById("class-worksheets-body");
-    if (body) {
-      body.innerHTML = `<div class="notes-block"><p style="font-size:14px;color:var(--text2)">Add content to <code style="font-family:var(--mono)">data/class-worksheets.json</code> to get started. An example lives under <strong>Unit 1 · 1.1</strong>.</p></div>`;
-    }
-  }
+    let html = `<div class="frq-card">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px">
+        <span class="badge ${frq.calcAllowed ? "badge-calc-c" : "badge-calc-nc"}">${frq.calcAllowed ? "Calculator Active" : "No Calculator"}</span>
+        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${escapeHtml(frq.title || "")}</span>
+      </div>
+      <div class="frq-prompt">${frq.context || ""}</div>
+      <div class="frq-parts">${partsHtml}</div></div>`;
+    document.getElementById("frq-display").innerHTML = html;
+    if (window.MathJax) MathJax.typesetPromise();
+  };
 
   const originalShowPage = window.showPage;
   window.showPage = function showPageWithUnitSubtitle(id) {
     originalShowPage(id);
     updateTopbarTitle(id);
     updateTopbarSubtitle(id);
-    if (id === "materials") renderMaterials();
-    if (id === "accuracy") runAccuracyAudit();
+    if (id === "practice-mc" && store.initDone) rebuildSectionFilterUis();
     if (id === "notes") {
       renderNotesTabs();
       const notesKeys = Object.keys(getActiveNotesData());
@@ -690,16 +589,6 @@
     }
     if (id === "reference") renderReferencePage();
     if (id === "flashcards" && typeof buildDeck === "function") buildDeck();
-    if (id === "class-worksheets") {
-      void (async () => {
-        await buildWorksheetsNav();
-        if (store.lastWorksheetUk && store.lastWorksheetSec) {
-          await renderWorksheetSection(store.lastWorksheetUk, store.lastWorksheetSec);
-        } else {
-          await pickFirstWorksheetSection();
-        }
-      })();
-    }
   };
 
   const _buildDeck = window.buildDeck;
@@ -726,6 +615,33 @@
       if (typeof renderFCCard === "function") renderFCCard();
     };
   }
+
+  window.bootstrapStudyApp = async function bootstrapStudyApp() {
+    await initUnitRegistry();
+    buildUnitPickerButtons();
+    const firstWithMcq = store.unitsManifest.find(u => /^u\d+$/.test(u.id) && (store.unitMcqCounts[u.id] ?? 0) > 0);
+    const pick = firstWithMcq?.id || (store.mergedAllQuestionBank.length > 0 ? "all" : null);
+    if (pick) {
+      await window.quickSelect(pick);
+    } else {
+      const loading = document.getElementById("loading-q");
+      const content = document.getElementById("question-content");
+      if (loading && content) {
+        loading.style.display = "block";
+        content.style.display = "none";
+        loading.innerHTML = `<div class="loading-text">No questions available for this unit yet.</div>`;
+      }
+    }
+    renderNotesTabs();
+    const nk = Object.keys(getActiveNotesData());
+    if (nk.length) showNotesSection(nk[0]);
+    else renderNotesFallbackFromMaterials();
+    if (typeof buildDeck === "function") buildDeck();
+    renderFRQTabs();
+    if (typeof showFRQ === "function") showFRQ(0);
+    updateTopbarTitle("practice-mc");
+    updateTopbarSubtitle("practice-mc");
+  };
 
   updateTopbarSubtitle("practice-mc");
 })();

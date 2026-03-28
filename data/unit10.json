@@ -12,15 +12,15 @@
       "section": "10.1",
       "topic": "Series Basics",
       "calcType": "No Calculator",
-      "question": "The nth partial sum of sum a_n is:",
+      "question": "For series sum_{n=1}^infinity a_n, the nth partial sum S_n is:",
       "choices": {
         "A": "S_n = a_n",
-        "B": "S_n = a_1+...+a_n",
-        "C": "S_n = a_n-a_{n-1}",
-        "D": "S_n = int a_n"
+        "B": "S_n = sum_{k=1}^n a_k",
+        "C": "S_n = a_n - a_{n-1}",
+        "D": "S_n = lim_{n->infinity} a_n"
       },
       "correct": "B",
-      "explanation": "By definition, partial sum adds first n terms.",
+      "explanation": "By definition, S_n = sum_{k=1}^n a_k (the sum of the first n terms).",
       "notesSection": "10.1 - Sequences and Series",
       "notesSnippet": "Partial sums determine convergence behavior.",
       "timeTip": "Write first few terms to avoid confusion."
@@ -37,7 +37,7 @@
         "D": "Diverges"
       },
       "correct": "B",
-      "explanation": "Infinite geometric sum is 1/(1-r)=1/(1-1/3)=3/2.",
+      "explanation": "Geometric series sum = a/(1-r) with a=1, r=1/3, so 1/(1-1/3) = 3/2.",
       "notesSection": "10.2 - Geometric Series",
       "notesSnippet": "Use |r|<1 and a/(1-r).",
       "timeTip": "Identify a and r carefully."
@@ -46,15 +46,15 @@
       "section": "10.3",
       "topic": "p-Series",
       "calcType": "No Calculator",
-      "question": "sum 1/n^p converges when:",
+      "question": "sum_{n=1}^infinity 1/n^p converges when:",
       "choices": {
-        "A": "p<=1",
-        "B": "p>1",
-        "C": "p=1 only",
-        "D": "always"
+        "A": "p <= 1",
+        "B": "p > 1",
+        "C": "p = 1 only",
+        "D": "for all p"
       },
       "correct": "B",
-      "explanation": "p-series converges iff p>1.",
+      "explanation": "p-series sum 1/n^p converges if and only if p > 1.",
       "notesSection": "10.3 - p-Series",
       "notesSnippet": "This is a must-memorize test.",
       "timeTip": "Compare quickly to p=1 benchmark."
@@ -71,7 +71,7 @@
         "D": "ratio less than 1 always"
       },
       "correct": "B",
-      "explanation": "Need decreasing positive b_n and lim b_n=0.",
+      "explanation": "Need decreasing positive b_n and lim_{n->infinity} b_n = 0.",
       "notesSection": "10.4 - Alternating Series Test",
       "notesSnippet": "Check monotonic decrease and limit zero.",
       "timeTip": "Separate sign pattern from magnitude."
@@ -80,7 +80,7 @@
       "section": "10.5",
       "topic": "Ratio Test",
       "calcType": "No Calculator",
-      "question": "If lim |a_{n+1}/a_n| = L < 1, then series:",
+      "question": "If lim_{n->infinity} |a_{n+1}/a_n| = L < 1, then the series:",
       "choices": {
         "A": "diverges",
         "B": "converges absolutely",
@@ -157,31 +157,9 @@
           "scoring": "Reasoning + correct result."
         },
         {
-          "label": "(10a)",
-          "points": 2,
-          "question": "<p>{} 2 2 n n a n ìü = íý + îþ {}{} cos n anp= {} 2 11 (1) n n a nn ìü æö =-+ íý ç÷ èø îþ {} () () 2! 1! n n a n ìü ïï = íý + ïï îþ 11 3,1 nn aaa - ==+ () 2 11 2,4 nn aaa - ==- () 11 1,32 nn aaan - ==- () () 2 11 4, nn aaan - ==- {} 1,5,9,13, 1111 ,,,, 2345 ìü íý îþ  2</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(12a)",
           "points": 2,
           "question": "<p>In the following sequences, determine the convergence or divergence with the given nth term. Be sure to properly justify your conclusion.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(18a)",
-          "points": 2,
-          "question": "<p>111 2,1,,,, 248 ìü -- íý îþ  {} 1,2,7,14,23,- {} (1) 1 n n n a n ìü æö =- íý ç÷ + èø îþ {} {} (1) n n an=±- {} 2 2 338 41 n nn a n ìü -+ = íý + îþ {} 2 31 n n a n ìü - ïï = íý + ïï îþ {} 3 ln(1) n n a n ìü + = íý îþ {} 4 5 n n n a ìü = íý îþ 3</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -201,31 +179,9 @@
           "scoring": "Reasoning + correct result."
         },
         {
-          "label": "(23a)",
-          "points": 2,
-          "question": "<p>{} (2)! (1)! n n a n ìü + = íý + îþ {} ! (2)! n n a n ìü = íý + îþ 1 sin n an n = 1234 ,,,.SSSS 1111 1 491625 +++++ 1 1 (1) ! n n n + ¥ = - å 4 Skill Builder 10.2 – Working With Geometric Series In the following exercises, find the sum of the convergent geometric series. Be sure to properly justify your conclusion.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(6a)",
           "points": 2,
           "question": "<p>In the following exercises, find the interval that expresses all the x values for which each of the given series converges.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(7a)",
-          "points": 2,
-          "question": "<p>8.) 0 1 3 n n ¥ = æö ç÷ èø å 0 4 2 5 n n ¥ = æö ç÷ èø å 0 1 2 n n ¥ = æö - ç÷ èø å 3264 4016 525 ++++ 15 603015 2 -+-+ 555.50.550.055-+-+- 1 3 5 n n x ¥ = æö ç÷ èø å 1 7 2 3 n n x ¥ = - æö ç÷ èø å 5</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -279,86 +235,9 @@
       "context": "<p><strong>BC HW 26 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
-          "label": "(4a)",
-          "points": 2,
-          "question": "<p>1 1 5 n n ¥ = + å 0 n n e ¥ - = å 0 n n ne ¥ - = å 1 1 51 n n ¥ = + å 2</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(7a)",
-          "points": 2,
-          "question": "<p>44444 25101726 +++++ 1111 57911 ++++ 2 123 36112 n n +++++ +  3</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(10a)",
-          "points": 2,
-          "question": "<p>Find the sum of the series ln20ln21ln22ln23 20212223 ++++ 4 1 1 n n ¥ = å () 1 23 52(4) n n nn ¥ = æö + ç÷ ç÷ ++ èø å 4 Skill Builder 10.5 – Harmonic Series and p-Series For the following p-series, determine whether they are convergent or divergent.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>4 1 1 n n ¥ = å 5 4 1 1 n n ¥ = å 1 1 n n p ¥ = å 333 3 234 ++++ 33 3 111 1 223344 ++++ 5 55 111 1 4916 ++++ 5 Problems 7 and 8. For a convergent p-series, although it is not possible to find its sum, it is possible to find a lower and an upper bound for the sum. For p &gt; 1, the bounds for the sum of a convergent p-series is defined by . While you will not need to know this for the AP Exam, many college Calculus 2 courses mention this inequality.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(7a)",
           "points": 2,
           "question": "<p>Find the lower and upper bound for 8.) Find the lower and upper bound for Review: Determine the convergence or divergence of the series and specify what test you are using.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(12a)",
-          "points": 2,
-          "question": "<p>1 111 1 11 p k pkp ¥ = &lt;&lt;+ -- å 5/4 1 1 k k ¥ = å 4/3 1 3 k k ¥ = å 1 1 32 n n ¥ = - å 4 1 2 1 n n n ¥ = + å 0.97 1 1 n n ¥ = å 0 7 8 n n ¥ = æö ç÷ èø å 6</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(17a)",
-          "points": 2,
-          "question": "<p>Find the sum of the series 23 1 11 n nn ¥ = æö - ç÷ èø å 1 n n n e ¥ = å 1 2 0 tan 1 n n n - ¥ = + å 2 2 1 n n n ¥ = - å 11 1 1 32 4 nn n n -- ¥ - = æö + ç÷ èø å 7 Skill Builder 10.6 – Comparison Tests for Convergence Use the Direct Comparison Test to determine the convergence or divergence of each of the following series.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>2 1 1 2 n n ¥ = + å 2 1 1 32 n n ¥ = + å 4 1 3 n n ¥ = - å 5 1 2 n n ¥ = - å 1 4 n +1 n=0 ∞ ∑ 0 2 41 n n n ¥ = + å 8</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -378,31 +257,9 @@
           "scoring": "Reasoning + correct result."
         },
         {
-          "label": "(13a)",
-          "points": 2,
-          "question": "<p>1 ln 2 n n n ¥ = + å 1 1 ! n n ¥ = å 2 0 n n e ¥ - = å 2 1 2 n n n ¥ = + å 2 2 1 2 n n ¥ = - å 1 1 21 n n ¥ = - å 2 2 1 34 431 n n nn ¥ = - +- å 9</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(15a)",
           "points": 2,
           "question": "<p>Review: For the following problems, test for convergence or divergence using each test at least once. Identify the test used and show your work. a) nth Term Test b) p-Series Test c) Geometric Series Test d) Integral Test e) Telescoping Series Test f) Direct Comparison Test g) Limit Comparison Test</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(18a)",
-          "points": 2,
-          "question": "<p>4 19.) 2 1 32 1 n n nn ¥ = - +- å 1 1 sin n n ¥ = å 1n n n ¥ = å 0 1 4 4 n n ¥ = æö ç÷ èø å 1 2 31 n n ¥ = + å 2 1 1 421 n nn ¥ = -+ å 10</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -423,39 +280,6 @@
       "context": "<p><strong>BC HW 27 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>() 1 1 1 1 n n n + ¥ = - + å () 1 1 1 31 n n n n + ¥ = - - å () 1 1 1 31 n n n + ¥ = - - å () 1 2 2 1 1 2 n n n n + ¥ = - + å () 1 1 n n n ¥ = - å () 3 1 ln n n n n ¥ = - å 2</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(9a)",
-          "points": 2,
-          "question": "<p>() 1 cos n np ¥ = å 1 cos() n n n p ¥ = å 1 (1) nn n ne ¥ - = - å 3 Skill Builder 10.8 –Ratio Test (and Root Test) for Convergence Use the Ratio Test to determine the convergence or divergence of each of the following series.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>0 ! 4 n n n ¥ = å 0 4 ! n n n ¥ = å 1 3 4 n n n ¥ = æö ç÷ èø å 3 1 3 n n n ¥ = å 1 2 (1)! n n n ¥ = + å 1 5 31 n n n ¥ = + å 4 Use the Root Test to determine the convergence or divergence of each of the following series.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(9a)",
           "points": 2,
           "question": "<p>Test for convergence or divergence of the following using any test that we have discussed in this unit. Identify the test and show your work.</p>",
@@ -467,86 +291,9 @@
           "scoring": "Reasoning + correct result."
         },
         {
-          "label": "(11a)",
-          "points": 2,
-          "question": "<p>1 31 n n n n ¥ = æö ç÷ + èø å 1 3 1 n n n n ¥ = æö ç÷ + èø å 0 n n e ¥ - = å 1 1 (1)4 n n n + ¥ = - å 1 6 n n ¥ = å 5</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(15a)",
-          "points": 2,
-          "question": "<p>1 25 n n n ¥ = + å 3 1 7 2 n n ¥ = å 1 5 ! n n n n ¥ = å 2 1 ln n n n ¥ = å 6 Skill Builder 10.9 – Determining Absolute or Conditional Convergence Determine whether the series converges absolutely, or conditionally, or diverges. Be sure to show all work.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(3a)",
-          "points": 2,
-          "question": "<p>() 1 1 2 n n n ¥ = - å () 1 1 1 n n n + ¥ = - å () 1 2 2 1 1 (1) n n n n + ¥ = - + å 7</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(7a)",
-          "points": 2,
-          "question": "<p>() 2 1 ln() n n nn ¥ = - å () 0 1 4 n n n ¥ = - + å () 1 1 1 n n nn + ¥ = - å 2 1 cos() n n n p ¥ = å 8 Enrichment: Topics 10.1-10.9 – Series Convergence – MCQ Practice</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(1a)",
-          "points": 2,
-          "question": "<p>Which of the following sequences converge? I. II. III. (A) (B) (C) (D) (E)</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(2a)",
           "points": 2,
           "question": "<p>Consider the following two statements: Which words describe when they are true? Statement 1: If the series is convergent, then the sequence is convergent to zero. Statement 2: If the sequence is convergent to zero, then the series is convegent. (A) (B) (C) (D) (E)</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(3a)",
-          "points": 2,
-          "question": "<p>If , what is the value of ? (A) (B) (C) (D) (E)</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(4a)",
-          "points": 2,
-          "question": "<p>For what value of p does the infinite series converge? I. II. III. (A) (B) I and (C) I and (D) (E) 21 32 n n a n + ìü = íý - îþ 2 3 1 1 n n a n ìü - = íý + îþ sin n n a n ìü = íý îþ I onlyII onlyIII onlyII and III onlyI, II,and III 1 n n a ¥ = å {} n a {} n a 1 n n a ¥ = å 1:sometimes 2:sometimes ì í î 1:sometimes 2:always ì í î 1:always 2:sometimes ì í î 1:always 2:always ì í î 1:never 2:sometimes ì í î 0 () 5 n n x fx ¥ = æö = ç÷ èø å (2)(2)ff-- 5 4 2 5 20 21 5 3 divergent 3 21 1 p n n n ¥ + = å 5 6 p= 3 4 p= 1p= I onlyII onlyIII onlyII and III onlyI, II,and III 9</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -567,86 +314,9 @@
       "context": "<p><strong>BC HW 28 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
-          "label": "(4a)",
-          "points": 2,
-          "question": "<p>0 (1) (1)! n n n ¥ = - + å 0 (1) 21 n n n ¥ = - + å () 1 2 1 1 n n n + ¥ = - å 21 1 11 (1) 213 k k k k + ¥ = æö - ç÷ + èø å 2 Determine the number of terms required to approximate the sum of the series with an error less than 0.001.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(7a)",
-          "points": 2,
-          "question": "<p>() 1 3 1 1 n n n + ¥ = - å () 1 3 1 1 21 n n n + ¥ = - - å () 1 1 ! n n n ¥ = - å 3 Topic 10.11 – Finding Taylor Polynomial Approximations of a Function For the following, find the Maclaurin polynomial of degree n for the given function and evaluate at</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>0.1.x= (),5 x fxen - == 1 (),5 1 fxn x == - () ()sin,3fxxnp== (),3 x fxxen== ()tan,3fxxn== 1 ()tan,3fxxn - == 4 For the following, find the Taylor polynomial of degree n for the given function centered at</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(8a)",
-          "points": 2,
-          "question": "<p>Topic 10.12 – Lagrange Error Bound</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(1a)",
-          "points": 2,
-          "question": "<p>Estimate the error in approximating by the fifth-degree polynomial by finding the Lagrange remainder. .xc= 1 (),4,1fxnc x === ()cos,2,fxxxncp=== sin(0.5) 5</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(2a)",
           "points": 2,
-          "question": "<p>A student needs to calculate on a four-function calculator. He uses a third-degree Taylor polynomial for and adds on the Lagrange error. What is the result of his calculation?</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(3a)",
-          "points": 2,
-          "question": "<p>Let f be a function given by and let be the fourth-degree Taylor polynomial about at Use the Lagrange error bound to show that 1 e x ye= ()cos3 10 fxx p æö =- ç÷ èø ()Px f 0.x= 111 . 44500 fP æöæö -&lt; ç÷ç÷ èøèø 6</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(4a)",
-          "points": 2,
-          "question": "<p>Let f be a function having derivatives for all orders of real numbers. The first three derivatives of at are given in the table below. The fourth derivative of satisfies the inequality for all x in the interval . Use the Lagrange error bound on this approximation to find to explain why . x 2 8 4 16 18 Taylor Polynomials and Error Bounds on the AP Exam – Circuit Training # __1__ Answer: Let f be a function having derivatives for all orders of real numbers. The first three derivatives of f at are given in the table below. Use the third-degree Taylor polynomial at to approximate . # ____ Answer: Let f be a function having derivatives for all orders of real numbers. The 4 th degree Taylor polynomial for f about x = –3 is given by , where . If , find k. f 2x= f (4) ()50fx£ [] 2,2.5 (2.1)f (2.1)8.5f&lt; 5 192 x=0 x=0 1 2 f æö ç÷ èø ()()()() 02234 xfxfxfxfx ¢¢¢¢¢¢ -- 25 4 ()()() 24 4 2 633 7 Pxxkx=--+++ \u0000 k≠0 () () 4 3 3 4 f p -= ()fx()fx ¢ ()fx ¢¢ ()fx ¢¢¢ Directions: Beginning in the first cell, find the answer. Hunt for that answer elsewhere in the document, mark that cell #2 and work the problem in that box. Process in this manner until you complete the circuit. Show all pertinent work.</p>",
+          "question": "<p>A student approximates a function using a third-degree Taylor polynomial plus a Lagrange error term on a four-function calculator. Work the problem as stated on your worksheet PDF and compare with the class answer key when available.</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -667,28 +337,6 @@
       "context": "<p><strong>BC HW 29 (FRQ)</strong> — use the PDF viewer on the left. Toggle the <strong>Answer key</strong> panel on the right when you are ready to check your work (everything stays on this page).</p>",
       "parts": [
         {
-          "label": "(4a)",
-          "points": 2,
-          "question": "<p>0 2 n n x ¥ = æö ç÷ èø å () 1 1 n n n x n ¥ = - å () 0 2 ! n n x n ¥ = å () () 0 3 2! n n x n ¥ = å 2</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(8a)",
-          "points": 2,
-          "question": "<p>0 (2) n n x ¥ = å 0 (1) 1 n n n x n ¥ = - + å 2 1 (2) n n x n ¥ = å 0 (2)! ! n x n ¥ = å 3</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(9a)",
           "points": 2,
           "question": "<p>Determine the values for which the series converges.</p>",
@@ -700,75 +348,9 @@
           "scoring": "Reasoning + correct result."
         },
         {
-          "label": "(10a)",
-          "points": 2,
-          "question": "<p>Determine the radius of convergence for</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
           "label": "(11a)",
           "points": 2,
-          "question": "<p>If the radius of convergence of the power series is R = 5, which of the following statements are ALWAYS TRUE, POSSIBLY TRUE, or ALWAYS FALSE. (a) The series converges for x = 2. (b) The series converges for x = 7. (c) The series converges for x = 8. (d) The series converges for x =. (e) The series converges for x =.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(12a)",
-          "points": 2,
-          "question": "<p>If converges for x = 5, at what other numbers x must the series converge? 1 (1)(!)(3) nn n nx ¥ = -- å 1 ! nn n nx n ¥ = å () 0 3 n n n ax ¥ = - å 6- 2- () 0 2 n n n ax ¥ = - å 4 Topic 10.14 – Finding Taylor or Maclaurin Series for a Function For the following, use the definition to find the Taylor (or Maclaurin) series centered at c for the function. When writing your answers, be sure to list the first 4 non-zero terms and the general term.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(4a)",
-          "points": 2,
-          "question": "<p>3 (),0 x fxec== 3 (),0 x fxec - == ()sin2,0fxxc==() tan, 0(first two nonzero terms)fxxc== 5</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>()sin, 4 fxxc p ==()cos, 4 fxxc p == 6 Skill Builder 10.15 – Representing Functions as Power Series Write a power series for the function, centered at c.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(6a)",
-          "points": 2,
-          "question": "<p>3 (),0 4 fxc x == + 5 (),0 21 fxc x == - 1 (),6 3 fxc x - == - 3 (),1 4 fxc x ==- - 2 3 (),0 2 x fxc xx == +- 2 4 (),0 4 fxc x == + 7 Find the Maclaurin series for the following functions by using the table of power series from your notes or text. When writing your answers, be sure to list the first four non-zero terms and the general term.</p>",
-          "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
-          "steps": [
-            "Show all steps on paper.",
-            "Confirm with the answer key PDF."
-          ],
-          "scoring": "Reasoning + correct result."
-        },
-        {
-          "label": "(12a)",
-          "points": 2,
-          "question": "<p>2 () x fxe - = 4 () x fxe - = ()sin3fxx=()cosfxxx= 3 2 ()cosfxx= sin () x fx x =</p>",
+          "question": "<p>If the radius of convergence of a power series about x = 0 is R = 5, classify each statement as ALWAYS TRUE, POSSIBLY TRUE, or ALWAYS FALSE: (a) converges at x = 2; (b) at x = 7; (c) at x = 8; (d) at x = 5; (e) at x = -5.</p>",
           "finalAnswer": "Use the answer key PDF in Materials for this worksheet.",
           "steps": [
             "Show all steps on paper.",
@@ -779,90 +361,6 @@
       ],
       "worksheetPdf": "Unit 10/Homework/BC HW 29.pdf",
       "answerKeyPdf": null
-    },
-    {
-      "id": 6,
-      "packetAuto": true,
-      "packetSection": "10.2",
-      "calcAllowed": true,
-      "title": "Section 10.2 — packet FRQ (placeholder)",
-      "context": "<p>No worksheet was auto-mapped to <strong>10.2</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
-      "parts": [
-        {
-          "label": "(a)",
-          "points": 4,
-          "question": "<p>Open any homework or review packet for section 10.2 from Materials and complete a representative problem your teacher marked for this topic.</p>",
-          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
-          "steps": [
-            "Select a problem from your packet for this lesson.",
-            "Compare your work to the course answer key."
-          ],
-          "scoring": "Graded on method and correctness."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "packetAuto": true,
-      "packetSection": "10.3",
-      "calcAllowed": true,
-      "title": "Section 10.3 — packet FRQ (placeholder)",
-      "context": "<p>No worksheet was auto-mapped to <strong>10.3</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
-      "parts": [
-        {
-          "label": "(a)",
-          "points": 4,
-          "question": "<p>Open any homework or review packet for section 10.3 from Materials and complete a representative problem your teacher marked for this topic.</p>",
-          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
-          "steps": [
-            "Select a problem from your packet for this lesson.",
-            "Compare your work to the course answer key."
-          ],
-          "scoring": "Graded on method and correctness."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "packetAuto": true,
-      "packetSection": "10.4",
-      "calcAllowed": true,
-      "title": "Section 10.4 — packet FRQ (placeholder)",
-      "context": "<p>No worksheet was auto-mapped to <strong>10.4</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
-      "parts": [
-        {
-          "label": "(a)",
-          "points": 4,
-          "question": "<p>Open any homework or review packet for section 10.4 from Materials and complete a representative problem your teacher marked for this topic.</p>",
-          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
-          "steps": [
-            "Select a problem from your packet for this lesson.",
-            "Compare your work to the course answer key."
-          ],
-          "scoring": "Graded on method and correctness."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "packetAuto": true,
-      "packetSection": "10.5",
-      "calcAllowed": true,
-      "title": "Section 10.5 — packet FRQ (placeholder)",
-      "context": "<p>No worksheet was auto-mapped to <strong>10.5</strong> with extractable text. Use this as a prompt to pull one FRQ from your binder, or open Materials and pick a PDF whose title matches this section.</p>",
-      "parts": [
-        {
-          "label": "(a)",
-          "points": 4,
-          "question": "<p>Open any homework or review packet for section 10.5 from Materials and complete a representative problem your teacher marked for this topic.</p>",
-          "finalAnswer": "See answer key PDF linked from Materials for the packet you choose.",
-          "steps": [
-            "Select a problem from your packet for this lesson.",
-            "Compare your work to the course answer key."
-          ],
-          "scoring": "Graded on method and correctness."
-        }
-      ]
     }
   ],
   "notesData": {

@@ -597,7 +597,7 @@
     if (/Use the answer key PDF in Materials|open the matching ANSWERS/i.test(fa)) {
       return hasKeyPdf
         ? "<p style=\"margin:0\">Use the <strong>Answer key</strong> panel on the right on this page.</p>"
-        : "<p style=\"margin:0\">Check the embedded answer materials for this worksheet when available.</p>";
+        : "<p style=\"margin:0\">No answer-key PDF is linked — expand <strong>Show Answer &amp; Scoring</strong> below for model solutions.</p>";
     }
     if (/See answer key PDF linked from Materials/i.test(fa)) {
       return "<p style=\"margin:0\">Use the <strong>Answer key</strong> panel on the right when available.</p>";
@@ -612,11 +612,18 @@
       if (/Work the problem fully on paper|Confirm with the scanned key PDF/i.test(t)) {
         return hasKeyPdf
           ? "Toggle the <strong>Answer key</strong> PDF on the right and compare your work."
-          : "Verify your reasoning against your notes or the answer key when provided.";
+          : "Compare your work to the model solution under <strong>Show Answer &amp; Scoring</strong>, or add an <code>answerKeyPdf</code> in the unit JSON if you have a scanned key.";
       }
       return t;
     });
     return [...new Set(out)];
+  }
+
+  function modelAnswerBodyHtml(fa) {
+    const s = String(fa || "");
+    if (/<\s*p[\s>]|<\s*strong|<\s*div/i.test(s)) return s;
+    if (typeof window.formatApCalcMath === "function") return window.formatApCalcMath(s);
+    return escapeHtml(s);
   }
 
   function buildFrqPartAnswerHtml(idx, part, i, frq) {
@@ -626,11 +633,16 @@
     return `<div id="frq-answer-${idx}-${i}" style="display:none;margin-top:14px">
           <div style="background:var(--green-bg);border:1px solid #bbf7d0;border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--green);margin-bottom:8px;font-family:var(--font)">Model Answer</div>
-            <div style="font-size:14px;color:var(--text);font-weight:600;font-family:'Times New Roman',Georgia,serif;margin-bottom:10px">${fa}</div>
+            <div style="font-size:14px;color:var(--text);font-weight:600;font-family:'Times New Roman',Georgia,serif;margin-bottom:10px">${modelAnswerBodyHtml(fa)}</div>
           </div>
           <div style="background:var(--bg2);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;margin-bottom:10px">
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--accent);margin-bottom:8px;font-family:var(--font)">Step-by-Step Work</div>
-            ${steps.map((s, si) => `<div style="display:flex;gap:10px;margin-bottom:7px;font-size:13px;font-family:'Times New Roman',Georgia,serif;color:var(--text2)"><span style="font-family:var(--font);color:var(--text3);min-width:18px;font-size:11px;padding-top:2px">${si + 1}.</span><span>${s}</span></div>`).join("")}
+            ${steps
+              .map(
+                (s, si) =>
+                  `<div style="display:flex;gap:10px;margin-bottom:7px;font-size:13px;font-family:'Times New Roman',Georgia,serif;color:var(--text2)"><span style="font-family:var(--font);color:var(--text3);min-width:18px;font-size:11px;padding-top:2px">${si + 1}.</span><span class="frq-step-math">${escapeHtml(String(s))}</span></div>`
+              )
+              .join("")}
           </div>
           <div style="background:var(--amber-bg);border:1px solid #fcd34d;border-radius:var(--radius);padding:10px 14px">
             <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--amber);margin-bottom:4px;font-family:var(--font)">Scoring</div>
@@ -678,15 +690,15 @@
       const wsTitleHtml = escapeHtml(wsTitleRaw);
       const keyBlock = ak
         ? frqPdfPaneMarkup(ak, "Answer key", `frq-pdf-host-${idx}-key`)
-        : `<div class="frq-key-fallback-notes"><p style="font-size:12px;color:var(--text3);margin-bottom:10px">No separate answer PDF linked — expand each part below for model solutions.</p>${partsHtml}</div>`;
+        : "";
 
-      const html = `<div class="frq-card frq-card-embed">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
-        <span class="badge ${frq.calcAllowed ? "badge-calc-c" : "badge-calc-nc"}">${frq.calcAllowed ? "Calculator Active" : "No Calculator"}</span>
-        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${wsTitleHtml}</span>
-      </div>
-      <div class="frq-prompt">${frq.context || ""}</div>
-      <div class="frq-split-layout">
+      const unitJsonHint =
+        store.activeUnitKey && /^u\d+$/.test(store.activeUnitKey)
+          ? `data/${store.activeUnitKey.replace("u", "unit")}.json`
+          : "data/unitN.json";
+
+      const splitBlock = ak
+        ? `<div class="frq-split-layout">
         ${frqPdfPaneMarkup(ws, "Worksheet", `frq-pdf-host-${idx}-worksheet`)}
         <aside class="frq-key-panel" id="frq-key-aside-${idx}">
           <button type="button" class="frq-key-tabbtn" onclick="toggleFrqKeyPanel(${idx})">Hide answer key</button>
@@ -694,11 +706,28 @@
             ${keyBlock}
           </div>
         </aside>
+      </div>`
+        : `<div class="frq-split-layout frq-split--worksheet-only">
+        ${frqPdfPaneMarkup(ws, "Worksheet", `frq-pdf-host-${idx}-worksheet`)}
       </div>
-      ${ak ? `<div class="frq-parts-below">${partsHtml}</div>` : ""}
+      <div class="frq-no-key-banner">
+        <strong>No answer-key PDF</strong> is linked for this homework. Use <strong>Show Answer &amp; Scoring</strong> under each part to see model solutions.
+        To add a key later, put a PDF under <code>materials/</code> and set <code>answerKeyPdf</code> in <code>${escapeHtml(unitJsonHint)}</code> — use a scan or teacher file; you do not need AI.
+      </div>`;
+
+      const html = `<div class="frq-card frq-card-embed">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px;flex-wrap:wrap">
+        <span class="badge ${frq.calcAllowed ? "badge-calc-c" : "badge-calc-nc"}">${frq.calcAllowed ? "Calculator Active" : "No Calculator"}</span>
+        <span style="font-size:13px;font-weight:600;color:var(--text);font-family:var(--font)">${wsTitleHtml}</span>
+      </div>
+      <div class="frq-prompt">${frq.context || ""}</div>
+      ${splitBlock}
+      <div class="frq-parts-below">${partsHtml}</div>
     </div>`;
 
-      document.getElementById("frq-display").innerHTML = html;
+      const mount = document.getElementById("frq-display");
+      mount.innerHTML = html;
+      if (typeof window.formatMathInElement === "function") window.formatMathInElement(mount);
       if (window.MathJax) MathJax.typesetPromise();
       renderFrqPdfHosts(idx, ws, ak).catch(err => console.warn("FRQ PDF render:", err));
       return;
@@ -711,7 +740,9 @@
       </div>
       <div class="frq-prompt">${frq.context || ""}</div>
       <div class="frq-parts">${partsHtml}</div></div>`;
-    document.getElementById("frq-display").innerHTML = html;
+    const mount2 = document.getElementById("frq-display");
+    mount2.innerHTML = html;
+    if (typeof window.formatMathInElement === "function") window.formatMathInElement(mount2);
     if (window.MathJax) MathJax.typesetPromise();
   };
 

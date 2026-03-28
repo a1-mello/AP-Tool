@@ -868,15 +868,15 @@
   "notesData": {
     "10.1": {
       "title": "10.1 Sequences and Partial Sums",
-      "content": "<div class='notes-block'><h3>Sequence vs series</h3><p>A sequence is list of terms. A series is sum of terms.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">LIM-7 · BC Sequences</div><h3>Sequences</h3><p>A <strong>sequence</strong> {a<sub><em>n</em></sub>} is an ordered list. Convergence means a<sub><em>n</em></sub> approaches a finite limit <em>L</em> as <em>n</em>→∞.</p></div><div class=\"notes-block\"><h3>Series = sum of a sequence</h3><p>A <strong>series</strong> Σ a<sub><em>n</em></sub> is the limit of its <strong>partial sums</strong> S<sub><em>N</em></sub> = a₁ + … + a<sub><em>N</em></sub>. If partial sums approach a finite value, the series converges.</p></div><div class=\"notes-block\"><h3>nth-term test</h3><div class=\"formula-box\">If lim a<sub><em>n</em></sub> ≠ 0, then Σ a<sub><em>n</em></sub> <strong>diverges</strong>.</div><p style=\"color:var(--text2)\">If limit is 0, the series may still diverge — this test never proves convergence.</p><div class=\"ap-note\"><strong>AP tip:</strong> Always state the name of any test you use.</div></div>"
     },
     "10.2": {
       "title": "10.2 Geometric and p-Series",
-      "content": "<div class='notes-block'><h3>Fast tests</h3><p>Geometric needs |r|<1. p-series converges iff p>1.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">LIM-7 · Benchmarks</div><h3>Geometric series</h3><div class=\"formula-box\">Σ <em>ar</em><sup><em>n</em></sup> converges (|<em>r</em>| &lt; 1) to <em>a</em>/(1−<em>r</em>) &nbsp; (|<em>r</em>| ≥ 1 ⇒ diverges)</div></div><div class=\"notes-block\"><h3><em>p</em>-series</h3><div class=\"formula-box\">Σ 1/<em>n</em><sup><em>p</em></sup> converges if <em>p</em> &gt; 1, diverges if 0 &lt; <em>p</em> ≤ 1</div><p style=\"color:var(--text2)\">Harmonic series Σ 1/<em>n</em> diverges — compare other series to these.</p></div><div class=\"notes-block\"><h3>Integral test (idea)</h3><p>If <em>f</em> positive, continuous, decreasing, then Σ <em>f</em>(<em>n</em>) and ∫<em>f</em>(<em>x</em>)d<em>x</em> share convergence behavior.</p><div class=\"ap-note\"><strong>AP tip:</strong> Memorize geometric and <em>p</em>-series results; they are comparison/limit-comparison anchors.</div></div>"
     },
     "10.3": {
-      "title": "10.3-10.5 Alternating + Ratio",
-      "content": "<div class='notes-block'><h3>Common AP convergence tests</h3><p>Alternating test, ratio test, and absolute vs conditional convergence.</p></div>"
+      "title": "10.3–10.5 Alternating, Ratio, Absolute Convergence",
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">LIM-7 · Tests</div><h3>Alternating series test</h3><p>For Σ (−1)<sup><em>n</em></sup> b<sub><em>n</em></sub> with b<sub><em>n</em></sub> &gt; 0: if b<sub><em>n</em></sub> decreases to 0, the series <strong>converges</strong> (possibly conditionally).</p></div><div class=\"notes-block\"><h3>Ratio test</h3><p>Let <em>L</em> = lim |a<sub><em>n</em>+1</sub>/a<sub><em>n</em></sub>|. <em>L</em> &lt; 1 ⇒ absolute convergence; <em>L</em> &gt; 1 ⇒ divergence; <em>L</em> = 1 ⇒ inconclusive.</p></div><div class=\"notes-block\"><h3>Absolute vs conditional</h3><p>Absolute convergence ⇒ convergence. If Σ|a<sub><em>n</em></sub>| diverges but Σa<sub><em>n</em></sub> converges, the series is <strong>conditionally</strong> convergent.</p><div class=\"ap-note\"><strong>AP tip:</strong> For alternating series remainders, the error bound uses the first omitted term under AST hypotheses.</div></div>"
     },
     "packet-pdfs": {
       "title": "Packet PDFs (class notes & homework)",
@@ -930,7 +930,7 @@
       "path": "Unit 10/Notes/Week 28 BC Notes (10.8 & 10.9).pdf"
     }
   ],
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 10</strong> — Materials on this site include <strong>4</strong> notes PDFs, <strong>5</strong> homework PDFs, and <strong>0</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 10</strong> — Materials on this site include <strong>4</strong> notes PDFs, <strong>5</strong> homework PDFs, and <strong>0</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

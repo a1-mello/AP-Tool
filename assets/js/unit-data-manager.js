@@ -419,14 +419,41 @@
       <div class="notes-section">
         <div class="subunit-tag">${escapeHtml(ul)} · Section ${escapeHtml(section)}</div>
         <h2>${data.title}</h2>
-        ${data.content}
+        ${rewriteLocalMaterialHrefs(data.content)}
       </div>`;
     if (window.MathJax) MathJax.typesetPromise();
   };
 
+  /** Worksheet / answer PDFs live under <site>/materials/… (mirror your Unit folders there). */
   function frqPdfUrl(relPath) {
     if (!relPath || typeof relPath !== "string") return "";
-    return encodeURI(String(relPath).trim().replace(/#/g, "%23"));
+    let p = String(relPath).trim().replace(/&amp;/g, "&");
+    if (/^https?:\/\//i.test(p)) {
+      return encodeURI(p.replace(/#/g, "%23"));
+    }
+    if (!p.startsWith("materials/")) {
+      p = `materials/${p}`;
+    }
+    const segments = p.split("/").map(seg => {
+      try {
+        return encodeURIComponent(decodeURIComponent(seg));
+      } catch {
+        return encodeURIComponent(seg);
+      }
+    });
+    try {
+      return new URL(segments.join("/"), window.location.href).href;
+    } catch {
+      return encodeURI(p.replace(/#/g, "%23"));
+    }
+  }
+
+  function rewriteLocalMaterialHrefs(html) {
+    if (!html || typeof html !== "string") return html;
+    return html.replace(/\bhref=(["'])(?!https?:|mailto:|#|javascript:|data:|materials\/)([^"']+)\1/gi, (m, q, path) => {
+      let p = String(path).replace(/&amp;/g, "&");
+      return `href=${q}materials/${p}${q}`;
+    });
   }
 
   /** PDF extractors often map math letters to Hangul BMP codepoints — hide that garbage when a worksheet PDF exists. */

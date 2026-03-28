@@ -928,15 +928,15 @@
   "notesData": {
     "4.1": {
       "title": "4-1 to 4-3 Rates in Context",
-      "content": "<div class='notes-block'><h3>Units matter</h3><p>Always state units for derivatives in applied contexts.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">CHA-3 · Interpretation</div><h3>Derivative as a rate</h3><p>In context, <em>f</em>′(<em>t</em>) carries <strong>units of output per unit of input</strong> (e.g. cm/min, gal/hr). The phrase “rate of change of …” always points to a derivative of the named quantity.</p></div><div class=\"notes-block\"><h3>Straight-line motion</h3><p>Position <em>s</em>(<em>t</em>) → velocity <em>v</em> = <em>s</em>′ → acceleration <em>a</em> = <em>v</em>′. Signs: positive <em>v</em> means moving in the positive direction.</p><div class=\"formula-box\">Average velocity on [<em>a</em>,<em>b</em>] = (<em>s</em>(<em>b</em>)−<em>s</em>(<em>a</em>))/(<em>b</em>−<em>a</em>)</div></div><div class=\"notes-block\"><h3>Other contexts</h3><p>Population growth rate, temperature change, production rate — same idea: derivative of the “amount” function with respect to time (or another variable).</p><div class=\"ap-note\"><strong>AP tip:</strong> Always attach correct units in FRQs; missing units loses communication points.</div></div>"
     },
     "4.2": {
       "title": "4-4 Related Rates",
-      "content": "<div class='notes-block'><h3>Workflow</h3><p>Write equation, differentiate with respect to time, then substitute known values.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">CHA-3 · Time-linked variables</div><h3>Setup checklist</h3><ol style=\"line-height:1.65;color:var(--text2)\"><li>Draw and label: what is changing with time?</li><li>Write one <strong>geometric or physical equation</strong> relating the variables (distance, volume, similar triangles, Pythagoras).</li><li>Differentiate <strong>with respect to <em>t</em></strong> — use chain rule (every variable is a function of <em>t</em>).</li><li>Substitute <em>after</em> differentiating unless a quantity is constant (then its derivative is 0).</li></ol></div><div class=\"notes-block\"><h3>Common pitfall</h3><p>Don’t plug numeric values in <em>before</em> differentiating unless those values are constants. If <em>r</em> and <em>h</em> both change, both get dr/d<em>t</em>, dh/d<em>t</em> terms.</p><div class=\"ap-note\"><strong>AP tip:</strong> State the equation you differentiated; show the differentiated equation before substituting.</div></div>"
     },
     "4.3": {
       "title": "4-6 and 4-7 Approximation + L'Hospital",
-      "content": "<div class='notes-block'><h3>Approximation tools</h3><p>Use linearization for nearby estimates and L'Hospital for qualifying indeterminate forms.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">LIM-4 · Local linearity</div><h3>Linearization</h3><p>Near <em>x</em> = <em>a</em>, <em>f</em>(<em>x</em>) ≈ <em>L</em>(<em>x</em>) = <em>f</em>(<em>a</em>) + <em>f</em>′(<em>a</em>)(<em>x</em>−<em>a</em>). This is the tangent line as an approximation (good when <em>x</em> is close to <em>a</em>).</p><div class=\"formula-box\">Differential: d<em>y</em> ≈ <em>f</em>′(<em>a</em>) d<em>x</em></div></div><div class=\"notes-block\"><h3>L’Hôpital’s rule</h3><p>For limits giving 0/0 or ∞/∞, differentiate numerator and denominator <strong>separately</strong> (not quotient rule), then retry the limit. Repeat if still indeterminate.</p><p style=\"color:var(--text2)\">Check hypotheses: some limits need algebra first or a different test.</p><div class=\"ap-note\"><strong>AP tip:</strong> Logarithms or conjugates can rewrite forms into 0/0 or ∞/∞ before L’Hôpital.</div></div>"
     },
     "packet-pdfs": {
       "title": "Packet PDFs (class notes & homework)",
@@ -1060,7 +1060,7 @@
       "path": "Unit 4/Review/Unit 4 FRQ Practice.pdf"
     }
   ],
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 4</strong> — Materials on this site include <strong>6</strong> notes PDFs, <strong>14</strong> homework PDFs, and <strong>3</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 4</strong> — Materials on this site include <strong>6</strong> notes PDFs, <strong>14</strong> homework PDFs, and <strong>3</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

@@ -1227,15 +1227,15 @@
   "notesData": {
     "5.1": {
       "title": "5-1 to 5-5 Extrema and MVT",
-      "content": "<div class='notes-block'><h3>Critical-point workflow</h3><p>Find f', solve f'=0/undefined, then classify using sign changes.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-4 · Behavior</div><h3>Extreme Value Theorem</h3><p>If <em>f</em> is continuous on a <strong>closed interval</strong> [<em>a</em>,<em>b</em>], then <em>f</em> attains an absolute max and an absolute min on that interval (somewhere inside or at endpoints).</p></div><div class=\"notes-block\"><h3>Critical numbers</h3><p>Interior points where <em>f</em>′(<em>c</em>) = 0 or <em>f</em>′(<em>c</em>) does not exist are candidates for local extrema. Test with <strong>first derivative sign chart</strong> or compare values.</p><div class=\"formula-box\">Mean Value Theorem: if <em>f</em> continuous on [<em>a</em>,<em>b</em>] and differentiable on (<em>a</em>,<em>b</em>), ∃<em>c</em> with <em>f</em>′(<em>c</em>) = (<em>f</em>(<em>b</em>)−<em>f</em>(<em>a</em>))/(<em>b</em>−<em>a</em>)</div></div><div class=\"notes-block\"><h3>First derivative test</h3><p>If <em>f</em>′ switches from + to − at <em>c</em>, local max; − to +, local min; no sign change → not an extremum.</p><div class=\"ap-note\"><strong>AP tip:</strong> For absolute extrema on [<em>a</em>,<em>b</em>], evaluate <em>f</em> at endpoints <em>and</em> critical points in the interval.</div></div>"
     },
     "5.2": {
       "title": "5-6 Concavity + 2nd Derivative Test",
-      "content": "<div class='notes-block'><h3>Concavity</h3><p>f''>0 concave up, f''<0 concave down. Inflection where concavity changes.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-4 · Concavity</div><h3>Definitions</h3><p><strong>Concave up</strong> ⇒ graph bends upward (tangent below curve). On intervals where <em>f</em>″ &gt; 0, <em>f</em> is concave up (if <em>f</em>″ exists).</p><p><strong>Concave down</strong> ⇒ <em>f</em>″ &lt; 0 (typical sufficient condition).</p></div><div class=\"notes-block\"><h3>Inflection points</h3><p>Points where concavity changes (often where <em>f</em>″ = 0 or undefined, but you must verify a sign change in <em>f</em>″).</p></div><div class=\"notes-block\"><h3>Second derivative test</h3><p>If <em>f</em>′(<em>c</em>) = 0 and <em>f</em>″(<em>c</em>) &gt; 0 → local min; <em>f</em>″(<em>c</em>) &lt; 0 → local max. If <em>f</em>″(<em>c</em>) = 0, test is inconclusive — use first derivative test.</p><div class=\"ap-note\"><strong>AP tip:</strong> Connect <em>f</em>, <em>f</em>′, <em>f</em>″ in graph-matching problems: where <em>f</em> has max/min, <em>f</em>′ crosses zero.</div></div>"
     },
     "5.3": {
       "title": "5-10 Optimization",
-      "content": "<div class='notes-block'><h3>Optimization strategy</h3><p>Objective function -> one variable -> derivative -> test candidates.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-4 · Applied max/min</div><h3>Standard workflow</h3><ol style=\"line-height:1.65;color:var(--text2)\"><li>Identify what to maximize or minimize (objective).</li><li>Express objective as a function of <strong>one variable</strong> using a constraint (geometry, fixed perimeter, etc.).</li><li>Find domain from the story (lengths ≥ 0, physical limits).</li><li>Take derivative, find critical numbers in domain, compare values at critical points and endpoints.</li></ol></div><div class=\"notes-block\"><h3>Why one variable?</h3><p>Single-variable calculus needs one independent variable. If two variables appear, use the constraint to eliminate one before differentiating.</p><div class=\"ap-note\"><strong>AP tip:</strong> Justify that your answer is max or min (first or second derivative test, or compare candidates on a closed interval).</div></div>"
     },
     "packet-pdfs": {
       "title": "Packet PDFs (class notes & homework)",
@@ -1404,7 +1404,7 @@
       "path": "Unit 5/Review/Warm-up Velocity problem-graph.pdf"
     }
   ],
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 5</strong> — Materials on this site include <strong>8</strong> notes PDFs, <strong>18</strong> homework PDFs, and <strong>6</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 5</strong> — Materials on this site include <strong>8</strong> notes PDFs, <strong>18</strong> homework PDFs, and <strong>6</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

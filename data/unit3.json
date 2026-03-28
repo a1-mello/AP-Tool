@@ -580,15 +580,15 @@
   "notesData": {
     "3.1": {
       "title": "3-1 Chain Rule",
-      "content": "<div class='notes-block'><h3>Chain Rule</h3><div class='formula-box'>(f(g(x)))' = f'(g(x))g'(x)</div></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-3 · Composite functions</div><h3>Chain rule (core pattern)</h3><p>If <em>y</em> = <em>f</em>(<em>u</em>) and <em>u</em> = <em>g</em>(<em>x</em>), then <em>y</em> is a composite of <em>f</em> and <em>g</em>. The outer function’s derivative is evaluated at the inner function, times the inner’s derivative.</p><div class=\"formula-box\">d/d<em>x</em>[<em>f</em>(<em>g</em>(<em>x</em>))] = <em>f</em>′(<em>g</em>(<em>x</em>)) · <em>g</em>′(<em>x</em>)</div></div><div class=\"notes-block\"><h3>How to apply it</h3><ol style=\"line-height:1.65;color:var(--text2)\"><li>Identify the <strong>outer</strong> function (last operation you would undo).</li><li>Differentiate the outer, leave the inner unchanged inside.</li><li>Multiply by the derivative of the inner.</li><li>Repeat if nested (layers of chain).</li></ol><div class=\"ap-note\"><strong>AP tip:</strong> For e<sup><em>u</em></sup>, ln <em>u</em>, sin <em>u</em>, etc., always multiply by <em>u</em>′.</div></div>"
     },
     "3.2": {
       "title": "3-2 Implicit Differentiation",
-      "content": "<div class='notes-block'><h3>Implicit</h3><p>Differentiate both sides and include y' whenever you differentiate y-terms.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-3 · Implicit relations</div><h3>When <em>y</em> is not solved for</h3><p>If <em>x</em> and <em>y</em> satisfy an equation like <em>x</em>² + <em>y</em>² = 25 or <em>x</em><em>y</em> = sin(<em>x</em>+<em>y</em>), differentiate <strong>both sides with respect to <em>x</em></strong>, treating <em>y</em> as <em>y</em>(<em>x</em>).</p></div><div class=\"notes-block\"><h3>Every <em>y</em>-term brings a y′</h3><div class=\"formula-box\">d/d<em>x</em>[<em>y</em>²] = 2<em>y</em> · y′ &nbsp;·&nbsp; d/d<em>x</em>[<em>x</em><em>y</em>] = <em>y</em> + <em>x</em>y′ (product rule)</div><p style=\"color:var(--text2)\">Then collect terms with y′ on one side and solve for y′.</p><div class=\"ap-note\"><strong>AP tip:</strong> At a point (<em>x</em>₀, <em>y</em>₀), plug in after solving for y′ to get the numerical slope.</div></div>"
     },
     "3.3": {
       "title": "3-3 to 3-5 Inverse + Higher Derivatives",
-      "content": "<div class='notes-block'><h3>Inverse slope rule</h3><p>(f^{-1})'(b)=1/f'(a), where f(a)=b.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-3 · Inverses</div><h3>Derivative of an inverse function</h3><p>If <em>f</em> is one-to-one and differentiable, and <em>f</em>(<em>a</em>) = <em>b</em>, then</p><div class=\"formula-box\">(<em>f</em>⁻¹)′(<em>b</em>) = 1 / <em>f</em>′(<em>a</em>) &nbsp; provided <em>f</em>′(<em>a</em>) ≠ 0</div><p style=\"color:var(--text2)\">Slope of inverse at <em>b</em> is reciprocal of slope of <em>f</em> at the matching <em>a</em>.</p></div><div class=\"notes-block\"><h3>Inverse trig derivatives</h3><p>Know d/d<em>x</em>[arcsin <em>x</em>], arccos <em>x</em>, arctan <em>x</em> — they come from implicit diff on sin <em>y</em> = <em>x</em>, etc.</p></div><div class=\"notes-block\"><h3>Higher-order derivatives</h3><p>f″, f‴ mean repeat differentiation. For notation, y″ = d/d<em>x</em>(y′). Context (motion, concavity) often names f″ as acceleration or concavity driver.</p><div class=\"ap-note\"><strong>AP tip:</strong> Simplify y′ before differentiating again to avoid algebra mistakes.</div></div>"
     },
     "packet-pdfs": {
       "title": "Packet PDFs (class notes & homework)",
@@ -707,7 +707,7 @@
       "path": "Unit 3/Review/3-2 WK Mixed Derivative Practice (thru 3-2).pdf"
     }
   ],
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 3</strong> — Materials on this site include <strong>5</strong> notes PDFs, <strong>16</strong> homework PDFs, and <strong>1</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 3</strong> — Materials on this site include <strong>5</strong> notes PDFs, <strong>16</strong> homework PDFs, and <strong>1</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

@@ -481,15 +481,15 @@
   "notesData": {
     "9.1": {
       "title": "9.1 Parametric Basics",
-      "content": "<div class='notes-block'><h3>Core formulas</h3><p>dy/dx=(dy/dt)/(dx/dt), and tangent lines use parametric point + slope.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-8 · BC Parametric</div><h3>Curve as (<em>x</em>(<em>t</em>), <em>y</em>(<em>t</em>))</h3><p>Both coordinates depend on a parameter <em>t</em> (often time). The path can loop or reverse; <em>t</em> is not necessarily “<em>x</em>”.</p><div class=\"formula-box\">d<em>y</em>/d<em>x</em> = (d<em>y</em>/d<em>t</em>) / (d<em>x</em>/d<em>t</em>) &nbsp; when d<em>x</em>/d<em>t</em> ≠ 0</div></div><div class=\"notes-block\"><h3>Tangent lines</h3><p>At <em>t</em> = <em>t</em>₀, point is (<em>x</em>(<em>t</em>₀), <em>y</em>(<em>t</em>₀)) and slope is d<em>y</em>/d<em>x</em> above. Horizontal tangent when d<em>y</em>/d<em>t</em> = 0 (and d<em>x</em>/d<em>t</em> ≠ 0); vertical when d<em>x</em>/d<em>t</em> = 0 (and d<em>y</em>/d<em>t</em> ≠ 0).</p><div class=\"ap-note\"><strong>AP tip:</strong> Speed along the path often uses √((d<em>x</em>/d<em>t</em>)² + (d<em>y</em>/d<em>t</em>)²).</div></div>"
     },
     "9.2": {
       "title": "9.2 Higher Parametric Derivatives",
-      "content": "<div class='notes-block'><h3>Second derivative</h3><div class='formula-box'>d^2y/dx^2 = (d/dt(dy/dx)) / (dx/dt)</div></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-8 · Concavity</div><h3>Second derivative d²<em>y</em>/d<em>x</em>²</h3><p>First find d<em>y</em>/d<em>x</em> as a function of <em>t</em>. Then</p><div class=\"formula-box\">d²<em>y</em>/d<em>x</em>² = d/d<em>t</em>(d<em>y</em>/d<em>x</em>) ÷ (d<em>x</em>/d<em>t</em>)</div><p style=\"color:var(--text2)\">Do <strong>not</strong> square the first derivative — this is a quotient of derivatives with respect to <em>t</em>.</p></div><div class=\"notes-block\"><h3>Interpretation</h3><p>Sign of d²<em>y</em>/d<em>x</em>² tells concavity of the <em>y</em>-vs-<em>x</em> relation along the path (as seen in the plane).</p><div class=\"ap-note\"><strong>AP tip:</strong> Simplify d<em>y</em>/d<em>x</em> before differentiating with respect to <em>t</em> when algebra allows.</div></div>"
     },
     "9.3": {
-      "title": "9.3-9.4 Polar Area and Slope",
-      "content": "<div class='notes-block'><h3>Polar AP formulas</h3><p>Area = 1/2 int r^2 dtheta, slope uses x(theta), y(theta) derivatives.</p></div>"
+      "title": "9.3–9.4 Polar Area and Slope",
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-8 · BC Polar</div><h3>Polar ↔ rectangular</h3><div class=\"formula-box\"><em>x</em> = <em>r</em> cos θ,&nbsp; <em>y</em> = <em>r</em> sin θ &nbsp; with <em>r</em> = <em>f</em>(θ)</div></div><div class=\"notes-block\"><h3>Area in polar</h3><div class=\"formula-box\">Area = ½ ∫<sub>α</sub><sup>β</sup> <em>r</em>² dθ</div><p style=\"color:var(--text2)\">Use when region is bounded by one polar graph between rays θ = α and θ = β.</p></div><div class=\"notes-block\"><h3>Slope dy/d<em>x</em> in polar</h3><p>Differentiate <em>x</em>, <em>y</em> with respect to θ using product rule, then dy/d<em>x</em> = (d<em>y</em>/dθ)/(d<em>x</em>/dθ).</p><div class=\"ap-note\"><strong>AP tip:</strong> Identify the correct θ-interval from the graph (petals, loops, limaçons).</div></div>"
     },
     "packet-pdfs": {
       "title": "Packet PDFs (class notes & homework)",
@@ -528,7 +528,7 @@
       "path": "Unit 9/Notes/Week 25 BC Notes.pdf"
     }
   ],
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 9</strong> — Materials on this site include <strong>4</strong> notes PDFs, <strong>2</strong> homework PDFs, and <strong>0</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 9</strong> — Materials on this site include <strong>4</strong> notes PDFs, <strong>2</strong> homework PDFs, and <strong>0</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

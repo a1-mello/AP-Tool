@@ -947,15 +947,15 @@
   "notesData": {
     "2.1": {
       "title": "2-1 to 2-4: Derivative Foundations",
-      "content": "<div class='notes-block'><h3>Derivative meaning</h3><p>Derivative is instantaneous rate of change and slope of tangent line.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">CHA-2 · Rates of change</div><h3>Two views of the derivative</h3><p>The derivative of <em>f</em> at <em>a</em> is both the <strong>instantaneous rate of change</strong> of <em>f</em> at <em>a</em> and the <strong>slope of the tangent line</strong> to the graph at (<em>a</em>, <em>f</em>(<em>a</em>)).</p><div class=\"formula-box\">f′(<em>a</em>) = lim<sub><em>h</em>→0</sub> (<em>f</em>(<em>a</em>+<em>h</em>) − <em>f</em>(<em>a</em>))/<em>h</em></div><p style=\"color:var(--text2)\">Average rate on [<em>a</em>, <em>a</em>+<em>h</em>] is a secant slope; the limit as <em>h</em>→0 is the tangent slope.</p></div><div class=\"notes-block\"><h3>Differentiability vs. continuity</h3><p>Differentiable at a point ⇒ continuous there. Sharp corners, vertical tangents, and discontinuities mean <strong>not differentiable</strong> at that <em>x</em>.</p><div class=\"ap-note\"><strong>AP tip:</strong> On graphs, estimate f′(<em>c</em>) as the slope of the tangent at <em>x</em> = <em>c</em>; compare to secant slopes from tables.</div></div>"
     },
     "2.2": {
       "title": "2-5 to 2-7: Basic Rules",
-      "content": "<div class='notes-block'><h3>Power + basic derivatives</h3><p>Know derivatives of powers, trig basics, and exponentials.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-3 · Computation</div><h3>Power rule and linearity</h3><div class=\"formula-box\">d/d<em>x</em>[<em>x</em><sup><em>n</em></sup>] = <em>n</em><em>x</em><sup><em>n</em>−1</sup> &nbsp;·&nbsp; (<em>cf</em>)′ = <em>c</em>f′ &nbsp;·&nbsp; (<em>f</em> ± <em>g</em>)′ = f′ ± g′</div><p style=\"color:var(--text2)\">Constant rule: derivative of a constant is 0.</p></div><div class=\"notes-block\"><h3>Exponential and log</h3><div class=\"formula-box\">d/d<em>x</em>[e<sup><em>x</em></sup>] = e<sup><em>x</em></sup> &nbsp;·&nbsp; d/d<em>x</em>[ln <em>x</em>] = 1/<em>x</em> (<em>x</em> &gt; 0)</div></div><div class=\"notes-block\"><h3>Basic trig</h3><div class=\"formula-box\">d/d<em>x</em>[sin <em>x</em>] = cos <em>x</em> &nbsp;·&nbsp; d/d<em>x</em>[cos <em>x</em>] = −sin <em>x</em></div><div class=\"ap-note\"><strong>AP tip:</strong> Memorize these cold before chain rule piles on.</div></div>"
     },
     "2.3": {
       "title": "2-8 to 2-10: Product, Quotient, Trig",
-      "content": "<div class='notes-block'><h3>Rule selection</h3><p>Choose product/quotient rules when functions are multiplied/divided.</p></div>"
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-3 · Products and quotients</div><h3>Product rule</h3><div class=\"formula-box\">(<em>fg</em>)′ = <em>f</em>′<em>g</em> + <em>f</em><em>g</em>′</div><p style=\"color:var(--text2)\">Use when two expressions of <em>x</em> are multiplied — not the same as “derivative of each”.</p></div><div class=\"notes-block\"><h3>Quotient rule</h3><div class=\"formula-box\">(<em>f</em>/<em>g</em>)′ = (<em>f</em>′<em>g</em> − <em>f</em><em>g</em>′) / <em>g</em>²</div><p style=\"color:var(--text2)\">Low d-high minus high d-low, over low squared — keep the order straight.</p></div><div class=\"notes-block\"><h3>More trig derivatives</h3><p>tan, sec, cot, csc follow from sin/cos and quotient rule; know sec², sec·tan, −csc², −csc·cot patterns for speed.</p><div class=\"ap-note\"><strong>AP tip:</strong> Simplify algebra <em>before</em> differentiating when you can — fewer product/quotient layers.</div></div>"
     },
     "packet-pdfs": {
       "title": "Packet PDFs (class notes & homework)",
@@ -1124,7 +1124,7 @@
       "path": "Unit 2/Review/2-5 to 2-7 WK Test Prep Review.pdf"
     }
   ],
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 2</strong> — Materials on this site include <strong>8</strong> notes PDFs, <strong>23</strong> homework PDFs, and <strong>1</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 2</strong> — Materials on this site include <strong>8</strong> notes PDFs, <strong>23</strong> homework PDFs, and <strong>1</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

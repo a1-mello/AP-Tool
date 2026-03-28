@@ -47,15 +47,15 @@
   ],
   "notesData": {
     "7.1": {
-      "title": "7-1: Sample Unit 7 Notes",
-      "content": "<div class='notes-block'><h3>Replace with your Unit 7.1 notes</h3><p>Move content from your class packet here.</p></div>"
+      "title": "7-1: Slope Fields & Differential Equations",
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-7 · Modeling</div><h3>What is a differential equation?</h3><p>An equation involving a derivative of an unknown function, e.g. d<em>y</em>/d<em>x</em> = <em>f</em>(<em>x</em>,<em>y</em>). A <strong>solution</strong> is a function whose derivative satisfies the equation on an interval.</p></div><div class=\"notes-block\"><h3>Slope fields</h3><p>At each grid point (<em>x</em>,<em>y</em>), draw a short segment with slope = d<em>y</em>/d<em>x</em> from the DE. Solution curves <strong>follow the tangents</strong>. Use the field to sketch families of solutions and to reason about long-run behavior.</p></div><div class=\"notes-block\"><h3>Equilibrium & stability (concept)</h3><p>Constant solutions occur where d<em>y</em>/d<em>x</em> = 0. Nearby solutions may approach or leave those values — connects to real modeling (populations, cooling, etc.).</p><div class=\"ap-note\"><strong>AP tip:</strong> Match a given slope field to a DE by testing slopes at a few labeled points.</div></div>"
     },
     "7.2": {
-      "title": "7-2: Sample Unit 7 Notes",
-      "content": "<div class='notes-block'><h3>Replace with your Unit 7.2 notes</h3><p>Add key formulas, concepts, and common errors.</p></div>"
+      "title": "7-2: Separation of Variables & Exponential Models",
+      "content": "<div class=\"notes-block\"><div class=\"subunit-tag\">FUN-7 · Solving</div><h3>Separation of variables</h3><p>If d<em>y</em>/d<em>x</em> = <em>g</em>(<em>x</em>)<em>h</em>(<em>y</em>), rewrite as (1/<em>h</em>(<em>y</em>)) d<em>y</em> = <em>g</em>(<em>x</em>) d<em>x</em> and integrate both sides. Solve for <em>y</em> if possible; use initial conditions to fix +<em>C</em>.</p></div><div class=\"notes-block\"><h3>Exponential growth/decay</h3><div class=\"formula-box\">d<em>P</em>/d<em>t</em> = <em>k</em><em>P</em> ⇒ <em>P</em>(<em>t</em>) = <em>P</em>₀ e<sup><em>kt</em></sup></div><p style=\"color:var(--text2)\"><em>k</em> &gt; 0 growth; <em>k</em> &lt; 0 decay. Logistic models add a carrying capacity — watch for that in BC-style prompts.</p></div><div class=\"notes-block\"><h3>Domain of solutions</h3><p>Watch values that make you divide by zero in the separated form; solutions may only exist on restricted intervals.</p><div class=\"ap-note\"><strong>AP tip:</strong> Show separation and both integrals explicitly on FRQs; substitute initial values to find <em>C</em>.</div></div>"
     }
   },
-  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 7</strong> — Materials on this site include <strong>0</strong> notes PDFs, <strong>0</strong> homework PDFs, and <strong>0</strong> review PDFs. Open <strong>Materials (PDFs)</strong> in the sidebar for the full list.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
+  "referenceHtml": "<div class=\"ap-note\" style=\"margin-bottom:12px\"><strong>Unit 7</strong> — Materials on this site include <strong>0</strong> notes PDFs, <strong>0</strong> homework PDFs, and <strong>0</strong> review PDFs. Copy your course PDFs into the project's <code style=\"font-family:var(--mono)\">materials/</code> folder, keeping paths like <code style=\"font-family:var(--mono)\">Unit 2/Homework/&#8230;</code> so FRQ iframes and Packet PDF links load.</div><p style=\"font-size:13px;color:var(--text2)\">The formula blocks below are the shared AP Calc AB reference; your unit packets explain how they show up in your course.</p>",
   "referenceBlurb": "Shared AB formulas plus a short pointer to this unit’s PDF materials.",
   "flashcards": [
     {

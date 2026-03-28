@@ -2,3 +2,15 @@ node_modules/
 .DS_Store
 **/.DS_Store
 reports/
+
+# PDFs are served from materials/ (see README there). Ignore duplicate binders at repo root only.
+/Unit 1/
+/Unit 2/
+/Unit 3/
+/Unit 4/
+/Unit 5/
+/Unit 6/
+/Unit 8/
+/Unit 9/
+/Unit 10/
+/Unit 3.zip

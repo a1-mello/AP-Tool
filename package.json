@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/a1-mello/AP-Tool#readme",
   "devDependencies": {
+    "mathjs": "^14.9.1",
     "pdf-parse": "^1.1.1"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "about": "Typed class worksheets: byUnit.u1 … u10 → section ids (e.g. \"1.1\") → array of worksheets. Each worksheet: title, optional sourcePdf (path from site root), questions: [{ prompt, answerHtml }]. Use HTML in prompt/answerHtml if you need math formatting; plain text is fine. Reuse the same paths as Materials PDFs when you add files under the repo.",
+  "byUnit": {
+    "u1": {
+      "1.1": [
+        {
+          "title": "Example — WK 1-1 Change at an instant (replace with your packet title)",
+          "sourcePdf": "",
+          "questions": [
+            {
+              "prompt": "<p>The height <em>H</em>(<em>t</em>) of a candle (in cm) at time <em>t</em> (in minutes) satisfies <em>H</em>(0) = 12.0 and <em>H</em>(11) = 10.2. Find the <strong>average rate of change</strong> of <em>H</em> from <em>t</em> = 0 to <em>t</em> = 11. Include units in your answer.</p>",
+              "answerHtml": "<p><strong>Answer key:</strong> (10.2 − 12.0)/(11 − 0) = −1.8/11 cm per minute (height decreases by 1.8/11 cm per minute on average).</p>"
+            },
+            {
+              "prompt": "<p>In your own words, what does it mean if the average rate of change of candle height is <em>negative</em> on an interval?</p>",
+              "answerHtml": "<p><strong>Answer key:</strong> The candle is getting shorter on average over that interval (height is decreasing).</p>"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

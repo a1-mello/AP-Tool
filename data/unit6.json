@@ -101,7 +101,7 @@
       "section": "6.2",
       "topic": "Left Riemann Sum",
       "calcType": "No Calculator",
-      "question": "Using the table x: 0,1,2,5,8,10,12 and g'(x): 2.1,4.7,1.9,5.6,8.2,4.3,2.5, approximate ∫₀¹² g'(x) dx using a left Riemann sum with 3 equal subintervals of width 4.",
+      "question": "Using the table x: 0, 4, 8, 12 and g'(x): 2.1, 4.7, 5.6, 2.5, approximate ∫₀¹² g'(x) dx using a left Riemann sum with 3 equal subintervals of width 4.",
       "choices": {
         "A": "49.6",
         "B": "56.4",
@@ -109,7 +109,7 @@
         "D": "33.6"
       },
       "correct": "A",
-      "explanation": "3 equal subintervals of width 4: [0,4], [4,8], [8,12]. Left endpoints x=0,4,8 give g'(0)=2.1, g'(4)≈5.6 (from table at x=5, closest), g'(8)=8.2. Sum = 4(2.1)+4(5.6)+4(8.2) = 8.4+22.4+32.8 = 63.6. Using exact: [0,4] left=g'(0)=2.1, [4,8] left=g'(4)≈use x=5: 5.6, [8,12] left=g'(8)=8.2. 4(2.1+5.6+8.2)=4(15.9)=63.6.",
+      "explanation": "Subintervals [0,4], [4,8], [8,12] with Δx=4. Left endpoints x=0,4,8 give g'(0)=2.1, g'(4)=4.7, g'(8)=5.6. Sum = 4(2.1+4.7+5.6)=4(12.4)=49.6.",
       "notesSection": "6.2 — Left Riemann Sum",
       "notesSnippet": "Left Riemann sum: Σ f(xᵢ₋₁)·Δx. For equal subintervals, all widths are the same Δx = (b−a)/n.",
       "timeTip": "Always identify subinterval width first: Δx = (b−a)/n. Then pick left endpoints. Factor out Δx to speed up arithmetic."
@@ -126,7 +126,7 @@
         "D": "Left < Right < Midpoint < Trapezoid"
       },
       "correct": "B",
-      "explanation": "For an increasing function: Left < Right (Left underestimates, Right overestimates). For concave up: Midpoint underestimates, Trapezoid overestimates the actual integral. So the order is Left < Midpoint < Actual < Trapezoid < Right is wrong — actually Left < Midpoint < Trap < Right for increasing concave up.",
+      "explanation": "For positive increasing f: left sums underestimate and right sums overestimate, so Left < ∫ < Right. For concave up: midpoint rule underestimates and trapezoid overestimates, so Midpoint < ∫ < Trapezoid. Together: Left < Midpoint < Trapezoid < Right.",
       "notesSection": "6.2 — Over/Underestimate Rules",
       "notesSnippet": "Increasing: L < R. Concave up: Midpoint underestimates, Trapezoid overestimates. So for increasing + concave up: Left < Midpoint < Trapezoid < Right.",
       "timeTip": "Draw a small increasing concave-up curve and sketch rectangles. This visual will make the over/under relationships obvious and stick in memory."
@@ -137,13 +137,13 @@
       "calcType": "No Calculator",
       "question": "Use the Trapezoidal Rule with n = 3 to approximate ∫₀⁶ f(x) dx given f(0)=1, f(2)=3, f(4)=2, f(6)=4.",
       "choices": {
-        "A": "16",
+        "A": "15",
         "B": "14",
         "C": "18",
         "D": "12"
       },
       "correct": "A",
-      "explanation": "Trapezoid Rule: Δx/2 · [f(x₀) + 2f(x₁) + 2f(x₂) + f(x₃)] = (2/2)[1 + 2(3) + 2(2) + 4] = 1[1+6+4+4] = 15. Hmm — let me recheck: 1·[1+6+4+4] = 15. Closest answer is A=16.",
+      "explanation": "With n=3 on [0,6], Δx=2. Trapezoid: (Δx/2)[f(0)+2f(2)+2f(4)+f(6)] = (2/2)[1+2(3)+2(2)+4] = 1+6+4+4 = 15.",
       "notesSection": "6.2 — Trapezoidal Rule",
       "notesSnippet": "Trapezoidal Rule: (Δx/2)[f(x₀) + 2f(x₁) + 2f(x₂) + ... + 2f(xₙ₋₁) + f(xₙ)]. The first and last values have coefficient 1; all middle values have coefficient 2.",
       "timeTip": "Remember the \"1, 2, 2, ..., 2, 1\" pattern for trapezoid coefficients. Write it out before plugging in numbers."
@@ -154,13 +154,13 @@
       "calcType": "No Calculator",
       "question": "The rate that fans exit a school after a basketball game is modeled by L(t) fans/second, with values L(0)=3.5, L(2)=2.0, L(3)=2.1, L(6)=1.5. Use a left Riemann sum with the 3 subintervals [0,2],[2,3],[3,6] to estimate total fans who exited from t=0 to t=6.",
       "choices": {
-        "A": "17.3 fans",
-        "B": "16.3 fans",
-        "C": "14.1 fans",
-        "D": "18.0 fans"
+        "A": "15.3 fans",
+        "B": "17.3 fans",
+        "C": "16.3 fans",
+        "D": "14.1 fans"
       },
       "correct": "A",
-      "explanation": "Left endpoints: L(0)=3.5, L(2)=2.0, L(3)=2.1. Widths: 2, 1, 3. Sum = 2(3.5)+1(2.0)+3(2.1) = 7+2+6.3 = 15.3 fans.",
+      "explanation": "Left endpoints: L(0)=3.5, L(2)=2.0, L(3)=2.1 with widths 2, 1, 3. Sum = 2(3.5)+1(2.0)+3(2.1) = 7+2+6.3 = 15.3 fans.",
       "notesSection": "6.1/6.2 — Real-World Accumulation",
       "notesSnippet": "Units: fans/second × seconds = fans. Always include units in your answer on the AP exam — points are given for units.",
       "timeTip": "In real-world problems, identify the units first. Rate × time = accumulated quantity. Don't forget units in your final answer!"

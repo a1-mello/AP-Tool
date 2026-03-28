@@ -15,7 +15,11 @@
   const store = {
     activeUnitKey: "u6",
     activeUnitData: null,
-    cache: {}
+    cache: {},
+    classWorksheetsData: null,
+    lastWorksheetUk: null,
+    lastWorksheetSec: null,
+    _wsNavBuilt: false
   };
   window.unitStore = store;
 
@@ -99,7 +103,8 @@
       })(),
       "flagged": "Flagged Topics",
       reference: `${unitLabel} · Reference`,
-      materials: `${unitLabel} · PDFs`
+      materials: `${unitLabel} · PDFs`,
+      "class-worksheets": "All units · Sidebar picks section"
     };
     if (map[pageId]) sub.textContent = map[pageId];
   }
@@ -115,7 +120,8 @@
       "flashcards": "Flashcards",
       "reference": "Reference Sheet",
       "flagged": "Flagged Topics",
-      "accuracy": "Accuracy Review Mode"
+      "accuracy": "Accuracy Review Mode",
+      "class-worksheets": "Class Worksheets"
     };
     if (map[pageId]) title.textContent = map[pageId];
   }
@@ -425,14 +431,14 @@
     const qb = getActiveQuestionBank();
     const allSections = [...new Set(qb.map(q => q.section).filter(Boolean))];
     const pool = (selectedSections[0] === "all" || selectedSections.length === 0) ? allSections : selectedSections;
-    const filtered = qb.filter(q => pool.includes(q.section));
+    const filtered = qb.filter(q => pool.includes(q.section) && !q.packetAuto);
     if (filtered.length === 0) {
       const loading = document.getElementById("loading-q");
       const content = document.getElementById("question-content");
       if (loading && content) {
         loading.style.display = "block";
         content.style.display = "none";
-        loading.innerHTML = `<div class="loading-text">No MCQ question bank found for ${unitConfig[store.activeUnitKey]?.label || "this unit"} yet.<br>Add questions to <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>.</div>`;
+        loading.innerHTML = `<div class="loading-text">No practice MCQs for this unit (or only worksheet packet items). Add hand-checked MCQs in <code style="font-family:var(--mono)">data/${store.activeUnitKey.replace("u","unit")}.json</code>, or use <strong>Class worksheets</strong> for typed homework.</div>`;
       }
       return;
     }
@@ -510,6 +516,157 @@
     if (window.MathJax) MathJax.typesetPromise();
   };
 
+  async function loadClassWorksheetsData() {
+    if (store.classWorksheetsData) return store.classWorksheetsData;
+    try {
+      const url = new URL("data/class-worksheets.json", window.location.href).href;
+      const res = await fetch(url, { cache: "no-cache" });
+      if (!res.ok) throw new Error(String(res.status));
+      store.classWorksheetsData = await res.json();
+    } catch {
+      store.classWorksheetsData = { version: 1, byUnit: {} };
+    }
+    return store.classWorksheetsData;
+  }
+
+  function wsSectionCount(cw, uk, sec) {
+    const list = cw?.byUnit?.[uk]?.[sec];
+    if (!Array.isArray(list)) return 0;
+    return list.reduce((n, w) => n + (Array.isArray(w.questions) ? w.questions.length : 0), 0);
+  }
+
+  function worksheetSafeId(uk, sec) {
+    return `${uk}-${String(sec).replace(/[^a-zA-Z0-9_-]/g, "_")}`;
+  }
+
+  async function buildWorksheetsNav() {
+    const tree = document.getElementById("worksheets-nav-tree");
+    if (!tree) return;
+    const cw = await loadClassWorksheetsData();
+    let html = "";
+    for (let n = 1; n <= 10; n++) {
+      const uk = `u${n}`;
+      const data = await loadUnitFile(uk);
+      const sections = (data && Array.isArray(data.sections) ? data.sections : []).slice().sort();
+      if (sections.length === 0) continue;
+      const label = unitConfig[uk]?.label || `Unit ${n}`;
+      html += `<div class="ws-unit-head">${escapeHtml(label)}</div>`;
+      for (const sec of sections) {
+        const cnt = wsSectionCount(cw, uk, sec);
+        const active =
+          store.lastWorksheetUk === uk && store.lastWorksheetSec === sec ? " active" : "";
+        html += `<div class="ws-sec-item${active}" role="button" tabindex="0" data-ws-uk="${escapeHtml(uk)}" data-ws-sec="${escapeHtml(sec)}">`;
+        html += `${escapeHtml(sec)}<span class="ws-sec-count">${cnt ? `· ${cnt} Q` : "· —"}</span>`;
+        html += `</div>`;
+      }
+    }
+    tree.innerHTML = html || `<div style="font-size:11px;color:var(--text3);padding:8px">No unit sections found.</div>`;
+    tree.querySelectorAll(".ws-sec-item").forEach(el => {
+      const open = () => {
+        const uk = el.getAttribute("data-ws-uk");
+        const sec = el.getAttribute("data-ws-sec");
+        if (uk && sec) window.openWorksheetSection(uk, sec);
+      };
+      el.addEventListener("click", open);
+      el.addEventListener("keydown", e => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          open();
+        }
+      });
+    });
+    store._wsNavBuilt = true;
+  }
+
+  window.ensureWorksheetsNav = async function ensureWorksheetsNav() {
+    await buildWorksheetsNav();
+  };
+
+  window.openWorksheetSection = async function openWorksheetSection(uk, sec) {
+    store.lastWorksheetUk = uk;
+    store.lastWorksheetSec = sec;
+    document.querySelectorAll("#worksheets-nav-tree .ws-sec-item").forEach(el => {
+      el.classList.toggle("active", el.getAttribute("data-ws-uk") === uk && el.getAttribute("data-ws-sec") === sec);
+    });
+    await renderWorksheetSection(uk, sec);
+  };
+
+  window.toggleWorksheetAnswer = function toggleWorksheetAnswer(btn) {
+    const id = btn.getAttribute("data-ws-target");
+    const panel = id ? document.getElementById(id) : null;
+    if (!panel) return;
+    const show = panel.style.display !== "block";
+    panel.style.display = show ? "block" : "none";
+    btn.textContent = show ? "Hide answer" : "Show answer";
+  };
+
+  async function renderWorksheetSection(uk, sec) {
+    const body = document.getElementById("class-worksheets-body");
+    if (!body) return;
+    const cw = await loadClassWorksheetsData();
+    const label = unitConfig[uk]?.label || uk.toUpperCase();
+    const list = cw?.byUnit?.[uk]?.[sec];
+    const sid = worksheetSafeId(uk, sec);
+
+    if (!Array.isArray(list) || list.length === 0) {
+      body.innerHTML = `
+        <div class="notes-block">
+          <h2 style="font-size:17px;margin-bottom:8px">${escapeHtml(label)} · Section ${escapeHtml(sec)}</h2>
+          <p style="font-size:14px;color:var(--text2);line-height:1.55">No typed worksheets for this section yet. Add an entry under <code style="font-family:var(--mono)">byUnit → ${escapeHtml(
+            uk
+          )} → "${escapeHtml(sec)}"</code> in <code style="font-family:var(--mono)">data/class-worksheets.json</code>.</p>
+        </div>`;
+      if (window.MathJax) MathJax.typesetPromise([body]);
+      return;
+    }
+
+    let html = `<div style="margin-bottom:18px"><span class="badge badge-calc-nc">${escapeHtml(label)}</span> <span style="font-size:14px;font-weight:600;color:var(--text)">Section ${escapeHtml(sec)}</span></div>`;
+
+    list.forEach((sheet, wi) => {
+      const title = sheet.title || "Worksheet";
+      html += `<div class="ws-sheet"><h3>${escapeHtml(title)}</h3>`;
+      if (sheet.sourcePdf && String(sheet.sourcePdf).trim()) {
+        const p = escapeHtml(String(sheet.sourcePdf).trim());
+        html += `<p style="font-size:12px;color:var(--text3);margin:-8px 0 14px"><a href="${p}" target="_blank" rel="noopener noreferrer">Open source PDF ↗</a></p>`;
+      }
+      const qs = Array.isArray(sheet.questions) ? sheet.questions : [];
+      qs.forEach((q, qi) => {
+        const aid = `ws-ans-${sid}-w${wi}-q${qi}`;
+        const prompt = typeof q.prompt === "string" ? q.prompt : "";
+        const ans = typeof q.answerHtml === "string" ? q.answerHtml : "<p><em>No answer key typed yet.</em></p>";
+        html += `<div class="ws-q">`;
+        html += `<div class="ws-q-num">Question ${qi + 1}</div>`;
+        html += `<div class="ws-q-body">${prompt}</div>`;
+        html += `<button type="button" class="ws-show-ans" data-ws-target="${aid}" onclick="toggleWorksheetAnswer(this)">Show answer</button>`;
+        html += `<div id="${aid}" class="ws-answer-panel"><div class="ws-ans-label">Answer key</div>${ans}</div>`;
+        html += `</div>`;
+      });
+      html += `</div>`;
+    });
+
+    body.innerHTML = html;
+    if (window.MathJax) MathJax.typesetPromise([body]);
+  }
+
+  async function pickFirstWorksheetSection() {
+    const cw = await loadClassWorksheetsData();
+    for (let n = 1; n <= 10; n++) {
+      const uk = `u${n}`;
+      const data = await loadUnitFile(uk);
+      const sections = (data && Array.isArray(data.sections) ? data.sections : []).slice().sort();
+      for (const sec of sections) {
+        if (wsSectionCount(cw, uk, sec) > 0) {
+          await window.openWorksheetSection(uk, sec);
+          return;
+        }
+      }
+    }
+    const body = document.getElementById("class-worksheets-body");
+    if (body) {
+      body.innerHTML = `<div class="notes-block"><p style="font-size:14px;color:var(--text2)">Add content to <code style="font-family:var(--mono)">data/class-worksheets.json</code> to get started. An example lives under <strong>Unit 1 · 1.1</strong>.</p></div>`;
+    }
+  }
+
   const originalShowPage = window.showPage;
   window.showPage = function showPageWithUnitSubtitle(id) {
     originalShowPage(id);
@@ -533,6 +690,16 @@
     }
     if (id === "reference") renderReferencePage();
     if (id === "flashcards" && typeof buildDeck === "function") buildDeck();
+    if (id === "class-worksheets") {
+      void (async () => {
+        await buildWorksheetsNav();
+        if (store.lastWorksheetUk && store.lastWorksheetSec) {
+          await renderWorksheetSection(store.lastWorksheetUk, store.lastWorksheetSec);
+        } else {
+          await pickFirstWorksheetSection();
+        }
+      })();
+    }
   };
 
   const _buildDeck = window.buildDeck;
